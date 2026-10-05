@@ -1,0 +1,4 @@
+---
+import type {Product} from '../lib/schema';import {displayName,year} from '../lib/catalog';import {series} from '../lib/data';const {product:p}=Astro.props as {product:Product};const s=series.find(s=>s.id===p.seriesId);
+---
+<a class="product-card" href={'/merch/'+p.slug+'/'} data-product-id={p.id}><div class="product-image">{p.images[0]?<img src={p.images[0].path} alt={p.images[0].alt} loading="lazy"/>:<div class="placeholder"><span class="frame-icon">▧</span><span>商品图片待补充</span><small>NO IMAGE YET</small></div>}<span class="image-label">{p.type}</span></div><div class="card-body"><small class="eyebrow">{s?.name}</small><h3>{displayName(p)}</h3><p class="ja">{p.names.ja||'示例数据'}</p><div class="card-meta"><span>{year(p)==='unknown'?'年份待确认':year(p)+' · 首次发售'}</span><span>{p.isDemo?'示例数据':p.evidenceStatus==='partial'?'部分待核实':'已核对'}</span></div></div></a>

@@ -1,0 +1,43 @@
+{
+  "id": "nendoroid",
+  "slug": "nendoroid",
+  "name": "黏土人 · Nendoroid",
+  "aliases": [
+    "ねんどろいど",
+    "Good Smile Company"
+  ],
+  "description": "收录韩吉黏土人的初版与再贩档案。同一造型沿用同一商品条目，每次发行单独记录日期与官方价格。",
+  "region": "日本",
+  "type": "手办系列",
+  "sources": [
+    {
+      "id": "gsc-old",
+      "url": "https://www.goodsmile.info/ja/product/8251/",
+      "title": "ねんどろいど ハンジ・ゾエ｜旧公式商品档案",
+      "organization": "Good Smile Company",
+      "checkedAt": "2026-10-05",
+      "fields": [
+        "名称",
+        "规格",
+        "2019 初版",
+        "2023 再贩",
+        "官方原价"
+      ]
+    },
+    {
+      "id": "gsc-new",
+      "url": "https://www.goodsmile.com/ja/product/5959/",
+      "title": "ねんどろいど ハンジ・ゾエ｜官方商品页",
+      "organization": "Good Smile Company",
+      "checkedAt": "2026-10-05",
+      "fields": [
+        "2026 再贩",
+        "预订时间",
+        "官方原价"
+      ]
+    }
+  ],
+  "updatedAt": "2026-10-05",
+  "isDemo": false,
+  "images": []
+}

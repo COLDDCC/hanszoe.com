@@ -1,0 +1,88 @@
+{
+  "id": "replace-product-id",
+  "slug": "replace-product-slug",
+  "names": {
+    "zh": "填写真实名称",
+    "ja": "",
+    "en": ""
+  },
+  "aliases": [
+    "韩吉",
+    "漢吉",
+    "ハンジ",
+    "Hange Zoe",
+    "Hanji Zoe",
+    "Hans Zoe",
+    "1123"
+  ],
+  "type": "手办",
+  "manufacturer": "Good Smile Company",
+  "publisher": "Good Smile Company",
+  "seriesId": "nendoroid",
+  "region": "日本",
+  "images": [],
+  "description": "编号 1123 的可动黏土人。已收录初版与两次再贩；不同发行的官方价格分别保留。",
+  "specifications": {
+    "全高": "约 100 mm",
+    "材质": "塑料",
+    "规格": "涂装可动手办，非比例，附专用底座",
+    "官方编号": "1123"
+  },
+  "releases": [
+    {
+      "releaseId": "gsc-1123-2019",
+      "kind": "初版",
+      "region": "日本",
+      "sourceIds": [
+        "gsc-old"
+      ],
+      "announcement": null,
+      "preorderStart": null,
+      "preorderEnd": null,
+      "releaseDate": null,
+      "salesMethod": "单售",
+      "limitedScope": null,
+      "limitedSourceId": null,
+      "priceStatus": "unknown",
+      "prices": [],
+      "condition": null,
+      "conditionSourceId": null
+    }
+  ],
+  "relatedProductIds": [],
+  "evidenceStatus": "partial",
+  "missingFields": [
+    "请核实并替换所有模板内容"
+  ],
+  "sources": [
+    {
+      "id": "gsc-old",
+      "url": "https://www.goodsmile.info/ja/product/8251/",
+      "title": "ねんどろいど ハンジ・ゾエ｜旧公式商品档案",
+      "organization": "Good Smile Company",
+      "checkedAt": "2026-10-05",
+      "fields": [
+        "名称",
+        "规格",
+        "2019 初版",
+        "2023 再贩",
+        "官方原价"
+      ]
+    },
+    {
+      "id": "gsc-new",
+      "url": "https://www.goodsmile.com/ja/product/5959/",
+      "title": "ねんどろいど ハンジ・ゾエ｜官方商品页",
+      "organization": "Good Smile Company",
+      "checkedAt": "2026-10-05",
+      "fields": [
+        "2026 再贩",
+        "预订时间",
+        "官方原价"
+      ]
+    }
+  ],
+  "createdAt": "2026-10-05",
+  "updatedAt": "2026-10-05",
+  "isDemo": false
+}

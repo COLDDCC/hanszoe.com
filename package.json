@@ -1,0 +1,38 @@
+{
+  "name": "hange-archive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0",
+    "build": "npm run validate && astro build",
+    "preview": "astro preview --host 0.0.0.0",
+    "check": "astro check",
+    "validate": "node --import tsx src/lib/validate.ts",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:browser": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "astro": "^7.3.5",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

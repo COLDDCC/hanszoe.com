@@ -1,0 +1,4 @@
+---
+import Base from '../../layouts/Base.astro';import {getCollection} from 'astro:content';const entries=(await getCollection('wiki',e=>!e.data.isDemo)).sort((a,b)=>b.data.updatedAt.localeCompare(a.data.updatedAt));
+---
+<Base title="Wiki"><div class="page-heading"><span class="eyebrow">CHARACTER NOTES</span><h1>Wiki</h1><p>从名称与基础资料开始，逐条核对角色的记录。</p></div><div class="article-list">{entries.map(e=><a class="news-row" href={'/wiki/'+e.data.slug+'/'}><small>{e.data.updatedAt} · { e.data.spoiler==='无'?'无剧透':'剧透提示：'+e.data.spoiler }</small><h2>{e.data.title}</h2><p>{e.data.summary}</p><span class="text-link">阅读档案</span></a>)}</div>{!entries.length&&<div class="empty">资料正在整理，核实后将收录在这里。</div>}</Base>

@@ -1,0 +1,5 @@
+---
+import Base from '../../layouts/Base.astro';import Sources from '../../components/Sources.astro';import {getCollection,render} from 'astro:content';
+export async function getStaticPaths(){return (await getCollection('wiki',e=>!e.data.isDemo)).map(entry=>({params:{slug:entry.data.slug},props:{entry}}));}const {entry}=Astro.props;const {Content}=await render(entry);const d=entry.data;
+---
+<Base title={d.title} description={d.summary}><div class="breadcrumbs"><a href="/wiki/">Wiki</a><span>/</span><span>角色资料</span></div><article class="article"><span class="eyebrow">CHARACTER NOTES / {d.updatedAt}</span><h1>{d.title}</h1><p class="lead">{d.summary}</p>{d.spoiler==='无'?<Content/>:<details class="spoiler"><summary>剧透提示：{d.spoiler} · 展开阅读</summary><Content/></details>}</article><Sources sources={d.sources}/></Base>

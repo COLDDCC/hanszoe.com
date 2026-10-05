@@ -1,0 +1,4 @@
+---
+const {sources}=Astro.props;
+---
+<section class="sources"><h2>参考来源</h2>{sources.length?sources.map((s:any)=><div><a href={s.url} target="_blank" rel="noopener noreferrer">{s.title} ↗</a><p>{s.organization} · 核对于 {s.checkedAt}{s.fields?' · 支撑：'+s.fields.join('、'):''}</p></div>):<p>尚未添加已核实来源，具体资料等待补充。</p>}</section>

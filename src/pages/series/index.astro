@@ -1,0 +1,4 @@
+---
+import Base from '../../layouts/Base.astro';import {series,products} from '../../lib/data';
+---
+<Base title="系列档案"><div class="page-heading"><span class="eyebrow">SERIES FILES</span><h1>系列档案</h1><p>从同一系列出发，看见商品之间的联系。</p></div><div class="series-grid">{series.map((s,i)=><a class="series-tile" href={'/series/'+s.slug+'/'}><span class="row-number">FILE {String(i+1).padStart(2,'0')}</span><h2>{s.name}</h2><p>{s.description}</p><div class="card-meta"><span>{s.region} · {s.type}</span><span>{products.filter(p=>p.seriesId===s.id).length} 件收录</span></div></a>)}</div></Base>

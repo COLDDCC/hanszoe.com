@@ -1,0 +1,304 @@
+[
+  {
+    "id": "gsc-nendoroid-1123",
+    "slug": "nendoroid-hange-1123",
+    "names": {
+      "zh": "黏土人 韩吉·佐耶",
+      "ja": "ねんどろいど ハンジ・ゾエ",
+      "en": "Nendoroid Hange Zoë"
+    },
+    "aliases": [
+      "韩吉",
+      "漢吉",
+      "ハンジ",
+      "Hange Zoe",
+      "Hanji Zoe",
+      "Hans Zoe",
+      "1123"
+    ],
+    "type": "手办",
+    "manufacturer": "Good Smile Company",
+    "publisher": "Good Smile Company",
+    "seriesId": "nendoroid",
+    "region": "日本",
+    "images": [],
+    "description": "编号 1123 的可动黏土人。已收录初版与两次再贩；不同发行的官方价格分别保留。",
+    "specifications": {
+      "全高": "约 100 mm",
+      "材质": "塑料",
+      "规格": "涂装可动手办，非比例，附专用底座",
+      "官方编号": "1123"
+    },
+    "releases": [
+      {
+        "releaseId": "gsc-1123-2019",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": ["gsc-old"],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2019-09",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 5500,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "gsc-old"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      },
+      {
+        "releaseId": "gsc-1123-2023",
+        "kind": "再贩",
+        "region": "日本",
+        "sourceIds": ["gsc-old"],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2022-09-16",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2022-10-26",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2023-01",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 6500,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "gsc-old"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      },
+      {
+        "releaseId": "gsc-1123-2026",
+        "kind": "再贩",
+        "region": "日本",
+        "sourceIds": ["gsc-new"],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2025-06-20",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2025-07-30",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-02",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 6900,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "gsc-new"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "可使用的商品图片",
+      "2026 再贩价格的税务说明",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "gsc-old",
+        "url": "https://www.goodsmile.info/ja/product/8251/",
+        "title": "ねんどろいど ハンジ・ゾエ｜旧公式商品档案",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-05",
+        "fields": ["名称", "规格", "2019 初版", "2023 再贩", "官方原价"]
+      },
+      {
+        "id": "gsc-new",
+        "url": "https://www.goodsmile.com/ja/product/5959/",
+        "title": "ねんどろいど ハンジ・ゾエ｜官方商品页",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-05",
+        "fields": ["2026 再贩", "预订时间", "官方原价"]
+      }
+    ],
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "isDemo": false
+  },
+  {
+    "id": "mega-lookup-hange",
+    "slug": "lookup-hange",
+    "names": {
+      "zh": "Look Up 韩吉·佐耶",
+      "ja": "るかっぷ 進撃の巨人 ハンジ・ゾエ",
+      "en": "Look Up Hange Zoe"
+    },
+    "aliases": ["韩吉", "漢吉", "ハンジ", "Hange", "Hanji"],
+    "type": "手办",
+    "manufacturer": "MegaHouse",
+    "publisher": "MegaHouse",
+    "seriesId": "lookup",
+    "region": "日本",
+    "images": [],
+    "description": "采用坐姿与抬头造型，颈部可动。官方发售窗口为 2026 年 7 月下旬，日期精度保留到月份。",
+    "specifications": {
+      "全高": "约 110 mm",
+      "规格": "已涂装手办",
+      "发售窗口": "2026 年 7 月下旬"
+    },
+    "releases": [
+      {
+        "releaseId": "mega-lookup-hange-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": ["mega-lookup-hange-official"],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-07",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 4620,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "mega-lookup-hange-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": ["可使用的商品图片", "预订区间待核实", "限定范围未注明"],
+    "sources": [
+      {
+        "id": "mega-lookup-hange-official",
+        "url": "https://www.megahobby.jp/products/item/5579/",
+        "title": "るかっぷ 進撃の巨人 ハンジ・ゾエ｜官方资料",
+        "organization": "MegaHouse",
+        "checkedAt": "2026-10-05",
+        "fields": ["名称", "规格", "发售月份", "官方原价"]
+      }
+    ],
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "isDemo": false
+  },
+  {
+    "id": "cospa-tsumamare-hange-final",
+    "slug": "cospa-tsumamare-final",
+    "names": {
+      "zh": "韩吉 亚克力抓挂 The Final Season Ver.",
+      "ja": "ハンジ アクリルつままれ The Final Season Ver.",
+      "en": "Hange Acrylic Tsumamare The Final Season Ver."
+    },
+    "aliases": ["韩吉", "漢吉", "ハンジ", "Hange", "Hanji"],
+    "type": "亚克力",
+    "manufacturer": "COSPA",
+    "publisher": "COSPA",
+    "seriesId": "tsumamare-final",
+    "region": "日本",
+    "images": [],
+    "description": "COSPA 官方公告中的亚克力抓挂。一般发售窗口为 2024 年 7 月下旬；日田市观光案内所另有 6 月中旬先行销售计划。",
+    "specifications": {
+      "尺寸": "约 60 mm",
+      "材质": "亚克力",
+      "插画": "ぱかたろ",
+      "一般发售窗口": "2024 年 7 月下旬"
+    },
+    "releases": [
+      {
+        "releaseId": "cospa-tsumamare-hange-final-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": ["cospa-tsumamare-hange-final-official"],
+        "announcement": {
+          "value": "2024-05-17",
+          "precision": "day"
+        },
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2024-07",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "cospa-tsumamare-hange-final-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": ["可使用的商品图片", "预订区间待核实", "限定范围未注明"],
+    "sources": [
+      {
+        "id": "cospa-tsumamare-hange-final-official",
+        "url": "https://cospa.jp/?p=17176",
+        "title": "ハンジ アクリルつままれ The Final Season Ver.｜官方资料",
+        "organization": "COSPA",
+        "checkedAt": "2026-10-05",
+        "fields": ["名称", "规格", "发售月份", "官方原价"]
+      }
+    ],
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "isDemo": false
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "nendoroid",
+    "slug": "nendoroid",
+    "name": "黏土人 · Nendoroid",
+    "aliases": ["ねんどろいど", "Good Smile Company"],
+    "description": "收录韩吉黏土人的初版与再贩档案。同一造型沿用同一商品条目，每次发行单独记录日期与官方价格。",
+    "region": "日本",
+    "type": "手办系列",
+    "sources": [
+      {
+        "id": "gsc-old",
+        "url": "https://www.goodsmile.info/ja/product/8251/",
+        "title": "ねんどろいど ハンジ・ゾエ｜旧公式商品档案",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-05",
+        "fields": ["名称", "规格", "2019 初版", "2023 再贩", "官方原价"]
+      },
+      {
+        "id": "gsc-new",
+        "url": "https://www.goodsmile.com/ja/product/5959/",
+        "title": "ねんどろいど ハンジ・ゾエ｜官方商品页",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-05",
+        "fields": ["2026 再贩", "预订时间", "官方原价"]
+      }
+    ],
+    "updatedAt": "2026-10-05",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "lookup",
+    "slug": "lookup",
+    "name": "るかっぷ · Look Up",
+    "aliases": ["MegaHouse", "るかっぷ 進撃の巨人 ハンジ・ゾエ"],
+    "description": "采用坐姿与抬头造型，颈部可动。官方发售窗口为 2026 年 7 月下旬，日期精度保留到月份。",
+    "region": "日本",
+    "type": "手办系列",
+    "sources": [
+      {
+        "id": "mega-lookup-hange-official",
+        "url": "https://www.megahobby.jp/products/item/5579/",
+        "title": "るかっぷ 進撃の巨人 ハンジ・ゾエ｜官方资料",
+        "organization": "MegaHouse",
+        "checkedAt": "2026-10-05",
+        "fields": ["名称", "规格", "发售月份", "官方原价"]
+      }
+    ],
+    "updatedAt": "2026-10-05",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "tsumamare-final",
+    "slug": "tsumamare-final",
+    "name": "アクリルつままれ · The Final Season",
+    "aliases": ["COSPA", "ハンジ アクリルつままれ The Final Season Ver."],
+    "description": "COSPA 官方公告中的亚克力抓挂。一般发售窗口为 2024 年 7 月下旬；日田市观光案内所另有 6 月中旬先行销售计划。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "cospa-tsumamare-hange-final-official",
+        "url": "https://cospa.jp/?p=17176",
+        "title": "ハンジ アクリルつままれ The Final Season Ver.｜官方资料",
+        "organization": "COSPA",
+        "checkedAt": "2026-10-05",
+        "fields": ["名称", "规格", "发售月份", "官方原价"]
+      }
+    ],
+    "updatedAt": "2026-10-05",
+    "isDemo": false,
+    "images": []
+  }
+]

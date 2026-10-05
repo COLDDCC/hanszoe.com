@@ -1,0 +1,473 @@
+[
+  {
+    "id": "demo-0",
+    "slug": "demo-0",
+    "names": {
+      "zh": "示例数据 · 单售示例",
+      "ja": "",
+      "en": ""
+    },
+    "aliases": ["demo"],
+    "type": "手办",
+    "manufacturer": "Good Smile Company",
+    "publisher": "Good Smile Company",
+    "seriesId": "nendoroid",
+    "region": "日本",
+    "images": [],
+    "description": "仅用于验证页面状态，不是真实商品。",
+    "specifications": {},
+    "releases": [
+      {
+        "releaseId": "demo-release",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": ["demo-source"],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2024-01",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1000,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "demo-source"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": ["示例数据，不可作为商品资料"],
+    "sources": [
+      {
+        "id": "demo-source",
+        "url": "https://www.goodsmile.info/ja/product/8251/",
+        "title": "示例占位来源，不支持真实商品事实",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-05",
+        "fields": ["示例"]
+      }
+    ],
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "isDemo": true
+  },
+  {
+    "id": "demo-1",
+    "slug": "demo-1",
+    "names": {
+      "zh": "示例数据 · 盲抽与整盒示例",
+      "ja": "",
+      "en": ""
+    },
+    "aliases": ["demo"],
+    "type": "手办",
+    "manufacturer": "Good Smile Company",
+    "publisher": "Good Smile Company",
+    "seriesId": "nendoroid",
+    "region": "日本",
+    "images": [],
+    "description": "仅用于验证页面状态，不是真实商品。",
+    "specifications": {},
+    "releases": [
+      {
+        "releaseId": "demo-release",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": ["demo-source"],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2024-01",
+          "precision": "month"
+        },
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1000,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "demo-source"
+          },
+          {
+            "amount": 6000,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 6,
+            "sourceId": "demo-source"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": ["示例数据，不可作为商品资料"],
+    "sources": [
+      {
+        "id": "demo-source",
+        "url": "https://www.goodsmile.info/ja/product/8251/",
+        "title": "示例占位来源，不支持真实商品事实",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-05",
+        "fields": ["示例"]
+      }
+    ],
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "isDemo": true
+  },
+  {
+    "id": "demo-2",
+    "slug": "demo-2",
+    "names": {
+      "zh": "示例数据 · 购买特典示例",
+      "ja": "",
+      "en": ""
+    },
+    "aliases": ["demo"],
+    "type": "手办",
+    "manufacturer": "Good Smile Company",
+    "publisher": "Good Smile Company",
+    "seriesId": "nendoroid",
+    "region": "日本",
+    "images": [],
+    "description": "仅用于验证页面状态，不是真实商品。",
+    "specifications": {},
+    "releases": [
+      {
+        "releaseId": "demo-release",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": ["demo-source"],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2024-01",
+          "precision": "month"
+        },
+        "salesMethod": "购买特典",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "notSoldSeparately",
+        "prices": [],
+        "condition": "示例：购买指定商品赠送",
+        "conditionSourceId": "demo-source"
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": ["示例数据，不可作为商品资料"],
+    "sources": [
+      {
+        "id": "demo-source",
+        "url": "https://www.goodsmile.info/ja/product/8251/",
+        "title": "示例占位来源，不支持真实商品事实",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-05",
+        "fields": ["示例"]
+      }
+    ],
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "isDemo": true
+  },
+  {
+    "id": "demo-3",
+    "slug": "demo-3",
+    "names": {
+      "zh": "示例数据 · 再贩价格示例",
+      "ja": "",
+      "en": ""
+    },
+    "aliases": ["demo"],
+    "type": "手办",
+    "manufacturer": "Good Smile Company",
+    "publisher": "Good Smile Company",
+    "seriesId": "nendoroid",
+    "region": "日本",
+    "images": [],
+    "description": "仅用于验证页面状态，不是真实商品。",
+    "specifications": {},
+    "releases": [
+      {
+        "releaseId": "demo-release",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": ["demo-source"],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2024-01",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1000,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "demo-source"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      },
+      {
+        "releaseId": "demo-reissue",
+        "kind": "再贩",
+        "region": "日本",
+        "sourceIds": ["demo-source"],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2025-01",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1500,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "demo-source"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": ["示例数据，不可作为商品资料"],
+    "sources": [
+      {
+        "id": "demo-source",
+        "url": "https://www.goodsmile.info/ja/product/8251/",
+        "title": "示例占位来源，不支持真实商品事实",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-05",
+        "fields": ["示例"]
+      }
+    ],
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "isDemo": true
+  },
+  {
+    "id": "demo-4",
+    "slug": "demo-4",
+    "names": {
+      "zh": "示例数据 · 未知年份示例",
+      "ja": "",
+      "en": ""
+    },
+    "aliases": ["demo"],
+    "type": "手办",
+    "manufacturer": "Good Smile Company",
+    "publisher": "Good Smile Company",
+    "seriesId": "nendoroid",
+    "region": "日本",
+    "images": [],
+    "description": "仅用于验证页面状态，不是真实商品。",
+    "specifications": {},
+    "releases": [
+      {
+        "releaseId": "demo-release",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": ["demo-source"],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1000,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "demo-source"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": ["示例数据，不可作为商品资料"],
+    "sources": [
+      {
+        "id": "demo-source",
+        "url": "https://www.goodsmile.info/ja/product/8251/",
+        "title": "示例占位来源，不支持真实商品事实",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-05",
+        "fields": ["示例"]
+      }
+    ],
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "isDemo": true
+  },
+  {
+    "id": "demo-5",
+    "slug": "demo-5",
+    "names": {
+      "zh": "示例数据 · 未知原价示例",
+      "ja": "",
+      "en": ""
+    },
+    "aliases": ["demo"],
+    "type": "手办",
+    "manufacturer": "Good Smile Company",
+    "publisher": "Good Smile Company",
+    "seriesId": "nendoroid",
+    "region": "日本",
+    "images": [],
+    "description": "仅用于验证页面状态，不是真实商品。",
+    "specifications": {},
+    "releases": [
+      {
+        "releaseId": "demo-release",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": ["demo-source"],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2024-01",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "unknown",
+        "prices": [],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": ["示例数据，不可作为商品资料"],
+    "sources": [
+      {
+        "id": "demo-source",
+        "url": "https://www.goodsmile.info/ja/product/8251/",
+        "title": "示例占位来源，不支持真实商品事实",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-05",
+        "fields": ["示例"]
+      }
+    ],
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "isDemo": true
+  },
+  {
+    "id": "demo-6",
+    "slug": "demo-6",
+    "names": {
+      "zh": "示例数据 · 抽奖奖品示例",
+      "ja": "",
+      "en": ""
+    },
+    "aliases": ["demo"],
+    "type": "手办",
+    "manufacturer": "Good Smile Company",
+    "publisher": "Good Smile Company",
+    "seriesId": "nendoroid",
+    "region": "日本",
+    "images": [],
+    "description": "仅用于验证页面状态，不是真实商品。",
+    "specifications": {},
+    "releases": [
+      {
+        "releaseId": "demo-release",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": ["demo-source"],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2024-01",
+          "precision": "month"
+        },
+        "salesMethod": "抽奖奖品",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1000,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "每抽",
+            "quantity": 1,
+            "sourceId": "demo-source"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": ["示例数据，不可作为商品资料"],
+    "sources": [
+      {
+        "id": "demo-source",
+        "url": "https://www.goodsmile.info/ja/product/8251/",
+        "title": "示例占位来源，不支持真实商品事实",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-05",
+        "fields": ["示例"]
+      }
+    ],
+    "createdAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
+    "isDemo": true
+  }
+]
