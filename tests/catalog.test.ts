@@ -75,3 +75,45 @@ test("无结果返回空列表", () =>
       .length,
     0,
   ));
+
+test("无效日期返回校验错误而不抛 RangeError", () => {
+  for (const value of ["bad-date", "2025-99-99", "2025-02-29", "2025-00-01"]) {
+    assert.equal(
+      dateSchema.safeParse({ value, precision: "day" }).success,
+      false,
+    );
+  }
+});
+test("状态、初版、来源和日期关系必须一致", () => {
+  const source = productSchema.parse(real[0]);
+  for (const modify of [
+    (p: typeof source) => {
+      p.evidenceStatus = "verified";
+    },
+    (p: typeof source) => {
+      p.releases[0].kind = "再贩";
+    },
+    (p: typeof source) => {
+      p.sources.push(p.sources[0]);
+    },
+    (p: typeof source) => {
+      p.updatedAt = "2024-01-01";
+    },
+    (p: typeof source) => {
+      p.createdAt = "2025-02-30";
+    },
+  ]) {
+    const changed = structuredClone(source);
+    modify(changed);
+    assert.equal(productSchema.safeParse(changed).success, false);
+  }
+});
+test("预订结束不得早于开始，外币以分保存", () => {
+  const release = structuredClone(products[0].releases[0]);
+  release.preorderStart = { value: "2025-03-20", precision: "day" };
+  release.preorderEnd = { value: "2025-03-01", precision: "day" };
+  assert.equal(releaseSchema.safeParse(release).success, false);
+  release.prices[0].currency = "USD";
+  release.prices[0].amount = 1599;
+  assert.match(priceText(release), /15\.99/);
+});

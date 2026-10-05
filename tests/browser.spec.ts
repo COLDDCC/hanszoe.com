@@ -1,22 +1,11 @@
 import { test, expect } from "@playwright/test";
-const routes = [
-  "/",
-  "/merch/",
-  "/merch/nendoroid-hange-1123/",
-  "/merch/lookup-hange/",
-  "/merch/cospa-tsumamare-final/",
-  "/series/",
-  "/series/nendoroid/",
-  "/series/lookup/",
-  "/series/tsumamare-final/",
-  "/news/",
-  "/news/nendoroid-2026-reissue/",
-  "/news/cospa-tsumamare-2024/",
-  "/wiki/",
-  "/wiki/names-and-search/",
-  "/wiki/appearance-index/",
-  "/about/",
-];
+import { readdirSync } from "node:fs";
+const routes = readdirSync("dist", { recursive: true })
+  .filter(
+    (path): path is string =>
+      typeof path === "string" && path.endsWith(".html"),
+  )
+  .map((path) => "/" + path.replaceAll("\\", "/").replace(/index\.html$/, ""));
 test("所有路由有标题且没有横向溢出", async ({ page }, testInfo) => {
   for (const route of routes) {
     await page.goto(route);
@@ -26,9 +15,22 @@ test("所有路由有标题且没有横向溢出", async ({ page }, testInfo) =>
         () => document.documentElement.scrollWidth <= innerWidth,
       ),
     ).toBe(true);
-    if (route === "/")
+    if (
+      [
+        "/",
+        "/merch/",
+        "/merch/nendoroid-hange-1123/",
+        "/series/",
+        "/news/",
+        "/wiki/",
+      ].includes(route)
+    )
       await page.screenshot({
-        path: testInfo.outputPath("home.png"),
+        path: testInfo.outputPath(
+          (route === "/"
+            ? "home"
+            : route.replaceAll("/", "-").replace(/^-|-$/g, "")) + ".png",
+        ),
         fullPage: true,
       });
   }
@@ -58,7 +60,10 @@ test("搜索、筛选、刷新、返回与清空恢复 URL", async ({ page }) =>
   if (page.viewportSize()!.width < 700)
     await page.locator("#filter-details summary").click();
   await page.getByRole("button", { name: "清空全部条件" }).click();
-  await expect(page.locator("#result-count")).toHaveText("3");
+  const total = await page
+    .locator("#catalog-data")
+    .evaluate((element) => JSON.parse(element.textContent!).products.length);
+  await expect(page.locator("#result-count")).toHaveText(String(total));
   await expect(page).toHaveURL(/\/merch\/$/);
 });
 test("剧透折叠且正式内容不包含 demo", async ({ page }) => {
@@ -69,4 +74,17 @@ test("剧透折叠且正式内容不包含 demo", async ({ page }) => {
   expect(await page.locator("#catalog-data").textContent()).not.toContain(
     "demo-",
   );
+});
+
+test("重复搜索不增加历史记录；前进后退恢复排序", async ({ page }) => {
+  await page.goto("/merch/?q=1123");
+  const initial = await page.evaluate(() => history.length);
+  await page.getByRole("button", { name: "搜索", exact: true }).click();
+  expect(await page.evaluate(() => history.length)).toBe(initial);
+  await page.locator("#sort").selectOption("name");
+  await expect(page).toHaveURL(/sort=name/);
+  await page.goBack();
+  await expect(page.locator("#sort")).toHaveValue("added");
+  await page.goForward();
+  await expect(page.locator("#sort")).toHaveValue("name");
 });

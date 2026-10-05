@@ -7,20 +7,26 @@ export const dateSchema = z
       month: /^\d{4}-(0[1-9]|1[0-2])$/,
       day: /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/,
     };
-    if (!p[d.precision].test(d.value))
+    if (!p[d.precision].test(d.value)) {
       c.addIssue({ code: "custom", message: "日期格式与精度不一致" });
+      return;
+    }
     if (
       d.precision === "day" &&
       new Date(d.value + "T00:00:00Z").toISOString().slice(0, 10) !== d.value
     )
       c.addIssue({ code: "custom", message: "无效日期" });
   });
+export const isoDaySchema = z.string().superRefine((value, ctx) => {
+  if (!dateSchema.safeParse({ value, precision: "day" }).success)
+    ctx.addIssue({ code: "custom", message: "需要有效的完整日历日期" });
+});
 export const sourceSchema = z.object({
   id: z.string().min(1),
   url: z.url().refine((u) => u.startsWith("https://")),
   title: z.string().min(1),
   organization: z.string().min(1),
-  checkedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  checkedAt: isoDaySchema,
   fields: z.array(z.string()).min(1),
 });
 const imageSchema = z.object({
@@ -84,6 +90,13 @@ export const releaseSchema = z
       issue("奖品只能记录每抽价格");
     if (v.limitedScope && !v.limitedSourceId) issue("限定范围必须有来源");
     if (v.condition && !v.conditionSourceId) issue("获取条件必须有来源");
+    if (
+      v.preorderStart &&
+      v.preorderEnd &&
+      v.preorderStart.precision === v.preorderEnd.precision &&
+      v.preorderStart.value > v.preorderEnd.value
+    )
+      issue("预订结束不能早于开始");
   });
 export const productSchema = z
   .object({
@@ -91,7 +104,7 @@ export const productSchema = z
     slug: z.string().regex(/^[a-z0-9-]+$/),
     names: z
       .object({ zh: z.string(), ja: z.string(), en: z.string() })
-      .refine((v) => Object.values(v).some(Boolean)),
+      .refine((v) => Object.values(v).some((name) => name.trim().length > 0)),
     aliases: z.array(z.string()),
     type: z.enum(types),
     manufacturer: z.string().nullable(),
@@ -106,14 +119,28 @@ export const productSchema = z
     evidenceStatus: z.enum(["verified", "partial"]),
     missingFields: z.array(z.string()),
     sources: z.array(sourceSchema).min(1),
-    createdAt: z.string(),
-    updatedAt: z.string(),
+    createdAt: isoDaySchema,
+    updatedAt: isoDaySchema,
     isDemo: z.boolean(),
   })
   .superRefine((v, c) => {
     if (v.evidenceStatus === "partial" && !v.missingFields.length)
       c.addIssue({ code: "custom", message: "partial 必须说明缺项" });
+    if (v.evidenceStatus === "verified" && v.missingFields.length)
+      c.addIssue({
+        code: "custom",
+        message: "有待核实项目时不能标记 verified",
+      });
+    if (v.updatedAt < v.createdAt)
+      c.addIssue({ code: "custom", message: "更新日期不能早于收录日期" });
+    if (v.releases.filter((r) => r.kind === "初版").length !== 1)
+      c.addIssue({
+        code: "custom",
+        message: "每个商品须且只须有一个初版记录，未知日期留空",
+      });
     const ids = v.sources.map((s) => s.id);
+    if (new Set(ids).size !== ids.length)
+      c.addIssue({ code: "custom", message: "来源 ID 重复" });
     for (const x of v.releases)
       for (const id of [
         ...x.sourceIds,
@@ -135,7 +162,7 @@ export const seriesSchema = z.object({
   region: z.string(),
   type: z.string(),
   sources: z.array(sourceSchema).min(1),
-  updatedAt: z.string(),
+  updatedAt: isoDaySchema,
   isDemo: z.boolean(),
   images: z.array(imageSchema),
 });
