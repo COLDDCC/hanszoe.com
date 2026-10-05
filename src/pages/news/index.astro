@@ -1,4 +1,4 @@
 ---
 import Base from '../../layouts/Base.astro';import {getCollection} from 'astro:content';const entries=(await getCollection('news',e=>!e.data.isDemo)).sort((a,b)=>b.data.updatedAt.localeCompare(a.data.updatedAt));
 ---
-<Base title="资讯"><div class="page-heading"><span class="eyebrow">NEWS & RELEASES</span><h1>资讯</h1><p>新品、再贩与活动的档案，保留关键日期与官方出处。</p></div><div class="article-list">{entries.map(e=><a class="news-row" href={'/news/'+e.data.slug+'/'}><small>{e.data.updatedAt} · { e.data.category }</small><h2>{e.data.title}</h2><p>{e.data.summary}</p><span class="text-link">阅读档案</span></a>)}</div>{!entries.length&&<div class="empty">资料正在整理，核实后将收录在这里。</div>}</Base>
+<Base title="活动资讯"><div class="page-heading"><span class="eyebrow">NEWS & RELEASES</span><h1>活动资讯</h1><p>新品、再贩与活动的档案，保留关键日期与官方出处。</p></div><div class="article-list">{entries.map(e=><a class="news-row" href={'/news/'+e.data.slug+'/'}><small>{e.data.updatedAt} · { e.data.category }</small><h2>{e.data.title}</h2><p>{e.data.summary}</p><span class="text-link">阅读档案</span></a>)}</div>{!entries.length&&<div class="empty">资料正在整理，核实后将收录在这里。</div>}</Base>

@@ -1,12 +1,12 @@
 :root {
-  --paper: #f7f5ef;
-  --white: #fffefa;
-  --ink: #243c34;
-  --muted: #69746b;
-  --line: #dedfd3;
-  --green: #284b3e;
-  --brown: #987451;
-  --soft: #ebece2;
+  --paper: #faf8fc;
+  --white: #ffffff;
+  --ink: #302a38;
+  --muted: #706777;
+  --line: #e3dce9;
+  --accent: #695083;
+  --accent-muted: #795b91;
+  --soft: #f0eaf5;
   --serif: "Zen Old Mincho", "EB Garamond", "Noto Serif SC", "Yu Mincho", "Hiragino Mincho ProN", "Songti SC", SimSun, serif;
   --latin-serif: "EB Garamond", Georgia, serif;
   --ui: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Microsoft YaHei", sans-serif;
@@ -45,14 +45,14 @@ button {
   cursor: pointer;
 }
 a:hover {
-  color: var(--brown);
+  color: var(--accent-muted);
 }
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 summary:focus-visible {
-  outline: 3px solid var(--brown);
+  outline: 3px solid var(--accent-muted);
   outline-offset: 4px;
 }
 h1,
@@ -88,7 +88,7 @@ small {
 .eyebrow {
   font-size: 0.75rem;
   letter-spacing: 0.16em;
-  color: var(--brown);
+  color: var(--accent-muted);
   font-weight: 600;
 }
 .sr-only {
@@ -102,7 +102,7 @@ small {
   position: absolute;
   left: 16px;
   top: -100px;
-  background: var(--green);
+  background: var(--accent);
   color: white;
   padding: 12px;
   z-index: 5;
@@ -153,7 +153,7 @@ header {
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--green);
+  background: var(--accent);
 }
 .about-link {
   font-size: 0.88rem;
@@ -189,7 +189,7 @@ section {
   display: flex;
   align-items: center;
   background: var(--white);
-  border: 1px solid #bac5b6;
+  border: 1px solid #c9b9d7;
   border-radius: 5px;
   max-width: 660px;
   padding: 7px;
@@ -211,8 +211,8 @@ section {
 }
 .search-bar button,
 .button {
-  border: 1px solid var(--green);
-  background: var(--green);
+  border: 1px solid var(--accent);
+  background: var(--accent);
   color: white;
   padding: 10px 20px;
   border-radius: 3px;
@@ -232,8 +232,8 @@ section {
   text-underline-offset: 4px;
 }
 .archive-note {
-  background: #e8eadf;
-  border: 1px solid #d6dbc9;
+  background: #efe8f5;
+  border: 1px solid #ded1e9;
   padding: 26px 28px;
   position: relative;
   display: flex;
@@ -245,7 +245,7 @@ section {
   content: "";
   position: absolute;
   inset: 8px;
-  border: 1px solid #d5d9c9;
+  border: 1px solid #ddd0e8;
   pointer-events: none;
 }
 .note-number {
@@ -263,7 +263,7 @@ section {
 .glasses i {
   width: 67px;
   height: 51px;
-  border: 3px solid #566851;
+  border: 3px solid #795b91;
   border-radius: 45%;
   transform: rotate(-7deg);
 }
@@ -276,7 +276,7 @@ section {
   position: absolute;
   left: calc(50% - 9px);
   top: 16px;
-  border-top: 3px solid #566851;
+  border-top: 3px solid #795b91;
 }
 .archive-note h2 {
   font-size: 1.45rem;
@@ -288,7 +288,7 @@ section {
   font-size: 0.85rem;
 }
 .note-bottom {
-  border-top: 1px solid #d0d5c4;
+  border-top: 1px solid #dccfe7;
   text-align: center;
   padding-top: 14px;
   font-size: 0.75rem;
@@ -355,12 +355,12 @@ section {
 }
 .product-card:hover {
   color: var(--ink);
-  box-shadow: 0 6px 24px #243c3410;
+  box-shadow: 0 6px 24px #302a3810;
 }
 .product-image {
   aspect-ratio: 1/1;
   position: relative;
-  background: #eeeee5;
+  background: #f3eef7;
 }
 .product-image img {
   width: 100%;
@@ -375,7 +375,7 @@ section {
   justify-content: center;
   width: 100%;
   height: 100%;
-  color: #6a7666;
+  color: #786784;
   font-size: 0.85rem;
   gap: 3px;
   background:
@@ -383,20 +383,20 @@ section {
       0deg,
       transparent,
       transparent 23px,
-      #d6dbc536 24px
+      #d8cbe436 24px
     ),
     repeating-linear-gradient(
       90deg,
       transparent,
       transparent 23px,
-      #d6dbc536 24px
+      #d8cbe436 24px
     );
 }
 .placeholder .frame-icon {
   font-size: 2.6rem;
   line-height: 1.6;
   font-weight: normal;
-  color: #819078;
+  color: #9580a5;
 }
 .placeholder small {
   font-size: 0.62rem;
@@ -446,7 +446,7 @@ section {
 }
 .text-link {
   font-size: 0.86rem;
-  border-bottom: 1px solid var(--brown);
+  border-bottom: 1px solid var(--accent-muted);
   padding-bottom: 4px;
 }
 .two-columns {
@@ -463,7 +463,7 @@ section {
 }
 .row-number {
   font: 1.1rem var(--serif);
-  color: var(--brown);
+  color: var(--accent-muted);
 }
 .series-row h3 {
   margin: 0 0 5px;
@@ -483,7 +483,7 @@ section {
   padding: 24px 0;
 }
 .news-row small {
-  color: var(--brown);
+  color: var(--accent-muted);
   font-size: 0.75rem;
 }
 .news-row h3,
@@ -497,7 +497,7 @@ section {
   margin-bottom: 8px;
 }
 .wiki-strip {
-  background: var(--green);
+  background: var(--accent);
   color: var(--paper);
   padding: 32px 40px;
   display: flex;
@@ -507,19 +507,19 @@ section {
   border-radius: 3px;
 }
 .wiki-strip .eyebrow {
-  color: #c5c9ad;
+  color: #ded0eb;
 }
 .wiki-strip h2 {
   margin: 8px 0;
 }
 .wiki-strip p {
-  color: #d2d8cc;
+  color: #eee5f5;
   margin: 0;
   font-size: 0.9rem;
 }
 .button.light {
   background: transparent;
-  border-color: #a7b4a1;
+  border-color: #d1bddf;
   color: var(--paper);
 }
 footer {
@@ -608,13 +608,13 @@ footer a {
   color: var(--muted);
 }
 .filters input {
-  accent-color: var(--green);
+  accent-color: var(--accent);
   margin: 7px 0 0;
 }
 .clear-button {
   border: 0;
   background: none;
-  color: var(--brown);
+  color: var(--accent-muted);
   font-size: 0.85rem;
   padding: 8px 0;
   text-decoration: underline;
@@ -646,7 +646,7 @@ footer a {
   padding: 50px 24px;
   text-align: center;
   background: var(--soft);
-  border: 1px dashed #b7c1b0;
+  border: 1px dashed #c2afd0;
 }
 .empty h2 {
   font-size: 1.4rem;
@@ -736,12 +736,12 @@ dd {
   overflow-wrap: anywhere;
 }
 .notice {
-  background: #ecebdc;
-  border-left: 3px solid var(--brown);
+  background: #f0eaf5;
+  border-left: 3px solid var(--accent-muted);
   padding: 14px 18px;
   font-size: 0.85rem;
   margin: 20px 0;
-  color: #615b45;
+  color: #665170;
 }
 .notice ul {
   margin: 6px 0 0;
@@ -758,7 +758,7 @@ dd {
 }
 .tag {
   display: inline-block;
-  border: 1px solid #bfcbb9;
+  border: 1px solid #d0bfdd;
   padding: 1px 9px;
   font-size: 0.75rem;
   background: var(--soft);
@@ -776,7 +776,7 @@ dd {
 }
 .release-sources {
   font-size: 0.8rem;
-  color: var(--brown);
+  color: var(--accent-muted);
 }
 .article {
   max-width: 800px;
@@ -791,7 +791,7 @@ dd {
   margin-top: 32px;
 }
 .article p {
-  color: #526057;
+  color: #5f5467;
 }
 .article a {
   text-decoration: underline;
@@ -1260,4 +1260,19 @@ button, input, select, .filters, .result-toolbar,
   .section-heading h2 { margin-top: 8px; }
   .ja, .detail-info .ja { font-size: .82rem; }
   .header-inner nav a { letter-spacing: .02em; }
+}
+
+/* Primary destinations and catalog sub-navigation. */
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 26px 0 0; }
+.hero-actions .button { padding: 12px 22px; }
+.button.secondary { background: transparent; color: var(--accent); }
+.button:hover { background: #563e70; color: #fff; }
+.button.secondary:hover { background: var(--soft); color: var(--accent); }
+.section-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+.section-nav a { padding: 9px 18px; border: 1px solid var(--line); font-family: var(--ui); font-size: .9rem; }
+.section-nav a[aria-current] { background: var(--accent); color: #fff; border-color: var(--accent); }
+.section-nav a:hover { border-color: var(--accent); }
+@media (max-width: 700px) {
+  .hero-actions { gap: 10px; }
+  .hero-actions .button { padding: 12px 14px; font-size: .85rem; white-space: normal; }
 }
