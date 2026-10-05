@@ -7,7 +7,9 @@
   --green: #284b3e;
   --brown: #987451;
   --soft: #ebece2;
-  --serif: Georgia, "Noto Serif SC", "Songti SC", SimSun, serif;
+  --serif: "Zen Old Mincho", "EB Garamond", "Noto Serif SC", "Yu Mincho", "Hiragino Mincho ProN", "Songti SC", SimSun, serif;
+  --latin-serif: "EB Garamond", Georgia, serif;
+  --ui: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Microsoft YaHei", sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -1157,4 +1159,105 @@ dd {
   * {
     transition: none !important;
   }
+}
+
+/* Typography direction: GAMECITY Shingeki 3 JP.
+   Original layout rules; fonts supplied under their open font licenses.
+   Display copy uses Mincho; dense catalog controls keep a readable sans face. */
+body {
+  font-family: var(--serif);
+  line-height: 1.9;
+  font-weight: 500;
+}
+h1, h2, h3 {
+  font-family: var(--serif);
+  font-weight: 800;
+  line-break: strict;
+  overflow-wrap: break-word;
+}
+h1 { letter-spacing: .055em; line-height: 1.45; }
+h2 { letter-spacing: .07em; line-height: 1.55; }
+h3 { letter-spacing: .025em; line-height: 1.65; }
+p { line-height: 1.95; }
+:lang(ja) {
+  font-family: "Zen Old Mincho", "Yu Mincho", "Hiragino Mincho ProN", serif;
+  line-break: strict;
+  word-break: normal;
+}
+.eyebrow {
+  font-family: var(--latin-serif), var(--serif);
+  font-size: .95rem;
+  font-weight: 600;
+  letter-spacing: .12em;
+  line-height: 1.4;
+}
+.brand { font-weight: 800; letter-spacing: .06em; }
+.brand small, .note-number, .note-bottom {
+  font-family: var(--latin-serif), var(--serif);
+}
+.brand small { font-size: .75rem; }
+.header-inner nav a, .about-link {
+  font-family: var(--serif);
+  font-weight: 600;
+  letter-spacing: .06em;
+}
+.home-intro { margin-block: 80px 48px; }
+.intro-copy .eyebrow { margin-bottom: 28px; }
+.hero-name {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.55rem;
+  font-weight: 800;
+  letter-spacing: .14em;
+}
+.home-intro h1 {
+  font-size: clamp(2.3rem, 4.4vw, 3.8rem);
+  line-height: 1.5;
+  letter-spacing: .065em;
+  margin-bottom: 26px;
+}
+.home-intro p { font-size: 1.05rem; line-height: 2; }
+.section-heading .eyebrow {
+  font-size: clamp(1.1rem, 2vw, 1.55rem);
+  letter-spacing: .08em;
+}
+.section-heading h2 { margin-top: 10px; font-weight: 800; }
+.archive-stats strong, .row-number, .release-date h3 {
+  font-family: var(--latin-serif);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.archive-stats strong { font-size: 2.6rem; }
+.ja, .detail-info .ja {
+  font-family: var(--serif);
+  font-size: .9rem;
+  line-height: 1.8;
+  letter-spacing: .035em;
+  overflow-wrap: anywhere;
+}
+.card-body h3 { font-weight: 800; }
+.card-body .eyebrow { font-family: var(--ui); }
+button, input, select, .filters, .result-toolbar,
+.card-meta, .notice, .breadcrumbs, .list-footnote,
+.search-hints, .sources p, dl, footer p {
+  font-family: var(--ui);
+}
+.button {
+  font-family: var(--serif);
+  font-weight: 600;
+  letter-spacing: .08em;
+}
+.article { max-width: 760px; }
+.article p, .article li { line-height: 2; }
+.article h2 { margin-top: 42px; }
+.news-row h2, .news-row h3 { font-family: var(--serif); font-weight: 800; }
+@media (max-width: 700px) {
+  .home-intro { margin-block: 42px 30px; }
+  .hero-name { font-size: 1.2rem; letter-spacing: .1em; }
+  .intro-copy .eyebrow { margin-bottom: 22px; }
+  .home-intro h1 { font-size: clamp(1.9rem, 7.5vw, 2.7rem); letter-spacing: .035em; }
+  .home-intro p { font-size: .95rem; }
+  .section-heading { align-items: center; }
+  .section-heading h2 { margin-top: 8px; }
+  .ja, .detail-info .ja { font-size: .82rem; }
+  .header-inner nav a { letter-spacing: .02em; }
 }
