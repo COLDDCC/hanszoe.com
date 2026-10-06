@@ -222,5 +222,131 @@
     "updatedAt": "2026-10-06",
     "isDemo": false,
     "images": []
+  },
+  {
+    "id": "graffart-maple",
+    "slug": "graffart-maple",
+    "name": "红叶 · GraffArt",
+    "aliases": [
+      "紅葉ver.",
+      "GraffArt",
+      "A3"
+    ],
+    "description": "红叶主题，收录含韩吉的随机徽章、挂件及多人合绘商品。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "eeo-333418-official",
+        "url": "https://eeo.today/store/101/products/detail/333418",
+        "title": "eeo Store｜红叶主题徽章（8 款随机，含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方标价",
+          "尺寸",
+          "销售方式",
+          "领取及配送时间"
+        ]
+      },
+      {
+        "id": "eeo-333417-official",
+        "url": "https://eeo.today/store/101/products/detail/333417",
+        "title": "eeo Store｜红叶主题亚克力挂件（8 款随机，含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方标价",
+          "尺寸",
+          "销售方式",
+          "领取及配送时间"
+        ]
+      },
+      {
+        "id": "eeo-333414-official",
+        "url": "https://eeo.today/store/101/products/detail/333414",
+        "title": "eeo Store｜红叶主题 15 cm 直尺（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方标价",
+          "尺寸",
+          "销售方式",
+          "领取及配送时间"
+        ]
+      },
+      {
+        "id": "eeo-333413-official",
+        "url": "https://eeo.today/store/101/products/detail/333413",
+        "title": "eeo Store｜红叶主题亚克力场景（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方标价",
+          "尺寸",
+          "销售方式",
+          "领取及配送时间"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "marion-crepes",
+    "slug": "marion-crepes",
+    "name": "MARION CREPES · 店员图案",
+    "aliases": [
+      "クレープ店員ver.",
+      "可丽饼店员",
+      "MARION CREPES"
+    ],
+    "description": "MARION CREPES 店员图案，保留韩吉单人商品及原商品页；首次发行时间待核实。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "eeo-244183-official",
+        "url": "https://eeo.today/store/101/products/detail/244183",
+        "title": "eeo Store｜韩吉 MARION CREPES 店员亚克力立牌 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方标价",
+          "尺寸",
+          "材质",
+          "付款后配送预计"
+        ]
+      },
+      {
+        "id": "eeo-244179-official",
+        "url": "https://eeo.today/store/101/products/detail/244179",
+        "title": "eeo Store｜韩吉 MARION CREPES 亚克力名牌徽章 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方标价",
+          "尺寸",
+          "材质",
+          "付款后配送预计"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
+    "isDemo": false,
+    "images": []
   }
 ]

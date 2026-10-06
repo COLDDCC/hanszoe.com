@@ -1055,5 +1055,631 @@
     "createdAt": "2026-10-06",
     "updatedAt": "2026-10-06",
     "isDemo": false
+  },
+  {
+    "id": "eeo-333418",
+    "slug": "maple-badge",
+    "names": {
+      "zh": "红叶主题徽章（8 款随机，含韩吉）",
+      "ja": "缶バッジ「TVアニメ『進撃の巨人』」03/紅葉ver. ブラインド(8種)(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "紅葉ver.",
+      "红叶",
+      "GraffArt"
+    ],
+    "type": "徽章",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-maple",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/maple-badge.svg",
+        "alt": "红叶主题徽章（8 款随机，含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/333418",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6a98ff055c22b.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "8 款随机，包含韩吉；标价为单包价格，不能指定角色。 店铺领取自 2026 年 10 月 17 日起，配送预计 11 月下旬。",
+    "specifications": {
+      "尺寸": "直径 57 mm",
+      "款式": "8 款随机，包含韩吉",
+      "店铺领取开始": "2026-10-17",
+      "店铺领取预约": "2026-09-04 17:00 至 2026-09-10 23:59:59（日本时间，已结束）",
+      "配送预计": "2026 年 11 月下旬",
+      "预订范围说明": "预订区间仅指店铺领取，配送订单截止日未确认"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-333418-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-333418-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-09-04",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-09-10",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-10-17",
+          "precision": "day"
+        },
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 550,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "eeo-333418-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送订单预订截止日待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-333418-official",
+        "url": "https://eeo.today/store/101/products/detail/333418",
+        "title": "eeo Store｜红叶主题徽章（8 款随机，含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方标价",
+          "尺寸",
+          "销售方式",
+          "领取及配送时间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-333417",
+    "slug": "maple-keychain",
+    "names": {
+      "zh": "红叶主题亚克力挂件（8 款随机，含韩吉）",
+      "ja": "アクリルキーホルダー「TVアニメ『進撃の巨人』」01/紅葉ver. ブラインド(8種)(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "紅葉ver.",
+      "红叶",
+      "GraffArt"
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-maple",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/maple-keychain.svg",
+        "alt": "红叶主题亚克力挂件（8 款随机，含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/333417",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6a98ff03729a1.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "8 款随机，包含韩吉；标价为单包价格，不能指定角色。 店铺领取自 2026 年 10 月 17 日起，配送预计 11 月下旬。",
+    "specifications": {
+      "尺寸": "65×65 mm 以内",
+      "材质": "透明亚克力",
+      "款式": "8 款随机，包含韩吉",
+      "店铺领取开始": "2026-10-17",
+      "店铺领取预约": "2026-09-04 17:00 至 2026-09-10 23:59:59（日本时间，已结束）",
+      "配送预计": "2026 年 11 月下旬",
+      "预订范围说明": "预订区间仅指店铺领取，配送订单截止日未确认"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-333417-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-333417-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-09-04",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-09-10",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-10-17",
+          "precision": "day"
+        },
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "eeo-333417-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送订单预订截止日待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-333417-official",
+        "url": "https://eeo.today/store/101/products/detail/333417",
+        "title": "eeo Store｜红叶主题亚克力挂件（8 款随机，含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方标价",
+          "尺寸",
+          "销售方式",
+          "领取及配送时间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-333414",
+    "slug": "maple-ruler",
+    "names": {
+      "zh": "红叶主题 15 cm 直尺（含韩吉）",
+      "ja": "定規15cm「TVアニメ『進撃の巨人』」02/紅葉ver.(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "紅葉ver.",
+      "红叶",
+      "GraffArt"
+    ],
+    "type": "生活用品",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-maple",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/maple-ruler.svg",
+        "alt": "红叶主题 15 cm 直尺（含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/333414",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6a98fefedf5e9.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "红叶主题商品，图案包含韩吉。 店铺领取自 2026 年 10 月 17 日起，配送预计 11 月下旬。",
+    "specifications": {
+      "刻度长度": "15 cm",
+      "款式": "多人合绘，包含韩吉",
+      "店铺领取开始": "2026-10-17",
+      "店铺领取预约": "2026-09-04 17:00 至 2026-09-10 23:59:59（日本时间，已结束）",
+      "配送预计": "2026 年 11 月下旬",
+      "预订范围说明": "预订区间仅指店铺领取，配送订单截止日未确认"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-333414-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-333414-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-09-04",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-09-10",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-10-17",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 770,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-333414-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送订单预订截止日待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-333414-official",
+        "url": "https://eeo.today/store/101/products/detail/333414",
+        "title": "eeo Store｜红叶主题 15 cm 直尺（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方标价",
+          "尺寸",
+          "销售方式",
+          "领取及配送时间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-333413",
+    "slug": "maple-diorama",
+    "names": {
+      "zh": "红叶主题亚克力场景（含韩吉）",
+      "ja": "アクリルジオラマ「TVアニメ『進撃の巨人』」03/紅葉ver.(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "紅葉ver.",
+      "红叶",
+      "GraffArt"
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-maple",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/maple-diorama.svg",
+        "alt": "红叶主题亚克力场景（含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/333413",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6a98fefe2b78a.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "红叶主题商品，图案包含韩吉。 店铺领取自 2026 年 10 月 17 日起，配送预计 11 月下旬。",
+    "specifications": {
+      "板材尺寸": "组装前 226×300 mm 以内",
+      "规格": "组装式亚克力场景",
+      "款式": "多人场景，包含韩吉",
+      "店铺领取开始": "2026-10-17",
+      "店铺领取预约": "2026-09-04 17:00 至 2026-09-10 23:59:59（日本时间，已结束）",
+      "配送预计": "2026 年 11 月下旬",
+      "预订范围说明": "预订区间仅指店铺领取，配送订单截止日未确认"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-333413-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-333413-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-09-04",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-09-10",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-10-17",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3850,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-333413-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送订单预订截止日待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-333413-official",
+        "url": "https://eeo.today/store/101/products/detail/333413",
+        "title": "eeo Store｜红叶主题亚克力场景（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方标价",
+          "尺寸",
+          "销售方式",
+          "领取及配送时间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-244183",
+    "slug": "hange-marion-stand",
+    "names": {
+      "zh": "韩吉 MARION CREPES 店员亚克力立牌",
+      "ja": "アクリルスタンド「TVアニメ『進撃の巨人』The Final Season」04/ハンジ・ゾエ(描き下ろしイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "MARION CREPES",
+      "クレープ店員",
+      "可丽饼店员",
+      "HANS"
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "marion-crepes",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-marion-stand.svg",
+        "alt": "韩吉 MARION CREPES 店员亚克力立牌 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/244183",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/0627123823_685e122fe99be.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "MARION CREPES 店员图案的韩吉单人款，可选择角色购买。保留核查时的官方通常标价；首次发售日期尚未确认。",
+    "specifications": {
+      "尺寸": "150×150 mm 以内，依商品而异",
+      "材质": "亚克力",
+      "款式": "韩吉单人款",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-244183-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-244183-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1870,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-244183-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "初次发售日期及历史发行记录待核实",
+      "预订区间待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-244183-official",
+        "url": "https://eeo.today/store/101/products/detail/244183",
+        "title": "eeo Store｜韩吉 MARION CREPES 店员亚克力立牌 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方标价",
+          "尺寸",
+          "材质",
+          "付款后配送预计"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-244179",
+    "slug": "hange-marion-name-badge",
+    "names": {
+      "zh": "韩吉 MARION CREPES 亚克力名牌徽章",
+      "ja": "おなまえアクリルプレートバッジ「TVアニメ『進撃の巨人』The Final Season」04/ハンジ・ゾエ(描き下ろしイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "MARION CREPES",
+      "クレープ店員",
+      "可丽饼店员",
+      "HANS"
+    ],
+    "type": "徽章",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "marion-crepes",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-marion-name-badge.svg",
+        "alt": "韩吉 MARION CREPES 亚克力名牌徽章 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/244179",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/685e11f4225b2.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "MARION CREPES 店员图案的韩吉单人款，可选择角色购买。保留核查时的官方通常标价；首次发售日期尚未确认。",
+    "specifications": {
+      "尺寸": "60×70 mm 以内",
+      "材质": "亚克力、铁",
+      "款式": "韩吉单人款",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-244179-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-244179-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 770,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-244179-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "初次发售日期及历史发行记录待核实",
+      "预订区间待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-244179-official",
+        "url": "https://eeo.today/store/101/products/detail/244179",
+        "title": "eeo Store｜韩吉 MARION CREPES 亚克力名牌徽章 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方标价",
+          "尺寸",
+          "材质",
+          "付款后配送预计"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
   }
 ]
