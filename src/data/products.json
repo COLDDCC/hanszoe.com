@@ -438,9 +438,13 @@
         "kind": "初版",
         "region": "日本",
         "sourceIds": [
-          "eeo-336632-official"
+          "eeo-336632-official",
+          "eeo-336632-announcement-portal"
         ],
-        "announcement": null,
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
         "preorderStart": {
           "value": "2026-10-02",
           "precision": "day"
@@ -474,7 +478,7 @@
     "relatedProductIds": [],
     "evidenceStatus": "partial",
     "missingFields": [
-      "原公告日期及推文链接待核实",
+      "原始 X 推文链接及发布时间待核实",
       "限定范围未注明",
       "配送订单预订截止日待核实"
     ],
@@ -494,6 +498,16 @@
           "店铺领取预约区间",
           "店铺领取发售日",
           "配送预计"
+        ]
+      },
+      {
+        "id": "eeo-336632-announcement-portal",
+        "url": "https://aot-portal.com/ctx_news/goods/",
+        "title": "进击的巨人官方门户｜兽耳针织帽系列公告索引（2026-10-02）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列官方公告日期（官方索引）"
         ]
       }
     ],
@@ -548,9 +562,13 @@
         "kind": "初版",
         "region": "日本",
         "sourceIds": [
-          "eeo-336643-official"
+          "eeo-336643-official",
+          "eeo-336643-announcement-portal"
         ],
-        "announcement": null,
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
         "preorderStart": {
           "value": "2026-10-02",
           "precision": "day"
@@ -584,7 +602,7 @@
     "relatedProductIds": [],
     "evidenceStatus": "partial",
     "missingFields": [
-      "原公告日期及推文链接待核实",
+      "原始 X 推文链接及发布时间待核实",
       "限定范围未注明",
       "配送订单预订截止日待核实"
     ],
@@ -604,6 +622,16 @@
           "店铺领取预约区间",
           "店铺领取发售日",
           "配送预计"
+        ]
+      },
+      {
+        "id": "eeo-336643-announcement-portal",
+        "url": "https://aot-portal.com/ctx_news/goods/",
+        "title": "进击的巨人官方门户｜兽耳针织帽系列公告索引（2026-10-02）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列官方公告日期（官方索引）"
         ]
       }
     ],
@@ -660,9 +688,13 @@
         "kind": "初版",
         "region": "日本",
         "sourceIds": [
-          "eeo-336642-official"
+          "eeo-336642-official",
+          "eeo-336642-announcement-portal"
         ],
-        "announcement": null,
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
         "preorderStart": {
           "value": "2026-10-02",
           "precision": "day"
@@ -696,7 +728,7 @@
     "relatedProductIds": [],
     "evidenceStatus": "partial",
     "missingFields": [
-      "原公告日期及推文链接待核实",
+      "原始 X 推文链接及发布时间待核实",
       "限定范围未注明",
       "配送订单预订截止日待核实"
     ],
@@ -716,6 +748,16 @@
           "店铺领取预约区间",
           "店铺领取发售日",
           "配送预计"
+        ]
+      },
+      {
+        "id": "eeo-336642-announcement-portal",
+        "url": "https://aot-portal.com/ctx_news/goods/",
+        "title": "进击的巨人官方门户｜兽耳针织帽系列公告索引（2026-10-02）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列官方公告日期（官方索引）"
         ]
       }
     ],
@@ -771,9 +813,13 @@
         "kind": "初版",
         "region": "日本",
         "sourceIds": [
-          "eeo-336639-official"
+          "eeo-336639-official",
+          "eeo-336639-announcement-portal"
         ],
-        "announcement": null,
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
         "preorderStart": {
           "value": "2026-10-02",
           "precision": "day"
@@ -807,7 +853,7 @@
     "relatedProductIds": [],
     "evidenceStatus": "partial",
     "missingFields": [
-      "原公告日期及推文链接待核实",
+      "原始 X 推文链接及发布时间待核实",
       "限定范围未注明",
       "配送订单预订截止日待核实"
     ],
@@ -827,6 +873,16 @@
           "店铺领取预约区间",
           "店铺领取发售日",
           "配送预计"
+        ]
+      },
+      {
+        "id": "eeo-336639-announcement-portal",
+        "url": "https://aot-portal.com/ctx_news/goods/",
+        "title": "进击的巨人官方门户｜兽耳针织帽系列公告索引（2026-10-02）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列官方公告日期（官方索引）"
         ]
       }
     ],
@@ -882,9 +938,13 @@
         "kind": "初版",
         "region": "日本",
         "sourceIds": [
-          "eeo-336638-official"
+          "eeo-336638-official",
+          "eeo-336638-announcement-portal"
         ],
-        "announcement": null,
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
         "preorderStart": {
           "value": "2026-10-02",
           "precision": "day"
@@ -918,7 +978,7 @@
     "relatedProductIds": [],
     "evidenceStatus": "partial",
     "missingFields": [
-      "原公告日期及推文链接待核实",
+      "原始 X 推文链接及发布时间待核实",
       "限定范围未注明",
       "配送订单预订截止日待核实"
     ],
@@ -938,6 +998,16 @@
           "店铺领取预约区间",
           "店铺领取发售日",
           "配送预计"
+        ]
+      },
+      {
+        "id": "eeo-336638-announcement-portal",
+        "url": "https://aot-portal.com/ctx_news/goods/",
+        "title": "进击的巨人官方门户｜兽耳针织帽系列公告索引（2026-10-02）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列官方公告日期（官方索引）"
         ]
       }
     ],
@@ -993,9 +1063,13 @@
         "kind": "初版",
         "region": "日本",
         "sourceIds": [
-          "eeo-336637-official"
+          "eeo-336637-official",
+          "eeo-336637-announcement-portal"
         ],
-        "announcement": null,
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
         "preorderStart": {
           "value": "2026-10-02",
           "precision": "day"
@@ -1029,7 +1103,7 @@
     "relatedProductIds": [],
     "evidenceStatus": "partial",
     "missingFields": [
-      "原公告日期及推文链接待核实",
+      "原始 X 推文链接及发布时间待核实",
       "限定范围未注明",
       "配送订单预订截止日待核实"
     ],
@@ -1049,6 +1123,16 @@
           "店铺领取预约区间",
           "店铺领取发售日",
           "配送预计"
+        ]
+      },
+      {
+        "id": "eeo-336637-announcement-portal",
+        "url": "https://aot-portal.com/ctx_news/goods/",
+        "title": "进击的巨人官方门户｜兽耳针织帽系列公告索引（2026-10-02）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列官方公告日期（官方索引）"
         ]
       }
     ],
