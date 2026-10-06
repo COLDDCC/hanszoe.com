@@ -310,7 +310,7 @@
       "可丽饼店员",
       "MARION CREPES"
     ],
-    "description": "MARION CREPES 店员图案，保留韩吉单人商品及原商品页；首次发行时间待核实。",
+    "description": "MARION CREPES 店员图案，收录韩吉单人商品及含韩吉的随机挂件；首次发行时间待核实。",
     "region": "日本",
     "type": "绘柄系列",
     "sources": [
@@ -342,6 +342,152 @@
           "尺寸",
           "材质",
           "付款后配送预计"
+        ]
+      },
+      {
+        "id": "eeo-244189-official",
+        "url": "https://eeo.today/store/101/products/detail/244189",
+        "title": "eeo Store｜MARION CREPES 店员亚克力挂件（6 款随机，含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方通常标价",
+          "尺寸",
+          "销售方式",
+          "配送说明"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "relax",
+    "slug": "relax",
+    "name": "休闲 · くつろぎ",
+    "aliases": [
+      "くつろぎver.",
+      "A3"
+    ],
+    "description": "收录该主题的韩吉单人商品，保留官方图片、规格、店铺领取信息与原网址。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "eeo-284611-official",
+        "url": "https://eeo.today/store/101/products/detail/284611",
+        "title": "eeo Store｜韩吉 休闲款亚克力立牌 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方通常标价",
+          "尺寸",
+          "销售方式",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      },
+      {
+        "id": "eeo-284607-official",
+        "url": "https://eeo.today/store/101/products/detail/284607",
+        "title": "eeo Store｜韩吉 休闲款异形贴纸 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方通常标价",
+          "尺寸",
+          "销售方式",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      },
+      {
+        "id": "eeo-284603-official",
+        "url": "https://eeo.today/store/101/products/detail/284603",
+        "title": "eeo Store｜韩吉 休闲款带小配件亚克力挂件 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方通常标价",
+          "尺寸",
+          "销售方式",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "cyberpunk",
+    "slug": "cyberpunk",
+    "name": "赛博朋克 · Cyberpunk",
+    "aliases": [
+      "サイバーパンクver.",
+      "A3"
+    ],
+    "description": "收录该主题的韩吉单人商品，保留官方图片、规格、店铺领取信息与原网址。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "eeo-287378-official",
+        "url": "https://eeo.today/store/101/products/detail/287378",
+        "title": "eeo Store｜韩吉 赛博朋克款亚克力立牌 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方通常标价",
+          "尺寸",
+          "销售方式",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "tarot",
+    "slug": "tarot",
+    "name": "塔罗 · Tarot",
+    "aliases": [
+      "タロットver.",
+      "A3"
+    ],
+    "description": "收录该主题的韩吉单人商品，保留官方图片、规格、店铺领取信息与原网址。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "eeo-292449-official",
+        "url": "https://eeo.today/store/101/products/detail/292449",
+        "title": "eeo Store｜韩吉 塔罗款亚克力立牌 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方通常标价",
+          "尺寸",
+          "销售方式",
+          "配送说明",
+          "店铺领取日期及预约区间"
         ]
       }
     ],

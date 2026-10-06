@@ -1681,5 +1681,635 @@
     "createdAt": "2026-10-06",
     "updatedAt": "2026-10-06",
     "isDemo": false
+  },
+  {
+    "id": "eeo-284611",
+    "slug": "hange-relax-stand",
+    "names": {
+      "zh": "韩吉 休闲款亚克力立牌",
+      "ja": "アクリルスタンド「TVアニメ『進撃の巨人』The Final Season」08/ハンジ・ゾエ くつろぎver.(描き下ろしイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "くつろぎver."
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "relax",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-relax-stand.svg",
+        "alt": "韩吉 休闲款亚克力立牌 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/284611",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/690d5688be5e5.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "韩吉 休闲款亚克力立牌，可选择角色购买。记录核查时官方通常标价。官方店铺领取开始日为 2025-12-13；预约区间仅指店铺领取。",
+    "specifications": {
+      "尺寸": "150×150 mm 以内，依商品而异",
+      "材质": "亚克力",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准",
+      "店铺领取开始": "2025-12-13",
+      "店铺领取预约": "2025-11-07 17:00 至 2025-11-13 23:59:59（日本时间，已结束）",
+      "预订范围说明": "仅指店铺领取，配送预订截止日待核实"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-284611-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-284611-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2025-11-07",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2025-11-13",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2025-12-13",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1925,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-284611-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实",
+      "首次发行及历史再贩记录待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-284611-official",
+        "url": "https://eeo.today/store/101/products/detail/284611",
+        "title": "eeo Store｜韩吉 休闲款亚克力立牌 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方通常标价",
+          "尺寸",
+          "销售方式",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-284607",
+    "slug": "hange-relax-sticker",
+    "names": {
+      "zh": "韩吉 休闲款异形贴纸",
+      "ja": "ダイカットステッカー「TVアニメ『進撃の巨人』The Final Season」04/ハンジ・ゾエ くつろぎver.(描き下ろしイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "くつろぎver."
+    ],
+    "type": "纸品",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "relax",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-relax-sticker.svg",
+        "alt": "韩吉 休闲款异形贴纸 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/284607",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/690d56866c46e.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "韩吉 休闲款异形贴纸，可选择角色购买。记录核查时官方通常标价。官方店铺领取开始日为 2025-12-13；预约区间仅指店铺领取。",
+    "specifications": {
+      "尺寸": "W70×H70 mm 以内",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准",
+      "店铺领取开始": "2025-12-13",
+      "店铺领取预约": "2025-11-07 17:00 至 2025-11-13 23:59:59（日本时间，已结束）",
+      "预订范围说明": "仅指店铺领取，配送预订截止日待核实"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-284607-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-284607-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2025-11-07",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2025-11-13",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2025-12-13",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 550,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-284607-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实",
+      "首次发行及历史再贩记录待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-284607-official",
+        "url": "https://eeo.today/store/101/products/detail/284607",
+        "title": "eeo Store｜韩吉 休闲款异形贴纸 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方通常标价",
+          "尺寸",
+          "销售方式",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-284603",
+    "slug": "hange-relax-keychain",
+    "names": {
+      "zh": "韩吉 休闲款带小配件亚克力挂件",
+      "ja": "パーツ付きアクリルキーホルダー「TVアニメ『進撃の巨人』The Final Season」04/ハンジ・ゾエ くつろぎver.(描き下ろしイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "くつろぎver."
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "relax",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-relax-keychain.svg",
+        "alt": "韩吉 休闲款带小配件亚克力挂件 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/284603",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/690d56842812a.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "韩吉 休闲款带小配件亚克力挂件，可选择角色购买。记录核查时官方通常标价。官方店铺领取开始日为 2025-12-13；预约区间仅指店铺领取。",
+    "specifications": {
+      "主体尺寸": "60×50 mm 以内",
+      "配件尺寸": "30×20 mm 以内",
+      "材质": "亚克力、金属",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准",
+      "店铺领取开始": "2025-12-13",
+      "店铺领取预约": "2025-11-07 17:00 至 2025-11-13 23:59:59（日本时间，已结束）",
+      "预订范围说明": "仅指店铺领取，配送预订截止日待核实"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-284603-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-284603-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2025-11-07",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2025-11-13",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2025-12-13",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 990,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-284603-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实",
+      "首次发行及历史再贩记录待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-284603-official",
+        "url": "https://eeo.today/store/101/products/detail/284603",
+        "title": "eeo Store｜韩吉 休闲款带小配件亚克力挂件 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方通常标价",
+          "尺寸",
+          "销售方式",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-287378",
+    "slug": "hange-cyberpunk-stand",
+    "names": {
+      "zh": "韩吉 赛博朋克款亚克力立牌",
+      "ja": "アクリルスタンド「TVアニメ『進撃の巨人』The Final Season」12/ハンジ・ゾエ サイバーパンクver.(描き下ろしイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "サイバーパンクver."
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "cyberpunk",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-cyberpunk-stand.svg",
+        "alt": "韩吉 赛博朋克款亚克力立牌 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/287378",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6926d2272adcf.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "韩吉 赛博朋克款亚克力立牌，可选择角色购买。记录核查时官方通常标价。官方店铺领取开始日为 2026-01-10；预约区间仅指店铺领取。",
+    "specifications": {
+      "尺寸": "150×150 mm 以内，依商品而异",
+      "材质": "亚克力",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准",
+      "店铺领取开始": "2026-01-10",
+      "店铺领取预约": "2025-11-28 17:00 至 2025-12-04 23:59:59（日本时间，已结束）",
+      "预订范围说明": "仅指店铺领取，配送预订截止日待核实"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-287378-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-287378-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2025-11-28",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2025-12-04",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-01-10",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1925,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-287378-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实",
+      "首次发行及历史再贩记录待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-287378-official",
+        "url": "https://eeo.today/store/101/products/detail/287378",
+        "title": "eeo Store｜韩吉 赛博朋克款亚克力立牌 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方通常标价",
+          "尺寸",
+          "销售方式",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-292449",
+    "slug": "hange-tarot-stand",
+    "names": {
+      "zh": "韩吉 塔罗款亚克力立牌",
+      "ja": "アクリルスタンド「TVアニメ『進撃の巨人』The Final Season」16/ハンジ・ゾエ タロットver.(描き下ろしイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "タロットver."
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "tarot",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-tarot-stand.svg",
+        "alt": "韩吉 塔罗款亚克力立牌 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/292449",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/695f519099201.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "韩吉 塔罗款亚克力立牌，可选择角色购买。记录核查时官方通常标价。官方店铺领取开始日为 2026-02-07；预约区间仅指店铺领取。",
+    "specifications": {
+      "尺寸": "150×150 mm 以内，依商品而异",
+      "材质": "亚克力",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准",
+      "店铺领取开始": "2026-02-07",
+      "店铺领取预约": "2026-01-09 17:00 至 2026-01-15 23:59:59（日本时间，已结束）",
+      "预订范围说明": "仅指店铺领取，配送预订截止日待核实"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-292449-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-292449-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-01-09",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-01-15",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-02-07",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1925,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-292449-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实",
+      "首次发行及历史再贩记录待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-292449-official",
+        "url": "https://eeo.today/store/101/products/detail/292449",
+        "title": "eeo Store｜韩吉 塔罗款亚克力立牌 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方通常标价",
+          "尺寸",
+          "销售方式",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-244189",
+    "slug": "marion-blind-keychain",
+    "names": {
+      "zh": "MARION CREPES 店员亚克力挂件（6 款随机，含韩吉）",
+      "ja": "アクリルキーホルダー「TVアニメ『進撃の巨人』The Final Season」01/ブラインド(6種)(描き下ろしイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "MARION CREPES"
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "marion-crepes",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/marion-blind-keychain.svg",
+        "alt": "MARION CREPES 店员亚克力挂件（6 款随机，含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/244189",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/685e1201b68f7.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "MARION CREPES 店员图案，全 6 款中含韩吉。价格为每个随机包装的官方通常标价，不保证抽到韩吉；首次发售日期待核实。",
+    "specifications": {
+      "尺寸": "65×65 mm 以内",
+      "材质": "透明亚克力",
+      "款式": "全 6 款，含韩吉；随机发货，不能指定图案",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-244189-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-244189-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "eeo-244189-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "初次发售日期及历史发行记录待核实",
+      "预订区间待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-244189-official",
+        "url": "https://eeo.today/store/101/products/detail/244189",
+        "title": "eeo Store｜MARION CREPES 店员亚克力挂件（6 款随机，含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税官方通常标价",
+          "尺寸",
+          "销售方式",
+          "配送说明"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
   }
 ]
