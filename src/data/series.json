@@ -1159,5 +1159,33 @@
     "updatedAt": "2026-10-06",
     "isDemo": false,
     "images": []
+  },
+  {
+    "id": "similar-look-2",
+    "slug": "similar-look-2",
+    "name": "シミラールック ver. 第2弾 · 休闲服",
+    "aliases": [
+      "Similar Look",
+      "休闲服"
+    ],
+    "description": "休闲服主题第二弹。受注新闻稿于 2026-05-13 刊载，5 月 8 日开始受注；这是历史系列补录，首次活动公告待补证。",
+    "region": "日本",
+    "type": "主题新绘周边系列",
+    "sources": [
+      {
+        "id": "amnibus-113740-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009012.000016064.html",
+        "title": "Similar Look 第2弹受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "5 月 8 日开始受注"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
+    "isDemo": false,
+    "images": []
   }
 ]

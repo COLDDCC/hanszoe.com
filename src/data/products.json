@@ -7780,5 +7780,687 @@
     "createdAt": "2026-10-06",
     "updatedAt": "2026-10-06",
     "isDemo": false
+  },
+  {
+    "id": "amnibus-113740",
+    "slug": "hange-similar2-large",
+    "names": {
+      "zh": "韩吉 Similar Look 第2弹特大立牌",
+      "ja": "描き下ろし ハンジ シミラールックver. 第2弾 特大アクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "シミラールック",
+      "Similar Look",
+      "第2弹"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "similar-look-2",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-similar2-large.svg",
+        "alt": "韩吉 Similar Look 第2弹特大立牌 官方样品图",
+        "sourceUrl": "https://amnibus.com/products/detail/113740",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260313105600_69b36eb06f85a3.69118994.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "休闲服主题第 2 弹韩吉新绘，可指定角色购买。价格为单件金额。系列受注新闻稿刊载于 2026-05-13，5 月 8 日开始受注；属于历史商品补录，非 10 月新品，首次活动公告另待补证。",
+    "specifications": {
+      "主体": "约 25.6×7.2 cm",
+      "底座": "直径约 9.7 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-113740-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-113740-official",
+          "amnibus-113740-announcement"
+        ],
+        "announcement": {
+          "value": "2026-05-13",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-05-08",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3300,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-113740-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-113740-official",
+        "url": "https://amnibus.com/products/detail/113740",
+        "title": "描き下ろし ハンジ シミラールックver. 第2弾 特大アクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "韩吉官方商品图及原图网址",
+          "含税价格",
+          "韩吉款规格",
+          "可指定角色购买"
+        ]
+      },
+      {
+        "id": "amnibus-113740-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009012.000016064.html",
+        "title": "Similar Look 第2弹受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "5 月 8 日开始受注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-113725",
+    "slug": "hange-similar2-big",
+    "names": {
+      "zh": "韩吉 Similar Look 第2弹 BIG 立牌",
+      "ja": "描き下ろし ハンジ シミラールックver. 第2弾 BIGアクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "シミラールック",
+      "Similar Look",
+      "第2弹"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "similar-look-2",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-similar2-big.svg",
+        "alt": "韩吉 Similar Look 第2弹 BIG 立牌 官方样品图",
+        "sourceUrl": "https://amnibus.com/products/detail/113725",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260313110621_69b3711d126899.70351318.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "休闲服主题第 2 弹韩吉新绘，可指定角色购买。价格为单件金额。系列受注新闻稿刊载于 2026-05-13，5 月 8 日开始受注；属于历史商品补录，非 10 月新品，首次活动公告另待补证。",
+    "specifications": {
+      "主体": "约 18.1×5.2 cm",
+      "底座": "约 9.7×6.3 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-113725-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-113725-official",
+          "amnibus-113725-announcement"
+        ],
+        "announcement": {
+          "value": "2026-05-13",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-05-08",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1980,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-113725-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-113725-official",
+        "url": "https://amnibus.com/products/detail/113725",
+        "title": "描き下ろし ハンジ シミラールックver. 第2弾 BIGアクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "韩吉官方商品图及原图网址",
+          "含税价格",
+          "韩吉款规格",
+          "可指定角色购买"
+        ]
+      },
+      {
+        "id": "amnibus-113725-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009012.000016064.html",
+        "title": "Similar Look 第2弹受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "5 月 8 日开始受注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-113730",
+    "slug": "hange-similar2-cards",
+    "names": {
+      "zh": "韩吉 Similar Look 第2弹亚克力卡两枚套装",
+      "ja": "描き下ろし ハンジ シミラールックver. 第2弾 アクリルカード2枚セット",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "シミラールック",
+      "Similar Look",
+      "第2弹"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "similar-look-2",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-similar2-cards.svg",
+        "alt": "韩吉 Similar Look 第2弹亚克力卡两枚套装 官方样品图",
+        "sourceUrl": "https://amnibus.com/products/detail/113730",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260313111051_69b3722baf4b07.82805995.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "休闲服主题第 2 弹韩吉新绘，可指定角色购买。价格为两枚套装总额。系列受注新闻稿刊载于 2026-05-13，5 月 8 日开始受注；属于历史商品补录，非 10 月新品，首次活动公告另待补证。",
+    "specifications": {
+      "单卡尺寸": "约 70×60 mm",
+      "厚度": "1 mm",
+      "材质": "亚克力",
+      "数量": "两枚套装"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-113730-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-113730-official",
+          "amnibus-113730-announcement"
+        ],
+        "announcement": {
+          "value": "2026-05-13",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-05-08",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1430,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 2,
+            "sourceId": "amnibus-113730-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-113730-official",
+        "url": "https://amnibus.com/products/detail/113730",
+        "title": "描き下ろし ハンジ シミラールックver. 第2弾 アクリルカード2枚セット｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "韩吉官方商品图及原图网址",
+          "含税价格",
+          "韩吉款规格",
+          "可指定角色购买"
+        ]
+      },
+      {
+        "id": "amnibus-113730-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009012.000016064.html",
+        "title": "Similar Look 第2弹受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "5 月 8 日开始受注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-113420",
+    "slug": "hange-similar2-poster",
+    "names": {
+      "zh": "韩吉 Similar Look 第2弹 A3 哑光海报",
+      "ja": "描き下ろし ハンジ シミラールックver. 第2弾 A3マット加工ポスター",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "シミラールック",
+      "Similar Look",
+      "第2弹"
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "similar-look-2",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-similar2-poster.svg",
+        "alt": "韩吉 Similar Look 第2弹 A3 哑光海报 官方样品图",
+        "sourceUrl": "https://amnibus.com/products/detail/113420",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260313111550_69b37356abe3e8.06579986.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "休闲服主题第 2 弹韩吉新绘，可指定角色购买。价格为单件金额。系列受注新闻稿刊载于 2026-05-13，5 月 8 日开始受注；属于历史商品补录，非 10 月新品，首次活动公告另待补证。",
+    "specifications": {
+      "尺寸": "A3",
+      "材质": "纸"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-113420-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-113420-official",
+          "amnibus-113420-announcement"
+        ],
+        "announcement": {
+          "value": "2026-05-13",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-05-08",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-113420-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-113420-official",
+        "url": "https://amnibus.com/products/detail/113420",
+        "title": "描き下ろし ハンジ シミラールックver. 第2弾 A3マット加工ポスター｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "韩吉官方商品图及原图网址",
+          "含税价格",
+          "韩吉款规格",
+          "可指定角色购买"
+        ]
+      },
+      {
+        "id": "amnibus-113420-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009012.000016064.html",
+        "title": "Similar Look 第2弹受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "5 月 8 日开始受注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128252-pack",
+    "slug": "jazz-chibi-stand-pack",
+    "names": {
+      "zh": "Jazz Q版迷你立牌单包盲抽（含韩吉款）",
+      "ja": "トレーディング ちびキャラ ジャズver. アクリルスタンド（単品ランダム）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver."
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/jazz-chibi-stand.svg",
+        "alt": "Jazz Q版迷你立牌全款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/128252",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703164628_6a4768d42ff868.87475778.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "全 8 款随机单包，不能指定韩吉。同一商品的两种销售规格分别记录。",
+    "specifications": {
+      "主体": "最大约 68×39 mm 以内",
+      "底座": "约 35×20 mm",
+      "厚度": "3 mm",
+      "材质": "亚克力",
+      "款式": "全 8 角色各一款，含韩吉",
+      "包装": "每包 1 件，整盒 8 包",
+      "集齐说明": "官方注明整盒可集齐"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128252-pack-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128252-pack-official",
+          "amnibus-128252-pack-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "amnibus-128252-pack-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-128252-box"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128252-pack-official",
+        "url": "https://amnibus.com/products/detail/128252",
+        "title": "トレーディング ちびキャラ ジャズver. アクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及图",
+          "含税单包及整盒价格",
+          "规格",
+          "随机与集齐规则"
+        ]
+      },
+      {
+        "id": "amnibus-128252-pack-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128252-box",
+    "slug": "jazz-chibi-stand-box",
+    "names": {
+      "zh": "Jazz Q版迷你立牌全 8 款整盒（含韩吉）",
+      "ja": "トレーディング ちびキャラ ジャズver. アクリルスタンド（BOX）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver."
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/jazz-chibi-stand.svg",
+        "alt": "Jazz Q版迷你立牌全款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/128252",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703164628_6a4768d42ff868.87475778.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "整盒 8 包，官方注明一盒可集齐全 8 款，含韩吉。同一商品的两种销售规格分别记录。",
+    "specifications": {
+      "主体": "最大约 68×39 mm 以内",
+      "底座": "约 35×20 mm",
+      "厚度": "3 mm",
+      "材质": "亚克力",
+      "款式": "全 8 角色各一款，含韩吉",
+      "包装": "每包 1 件，整盒 8 包",
+      "集齐说明": "官方注明整盒可集齐"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128252-box-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128252-box-official",
+          "amnibus-128252-box-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 7040,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 8,
+            "sourceId": "amnibus-128252-box-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-128252-pack"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128252-box-official",
+        "url": "https://amnibus.com/products/detail/128252",
+        "title": "トレーディング ちびキャラ ジャズver. アクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及图",
+          "含税单包及整盒价格",
+          "规格",
+          "随机与集齐规则"
+        ]
+      },
+      {
+        "id": "amnibus-128252-box-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
   }
 ]
