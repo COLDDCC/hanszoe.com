@@ -1226,5 +1226,34 @@
     "updatedAt": "2026-10-06",
     "isDemo": false,
     "images": []
+  },
+  {
+    "id": "ani-art-black-label-3",
+    "slug": "ani-art-black-label-3",
+    "name": "Ani-Art BLACK LABEL 第3弾",
+    "aliases": [
+      "黑标",
+      "BLACK LABEL",
+      "第3弹"
+    ],
+    "description": "黑白角色场景绘柄搭配印象色的第 3 弹；韩吉款以紫色装饰。官方受注新闻稿刊载于 2026-04-28，受注始于 4 月 22 日；历史商品补录。",
+    "region": "日本",
+    "type": "角色场景周边系列",
+    "sources": [
+      {
+        "id": "amnibus-118373-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000008963.000016064.html",
+        "title": "Ani-Art BLACK LABEL 第3弹官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
+    "isDemo": false,
+    "images": []
   }
 ]

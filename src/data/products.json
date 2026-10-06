@@ -9044,5 +9044,665 @@
     "createdAt": "2026-10-06",
     "updatedAt": "2026-10-06",
     "isDemo": false
+  },
+  {
+    "id": "amnibus-118373",
+    "slug": "hange-black3-canvas",
+    "names": {
+      "zh": "韩吉 BLACK LABEL 第3弹 F0画布板",
+      "ja": "ハンジ Ani-Art BLACK LABEL 第3弾 F0号キャンバスボード",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Ani-Art",
+      "BLACK LABEL",
+      "第3弹"
+    ],
+    "type": "生活用品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "ani-art-black-label-3",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-black3-canvas.svg",
+        "alt": "韩吉 BLACK LABEL 第3弹 F0画布板 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/118373",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260326114454_69c49da66645f5.79145088.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "黑白场景绘柄搭配紫色边框，可指定韩吉。售价为单件金额。系列受注新闻稿于 2026-04-28 刊载，4 月 22 日开始受注；这是历史商品补录，非 10 月新品。",
+    "specifications": {
+      "尺寸": "F0（180×140 mm）",
+      "材质": "木材、化学纤维"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-118373-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-118373-official",
+          "amnibus-118373-announcement"
+        ],
+        "announcement": {
+          "value": "2026-04-28",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-04-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3905,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-118373-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-118373-official",
+        "url": "https://amnibus.com/products/detail/118373",
+        "title": "ハンジ Ani-Art BLACK LABEL 第3弾 F0号キャンバスボード｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-118373-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000008963.000016064.html",
+        "title": "Ani-Art BLACK LABEL 第3弹官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-118360",
+    "slug": "hange-black3-panel",
+    "names": {
+      "zh": "韩吉 BLACK LABEL 第3弹 A6亚克力面板",
+      "ja": "ハンジ Ani-Art BLACK LABEL 第3弾 A6アクリルパネル",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Ani-Art",
+      "BLACK LABEL",
+      "第3弹"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "ani-art-black-label-3",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-black3-panel.svg",
+        "alt": "韩吉 BLACK LABEL 第3弹 A6亚克力面板 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/118360",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260326125358_69c4add65523b3.13964002.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "黑白场景绘柄搭配紫色边框，可指定韩吉。售价为单件金额。系列受注新闻稿于 2026-04-28 刊载，4 月 22 日开始受注；这是历史商品补录，非 10 月新品。",
+    "specifications": {
+      "尺寸": "约 14×10.5 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-118360-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-118360-official",
+          "amnibus-118360-announcement"
+        ],
+        "announcement": {
+          "value": "2026-04-28",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-04-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 2233,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-118360-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-118360-official",
+        "url": "https://amnibus.com/products/detail/118360",
+        "title": "ハンジ Ani-Art BLACK LABEL 第3弾 A6アクリルパネル｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-118360-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000008963.000016064.html",
+        "title": "Ani-Art BLACK LABEL 第3弹官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-118386",
+    "slug": "hange-black3-aurora",
+    "names": {
+      "zh": "韩吉 BLACK LABEL 第3弹极光亚克力立牌",
+      "ja": "ハンジ Ani-Art BLACK LABEL 第3弾 オーロラアクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Ani-Art",
+      "BLACK LABEL",
+      "第3弹"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "ani-art-black-label-3",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-black3-aurora.svg",
+        "alt": "韩吉 BLACK LABEL 第3弹极光亚克力立牌 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/118386",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260326130428_69c4b04cd2b082.92918484.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "黑白场景绘柄搭配紫色边框，可指定韩吉。售价为单件金额。系列受注新闻稿于 2026-04-28 刊载，4 月 22 日开始受注；这是历史商品补录，非 10 月新品。",
+    "specifications": {
+      "主体": "约 11.5×9.6 cm",
+      "底座": "约 11.5×2.5 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-118386-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-118386-official",
+          "amnibus-118386-announcement"
+        ],
+        "announcement": {
+          "value": "2026-04-28",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-04-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1683,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-118386-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-118386-official",
+        "url": "https://amnibus.com/products/detail/118386",
+        "title": "ハンジ Ani-Art BLACK LABEL 第3弾 オーロラアクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-118386-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000008963.000016064.html",
+        "title": "Ani-Art BLACK LABEL 第3弹官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-118572",
+    "slug": "hange-black3-mascot",
+    "names": {
+      "zh": "韩吉 BLACK LABEL 第3弹亚克力摆件",
+      "ja": "ハンジ Ani-Art BLACK LABEL 第3弾 アクリルマスコット",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Ani-Art",
+      "BLACK LABEL",
+      "第3弹"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "ani-art-black-label-3",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-black3-mascot.svg",
+        "alt": "韩吉 BLACK LABEL 第3弹亚克力摆件 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/118572",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260326191625_69c50779179e78.41470132.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "黑白场景绘柄搭配紫色边框，可指定韩吉。售价为单件金额。系列受注新闻稿于 2026-04-28 刊载，4 月 22 日开始受注；这是历史商品补录，非 10 月新品。",
+    "specifications": {
+      "尺寸": "约 60×57 mm",
+      "厚度": "8 mm",
+      "材质": "亚克力"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-118572-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-118572-official",
+          "amnibus-118572-announcement"
+        ],
+        "announcement": {
+          "value": "2026-04-28",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-04-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 913,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-118572-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-118572-official",
+        "url": "https://amnibus.com/products/detail/118572",
+        "title": "ハンジ Ani-Art BLACK LABEL 第3弾 アクリルマスコット｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-118572-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000008963.000016064.html",
+        "title": "Ani-Art BLACK LABEL 第3弹官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-118412",
+    "slug": "hange-black3-aniframe",
+    "names": {
+      "zh": "韩吉 BLACK LABEL 第3弹 Ani-Frame两枚套装",
+      "ja": "ハンジ Ani-Art BLACK LABEL 第3弾 Ani-Frame2枚セット",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Ani-Art",
+      "BLACK LABEL",
+      "第3弹"
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "ani-art-black-label-3",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-black3-aniframe.svg",
+        "alt": "韩吉 BLACK LABEL 第3弹 Ani-Frame两枚套装 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/118412",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260326132936_69c4b6304b6347.07543348.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "黑白场景绘柄搭配紫色边框，可指定韩吉。售价为两枚套装总额。系列受注新闻稿于 2026-04-28 刊载，4 月 22 日开始受注；这是历史商品补录，非 10 月新品。",
+    "specifications": {
+      "单卡尺寸": "约 86×50 mm",
+      "材质": "纸",
+      "数量": "两枚固定套装"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-118412-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-118412-official",
+          "amnibus-118412-announcement"
+        ],
+        "announcement": {
+          "value": "2026-04-28",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-04-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 418,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 2,
+            "sourceId": "amnibus-118412-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-118412-official",
+        "url": "https://amnibus.com/products/detail/118412",
+        "title": "ハンジ Ani-Art BLACK LABEL 第3弾 Ani-Frame2枚セット｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-118412-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000008963.000016064.html",
+        "title": "Ani-Art BLACK LABEL 第3弹官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-118399",
+    "slug": "hange-black3-bromide",
+    "names": {
+      "zh": "韩吉 BLACK LABEL 第3弹写真卡两枚套装",
+      "ja": "ハンジ Ani-Art BLACK LABEL 第3弾 ブロマイド2枚セット",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Ani-Art",
+      "BLACK LABEL",
+      "第3弹"
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "ani-art-black-label-3",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-black3-bromide.svg",
+        "alt": "韩吉 BLACK LABEL 第3弹写真卡两枚套装 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/118399",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260326133538_69c4b79a5d6d26.73924104.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "黑白场景绘柄搭配紫色边框，可指定韩吉。售价为两枚套装总额。系列受注新闻稿于 2026-04-28 刊载，4 月 22 日开始受注；这是历史商品补录，非 10 月新品。",
+    "specifications": {
+      "单卡尺寸": "约 12.7×8.9 cm",
+      "材质": "纸",
+      "数量": "两枚固定套装"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-118399-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-118399-official",
+          "amnibus-118399-announcement"
+        ],
+        "announcement": {
+          "value": "2026-04-28",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-04-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 418,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 2,
+            "sourceId": "amnibus-118399-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-118399-official",
+        "url": "https://amnibus.com/products/detail/118399",
+        "title": "ハンジ Ani-Art BLACK LABEL 第3弾 ブロマイド2枚セット｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-118399-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000008963.000016064.html",
+        "title": "Ani-Art BLACK LABEL 第3弹官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
   }
 ]
