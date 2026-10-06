@@ -389,5 +389,671 @@
     "createdAt": "2026-10-05",
     "updatedAt": "2026-10-06",
     "isDemo": false
+  },
+  {
+    "id": "eeo-336632",
+    "slug": "hange-knit-keychain",
+    "names": {
+      "zh": "韩吉 兽耳针织帽亚克力挂件",
+      "ja": "アクリルキーホルダー「TVアニメ『進撃の巨人』」06/ハンジ・ゾエ ケモ耳ニットver.(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "GraffArt",
+      "ケモ耳ニット",
+      "兽耳针织帽"
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-kemomimi-knit",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-knit-keychain.svg",
+        "alt": "韩吉 兽耳针织帽亚克力挂件 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/336632",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6abdf4dbb4ad0.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "韩吉单人图案，可选择该款购买。 店铺领取自 2026 年 11 月 14 日起，配送预计 12 月下旬；两种时间分别保留。",
+    "specifications": {
+      "尺寸": "65×65 mm 以内",
+      "材质": "透明亚克力",
+      "款式": "韩吉单人款",
+      "店铺领取": "eeo Store 池袋本店，2026-11-14 起",
+      "店铺领取预约": "2026-10-02 17:00 至 2026-10-08 23:59:59（日本时间）",
+      "店铺领取支付期限": "2026-10-09 23:59:59（日本时间）",
+      "配送预计": "2026 年 12 月下旬",
+      "预订范围说明": "下方预订区间仅指店铺领取预约，配送订单截止日未确认"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-336632-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-336632-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-10-08",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-11-14",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-336632-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送订单预订截止日待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-336632-official",
+        "url": "https://eeo.today/store/101/products/detail/336632",
+        "title": "eeo Store｜韩吉 兽耳针织帽亚克力挂件 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "商品图与韩吉图案",
+          "含税官方价格",
+          "销售方式",
+          "尺寸",
+          "店铺领取预约区间",
+          "店铺领取发售日",
+          "配送预计"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-336643",
+    "slug": "knit-badge",
+    "names": {
+      "zh": "兽耳针织帽徽章（8 款随机，含韩吉）",
+      "ja": "缶バッジ「TVアニメ『進撃の巨人』」04/ケモ耳ニットver. ブラインド(8種)(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "GraffArt",
+      "ケモ耳ニット",
+      "兽耳针织帽"
+    ],
+    "type": "徽章",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-kemomimi-knit",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/knit-badge.svg",
+        "alt": "兽耳针织帽徽章（8 款随机，含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/336643",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6abdf4e581370.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "随机徽章，共 8 款，包含韩吉；550 日元为单包价格，不能指定韩吉款。 店铺领取自 2026 年 11 月 14 日起，配送预计 12 月下旬；两种时间分别保留。",
+    "specifications": {
+      "尺寸": "直径 57 mm",
+      "款式": "全 8 款，随机发货，包含韩吉",
+      "店铺领取": "eeo Store 池袋本店，2026-11-14 起",
+      "店铺领取预约": "2026-10-02 17:00 至 2026-10-08 23:59:59（日本时间）",
+      "店铺领取支付期限": "2026-10-09 23:59:59（日本时间）",
+      "配送预计": "2026 年 12 月下旬",
+      "预订范围说明": "下方预订区间仅指店铺领取预约，配送订单截止日未确认"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-336643-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-336643-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-10-08",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-11-14",
+          "precision": "day"
+        },
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 550,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "eeo-336643-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送订单预订截止日待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-336643-official",
+        "url": "https://eeo.today/store/101/products/detail/336643",
+        "title": "eeo Store｜兽耳针织帽徽章（8 款随机，含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "商品图与韩吉图案",
+          "含税官方价格",
+          "销售方式",
+          "尺寸",
+          "店铺领取预约区间",
+          "店铺领取发售日",
+          "配送预计"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-336642",
+    "slug": "knit-mini-stand",
+    "names": {
+      "zh": "兽耳针织帽迷你立牌（8 款随机，含韩吉）",
+      "ja": "アクリルぷちスタンド「TVアニメ『進撃の巨人』」03/ケモ耳ニットver. ブラインド(8種)(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "GraffArt",
+      "ケモ耳ニット",
+      "兽耳针织帽"
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-kemomimi-knit",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/knit-mini-stand.svg",
+        "alt": "兽耳针织帽迷你立牌（8 款随机，含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/336642",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6abdf4e39fd65.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "随机迷你亚克力立牌，共 8 款，包含韩吉；935 日元为单包价格，不能指定韩吉款。 店铺领取自 2026 年 11 月 14 日起，配送预计 12 月下旬；两种时间分别保留。",
+    "specifications": {
+      "本体": "最大 W70×H70 mm",
+      "底座": "最大 W50×H50 mm",
+      "材质": "亚克力",
+      "款式": "全 8 款，随机发货，包含韩吉",
+      "店铺领取": "eeo Store 池袋本店，2026-11-14 起",
+      "店铺领取预约": "2026-10-02 17:00 至 2026-10-08 23:59:59（日本时间）",
+      "店铺领取支付期限": "2026-10-09 23:59:59（日本时间）",
+      "配送预计": "2026 年 12 月下旬",
+      "预订范围说明": "下方预订区间仅指店铺领取预约，配送订单截止日未确认"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-336642-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-336642-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-10-08",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-11-14",
+          "precision": "day"
+        },
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 935,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "eeo-336642-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送订单预订截止日待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-336642-official",
+        "url": "https://eeo.today/store/101/products/detail/336642",
+        "title": "eeo Store｜兽耳针织帽迷你立牌（8 款随机，含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "商品图与韩吉图案",
+          "含税官方价格",
+          "销售方式",
+          "尺寸",
+          "店铺领取预约区间",
+          "店铺领取发售日",
+          "配送预计"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-336639",
+    "slug": "knit-acrylic-block",
+    "names": {
+      "zh": "兽耳针织帽迷你亚克力块（含韩吉）",
+      "ja": "ミニアクリルブロック「TVアニメ『進撃の巨人』」01/ケモ耳ニットver.(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "GraffArt",
+      "ケモ耳ニット",
+      "兽耳针织帽"
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-kemomimi-knit",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/knit-acrylic-block.svg",
+        "alt": "兽耳针织帽迷你亚克力块（含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/336639",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6abdf4df306e3.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "可摆放的迷你亚克力块，合绘图案包含韩吉。 店铺领取自 2026 年 11 月 14 日起，配送预计 12 月下旬；两种时间分别保留。",
+    "specifications": {
+      "尺寸": "约 50×120×D10 mm 以内",
+      "材质": "亚克力",
+      "款式": "多人合绘，包含韩吉",
+      "店铺领取": "eeo Store 池袋本店，2026-11-14 起",
+      "店铺领取预约": "2026-10-02 17:00 至 2026-10-08 23:59:59（日本时间）",
+      "店铺领取支付期限": "2026-10-09 23:59:59（日本时间）",
+      "配送预计": "2026 年 12 月下旬",
+      "预订范围说明": "下方预订区间仅指店铺领取预约，配送订单截止日未确认"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-336639-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-336639-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-10-08",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-11-14",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1815,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-336639-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送订单预订截止日待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-336639-official",
+        "url": "https://eeo.today/store/101/products/detail/336639",
+        "title": "eeo Store｜兽耳针织帽迷你亚克力块（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "商品图与韩吉图案",
+          "含税官方价格",
+          "销售方式",
+          "尺寸",
+          "店铺领取预约区间",
+          "店铺领取发售日",
+          "配送预计"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-336638",
+    "slug": "knit-folding-comb",
+    "names": {
+      "zh": "兽耳针织帽折叠梳（含韩吉）",
+      "ja": "折りたたみコーム「TVアニメ『進撃の巨人』」02/ケモ耳ニットver.(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "GraffArt",
+      "ケモ耳ニット",
+      "兽耳针织帽"
+    ],
+    "type": "生活用品",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-kemomimi-knit",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/knit-folding-comb.svg",
+        "alt": "兽耳针织帽折叠梳（含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/336638",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6abdf4dea8d9c.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "折叠式梳子，外侧合绘图案包含韩吉。 店铺领取自 2026 年 11 月 14 日起，配送预计 12 月下旬；两种时间分别保留。",
+    "specifications": {
+      "展开尺寸": "185×34×8 mm",
+      "折叠尺寸": "98×34×8 mm",
+      "款式": "多人合绘，包含韩吉",
+      "店铺领取": "eeo Store 池袋本店，2026-11-14 起",
+      "店铺领取预约": "2026-10-02 17:00 至 2026-10-08 23:59:59（日本时间）",
+      "店铺领取支付期限": "2026-10-09 23:59:59（日本时间）",
+      "配送预计": "2026 年 12 月下旬",
+      "预订范围说明": "下方预订区间仅指店铺领取预约，配送订单截止日未确认"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-336638-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-336638-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-10-08",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-11-14",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 660,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-336638-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送订单预订截止日待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-336638-official",
+        "url": "https://eeo.today/store/101/products/detail/336638",
+        "title": "eeo Store｜兽耳针织帽折叠梳（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "商品图与韩吉图案",
+          "含税官方价格",
+          "销售方式",
+          "尺寸",
+          "店铺领取预约区间",
+          "店铺领取发售日",
+          "配送预计"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-336637",
+    "slug": "knit-petant-stickers",
+    "names": {
+      "zh": "兽耳针织帽 PETANT 贴纸（含韩吉）",
+      "ja": "PETANTシール「TVアニメ『進撃の巨人』」01/ケモ耳ニットver.(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "GraffArt",
+      "ケモ耳ニット",
+      "兽耳针织帽"
+    ],
+    "type": "纸品",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-kemomimi-knit",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/knit-petant-stickers.svg",
+        "alt": "兽耳针织帽 PETANT 贴纸（含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/336637",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6abdf4de32315.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "同一张贴纸含韩吉及其他角色，使用可揭下的弱粘着设计。 店铺领取自 2026 年 11 月 14 日起，配送预计 12 月下旬；两种时间分别保留。",
+    "specifications": {
+      "纸张尺寸": "约 100×150 mm",
+      "规格": "弱粘着，可贴后揭下",
+      "款式": "角色贴纸同张，包含韩吉",
+      "店铺领取": "eeo Store 池袋本店，2026-11-14 起",
+      "店铺领取预约": "2026-10-02 17:00 至 2026-10-08 23:59:59（日本时间）",
+      "店铺领取支付期限": "2026-10-09 23:59:59（日本时间）",
+      "配送预计": "2026 年 12 月下旬",
+      "预订范围说明": "下方预订区间仅指店铺领取预约，配送订单截止日未确认"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-336637-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-336637-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-10-08",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-11-14",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 770,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-336637-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送订单预订截止日待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-336637-official",
+        "url": "https://eeo.today/store/101/products/detail/336637",
+        "title": "eeo Store｜兽耳针织帽 PETANT 贴纸（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "商品图与韩吉图案",
+          "含税官方价格",
+          "销售方式",
+          "尺寸",
+          "店铺领取预约区间",
+          "店铺领取发售日",
+          "配送预计"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
   }
 ]

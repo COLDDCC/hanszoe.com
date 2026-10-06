@@ -3,7 +3,10 @@
     "id": "nendoroid",
     "slug": "nendoroid",
     "name": "黏土人 · Nendoroid",
-    "aliases": ["ねんどろいど", "Good Smile Company"],
+    "aliases": [
+      "ねんどろいど",
+      "Good Smile Company"
+    ],
     "description": "收录韩吉黏土人的初版与再贩档案。同一造型沿用同一商品条目，每次发行单独记录日期与官方价格。",
     "region": "日本",
     "type": "手办系列",
@@ -14,7 +17,13 @@
         "title": "ねんどろいど ハンジ・ゾエ｜旧公式商品档案",
         "organization": "Good Smile Company",
         "checkedAt": "2026-10-05",
-        "fields": ["名称", "规格", "2019 初版", "2023 再贩", "官方原价"]
+        "fields": [
+          "名称",
+          "规格",
+          "2019 初版",
+          "2023 再贩",
+          "官方原价"
+        ]
       },
       {
         "id": "gsc-new",
@@ -22,7 +31,11 @@
         "title": "ねんどろいど ハンジ・ゾエ｜官方商品页",
         "organization": "Good Smile Company",
         "checkedAt": "2026-10-05",
-        "fields": ["2026 再贩", "预订时间", "官方原价"]
+        "fields": [
+          "2026 再贩",
+          "预订时间",
+          "官方原价"
+        ]
       }
     ],
     "updatedAt": "2026-10-05",
@@ -33,7 +46,10 @@
     "id": "lookup",
     "slug": "lookup",
     "name": "るかっぷ · Look Up",
-    "aliases": ["MegaHouse", "るかっぷ 進撃の巨人 ハンジ・ゾエ"],
+    "aliases": [
+      "MegaHouse",
+      "るかっぷ 進撃の巨人 ハンジ・ゾエ"
+    ],
     "description": "采用坐姿与抬头造型，颈部可动。官方发售窗口为 2026 年 7 月下旬，日期精度保留到月份。",
     "region": "日本",
     "type": "手办系列",
@@ -44,7 +60,12 @@
         "title": "るかっぷ 進撃の巨人 ハンジ・ゾエ｜官方资料",
         "organization": "MegaHouse",
         "checkedAt": "2026-10-05",
-        "fields": ["名称", "规格", "发售月份", "官方原价"]
+        "fields": [
+          "名称",
+          "规格",
+          "发售月份",
+          "官方原价"
+        ]
       }
     ],
     "updatedAt": "2026-10-05",
@@ -55,7 +76,10 @@
     "id": "tsumamare-final",
     "slug": "tsumamare-final",
     "name": "アクリルつままれ · The Final Season",
-    "aliases": ["COSPA", "ハンジ アクリルつままれ The Final Season Ver."],
+    "aliases": [
+      "COSPA",
+      "ハンジ アクリルつままれ The Final Season Ver."
+    ],
     "description": "COSPA 官方公告中的亚克力抓挂。一般发售窗口为 2024 年 7 月下旬；日田市观光案内所另有 6 月中旬先行销售计划。",
     "region": "日本",
     "type": "绘柄系列",
@@ -66,10 +90,136 @@
         "title": "ハンジ アクリルつままれ The Final Season Ver.｜官方资料",
         "organization": "COSPA",
         "checkedAt": "2026-10-05",
-        "fields": ["名称", "规格", "发售月份", "官方原价"]
+        "fields": [
+          "名称",
+          "规格",
+          "发售月份",
+          "官方原价"
+        ]
       }
     ],
     "updatedAt": "2026-10-05",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "graffart-kemomimi-knit",
+    "slug": "graffart-kemomimi-knit",
+    "name": "兽耳针织帽 · GraffArt",
+    "aliases": [
+      "ケモ耳ニットver.",
+      "GraffArt",
+      "A3",
+      "eeo Store"
+    ],
+    "description": "兽耳针织帽主题的 GraffArt 图案。收录韩吉单人挂件、含韩吉的随机商品及多人合绘杂货；随机商品与可选款分别标注。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "eeo-336632-official",
+        "url": "https://eeo.today/store/101/products/detail/336632",
+        "title": "eeo Store｜韩吉 兽耳针织帽亚克力挂件 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "商品图与韩吉图案",
+          "含税官方价格",
+          "销售方式",
+          "尺寸",
+          "店铺领取预约区间",
+          "店铺领取发售日",
+          "配送预计"
+        ]
+      },
+      {
+        "id": "eeo-336643-official",
+        "url": "https://eeo.today/store/101/products/detail/336643",
+        "title": "eeo Store｜兽耳针织帽徽章（8 款随机，含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "商品图与韩吉图案",
+          "含税官方价格",
+          "销售方式",
+          "尺寸",
+          "店铺领取预约区间",
+          "店铺领取发售日",
+          "配送预计"
+        ]
+      },
+      {
+        "id": "eeo-336642-official",
+        "url": "https://eeo.today/store/101/products/detail/336642",
+        "title": "eeo Store｜兽耳针织帽迷你立牌（8 款随机，含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "商品图与韩吉图案",
+          "含税官方价格",
+          "销售方式",
+          "尺寸",
+          "店铺领取预约区间",
+          "店铺领取发售日",
+          "配送预计"
+        ]
+      },
+      {
+        "id": "eeo-336639-official",
+        "url": "https://eeo.today/store/101/products/detail/336639",
+        "title": "eeo Store｜兽耳针织帽迷你亚克力块（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "商品图与韩吉图案",
+          "含税官方价格",
+          "销售方式",
+          "尺寸",
+          "店铺领取预约区间",
+          "店铺领取发售日",
+          "配送预计"
+        ]
+      },
+      {
+        "id": "eeo-336638-official",
+        "url": "https://eeo.today/store/101/products/detail/336638",
+        "title": "eeo Store｜兽耳针织帽折叠梳（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "商品图与韩吉图案",
+          "含税官方价格",
+          "销售方式",
+          "尺寸",
+          "店铺领取预约区间",
+          "店铺领取发售日",
+          "配送预计"
+        ]
+      },
+      {
+        "id": "eeo-336637-official",
+        "url": "https://eeo.today/store/101/products/detail/336637",
+        "title": "eeo Store｜兽耳针织帽 PETANT 贴纸（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "商品图与韩吉图案",
+          "含税官方价格",
+          "销售方式",
+          "尺寸",
+          "店铺领取预约区间",
+          "店铺领取发售日",
+          "配送预计"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
     "isDemo": false,
     "images": []
   }
