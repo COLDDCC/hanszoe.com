@@ -798,5 +798,113 @@
     "updatedAt": "2026-10-06",
     "isDemo": false,
     "images": []
+  },
+  {
+    "id": "adventure-guild",
+    "slug": "adventure-guild",
+    "name": "Adventure Guild · 冒险公会",
+    "aliases": [
+      "RPG",
+      "魔導士",
+      "アニメイトフェア2026"
+    ],
+    "description": "RPG 冒险主题新绘，韩吉为魔导士，另有三川あゆむ绘制的小龙服迷你角色。收录可指定韩吉商品及含韩吉的整盒随机商品；整盒不保证集齐。",
+    "region": "日本",
+    "type": "主题周边系列",
+    "sources": [
+      {
+        "id": "movic-4550621749773-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00350-02070/",
+        "title": "movic｜韩吉 Adventure Guild 魔导士亚克力立牌 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "官方商品图",
+          "官方价格及销售单位",
+          "规格",
+          "预计发售日（頃）",
+          "保证备货预约期限"
+        ]
+      },
+      {
+        "id": "movic-4550621749926-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00220-02069/",
+        "title": "movic｜韩吉 Adventure Guild 双连亚克力挂件 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "官方商品图",
+          "官方价格及销售单位",
+          "规格",
+          "预计发售日（頃）",
+          "保证备货预约期限"
+        ]
+      },
+      {
+        "id": "movic-4550621749872-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00240-00475/",
+        "title": "movic｜韩吉 Adventure Guild A4 文件夹 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "官方商品图",
+          "官方价格及销售单位",
+          "规格",
+          "预计发售日（頃）",
+          "保证备货预约期限"
+        ]
+      },
+      {
+        "id": "movic-4550621749827-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00340-00731/",
+        "title": "movic｜韩吉 Adventure Guild 双绘柄贴纸套装 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "官方商品图",
+          "官方价格及销售单位",
+          "规格",
+          "预计发售日（頃）",
+          "保证备货预约期限"
+        ]
+      },
+      {
+        "id": "movic-4550621749780-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00603-01956/",
+        "title": "movic｜Adventure Guild 闪粉徽章盲盒（含韩吉） 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "官方商品图",
+          "官方价格及销售单位",
+          "规格",
+          "预计发售日（頃）",
+          "保证备货预约期限"
+        ]
+      },
+      {
+        "id": "movic-4550621749889-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00213-00318/",
+        "title": "movic｜Adventure Guild 透明卡盲盒（含韩吉） 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "官方商品图",
+          "官方价格及销售单位",
+          "规格",
+          "预计发售日（頃）",
+          "保证备货预约期限"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
+    "isDemo": false,
+    "images": []
   }
 ]

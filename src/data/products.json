@@ -4322,5 +4322,727 @@
     "createdAt": "2026-10-06",
     "updatedAt": "2026-10-06",
     "isDemo": false
+  },
+  {
+    "id": "movic-4550621749773",
+    "slug": "hange-guild-stand",
+    "names": {
+      "zh": "韩吉 Adventure Guild 魔导士亚克力立牌",
+      "ja": "進撃の巨人　アクリルスタンド／ハンジ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "Hans",
+      "Adventure Guild",
+      "RPG",
+      "魔导士",
+      "魔導士"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "movic",
+    "seriesId": "adventure-guild",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-guild-stand.svg",
+        "alt": "韩吉 Adventure Guild 魔导士亚克力立牌 官方样品图",
+        "sourceUrl": "https://www.movic.jp/shop/g/g02530-00350-02070/",
+        "originalUrl": "https://www.movic.jp/img/goods/L/4550621749773_1.jpg",
+        "credit": "movic",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "可指定韩吉款购买，价格为单件金额。官方预计 2026 年 12 月 12 日前后发售，实际安排以官方为准。",
+    "specifications": {
+      "尺寸": "整板约 15×12 cm",
+      "材质": "亚克力",
+      "JAN": "4550621749773",
+      "商品代码": "02530-00350-02070",
+      "保证备货预约期限": "2026-10-25（日本时间）；此后达到上限即停止受理，不能当作最终截止日",
+      "官方发售说明": "2026 年 12 月 12 日前后（頃），不是保证在该日发货",
+      "价格说明": "商品页未在售价旁明示税务说明，暂记未注明"
+    },
+    "releases": [
+      {
+        "releaseId": "movic-4550621749773-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "movic-4550621749773-official",
+          "movic-4550621749773-announcement"
+        ],
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12-12",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1980,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "movic-4550621749773-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间与预订开始日期待核实",
+      "制造商及限定范围未注明",
+      "售价税务说明待核实"
+    ],
+    "sources": [
+      {
+        "id": "movic-4550621749773-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00350-02070/",
+        "title": "movic｜韩吉 Adventure Guild 魔导士亚克力立牌 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "官方商品图",
+          "官方价格及销售单位",
+          "规格",
+          "预计发售日（頃）",
+          "保证备货预约期限"
+        ]
+      },
+      {
+        "id": "movic-4550621749773-announcement",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116435",
+        "title": "Adventure Guild 活动公告（刊载日 2026-10-02）",
+        "organization": "アニメイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列活动公告刊载日期；非单品原推文时间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "movic-4550621749926",
+    "slug": "hange-guild-keychain",
+    "names": {
+      "zh": "韩吉 Adventure Guild 双连亚克力挂件",
+      "ja": "進撃の巨人　2連アクリルキーホルダー／ハンジ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "Hans",
+      "Adventure Guild",
+      "RPG",
+      "魔导士",
+      "魔導士"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "movic",
+    "seriesId": "adventure-guild",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-guild-keychain.svg",
+        "alt": "韩吉 Adventure Guild 双连亚克力挂件 官方样品图",
+        "sourceUrl": "https://www.movic.jp/shop/g/g02530-00220-02069/",
+        "originalUrl": "https://www.movic.jp/img/goods/L/4550621749926_1.jpg",
+        "credit": "movic",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "可指定韩吉款购买，价格为单件金额。官方预计 2026 年 12 月 12 日前后发售，实际安排以官方为准。",
+    "specifications": {
+      "尺寸": "板片约 7×5 cm",
+      "材质": "亚克力",
+      "结构": "独立龙虾扣连接部件，可拆换",
+      "JAN": "4550621749926",
+      "商品代码": "02530-00220-02069",
+      "保证备货预约期限": "2026-10-25（日本时间）；此后达到上限即停止受理，不能当作最终截止日",
+      "官方发售说明": "2026 年 12 月 12 日前后（頃），不是保证在该日发货",
+      "价格说明": "商品页未在售价旁明示税务说明，暂记未注明"
+    },
+    "releases": [
+      {
+        "releaseId": "movic-4550621749926-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "movic-4550621749926-official",
+          "movic-4550621749926-announcement"
+        ],
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12-12",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1100,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "movic-4550621749926-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间与预订开始日期待核实",
+      "制造商及限定范围未注明",
+      "售价税务说明待核实"
+    ],
+    "sources": [
+      {
+        "id": "movic-4550621749926-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00220-02069/",
+        "title": "movic｜韩吉 Adventure Guild 双连亚克力挂件 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "官方商品图",
+          "官方价格及销售单位",
+          "规格",
+          "预计发售日（頃）",
+          "保证备货预约期限"
+        ]
+      },
+      {
+        "id": "movic-4550621749926-announcement",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116435",
+        "title": "Adventure Guild 活动公告（刊载日 2026-10-02）",
+        "organization": "アニメイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列活动公告刊载日期；非单品原推文时间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "movic-4550621749872",
+    "slug": "hange-guild-clear-file",
+    "names": {
+      "zh": "韩吉 Adventure Guild A4 文件夹",
+      "ja": "進撃の巨人　クリアファイル／ハンジ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "Hans",
+      "Adventure Guild",
+      "RPG",
+      "魔导士",
+      "魔導士"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "movic",
+    "seriesId": "adventure-guild",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-guild-clear-file.svg",
+        "alt": "韩吉 Adventure Guild A4 文件夹 官方样品图",
+        "sourceUrl": "https://www.movic.jp/shop/g/g02530-00240-00475/",
+        "originalUrl": "https://www.movic.jp/img/goods/L/4550621749872_1.jpg",
+        "credit": "movic",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "可指定韩吉款购买，价格为单件金额。官方预计 2026 年 12 月 12 日前后发售，实际安排以官方为准。",
+    "specifications": {
+      "尺寸": "A4 对应尺寸",
+      "材质": "PP",
+      "JAN": "4550621749872",
+      "商品代码": "02530-00240-00475",
+      "保证备货预约期限": "2026-10-25（日本时间）；此后达到上限即停止受理，不能当作最终截止日",
+      "官方发售说明": "2026 年 12 月 12 日前后（頃），不是保证在该日发货",
+      "价格说明": "商品页未在售价旁明示税务说明，暂记未注明"
+    },
+    "releases": [
+      {
+        "releaseId": "movic-4550621749872-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "movic-4550621749872-official",
+          "movic-4550621749872-announcement"
+        ],
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12-12",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 440,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "movic-4550621749872-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间与预订开始日期待核实",
+      "制造商及限定范围未注明",
+      "售价税务说明待核实"
+    ],
+    "sources": [
+      {
+        "id": "movic-4550621749872-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00240-00475/",
+        "title": "movic｜韩吉 Adventure Guild A4 文件夹 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "官方商品图",
+          "官方价格及销售单位",
+          "规格",
+          "预计发售日（頃）",
+          "保证备货预约期限"
+        ]
+      },
+      {
+        "id": "movic-4550621749872-announcement",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116435",
+        "title": "Adventure Guild 活动公告（刊载日 2026-10-02）",
+        "organization": "アニメイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列活动公告刊载日期；非单品原推文时间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "movic-4550621749827",
+    "slug": "hange-guild-sticker-set",
+    "names": {
+      "zh": "韩吉 Adventure Guild 双绘柄贴纸套装",
+      "ja": "進撃の巨人　ステッカーセット／ハンジ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "Hans",
+      "Adventure Guild",
+      "RPG",
+      "魔导士",
+      "魔導士"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "movic",
+    "seriesId": "adventure-guild",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-guild-sticker-set.svg",
+        "alt": "韩吉 Adventure Guild 双绘柄贴纸套装 官方样品图",
+        "sourceUrl": "https://www.movic.jp/shop/g/g02530-00340-00731/",
+        "originalUrl": "https://www.movic.jp/img/goods/L/4550621749827_1.jpg",
+        "credit": "movic",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "韩吉两枚贴纸套装，价格为整套总额。官方预计 2026 年 12 月 12 日前后发售，实际安排以官方为准。",
+    "specifications": {
+      "尺寸": "约 8×6 cm 以内",
+      "材质": "纸",
+      "数量": "2 枚套装",
+      "JAN": "4550621749827",
+      "商品代码": "02530-00340-00731",
+      "保证备货预约期限": "2026-10-25（日本时间）；此后达到上限即停止受理，不能当作最终截止日",
+      "官方发售说明": "2026 年 12 月 12 日前后（頃），不是保证在该日发货",
+      "价格说明": "商品页未在售价旁明示税务说明，暂记未注明"
+    },
+    "releases": [
+      {
+        "releaseId": "movic-4550621749827-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "movic-4550621749827-official",
+          "movic-4550621749827-announcement"
+        ],
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12-12",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 660,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "套装",
+            "quantity": 2,
+            "sourceId": "movic-4550621749827-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间与预订开始日期待核实",
+      "制造商及限定范围未注明",
+      "售价税务说明待核实"
+    ],
+    "sources": [
+      {
+        "id": "movic-4550621749827-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00340-00731/",
+        "title": "movic｜韩吉 Adventure Guild 双绘柄贴纸套装 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "官方商品图",
+          "官方价格及销售单位",
+          "规格",
+          "预计发售日（頃）",
+          "保证备货预约期限"
+        ]
+      },
+      {
+        "id": "movic-4550621749827-announcement",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116435",
+        "title": "Adventure Guild 活动公告（刊载日 2026-10-02）",
+        "organization": "アニメイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列活动公告刊载日期；非单品原推文时间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "movic-4550621749780",
+    "slug": "guild-glitter-badge-box",
+    "names": {
+      "zh": "Adventure Guild 闪粉徽章盲盒（含韩吉）",
+      "ja": "進撃の巨人　グリッターキャラバッジコレクション",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "Hans",
+      "Adventure Guild",
+      "RPG",
+      "魔导士",
+      "魔導士"
+    ],
+    "type": "徽章",
+    "manufacturer": "未注明",
+    "publisher": "movic",
+    "seriesId": "adventure-guild",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/guild-glitter-badge-box.svg",
+        "alt": "Adventure Guild 闪粉徽章盲盒（含韩吉） 官方样品图",
+        "sourceUrl": "https://www.movic.jp/shop/g/g02530-00603-01956/",
+        "originalUrl": "https://www.movic.jp/img/goods/L/4550621749780_1.jpg",
+        "credit": "movic",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "官方商城按整盒销售，价格为整盒总额；一盒不保证集齐全款，也不保证获得韩吉。官方预计 2026 年 12 月 12 日前后发售，实际安排以官方为准。",
+    "specifications": {
+      "尺寸": "直径约 5.6 cm",
+      "材质": "纸、铁、PET",
+      "款式": "全 6 种，含韩吉单人及双人绘柄",
+      "包装": "每包 1 个；每盒 6 包",
+      "销售说明": "官方商城仅整盒销售；一盒不保证集齐全款",
+      "JAN": "4550621749780",
+      "商品代码": "02530-00603-01956",
+      "保证备货预约期限": "2026-10-25（日本时间）；此后达到上限即停止受理，不能当作最终截止日",
+      "官方发售说明": "2026 年 12 月 12 日前后（頃），不是保证在该日发货",
+      "价格说明": "商品页未在售价旁明示税务说明，暂记未注明"
+    },
+    "releases": [
+      {
+        "releaseId": "movic-4550621749780-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "movic-4550621749780-official",
+          "movic-4550621749780-announcement"
+        ],
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12-12",
+          "precision": "day"
+        },
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3300,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "整盒",
+            "quantity": 6,
+            "sourceId": "movic-4550621749780-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间与预订开始日期待核实",
+      "制造商及限定范围未注明",
+      "售价税务说明待核实"
+    ],
+    "sources": [
+      {
+        "id": "movic-4550621749780-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00603-01956/",
+        "title": "movic｜Adventure Guild 闪粉徽章盲盒（含韩吉） 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "官方商品图",
+          "官方价格及销售单位",
+          "规格",
+          "预计发售日（頃）",
+          "保证备货预约期限"
+        ]
+      },
+      {
+        "id": "movic-4550621749780-announcement",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116435",
+        "title": "Adventure Guild 活动公告（刊载日 2026-10-02）",
+        "organization": "アニメイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列活动公告刊载日期；非单品原推文时间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "movic-4550621749889",
+    "slug": "guild-clear-card-box",
+    "names": {
+      "zh": "Adventure Guild 透明卡盲盒（含韩吉）",
+      "ja": "進撃の巨人　トレーディングクリアカード",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "Hans",
+      "Adventure Guild",
+      "RPG",
+      "魔导士",
+      "魔導士"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "movic",
+    "seriesId": "adventure-guild",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/guild-clear-card-box.svg",
+        "alt": "Adventure Guild 透明卡盲盒（含韩吉） 官方样品图",
+        "sourceUrl": "https://www.movic.jp/shop/g/g02530-00213-00318/",
+        "originalUrl": "https://www.movic.jp/img/goods/L/4550621749889_1.jpg",
+        "credit": "movic",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "官方商城按整盒销售，价格为整盒总额；一盒不保证集齐全款，也不保证获得韩吉。官方预计 2026 年 12 月 12 日前后发售，实际安排以官方为准。",
+    "specifications": {
+      "尺寸": "约 5.5×9 cm",
+      "材质": "PP",
+      "款式": "全 16 种，RPG 新绘及动画主视觉，含韩吉",
+      "包装": "每包 2 枚；每盒 8 包，共 16 枚",
+      "销售说明": "官方商城仅整盒销售；一盒不保证集齐全款",
+      "JAN": "4550621749889",
+      "商品代码": "02530-00213-00318",
+      "保证备货预约期限": "2026-10-25（日本时间）；此后达到上限即停止受理，不能当作最终截止日",
+      "官方发售说明": "2026 年 12 月 12 日前后（頃），不是保证在该日发货",
+      "价格说明": "商品页未在售价旁明示税务说明，暂记未注明"
+    },
+    "releases": [
+      {
+        "releaseId": "movic-4550621749889-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "movic-4550621749889-official",
+          "movic-4550621749889-announcement"
+        ],
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12-12",
+          "precision": "day"
+        },
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3520,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "整盒",
+            "quantity": 16,
+            "sourceId": "movic-4550621749889-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间与预订开始日期待核实",
+      "制造商及限定范围未注明",
+      "售价税务说明待核实"
+    ],
+    "sources": [
+      {
+        "id": "movic-4550621749889-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00213-00318/",
+        "title": "movic｜Adventure Guild 透明卡盲盒（含韩吉） 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文商品名",
+          "官方商品图",
+          "官方价格及销售单位",
+          "规格",
+          "预计发售日（頃）",
+          "保证备货预约期限"
+        ]
+      },
+      {
+        "id": "movic-4550621749889-announcement",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116435",
+        "title": "Adventure Guild 活动公告（刊载日 2026-10-02）",
+        "organization": "アニメイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列活动公告刊载日期；非单品原推文时间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
   }
 ]
