@@ -5820,7 +5820,9 @@
         "conditionSourceId": null
       }
     ],
-    "relatedProductIds": [],
+    "relatedProductIds": [
+      "amnibus-128263"
+    ],
     "evidenceStatus": "partial",
     "missingFields": [
       "原始 X 推文链接及发布时间待核实",
@@ -5932,7 +5934,9 @@
         "conditionSourceId": null
       }
     ],
-    "relatedProductIds": [],
+    "relatedProductIds": [
+      "amnibus-128271"
+    ],
     "evidenceStatus": "partial",
     "missingFields": [
       "原始 X 推文链接及发布时间待核实",
@@ -6400,6 +6404,677 @@
       },
       {
         "id": "amnibus-128282-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128263",
+    "slug": "hange-jazz-line-large",
+    "names": {
+      "zh": "韩吉 Jazz 线画特大立牌",
+      "ja": "描き下ろし ハンジ ジャズ・線画ver. 特大アクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver.",
+      "線画",
+      "线画"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-jazz-line-large.svg",
+        "alt": "韩吉 Jazz 线画特大立牌 官方样品图",
+        "sourceUrl": "https://amnibus.com/products/detail/128263",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703162531_6a4763eb76e3c9.93364901.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "韩吉线画单品，可指定购买。系列新闻稿刊载于 9 月 30 日，9 月 22 日开始受注。",
+    "specifications": {
+      "主体": "约 28×9.7 cm",
+      "底座": "约 9.7×3.5 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128263-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128263-official",
+          "amnibus-128263-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3300,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-128263-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-128259"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128263-official",
+        "url": "https://amnibus.com/products/detail/128263",
+        "title": "描き下ろし ハンジ ジャズ・線画ver. 特大アクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方图及原图网址",
+          "含税价格及套装单位",
+          "韩吉绘柄及规格"
+        ]
+      },
+      {
+        "id": "amnibus-128263-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128271",
+    "slug": "hange-jazz-line-big",
+    "names": {
+      "zh": "韩吉 Jazz 线画 BIG 立牌",
+      "ja": "描き下ろし ハンジ ジャズ・線画ver. BIGアクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver.",
+      "線画",
+      "线画"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-jazz-line-big.svg",
+        "alt": "韩吉 Jazz 线画 BIG 立牌 官方样品图",
+        "sourceUrl": "https://amnibus.com/products/detail/128271",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703163203_6a4765738376a6.59853654.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "韩吉线画单品，可指定购买。系列新闻稿刊载于 9 月 30 日，9 月 22 日开始受注。",
+    "specifications": {
+      "主体": "约 17.3×7.5 cm",
+      "底座": "约 7.5×3 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128271-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128271-official",
+          "amnibus-128271-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1980,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-128271-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-128267"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128271-official",
+        "url": "https://amnibus.com/products/detail/128271",
+        "title": "描き下ろし ハンジ ジャズ・線画ver. BIGアクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方图及原图网址",
+          "含税价格及套装单位",
+          "韩吉绘柄及规格"
+        ]
+      },
+      {
+        "id": "amnibus-128271-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128277",
+    "slug": "hange-jazz-clear-sticker",
+    "names": {
+      "zh": "韩吉 Jazz 透明异形贴纸",
+      "ja": "描き下ろし ハンジ ジャズver. クリアダイカットステッカー",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver."
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-jazz-clear-sticker.svg",
+        "alt": "韩吉 Jazz 透明异形贴纸 官方样品图",
+        "sourceUrl": "https://amnibus.com/products/detail/128277",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703164535_6a47689f1b8ae0.80839666.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "韩吉透明异形贴纸，可指定购买。系列新闻稿刊载于 9 月 30 日，9 月 22 日开始受注。",
+    "specifications": {
+      "尺寸": "约 77×45 mm",
+      "材质": "纸、PP"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128277-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128277-official",
+          "amnibus-128277-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 550,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-128277-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128277-official",
+        "url": "https://amnibus.com/products/detail/128277",
+        "title": "描き下ろし ハンジ ジャズver. クリアダイカットステッカー｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方图及原图网址",
+          "含税价格及套装单位",
+          "韩吉绘柄及规格"
+        ]
+      },
+      {
+        "id": "amnibus-128277-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128375",
+    "slug": "jazz-group-poster",
+    "names": {
+      "zh": "Jazz 集合 A3 哑光海报（含韩吉）",
+      "ja": "描き下ろし 集合 ジャズver. A3マット加工ポスター",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver."
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/jazz-group-poster.svg",
+        "alt": "Jazz 集合 A3 哑光海报（含韩吉） 官方样品图",
+        "sourceUrl": "https://amnibus.com/products/detail/128375",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703164336_6a4768289e1fa4.36707039.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "四人集合绘柄，包含韩吉。系列新闻稿刊载于 9 月 30 日，9 月 22 日开始受注。",
+    "specifications": {
+      "尺寸": "A3",
+      "材质": "哑光涂布纸",
+      "角色": "艾伦、埃尔文、利威尔、韩吉"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128375-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128375-official",
+          "amnibus-128375-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-128375-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128375-official",
+        "url": "https://amnibus.com/products/detail/128375",
+        "title": "描き下ろし 集合 ジャズver. A3マット加工ポスター｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方图及原图网址",
+          "含税价格及套装单位",
+          "韩吉绘柄及规格"
+        ]
+      },
+      {
+        "id": "amnibus-128375-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128251",
+    "slug": "jazz-chibi-badges-b",
+    "names": {
+      "zh": "Jazz Q版徽章四枚套装 B（含韩吉）",
+      "ja": "ちびキャラ ジャズver. 缶バッジ4個セット ver.B",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver."
+    ],
+    "type": "徽章",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/jazz-chibi-badges-b.svg",
+        "alt": "Jazz Q版徽章四枚套装 B（含韩吉） 官方样品图",
+        "sourceUrl": "https://amnibus.com/products/detail/128251",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703164744_6a476920ec3382.37674825.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "固定四枚套装，包含韩吉、米卡莎、让及埃尔文；售价为整套总额，不能据此认定可单买韩吉。系列新闻稿刊载于 9 月 30 日，9 月 22 日开始受注。",
+    "specifications": {
+      "直径": "约 56 mm",
+      "材质": "纸、马口铁",
+      "数量": "四枚固定套装",
+      "角色": "米卡莎、让、埃尔文、韩吉"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128251-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128251-official",
+          "amnibus-128251-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1980,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 4,
+            "sourceId": "amnibus-128251-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128251-official",
+        "url": "https://amnibus.com/products/detail/128251",
+        "title": "ちびキャラ ジャズver. 缶バッジ4個セット ver.B｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方图及原图网址",
+          "含税价格及套装单位",
+          "韩吉绘柄及规格"
+        ]
+      },
+      {
+        "id": "amnibus-128251-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128249",
+    "slug": "jazz-chibi-aniframe-b",
+    "names": {
+      "zh": "Jazz Q版 Ani-Frame 四枚套装 B（含韩吉）",
+      "ja": "ちびキャラ ジャズver. Ani-Frame4枚セット ver.B",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver."
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/jazz-chibi-aniframe-b.svg",
+        "alt": "Jazz Q版 Ani-Frame 四枚套装 B（含韩吉） 官方样品图",
+        "sourceUrl": "https://amnibus.com/products/detail/128249",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703164843_6a47695be1d014.16706417.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "固定四枚套装，包含韩吉、米卡莎、让及埃尔文；售价为整套总额，不能据此认定可单买韩吉。系列新闻稿刊载于 9 月 30 日，9 月 22 日开始受注。",
+    "specifications": {
+      "单卡尺寸": "约 86×50 mm",
+      "材质": "纸",
+      "数量": "四枚固定套装",
+      "角色": "米卡莎、让、埃尔文、韩吉"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128249-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128249-official",
+          "amnibus-128249-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 715,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 4,
+            "sourceId": "amnibus-128249-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128249-official",
+        "url": "https://amnibus.com/products/detail/128249",
+        "title": "ちびキャラ ジャズver. Ani-Frame4枚セット ver.B｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方图及原图网址",
+          "含税价格及套装单位",
+          "韩吉绘柄及规格"
+        ]
+      },
+      {
+        "id": "amnibus-128249-announcement",
         "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
         "title": "Jazz ver. 系列受注公告（2026-09-30）",
         "organization": "arma bianca",
