@@ -9704,5 +9704,659 @@
     "createdAt": "2026-10-06",
     "updatedAt": "2026-10-06",
     "isDemo": false
+  },
+  {
+    "id": "amnibus-124279",
+    "slug": "hange-wafuku-mat",
+    "names": {
+      "zh": "韩吉和服多用途桌垫",
+      "ja": "描き下ろし ハンジ 和服ver. マルチデスクマット",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "和服",
+      "wafuku"
+    ],
+    "type": "生活用品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "wafuku",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-wafuku-mat.svg",
+        "alt": "韩吉和服多用途桌垫 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/124279",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260623180744_6a3a4ce0243a49.66981546.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "和服新绘韩吉，可指定角色购买。售价为单件金额。系列受注新闻稿于 2026-09-29 刊载，9 月 24 日开始受注；9 月 29 日是受注公告刊载日期；系列此前已有浅草活动销售，不视为首次发售。",
+    "specifications": {
+      "尺寸": "约 60×35 cm",
+      "材质": "聚酯纤维、橡胶"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-124279-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-124279-official",
+          "amnibus-124279-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-29",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3960,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-124279-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-124279-official",
+        "url": "https://amnibus.com/products/detail/124279",
+        "title": "描き下ろし ハンジ 和服ver. マルチデスクマット｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-124279-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009607.000016064.html",
+        "title": "和服 ver. 官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-124284",
+    "slug": "hange-wafuku-large",
+    "names": {
+      "zh": "韩吉和服特大立牌",
+      "ja": "描き下ろし ハンジ 和服ver. 特大アクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "和服",
+      "wafuku"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "wafuku",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-wafuku-large.svg",
+        "alt": "韩吉和服特大立牌 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/124284",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260623180807_6a3a4cf7623404.32709186.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "和服新绘韩吉，可指定角色购买。售价为单件金额。系列受注新闻稿于 2026-09-29 刊载，9 月 24 日开始受注；9 月 29 日是受注公告刊载日期；系列此前已有浅草活动销售，不视为首次发售。",
+    "specifications": {
+      "主体": "约 26.1×10.4 cm",
+      "底座": "约 9.1×3.5 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-124284-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-124284-official",
+          "amnibus-124284-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-29",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3300,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-124284-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-124284-official",
+        "url": "https://amnibus.com/products/detail/124284",
+        "title": "描き下ろし ハンジ 和服ver. 特大アクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-124284-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009607.000016064.html",
+        "title": "和服 ver. 官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-124304",
+    "slug": "hange-wafuku-big",
+    "names": {
+      "zh": "韩吉和服 BIG 立牌",
+      "ja": "描き下ろし ハンジ 和服ver. BIGアクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "和服",
+      "wafuku"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "wafuku",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-wafuku-big.svg",
+        "alt": "韩吉和服 BIG 立牌 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/124304",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260623180826_6a3a4d0a247334.53827816.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "和服新绘韩吉，可指定角色购买。售价为单件金额。系列受注新闻稿于 2026-09-29 刊载，9 月 24 日开始受注；9 月 29 日是受注公告刊载日期；系列此前已有浅草活动销售，不视为首次发售。",
+    "specifications": {
+      "主体": "约 18.4×7.5 cm",
+      "底座": "约 7×2.5 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-124304-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-124304-official",
+          "amnibus-124304-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-29",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1980,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-124304-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-124304-official",
+        "url": "https://amnibus.com/products/detail/124304",
+        "title": "描き下ろし ハンジ 和服ver. BIGアクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-124304-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009607.000016064.html",
+        "title": "和服 ver. 官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-124308",
+    "slug": "hange-wafuku-key",
+    "names": {
+      "zh": "韩吉和服 BIG 亚克力挂件",
+      "ja": "描き下ろし ハンジ 和服ver. BIGアクリルキーホルダー",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "和服",
+      "wafuku"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "wafuku",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-wafuku-key.svg",
+        "alt": "韩吉和服 BIG 亚克力挂件 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/124308",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260623180841_6a3a4d19c257c1.22329083.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "和服新绘韩吉，可指定角色购买。售价为单件金额。系列受注新闻稿于 2026-09-29 刊载，9 月 24 日开始受注；9 月 29 日是受注公告刊载日期；系列此前已有浅草活动销售，不视为首次发售。",
+    "specifications": {
+      "尺寸": "约 10.5×9.9 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-124308-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-124308-official",
+          "amnibus-124308-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-29",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1100,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-124308-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-124308-official",
+        "url": "https://amnibus.com/products/detail/124308",
+        "title": "描き下ろし ハンジ 和服ver. BIGアクリルキーホルダー｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-124308-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009607.000016064.html",
+        "title": "和服 ver. 官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-124295",
+    "slug": "hange-wafuku-badge",
+    "names": {
+      "zh": "韩吉和服 BIG 徽章",
+      "ja": "描き下ろし ハンジ 和服ver. BIG缶バッジ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "和服",
+      "wafuku"
+    ],
+    "type": "徽章",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "wafuku",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-wafuku-badge.svg",
+        "alt": "韩吉和服 BIG 徽章 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/124295",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260623181503_6a3a4e97acb037.10493373.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "和服新绘韩吉，可指定角色购买。售价为单件金额。系列受注新闻稿于 2026-09-29 刊载，9 月 24 日开始受注；9 月 29 日是受注公告刊载日期；系列此前已有浅草活动销售，不视为首次发售。",
+    "specifications": {
+      "直径": "约 15.2 cm",
+      "材质": "纸、马口铁",
+      "背面": "附别针、支架、壁挂部件"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-124295-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-124295-official",
+          "amnibus-124295-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-29",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1100,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-124295-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-124295-official",
+        "url": "https://amnibus.com/products/detail/124295",
+        "title": "描き下ろし ハンジ 和服ver. BIG缶バッジ｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-124295-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009607.000016064.html",
+        "title": "和服 ver. 官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-124299",
+    "slug": "hange-wafuku-poster",
+    "names": {
+      "zh": "韩吉和服 A3 哑光海报",
+      "ja": "描き下ろし ハンジ 和服ver. A3マット加工ポスター",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "和服",
+      "wafuku"
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "wafuku",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-wafuku-poster.svg",
+        "alt": "韩吉和服 A3 哑光海报 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/124299",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260623181534_6a3a4eb6d722d9.17298562.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "和服新绘韩吉，可指定角色购买。售价为单件金额。系列受注新闻稿于 2026-09-29 刊载，9 月 24 日开始受注；9 月 29 日是受注公告刊载日期；系列此前已有浅草活动销售，不视为首次发售。",
+    "specifications": {
+      "尺寸": "A3",
+      "材质": "哑光涂布纸"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-124299-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-124299-official",
+          "amnibus-124299-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-29",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-124299-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-124299-official",
+        "url": "https://amnibus.com/products/detail/124299",
+        "title": "描き下ろし ハンジ 和服ver. A3マット加工ポスター｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-124299-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009607.000016064.html",
+        "title": "和服 ver. 官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
   }
 ]
