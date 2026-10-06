@@ -437,7 +437,7 @@
       "サイバーパンクver.",
       "A3"
     ],
-    "description": "收录该主题的韩吉单人商品，保留官方图片、规格、店铺领取信息与原网址。",
+    "description": "收录赛博朋克主题的韩吉单人商品及利威尔与韩吉双人商品，保留官方图片、规格、领取信息与原网址。",
     "region": "日本",
     "type": "绘柄系列",
     "sources": [
@@ -456,6 +456,54 @@
           "配送说明",
           "店铺领取日期及预约区间"
         ]
+      },
+      {
+        "id": "eeo-287382-official",
+        "url": "https://eeo.today/store/101/products/detail/287382",
+        "title": "eeo Store｜利威尔＆韩吉 赛博朋克亚克力挂件 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "店铺领取日期及预约区间",
+          "配送说明"
+        ]
+      },
+      {
+        "id": "eeo-287371-official",
+        "url": "https://eeo.today/store/101/products/detail/287371",
+        "title": "eeo Store｜利威尔＆韩吉 赛博朋克亚克力块 B 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "店铺领取日期及预约区间",
+          "配送说明"
+        ]
+      },
+      {
+        "id": "eeo-287384-official",
+        "url": "https://eeo.today/store/101/products/detail/287384",
+        "title": "eeo Store｜韩吉 赛博朋克亚克力挂件 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "店铺领取日期及预约区间",
+          "配送说明"
+        ]
       }
     ],
     "updatedAt": "2026-10-06",
@@ -470,7 +518,7 @@
       "タロットver.",
       "A3"
     ],
-    "description": "收录该主题的韩吉单人商品，保留官方图片、规格、店铺领取信息与原网址。",
+    "description": "收录塔罗主题的韩吉立牌、GraffArt 立牌板，以及含韩吉的全款卡片和徽章套装；单件与套装价格分别标注。",
     "region": "日本",
     "type": "绘柄系列",
     "sources": [
@@ -488,6 +536,54 @@
           "销售方式",
           "配送说明",
           "店铺领取日期及预约区间"
+        ]
+      },
+      {
+        "id": "eeo-292453-official",
+        "url": "https://eeo.today/store/101/products/detail/292453",
+        "title": "eeo Store｜塔罗亚克力卡片全 6 款套装（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "店铺领取日期及预约区间",
+          "配送说明"
+        ]
+      },
+      {
+        "id": "eeo-292454-official",
+        "url": "https://eeo.today/store/101/products/detail/292454",
+        "title": "eeo Store｜塔罗镭射徽章全 6 款套装（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "店铺领取日期及预约区间",
+          "配送说明"
+        ]
+      },
+      {
+        "id": "eeo-292434-official",
+        "url": "https://eeo.today/store/101/products/detail/292434",
+        "title": "eeo Store｜韩吉 塔罗 GraffArt 亚克力立牌板 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "店铺领取日期及预约区间",
+          "配送说明"
         ]
       }
     ],
