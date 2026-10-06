@@ -3616,5 +3616,627 @@
     "createdAt": "2026-10-06",
     "updatedAt": "2026-10-06",
     "isDemo": false
+  },
+  {
+    "id": "eeo-292448",
+    "slug": "tarot-a5-art-board",
+    "names": {
+      "zh": "塔罗 A5 亚克力画板（含韩吉）",
+      "ja": "アクリルアートボード(A5サイズ)「TVアニメ『進撃の巨人』The Final Season」06/タロットver.(描き下ろしイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "タロットver."
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "tarot",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/tarot-a5-art-board.svg",
+        "alt": "塔罗 A5 亚克力画板（含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/292448",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/695f51902526e.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "塔罗 A5 亚克力画板（含韩吉）。按指定款式单独销售，价格为核查时的官方通常标价。店铺领取自 2026-02-07 起，预约区间仅指店铺领取。",
+    "specifications": {
+      "主体尺寸": "210×148 mm（A5）",
+      "规格": "附底座",
+      "材质": "亚克力",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准",
+      "店铺领取开始": "2026-02-07",
+      "店铺领取预约": "2026-01-09 17:00 至 2026-01-15 23:59:59（日本时间，已结束）",
+      "预订范围说明": "仅指店铺领取，配送预订截止日待核实"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-292448-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-292448-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-01-09",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-01-15",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-02-07",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 2750,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-292448-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实",
+      "首次发行及历史再贩记录待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-292448-official",
+        "url": "https://eeo.today/store/101/products/detail/292448",
+        "title": "eeo Store｜塔罗 A5 亚克力画板（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-287369",
+    "slug": "cyberpunk-mini-stand-set-b",
+    "names": {
+      "zh": "赛博朋克 GraffArt 迷你立牌 B 全 4 款套装（含韩吉）",
+      "ja": "アクリルぷちスタンド「TVアニメ『進撃の巨人』The Final Season」02/サイバーパンクver. Bセット コンプリートセット(全4種)(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "サイバーパンクver."
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "cyberpunk",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/cyberpunk-mini-stand-set-b.svg",
+        "alt": "赛博朋克 GraffArt 迷你立牌 B 全 4 款套装（含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/287369",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6926d221328c8.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "赛博朋克 GraffArt 迷你立牌 B 全 4 款套装（含韩吉）。官方全 4 款完整套装，含韩吉；价格为整套金额。店铺领取自 2026-01-10 起，预约区间仅指店铺领取。",
+    "specifications": {
+      "主体尺寸": "最大 W70×H70 mm",
+      "底座尺寸": "最大 W50×H50 mm",
+      "款式": "B 组全 4 款完整套装，包含韩吉",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准",
+      "店铺领取开始": "2026-01-10",
+      "店铺领取预约": "2025-11-28 17:00 至 2025-12-04 23:59:59（日本时间，已结束）",
+      "预订范围说明": "仅指店铺领取，配送预订截止日待核实"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-287369-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-287369-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2025-11-28",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2025-12-04",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-01-10",
+          "precision": "day"
+        },
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3740,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 4,
+            "sourceId": "eeo-287369-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实",
+      "首次发行及历史再贩记录待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-287369-official",
+        "url": "https://eeo.today/store/101/products/detail/287369",
+        "title": "eeo Store｜赛博朋克 GraffArt 迷你立牌 B 全 4 款套装（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-287388",
+    "slug": "cyberpunk-hologram-badge-set",
+    "names": {
+      "zh": "赛博朋克镭射徽章全 6 款套装（含韩吉）",
+      "ja": "ホログラム缶バッジ(57mm)「TVアニメ『進撃の巨人』The Final Season」01/サイバーパンクver. コンプリートセット(全6種)(描き下ろしイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "サイバーパンクver."
+    ],
+    "type": "徽章",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "cyberpunk",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/cyberpunk-hologram-badge-set.svg",
+        "alt": "赛博朋克镭射徽章全 6 款套装（含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/287388",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6926d22c816ff.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "赛博朋克镭射徽章全 6 款套装（含韩吉）。官方全 6 款完整套装，含韩吉；价格为整套金额。店铺领取自 2026-01-10 起，预约区间仅指店铺领取。",
+    "specifications": {
+      "直径": "57 mm",
+      "工艺": "镭射（hologram）",
+      "款式": "全 6 款完整套装，包含韩吉",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准",
+      "店铺领取开始": "2026-01-10",
+      "店铺领取预约": "2025-11-28 17:00 至 2025-12-04 23:59:59（日本时间，已结束）",
+      "预订范围说明": "仅指店铺领取，配送预订截止日待核实"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-287388-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-287388-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2025-11-28",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2025-12-04",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-01-10",
+          "precision": "day"
+        },
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3432,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 6,
+            "sourceId": "eeo-287388-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实",
+      "首次发行及历史再贩记录待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-287388-official",
+        "url": "https://eeo.today/store/101/products/detail/287388",
+        "title": "eeo Store｜赛博朋克镭射徽章全 6 款套装（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-284620",
+    "slug": "hange-relax-large-panel",
+    "names": {
+      "zh": "韩吉 休闲款大尺寸亚克力面板",
+      "ja": "デカアクリルパネル「TVアニメ『進撃の巨人』The Final Season」04/ハンジ・ゾエ くつろぎver.(描き下ろしイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "くつろぎver."
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "relax",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-relax-large-panel.svg",
+        "alt": "韩吉 休闲款大尺寸亚克力面板 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/284620",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/690d5bf0d1696.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "韩吉 休闲款大尺寸亚克力面板，附支架。官方通常标价为单件价格；首次发售日期待核实，配送预计为付款后约两个月。",
+    "specifications": {
+      "尺寸": "约 W220×H370 mm 以内，依商品而异",
+      "规格": "附支架",
+      "材质": "亚克力",
+      "配送预计": "付款后约 2 个月",
+      "历史配送说明": "页面另写 11 月 21 日前付款的订单于 1 月下旬配送，未注明年份，暂不换算为完整日期"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-284620-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-284620-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 8800,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-284620-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实",
+      "首次发行及历史再贩记录待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-284620-official",
+        "url": "https://eeo.today/store/101/products/detail/284620",
+        "title": "eeo Store｜韩吉 休闲款大尺寸亚克力面板 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "配送说明"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-284586",
+    "slug": "plush-photo-stickers-b",
+    "names": {
+      "zh": "玩偶主题证件照风贴纸 B（含韩吉）",
+      "ja": "証明写真風シール「TVアニメ『進撃の巨人』The Final Season」02/ぬいぐるみver. B(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "ぬいぐるみver."
+    ],
+    "type": "纸品",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-plush",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/plush-photo-stickers-b.svg",
+        "alt": "玩偶主题证件照风贴纸 B（含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/284586",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/690d567ae4a47.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "玩偶主题证件照风贴纸 B（含韩吉），图案为利威尔与韩吉。保留官方通常标价；首次发售日期待核实。",
+    "specifications": {
+      "尺寸": "约 150×100 mm",
+      "图案": "利威尔与韩吉，GraffArt 玩偶主题",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-284586-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-284586-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 715,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "eeo-284586-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实",
+      "首次发行及历史再贩记录待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-284586-official",
+        "url": "https://eeo.today/store/101/products/detail/284586",
+        "title": "eeo Store｜玩偶主题证件照风贴纸 B（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "配送说明"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-292439",
+    "slug": "tarot-graffart-badge-set-b",
+    "names": {
+      "zh": "塔罗 GraffArt 徽章 B 全 7 款套装（含韩吉）",
+      "ja": "缶バッジ「TVアニメ『進撃の巨人』The Final Season」02/タロットver. Bセット コンプリートセット(全7種)(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "タロットver."
+    ],
+    "type": "徽章",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "tarot",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/tarot-graffart-badge-set-b.svg",
+        "alt": "塔罗 GraffArt 徽章 B 全 7 款套装（含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/292439",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/695f51836e726.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "塔罗 GraffArt 徽章 B 全 7 款套装（含韩吉）。官方全 7 款完整套装，含韩吉；价格为整套金额。店铺领取自 2026-02-07 起，预约区间仅指店铺领取。",
+    "specifications": {
+      "直径": "57 mm",
+      "图案": "GraffArt 涂鸦风",
+      "款式": "B 组全 7 款完整套装，包含韩吉",
+      "配送预计": "付款后通常约 4～5 周，以官方订单实际安排为准",
+      "店铺领取开始": "2026-02-07",
+      "店铺领取预约": "2026-01-09 17:00 至 2026-01-15 23:59:59（日本时间，已结束）",
+      "预订范围说明": "仅指店铺领取，配送预订截止日待核实"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-292439-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-292439-official"
+        ],
+        "announcement": null,
+        "preorderStart": {
+          "value": "2026-01-09",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-01-15",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-02-07",
+          "precision": "day"
+        },
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3850,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 7,
+            "sourceId": "eeo-292439-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原公告日期及推文链接待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实",
+      "首次发行及历史再贩记录待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-292439-official",
+        "url": "https://eeo.today/store/101/products/detail/292439",
+        "title": "eeo Store｜塔罗 GraffArt 徽章 B 全 7 款套装（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "配送说明",
+          "店铺领取日期及预约区间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
   }
 ]
