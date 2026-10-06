@@ -8462,5 +8462,587 @@
     "createdAt": "2026-10-06",
     "updatedAt": "2026-10-06",
     "isDemo": false
+  },
+  {
+    "id": "amnibus-113409-pack",
+    "slug": "similar2-bromide-pack",
+    "names": {
+      "zh": "Similar Look 第2弹写真卡单包盲抽（含韩吉款）",
+      "ja": "描き下ろし シミラールックver. 第2弾 トレーディングブロマイド（単品ランダム）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "シミラールック",
+      "Similar Look",
+      "第2弹"
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "similar-look-2",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/similar2-bromide.svg",
+        "alt": "Similar Look 第2弹写真卡 全款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/113409",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260313104331_69b36bc37aed78.02790142.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "全 8 款随机单包，含韩吉两款；不能指定角色，单包不保证获得韩吉。同一商品的两种销售规格分别记录。历史商品补录，不标为 10 月新品；独立公告及受注日期待核实。",
+    "specifications": {
+      "尺寸": "约 12.7×8.9 cm",
+      "材质": "纸",
+      "款式": "艾伦、埃尔文、利威尔、韩吉各两款，全 8 款",
+      "包装": "每包 1 件，整盒 8 包",
+      "集齐说明": "官方注明整盒可集齐"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-113409-pack-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-113409-pack-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 275,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "amnibus-113409-pack-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-113409-box"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-113409-pack-official",
+        "url": "https://amnibus.com/products/detail/113409",
+        "title": "描き下ろし シミラールックver. 第2弾 トレーディングブロマイド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及全款图",
+          "含税单包/整盒价格",
+          "规格",
+          "随机及集齐规则"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-113409-box",
+    "slug": "similar2-bromide-box",
+    "names": {
+      "zh": "Similar Look 第2弹写真卡全 8 款整盒（含韩吉）",
+      "ja": "描き下ろし シミラールックver. 第2弾 トレーディングブロマイド（BOX）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "シミラールック",
+      "Similar Look",
+      "第2弹"
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "similar-look-2",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/similar2-bromide.svg",
+        "alt": "Similar Look 第2弹写真卡 全款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/113409",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260313104331_69b36bc37aed78.02790142.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "8 包整盒，官方注明一盒可集齐全 8 款，含韩吉两款。同一商品的两种销售规格分别记录。历史商品补录，不标为 10 月新品；独立公告及受注日期待核实。",
+    "specifications": {
+      "尺寸": "约 12.7×8.9 cm",
+      "材质": "纸",
+      "款式": "艾伦、埃尔文、利威尔、韩吉各两款，全 8 款",
+      "包装": "每包 1 件，整盒 8 包",
+      "集齐说明": "官方注明整盒可集齐"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-113409-box-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-113409-box-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 2200,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 8,
+            "sourceId": "amnibus-113409-box-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-113409-pack"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-113409-box-official",
+        "url": "https://amnibus.com/products/detail/113409",
+        "title": "描き下ろし シミラールックver. 第2弾 トレーディングブロマイド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及全款图",
+          "含税单包/整盒价格",
+          "规格",
+          "随机及集齐规则"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-113412-pack",
+    "slug": "similar2-illustration-pack",
+    "names": {
+      "zh": "Similar Look 第2弹插画卡单包盲抽（含韩吉款）",
+      "ja": "描き下ろし シミラールックver. 第2弾 トレーディングイラストカード（単品ランダム）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "シミラールック",
+      "Similar Look",
+      "第2弹"
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "similar-look-2",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/similar2-illustration.svg",
+        "alt": "Similar Look 第2弹插画卡 全款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/113412",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260313104415_69b36bef005c30.13432165.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "全 8 款随机单包，含韩吉两款；不能指定角色，单包不保证获得韩吉。同一商品的两种销售规格分别记录。历史商品补录，不标为 10 月新品；独立公告及受注日期待核实。",
+    "specifications": {
+      "尺寸": "约 80×50 mm",
+      "材质": "纸",
+      "款式": "艾伦、埃尔文、利威尔、韩吉各两款，全 8 款",
+      "包装": "每包 1 件，整盒 8 包",
+      "集齐说明": "官方注明整盒可集齐"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-113412-pack-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-113412-pack-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 275,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "amnibus-113412-pack-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-113412-box"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-113412-pack-official",
+        "url": "https://amnibus.com/products/detail/113412",
+        "title": "描き下ろし シミラールックver. 第2弾 トレーディングイラストカード｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及全款图",
+          "含税单包/整盒价格",
+          "规格",
+          "随机及集齐规则"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-113412-box",
+    "slug": "similar2-illustration-box",
+    "names": {
+      "zh": "Similar Look 第2弹插画卡全 8 款整盒（含韩吉）",
+      "ja": "描き下ろし シミラールックver. 第2弾 トレーディングイラストカード（BOX）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "シミラールック",
+      "Similar Look",
+      "第2弹"
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "similar-look-2",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/similar2-illustration.svg",
+        "alt": "Similar Look 第2弹插画卡 全款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/113412",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260313104415_69b36bef005c30.13432165.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "8 包整盒，官方注明一盒可集齐全 8 款，含韩吉两款。同一商品的两种销售规格分别记录。历史商品补录，不标为 10 月新品；独立公告及受注日期待核实。",
+    "specifications": {
+      "尺寸": "约 80×50 mm",
+      "材质": "纸",
+      "款式": "艾伦、埃尔文、利威尔、韩吉各两款，全 8 款",
+      "包装": "每包 1 件，整盒 8 包",
+      "集齐说明": "官方注明整盒可集齐"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-113412-box-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-113412-box-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 2200,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 8,
+            "sourceId": "amnibus-113412-box-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-113412-pack"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-113412-box-official",
+        "url": "https://amnibus.com/products/detail/113412",
+        "title": "描き下ろし シミラールックver. 第2弾 トレーディングイラストカード｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及全款图",
+          "含税单包/整盒价格",
+          "规格",
+          "随机及集齐规则"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-113410-pack",
+    "slug": "similar2-holo-badge-pack",
+    "names": {
+      "zh": "Similar Look 第2弹镭射徽章单包盲抽（含韩吉款）",
+      "ja": "描き下ろし シミラールックver. 第2弾 トレーディングホログラム缶バッジ（単品ランダム）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "シミラールック",
+      "Similar Look",
+      "第2弹"
+    ],
+    "type": "徽章",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "similar-look-2",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/similar2-holo-badge.svg",
+        "alt": "Similar Look 第2弹镭射徽章 全款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/113410",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260313104200_69b36b68b315a5.26861651.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "全 8 款随机单包，含韩吉两款；不能指定角色，单包不保证获得韩吉。同一商品的两种销售规格分别记录。历史商品补录，不标为 10 月新品；独立公告及受注日期待核实。",
+    "specifications": {
+      "直径": "约 56 mm",
+      "材质": "纸、马口铁",
+      "款式": "艾伦、埃尔文、利威尔、韩吉各两款，全 8 款",
+      "包装": "每包 1 件，整盒 8 包",
+      "集齐说明": "官方注明整盒可集齐"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-113410-pack-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-113410-pack-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 605,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "amnibus-113410-pack-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-113410-box"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-113410-pack-official",
+        "url": "https://amnibus.com/products/detail/113410",
+        "title": "描き下ろし シミラールックver. 第2弾 トレーディングホログラム缶バッジ｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及全款图",
+          "含税单包/整盒价格",
+          "规格",
+          "随机及集齐规则"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-113410-box",
+    "slug": "similar2-holo-badge-box",
+    "names": {
+      "zh": "Similar Look 第2弹镭射徽章全 8 款整盒（含韩吉）",
+      "ja": "描き下ろし シミラールックver. 第2弾 トレーディングホログラム缶バッジ（BOX）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "シミラールック",
+      "Similar Look",
+      "第2弹"
+    ],
+    "type": "徽章",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "similar-look-2",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/similar2-holo-badge.svg",
+        "alt": "Similar Look 第2弹镭射徽章 全款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/113410",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260313104200_69b36b68b315a5.26861651.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "8 包整盒，官方注明一盒可集齐全 8 款，含韩吉两款。同一商品的两种销售规格分别记录。历史商品补录，不标为 10 月新品；独立公告及受注日期待核实。",
+    "specifications": {
+      "直径": "约 56 mm",
+      "材质": "纸、马口铁",
+      "款式": "艾伦、埃尔文、利威尔、韩吉各两款，全 8 款",
+      "包装": "每包 1 件，整盒 8 包",
+      "集齐说明": "官方注明整盒可集齐"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-113410-box-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-113410-box-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 4840,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 8,
+            "sourceId": "amnibus-113410-box-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-113410-pack"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-113410-box-official",
+        "url": "https://amnibus.com/products/detail/113410",
+        "title": "描き下ろし シミラールックver. 第2弾 トレーディングホログラム缶バッジ｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及全款图",
+          "含税单包/整盒价格",
+          "规格",
+          "随机及集齐规则"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
   }
 ]

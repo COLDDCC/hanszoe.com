@@ -1182,6 +1182,45 @@
           "受注新闻稿刊载日期",
           "5 月 8 日开始受注"
         ]
+      },
+      {
+        "id": "amnibus-113409-pack-official",
+        "url": "https://amnibus.com/products/detail/113409",
+        "title": "描き下ろし シミラールックver. 第2弾 トレーディングブロマイド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及全款图",
+          "含税单包/整盒价格",
+          "规格",
+          "随机及集齐规则"
+        ]
+      },
+      {
+        "id": "amnibus-113412-pack-official",
+        "url": "https://amnibus.com/products/detail/113412",
+        "title": "描き下ろし シミラールックver. 第2弾 トレーディングイラストカード｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及全款图",
+          "含税单包/整盒价格",
+          "规格",
+          "随机及集齐规则"
+        ]
+      },
+      {
+        "id": "amnibus-113410-pack-official",
+        "url": "https://amnibus.com/products/detail/113410",
+        "title": "描き下ろし シミラールックver. 第2弾 トレーディングホログラム缶バッジ｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及全款图",
+          "含税单包/整盒价格",
+          "规格",
+          "随机及集齐规则"
+        ]
       }
     ],
     "updatedAt": "2026-10-06",
