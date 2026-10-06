@@ -1013,5 +1013,34 @@
     "updatedAt": "2026-10-06",
     "isDemo": false,
     "images": []
+  },
+  {
+    "id": "jazz-2026",
+    "slug": "jazz-2026",
+    "name": "ジャズ ver. · 爵士新绘",
+    "aliases": [
+      "Jazz",
+      "AMNIBUS",
+      "爵士"
+    ],
+    "description": "韩吉演奏长号的爵士主题新绘。9 月 30 日为系列新闻稿刊载日期，9 月 22 日开始受注；原始推文和单品首次公告时间待核实。",
+    "region": "日本",
+    "type": "主题新绘周边系列",
+    "sources": [
+      {
+        "id": "amnibus-128259-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
+    "isDemo": false,
+    "images": []
   }
 ]
