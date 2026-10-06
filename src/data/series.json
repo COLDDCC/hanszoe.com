@@ -423,6 +423,38 @@
           "配送说明",
           "店铺领取日期及预约区间"
         ]
+      },
+      {
+        "id": "eeo-284617-official",
+        "url": "https://eeo.today/store/101/products/detail/284617",
+        "title": "eeo Store｜休闲款哑光徽章全 6 款套装（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "店铺领取日期及预约区间",
+          "配送说明"
+        ]
+      },
+      {
+        "id": "eeo-284602-official",
+        "url": "https://eeo.today/store/101/products/detail/284602",
+        "title": "eeo Store｜休闲款 A5 亚克力画板（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "店铺领取日期及预约区间",
+          "配送说明"
+        ]
       }
     ],
     "updatedAt": "2026-10-06",
@@ -504,6 +536,22 @@
           "店铺领取日期及预约区间",
           "配送说明"
         ]
+      },
+      {
+        "id": "eeo-287366-official",
+        "url": "https://eeo.today/store/101/products/detail/287366",
+        "title": "eeo Store｜赛博朋克 GraffArt 大挂件 B（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "店铺领取日期及预约区间",
+          "配送说明"
+        ]
       }
     ],
     "updatedAt": "2026-10-06",
@@ -574,6 +622,72 @@
         "id": "eeo-292434-official",
         "url": "https://eeo.today/store/101/products/detail/292434",
         "title": "eeo Store｜韩吉 塔罗 GraffArt 亚克力立牌板 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "店铺领取日期及预约区间",
+          "配送说明"
+        ]
+      },
+      {
+        "id": "eeo-292444-official",
+        "url": "https://eeo.today/store/101/products/detail/292444",
+        "title": "eeo Store｜韩吉 塔罗带小配件亚克力挂件 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "店铺领取日期及预约区间",
+          "配送说明"
+        ]
+      },
+      {
+        "id": "eeo-292441-official",
+        "url": "https://eeo.today/store/101/products/detail/292441",
+        "title": "eeo Store｜塔罗信封式收纳袋（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "日文原名",
+          "商品图与韩吉关联",
+          "含税官方通常标价",
+          "规格",
+          "销售单位",
+          "店铺领取日期及预约区间",
+          "配送说明"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "graffart-plush",
+    "slug": "graffart-plush",
+    "name": "玩偶主题 · GraffArt",
+    "aliases": [
+      "ぬいぐるみver.",
+      "GraffArt",
+      "A3"
+    ],
+    "description": "玩偶主题的 GraffArt 插画商品；本系列目前收录亚克力置物，实际商品材质另行标注。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "eeo-284591-official",
+        "url": "https://eeo.today/store/101/products/detail/284591",
+        "title": "eeo Store｜玩偶主题 GraffArt 亚克力块 B（含韩吉） 原商品页",
         "organization": "A3 / eeo Store",
         "checkedAt": "2026-10-06",
         "fields": [
