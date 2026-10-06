@@ -1115,6 +1115,45 @@
           "含税价格及套装单位",
           "韩吉绘柄及规格"
         ]
+      },
+      {
+        "id": "amnibus-128273-pack-official",
+        "url": "https://amnibus.com/products/detail/128273",
+        "title": "描き下ろし ジャズver. トレーディンググリッター缶バッジ｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及图",
+          "含税单包及整盒价格",
+          "规格",
+          "随机与集齐规则"
+        ]
+      },
+      {
+        "id": "amnibus-128278-pack-official",
+        "url": "https://amnibus.com/products/detail/128278",
+        "title": "描き下ろし ジャズver. トレーディングブロマイド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及图",
+          "含税单包及整盒价格",
+          "规格",
+          "随机与集齐规则"
+        ]
+      },
+      {
+        "id": "amnibus-128272-pack-official",
+        "url": "https://amnibus.com/products/detail/128272",
+        "title": "描き下ろし ジャズver. トレーディングAni-Frame｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及图",
+          "含税单包及整盒价格",
+          "规格",
+          "随机与集齐规则"
+        ]
       }
     ],
     "updatedAt": "2026-10-06",

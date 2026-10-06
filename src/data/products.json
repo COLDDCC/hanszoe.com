@@ -7088,5 +7088,697 @@
     "createdAt": "2026-10-06",
     "updatedAt": "2026-10-06",
     "isDemo": false
+  },
+  {
+    "id": "amnibus-128273-pack",
+    "slug": "jazz-trading-glitter-pack",
+    "names": {
+      "zh": "Jazz 闪粉徽章单包盲抽（含韩吉款）",
+      "ja": "描き下ろし ジャズver. トレーディンググリッター缶バッジ（単品ランダム）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver."
+    ],
+    "type": "徽章",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/jazz-trading-glitter.svg",
+        "alt": "Jazz 闪粉徽章 全 8 款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/128273",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703161728_6a476208698796.12402310.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "全 8 款随机单包，含韩吉两种绘柄；不能指定角色，单包不保证获得韩吉。同一商品的单包与整盒销售规格分别记录，非两种不同绘柄商品。系列新闻稿刊载于 9 月 30 日。",
+    "specifications": {
+      "直径": "约 56 mm",
+      "材质": "纸、马口铁",
+      "款式": "全 8 款：艾伦、埃尔文、利威尔、韩吉各两款",
+      "包装": "每包 1 件；整盒 8 包",
+      "集齐说明": "官方明确一盒可集齐",
+      "销售规格": "随机单包",
+      "预约特典说明": "2026-10-28 前购买达到整盒数量附艾伦徽章；该日期是特典适用期限，不当作已核实的受注截止日。"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128273-pack-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128273-pack-official",
+          "amnibus-128273-pack-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 605,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "amnibus-128273-pack-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-128273-box"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128273-pack-official",
+        "url": "https://amnibus.com/products/detail/128273",
+        "title": "描き下ろし ジャズver. トレーディンググリッター缶バッジ｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及图",
+          "含税单包及整盒价格",
+          "规格",
+          "随机与集齐规则"
+        ]
+      },
+      {
+        "id": "amnibus-128273-pack-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128273-box",
+    "slug": "jazz-trading-glitter-box",
+    "names": {
+      "zh": "Jazz 闪粉徽章全 8 款整盒（含韩吉）",
+      "ja": "描き下ろし ジャズver. トレーディンググリッター缶バッジ（BOX）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver."
+    ],
+    "type": "徽章",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/jazz-trading-glitter.svg",
+        "alt": "Jazz 闪粉徽章 全 8 款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/128273",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703161728_6a476208698796.12402310.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "8 包整盒，官方注明一盒可集齐全部 8 款，含韩吉两种绘柄。同一商品的单包与整盒销售规格分别记录，非两种不同绘柄商品。系列新闻稿刊载于 9 月 30 日。",
+    "specifications": {
+      "直径": "约 56 mm",
+      "材质": "纸、马口铁",
+      "款式": "全 8 款：艾伦、埃尔文、利威尔、韩吉各两款",
+      "包装": "每包 1 件；整盒 8 包",
+      "集齐说明": "官方明确一盒可集齐",
+      "销售规格": "8 包整盒",
+      "预约特典说明": "2026-10-28 前购买达到整盒数量附艾伦徽章；该日期是特典适用期限，不当作已核实的受注截止日。"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128273-box-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128273-box-official",
+          "amnibus-128273-box-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 4840,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 8,
+            "sourceId": "amnibus-128273-box-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-128273-pack"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128273-box-official",
+        "url": "https://amnibus.com/products/detail/128273",
+        "title": "描き下ろし ジャズver. トレーディンググリッター缶バッジ｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及图",
+          "含税单包及整盒价格",
+          "规格",
+          "随机与集齐规则"
+        ]
+      },
+      {
+        "id": "amnibus-128273-box-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128278-pack",
+    "slug": "jazz-trading-bromide-pack",
+    "names": {
+      "zh": "Jazz 写真卡单包盲抽（含韩吉款）",
+      "ja": "描き下ろし ジャズver. トレーディングブロマイド（単品ランダム）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver."
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/jazz-trading-bromide.svg",
+        "alt": "Jazz 写真卡 全 8 款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/128278",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703161843_6a476253f11735.89154612.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "全 8 款随机单包，含韩吉两种绘柄；不能指定角色，单包不保证获得韩吉。同一商品的单包与整盒销售规格分别记录，非两种不同绘柄商品。系列新闻稿刊载于 9 月 30 日。",
+    "specifications": {
+      "尺寸": "约 12.7×8.9 cm",
+      "材质": "纸",
+      "款式": "全 8 款：艾伦、埃尔文、利威尔、韩吉各两款",
+      "包装": "每包 1 件；整盒 8 包",
+      "集齐说明": "官方明确一盒可集齐",
+      "销售规格": "随机单包"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128278-pack-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128278-pack-official",
+          "amnibus-128278-pack-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 275,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "amnibus-128278-pack-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-128278-box"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128278-pack-official",
+        "url": "https://amnibus.com/products/detail/128278",
+        "title": "描き下ろし ジャズver. トレーディングブロマイド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及图",
+          "含税单包及整盒价格",
+          "规格",
+          "随机与集齐规则"
+        ]
+      },
+      {
+        "id": "amnibus-128278-pack-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128278-box",
+    "slug": "jazz-trading-bromide-box",
+    "names": {
+      "zh": "Jazz 写真卡全 8 款整盒（含韩吉）",
+      "ja": "描き下ろし ジャズver. トレーディングブロマイド（BOX）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver."
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/jazz-trading-bromide.svg",
+        "alt": "Jazz 写真卡 全 8 款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/128278",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703161843_6a476253f11735.89154612.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "8 包整盒，官方注明一盒可集齐全部 8 款，含韩吉两种绘柄。同一商品的单包与整盒销售规格分别记录，非两种不同绘柄商品。系列新闻稿刊载于 9 月 30 日。",
+    "specifications": {
+      "尺寸": "约 12.7×8.9 cm",
+      "材质": "纸",
+      "款式": "全 8 款：艾伦、埃尔文、利威尔、韩吉各两款",
+      "包装": "每包 1 件；整盒 8 包",
+      "集齐说明": "官方明确一盒可集齐",
+      "销售规格": "8 包整盒"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128278-box-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128278-box-official",
+          "amnibus-128278-box-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 2200,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 8,
+            "sourceId": "amnibus-128278-box-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-128278-pack"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128278-box-official",
+        "url": "https://amnibus.com/products/detail/128278",
+        "title": "描き下ろし ジャズver. トレーディングブロマイド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及图",
+          "含税单包及整盒价格",
+          "规格",
+          "随机与集齐规则"
+        ]
+      },
+      {
+        "id": "amnibus-128278-box-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128272-pack",
+    "slug": "jazz-trading-aniframe-pack",
+    "names": {
+      "zh": "Jazz Ani-Frame 卡单包盲抽（含韩吉款）",
+      "ja": "描き下ろし ジャズver. トレーディングAni-Frame（単品ランダム）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver."
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/jazz-trading-aniframe.svg",
+        "alt": "Jazz Ani-Frame 卡 全 8 款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/128272",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703161933_6a476285f26180.88707654.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "全 8 款随机单包，含韩吉两种绘柄；不能指定角色，单包不保证获得韩吉。同一商品的单包与整盒销售规格分别记录，非两种不同绘柄商品。系列新闻稿刊载于 9 月 30 日。",
+    "specifications": {
+      "尺寸": "约 86×50 mm",
+      "材质": "纸",
+      "款式": "全 8 款：艾伦、埃尔文、利威尔、韩吉各两款",
+      "包装": "每包 1 件；整盒 8 包",
+      "集齐说明": "官方明确一盒可集齐",
+      "销售规格": "随机单包"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128272-pack-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128272-pack-official",
+          "amnibus-128272-pack-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 275,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "amnibus-128272-pack-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-128272-box"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128272-pack-official",
+        "url": "https://amnibus.com/products/detail/128272",
+        "title": "描き下ろし ジャズver. トレーディングAni-Frame｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及图",
+          "含税单包及整盒价格",
+          "规格",
+          "随机与集齐规则"
+        ]
+      },
+      {
+        "id": "amnibus-128272-pack-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-128272-box",
+    "slug": "jazz-trading-aniframe-box",
+    "names": {
+      "zh": "Jazz Ani-Frame 卡全 8 款整盒（含韩吉）",
+      "ja": "描き下ろし ジャズver. トレーディングAni-Frame（BOX）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Jazz",
+      "ジャズver."
+    ],
+    "type": "纸品",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "jazz-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/jazz-trading-aniframe.svg",
+        "alt": "Jazz Ani-Frame 卡 全 8 款官方图（含韩吉）",
+        "sourceUrl": "https://amnibus.com/products/detail/128272",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260703161933_6a476285f26180.88707654.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "8 包整盒，官方注明一盒可集齐全部 8 款，含韩吉两种绘柄。同一商品的单包与整盒销售规格分别记录，非两种不同绘柄商品。系列新闻稿刊载于 9 月 30 日。",
+    "specifications": {
+      "尺寸": "约 86×50 mm",
+      "材质": "纸",
+      "款式": "全 8 款：艾伦、埃尔文、利威尔、韩吉各两款",
+      "包装": "每包 1 件；整盒 8 包",
+      "集齐说明": "官方明确一盒可集齐",
+      "销售规格": "8 包整盒"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-128272-box-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-128272-box-official",
+          "amnibus-128272-box-announcement"
+        ],
+        "announcement": {
+          "value": "2026-09-30",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-22",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 2200,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 8,
+            "sourceId": "amnibus-128272-box-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amnibus-128272-pack"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-128272-box-official",
+        "url": "https://amnibus.com/products/detail/128272",
+        "title": "描き下ろし ジャズver. トレーディングAni-Frame｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及图",
+          "含税单包及整盒价格",
+          "规格",
+          "随机与集齐规则"
+        ]
+      },
+      {
+        "id": "amnibus-128272-box-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009612.000016064.html",
+        "title": "Jazz ver. 系列受注公告（2026-09-30）",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告刊载日",
+          "2026-09-22 受注开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
   }
 ]
