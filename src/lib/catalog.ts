@@ -26,7 +26,7 @@ export function filterProducts(
 ) {
   const query = normalize(params.get("q") || "");
   const words = query.split(" ").filter(Boolean);
-  const groups = ["year", "type", "brand", "series", "method", "limited"];
+  const groups = ["year", "type", "method"];
   let out = products.filter((p) => {
     const s = series.find((s) => s.id === p.seriesId);
     const hay = normalize(
@@ -48,13 +48,7 @@ export function filterProducts(
           ? [year(p)]
           : g === "type"
             ? [p.type]
-            : g === "brand"
-              ? [p.manufacturer || "品牌待确认"]
-              : g === "series"
-                ? [p.seriesId]
-                : g === "method"
-                  ? p.releases.map((r) => r.salesMethod)
-                  : p.releases.map((r) => r.limitedScope || "限定范围未注明");
+            : p.releases.map((r) => r.salesMethod);
       return values.some((v) => own.includes(v));
     });
   });
@@ -74,3 +68,4 @@ export function filterProducts(
   );
   return out;
 }
+

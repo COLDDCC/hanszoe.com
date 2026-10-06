@@ -117,3 +117,12 @@ test("预订结束不得早于开始，外币以分保存", () => {
   release.prices[0].amount = 1599;
   assert.match(priceText(release), /15\.99/);
 });
+
+
+test("已移除的筛选参数不再影响结果", () => {
+  const retained = "method=单售&type=手办";
+  assert.deepEqual(
+    filterProducts(products, series, new URLSearchParams(retained + "&brand=missing&series=missing&limited=missing")),
+    filterProducts(products, series, new URLSearchParams(retained)),
+  );
+});
