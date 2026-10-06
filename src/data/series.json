@@ -1284,5 +1284,34 @@
     "updatedAt": "2026-10-06",
     "isDemo": false,
     "images": []
+  },
+  {
+    "id": "dreaming-throne",
+    "slug": "dreaming-throne",
+    "name": "夢見る玉座 · 梦见玉座",
+    "aliases": [
+      "夢見る玉座",
+      "梦见玉座",
+      "玉座"
+    ],
+    "description": "坐在玉座上的新绘系列，韩吉彩色及线画版分别收录。官方受注新闻稿刊载于 2026-09-15，受注始于 9 月 9 日；此前 8 月 21 日已有活动先行销售。",
+    "region": "日本",
+    "type": "角色场景周边系列",
+    "sources": [
+      {
+        "id": "amnibus-125295-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009555.000016064.html",
+        "title": "梦见玉座官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
+    "isDemo": false,
+    "images": []
   }
 ]

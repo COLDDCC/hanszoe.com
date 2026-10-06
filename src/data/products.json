@@ -10358,5 +10358,777 @@
     "createdAt": "2026-10-06",
     "updatedAt": "2026-10-06",
     "isDemo": false
+  },
+  {
+    "id": "amnibus-125295",
+    "slug": "hange-throne-large-color",
+    "names": {
+      "zh": "韩吉梦见玉座彩色特大立牌",
+      "ja": "描き下ろし ハンジ 夢見る玉座・着彩ver. 特大アクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "夢見る玉座",
+      "梦见玉座"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "dreaming-throne",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-throne-large-color.svg",
+        "alt": "韩吉梦见玉座彩色特大立牌 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/125295",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260616131021_6a30ccad0f6e71.57263804.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "坐在玉座上的韩吉新绘，可指定角色购买。售价为单件金额。系列受注新闻稿于 2026-09-15 刊载，9 月 9 日开始受注；此前已于 8 月活动先行销售，不将受注日期视作首次发售。",
+    "specifications": {
+      "主体": "约 22×14 cm",
+      "底座": "约 11.3×5 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力",
+      "活动先行销售": "2026-08-21 起",
+      "活动公告刊载": "2026-08-07",
+      "受注公告刊载": "2026-09-15；非首次公告",
+      "网上受注开始": "2026-09-09"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-125295-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-125295-official",
+          "amnibus-125295-announcement",
+          "amnibus-125295-event"
+        ],
+        "announcement": {
+          "value": "2026-08-07",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-09",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-08-21",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3300,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-125295-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-125295-official",
+        "url": "https://amnibus.com/products/detail/125295",
+        "title": "描き下ろし ハンジ 夢見る玉座・着彩ver. 特大アクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-125295-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009555.000016064.html",
+        "title": "梦见玉座官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      },
+      {
+        "id": "amnibus-125295-event",
+        "url": "https://prtimes.jp/main/html/rd/p/000009282.000016064.html",
+        "title": "イトーヨーカドー 梦见玉座先行销售活动公告",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "2026-08-07 活动公告",
+          "2026-08-21 先行销售开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-125299",
+    "slug": "hange-throne-large-line",
+    "names": {
+      "zh": "韩吉梦见玉座线画特大立牌",
+      "ja": "描き下ろし ハンジ 夢見る玉座・線画ver. 特大アクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "夢見る玉座",
+      "梦见玉座"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "dreaming-throne",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-throne-large-line.svg",
+        "alt": "韩吉梦见玉座线画特大立牌 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/125299",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260616131042_6a30ccc25a5a16.05256274.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "坐在玉座上的韩吉新绘，可指定角色购买。售价为单件金额。系列受注新闻稿于 2026-09-15 刊载，9 月 9 日开始受注；此前已于 8 月活动先行销售，不将受注日期视作首次发售。",
+    "specifications": {
+      "主体": "约 21.7×11.3 cm",
+      "底座": "约 11.3×5 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力",
+      "活动先行销售": "2026-08-21 起",
+      "活动公告刊载": "2026-08-07",
+      "受注公告刊载": "2026-09-15；非首次公告",
+      "网上受注开始": "2026-09-09"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-125299-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-125299-official",
+          "amnibus-125299-announcement",
+          "amnibus-125299-event"
+        ],
+        "announcement": {
+          "value": "2026-08-07",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-09",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-08-21",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3300,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-125299-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-125299-official",
+        "url": "https://amnibus.com/products/detail/125299",
+        "title": "描き下ろし ハンジ 夢見る玉座・線画ver. 特大アクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-125299-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009555.000016064.html",
+        "title": "梦见玉座官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      },
+      {
+        "id": "amnibus-125299-event",
+        "url": "https://prtimes.jp/main/html/rd/p/000009282.000016064.html",
+        "title": "イトーヨーカドー 梦见玉座先行销售活动公告",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "2026-08-07 活动公告",
+          "2026-08-21 先行销售开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-124024",
+    "slug": "hange-throne-big-color",
+    "names": {
+      "zh": "韩吉梦见玉座彩色 BIG 立牌",
+      "ja": "描き下ろし ハンジ 夢見る玉座・着彩ver. BIGアクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "夢見る玉座",
+      "梦见玉座"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "dreaming-throne",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-throne-big-color.svg",
+        "alt": "韩吉梦见玉座彩色 BIG 立牌 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/124024",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260616131810_6a30ce829c34a3.74749782.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "坐在玉座上的韩吉新绘，可指定角色购买。售价为单件金额。系列受注新闻稿于 2026-09-15 刊载，9 月 9 日开始受注；此前已于 8 月活动先行销售，不将受注日期视作首次发售。",
+    "specifications": {
+      "主体": "约 16.6×10.7 cm",
+      "底座": "约 8.7×2.6 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力",
+      "活动先行销售": "2026-08-21 起",
+      "活动公告刊载": "2026-08-07",
+      "受注公告刊载": "2026-09-15；非首次公告",
+      "网上受注开始": "2026-09-09"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-124024-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-124024-official",
+          "amnibus-124024-announcement",
+          "amnibus-124024-event"
+        ],
+        "announcement": {
+          "value": "2026-08-07",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-09",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-08-21",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1980,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-124024-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-124024-official",
+        "url": "https://amnibus.com/products/detail/124024",
+        "title": "描き下ろし ハンジ 夢見る玉座・着彩ver. BIGアクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-124024-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009555.000016064.html",
+        "title": "梦见玉座官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      },
+      {
+        "id": "amnibus-124024-event",
+        "url": "https://prtimes.jp/main/html/rd/p/000009282.000016064.html",
+        "title": "イトーヨーカドー 梦见玉座先行销售活动公告",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "2026-08-07 活动公告",
+          "2026-08-21 先行销售开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-124028",
+    "slug": "hange-throne-big-line",
+    "names": {
+      "zh": "韩吉梦见玉座线画 BIG 立牌",
+      "ja": "描き下ろし ハンジ 夢見る玉座・線画ver. BIGアクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "夢見る玉座",
+      "梦见玉座"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "dreaming-throne",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-throne-big-line.svg",
+        "alt": "韩吉梦见玉座线画 BIG 立牌 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/124028",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260616131831_6a30ce97d615f1.38510771.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "坐在玉座上的韩吉新绘，可指定角色购买。售价为单件金额。系列受注新闻稿于 2026-09-15 刊载，9 月 9 日开始受注；此前已于 8 月活动先行销售，不将受注日期视作首次发售。",
+    "specifications": {
+      "主体": "约 15.8×11 cm",
+      "底座": "约 11×3.3 cm",
+      "厚度": "3 mm",
+      "材质": "亚克力",
+      "活动先行销售": "2026-08-21 起",
+      "活动公告刊载": "2026-08-07",
+      "受注公告刊载": "2026-09-15；非首次公告",
+      "网上受注开始": "2026-09-09"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-124028-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-124028-official",
+          "amnibus-124028-announcement",
+          "amnibus-124028-event"
+        ],
+        "announcement": {
+          "value": "2026-08-07",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-09",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-08-21",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1980,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-124028-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-124028-official",
+        "url": "https://amnibus.com/products/detail/124028",
+        "title": "描き下ろし ハンジ 夢見る玉座・線画ver. BIGアクリルスタンド｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-124028-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009555.000016064.html",
+        "title": "梦见玉座官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      },
+      {
+        "id": "amnibus-124028-event",
+        "url": "https://prtimes.jp/main/html/rd/p/000009282.000016064.html",
+        "title": "イトーヨーカドー 梦见玉座先行销售活动公告",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "2026-08-07 活动公告",
+          "2026-08-21 先行销售开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-124009",
+    "slug": "hange-throne-wire-key",
+    "names": {
+      "zh": "韩吉梦见玉座双连钢丝挂件",
+      "ja": "描き下ろし ハンジ 夢見る玉座ver. 2連ワイヤーアクリルキーホルダー",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "夢見る玉座",
+      "梦见玉座"
+    ],
+    "type": "亚克力",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "dreaming-throne",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-throne-wire-key.svg",
+        "alt": "韩吉梦见玉座双连钢丝挂件 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/124009",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260616132226_6a30cf82b44dd9.45805156.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "坐在玉座上的韩吉新绘，可指定角色购买。售价为单件金额。系列受注新闻稿于 2026-09-15 刊载，9 月 9 日开始受注；此前已于 8 月活动先行销售，不将受注日期视作首次发售。",
+    "specifications": {
+      "角色部件": "约 40×25 mm",
+      "姓名部件": "约 31×26 mm",
+      "厚度": "3 mm",
+      "材质": "亚克力",
+      "活动先行销售": "2026-08-21 起",
+      "活动公告刊载": "2026-08-07",
+      "受注公告刊载": "2026-09-15；非首次公告",
+      "网上受注开始": "2026-09-09"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-124009-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-124009-official",
+          "amnibus-124009-announcement",
+          "amnibus-124009-event"
+        ],
+        "announcement": {
+          "value": "2026-08-07",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-09",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-08-21",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 990,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-124009-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-124009-official",
+        "url": "https://amnibus.com/products/detail/124009",
+        "title": "描き下ろし ハンジ 夢見る玉座ver. 2連ワイヤーアクリルキーホルダー｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-124009-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009555.000016064.html",
+        "title": "梦见玉座官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      },
+      {
+        "id": "amnibus-124009-event",
+        "url": "https://prtimes.jp/main/html/rd/p/000009282.000016064.html",
+        "title": "イトーヨーカドー 梦见玉座先行销售活动公告",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "2026-08-07 活动公告",
+          "2026-08-21 先行销售开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "amnibus-124020",
+    "slug": "hange-throne-holo-badge",
+    "names": {
+      "zh": "韩吉梦见玉座 75mm 镭射徽章",
+      "ja": "描き下ろし ハンジ 夢見る玉座ver. 75mmホログラム缶バッジ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "夢見る玉座",
+      "梦见玉座"
+    ],
+    "type": "徽章",
+    "manufacturer": "arma bianca",
+    "publisher": "AMNIBUS",
+    "seriesId": "dreaming-throne",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-throne-holo-badge.svg",
+        "alt": "韩吉梦见玉座 75mm 镭射徽章 官方商品图",
+        "sourceUrl": "https://amnibus.com/products/detail/124020",
+        "originalUrl": "https://cdn.amnibus.com/upload/save_image/20260616132412_6a30cfec6f9728.36135381.jpg",
+        "credit": "arma bianca / AMNIBUS",
+        "usage": "官方样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "坐在玉座上的韩吉新绘，可指定角色购买。售价为单件金额。系列受注新闻稿于 2026-09-15 刊载，9 月 9 日开始受注；此前已于 8 月活动先行销售，不将受注日期视作首次发售。",
+    "specifications": {
+      "直径": "约 75 mm",
+      "材质": "纸、马口铁",
+      "活动先行销售": "2026-08-21 起",
+      "活动公告刊载": "2026-08-07",
+      "受注公告刊载": "2026-09-15；非首次公告",
+      "网上受注开始": "2026-09-09"
+    },
+    "releases": [
+      {
+        "releaseId": "amnibus-124020-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "amnibus-124020-official",
+          "amnibus-124020-announcement",
+          "amnibus-124020-event"
+        ],
+        "announcement": {
+          "value": "2026-08-07",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-09",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-08-21",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 770,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "amnibus-124020-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "预约截止日期及发货时间待核实",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "amnibus-124020-official",
+        "url": "https://amnibus.com/products/detail/124020",
+        "title": "描き下ろし ハンジ 夢見る玉座ver. 75mmホログラム缶バッジ｜AMNIBUS",
+        "organization": "AMNIBUS",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名及韩吉图片",
+          "含税价格与单位",
+          "韩吉规格"
+        ]
+      },
+      {
+        "id": "amnibus-124020-announcement",
+        "url": "https://prtimes.jp/main/html/rd/p/000009555.000016064.html",
+        "title": "梦见玉座官方受注新闻稿",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "受注新闻稿刊载日期",
+          "系列受注开始日期"
+        ]
+      },
+      {
+        "id": "amnibus-124020-event",
+        "url": "https://prtimes.jp/main/html/rd/p/000009282.000016064.html",
+        "title": "イトーヨーカドー 梦见玉座先行销售活动公告",
+        "organization": "arma bianca",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "2026-08-07 活动公告",
+          "2026-08-21 先行销售开始"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
   }
 ]
