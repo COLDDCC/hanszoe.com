@@ -599,7 +599,9 @@
         "conditionSourceId": null
       }
     ],
-    "relatedProductIds": [],
+    "relatedProductIds": [
+      "eeo-336641"
+    ],
     "evidenceStatus": "partial",
     "missingFields": [
       "原始 X 推文链接及发布时间待核实",
@@ -725,7 +727,9 @@
         "conditionSourceId": null
       }
     ],
-    "relatedProductIds": [],
+    "relatedProductIds": [
+      "eeo-336640"
+    ],
     "evidenceStatus": "partial",
     "missingFields": [
       "原始 X 推文链接及发布时间待核实",
@@ -5038,6 +5042,704 @@
         "checkedAt": "2026-10-06",
         "fields": [
           "系列活动公告刊载日期；非单品原推文时间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-336640",
+    "slug": "knit-mini-stand-set",
+    "names": {
+      "zh": "兽耳针织帽迷你立牌全 8 款套装（含韩吉）",
+      "ja": "アクリルぷちスタンド「TVアニメ『進撃の巨人』」03/ケモ耳ニットver. コンプリートセット(全8種)(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "graffart-kemomimi-knit",
+      "全套"
+    ],
+    "type": "亚克力",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-kemomimi-knit",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/knit-mini-stand-set.svg",
+        "alt": "兽耳针织帽迷你立牌全 8 款套装（含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/336640",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6abdf4dfa96ee.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "全 8 款完整套装，含韩吉；价格为整套总额。",
+    "specifications": {
+      "主体": "最大 W70×H70 mm",
+      "底座": "最大 W50×H50 mm",
+      "款式": "全 8 款完整套装，含韩吉",
+      "店铺领取": "2026-11-14 起",
+      "店铺领取预约": "2026-10-02 17:00 至 2026-10-08 23:59:59（日本时间）",
+      "配送预计": "2026 年 12 月下旬",
+      "预订范围说明": "下方预订区间仅指店铺领取预约，配送预订截止日待核实"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-336640-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-336640-official",
+          "eeo-336640-announcement"
+        ],
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-10-08",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-11-14",
+          "precision": "day"
+        },
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 7480,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 8,
+            "sourceId": "eeo-336640-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "eeo-336642"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-336640-official",
+        "url": "https://eeo.today/store/101/products/detail/336640",
+        "title": "eeo Store｜兽耳针织帽迷你立牌全 8 款套装（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方样品图及韩吉绘柄",
+          "官方价格与销售单位",
+          "规格",
+          "预约说明",
+          "发售安排"
+        ]
+      },
+      {
+        "id": "eeo-336640-announcement",
+        "url": "https://aot-portal.com/ctx_news/goods/",
+        "title": "系列公告索引/活动公告刊载日期（2026-10-02）",
+        "organization": "进击的巨人官方门户",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告日期；原推文时间仍待核实"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "eeo-336641",
+    "slug": "knit-badge-set",
+    "names": {
+      "zh": "兽耳针织帽徽章全 8 款套装（含韩吉）",
+      "ja": "缶バッジ「TVアニメ『進撃の巨人』」04/ケモ耳ニットver. コンプリートセット(全8種)(グラフアートイラスト)",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "graffart-kemomimi-knit",
+      "全套"
+    ],
+    "type": "徽章",
+    "manufacturer": "A3",
+    "publisher": "A3",
+    "seriesId": "graffart-kemomimi-knit",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/knit-badge-set.svg",
+        "alt": "兽耳针织帽徽章全 8 款套装（含韩吉） 官方样品图",
+        "sourceUrl": "https://eeo.today/store/101/products/detail/336641",
+        "originalUrl": "https://eeo.today/store/101/html/upload/save_image/6abdf4e1828e9.jpg",
+        "credit": "A3 / eeo Store",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "全 8 款完整套装，含韩吉；价格为整套总额。",
+    "specifications": {
+      "直径": "57 mm",
+      "款式": "全 8 款完整套装，含韩吉",
+      "店铺领取": "2026-11-14 起",
+      "店铺领取预约": "2026-10-02 17:00 至 2026-10-08 23:59:59（日本时间）",
+      "配送预计": "2026 年 12 月下旬",
+      "预订范围说明": "下方预订区间仅指店铺领取预约，配送预订截止日待核实"
+    },
+    "releases": [
+      {
+        "releaseId": "eeo-336641-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "eeo-336641-official",
+          "eeo-336641-announcement"
+        ],
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderEnd": {
+          "value": "2026-10-08",
+          "precision": "day"
+        },
+        "releaseDate": {
+          "value": "2026-11-14",
+          "precision": "day"
+        },
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 4400,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 8,
+            "sourceId": "eeo-336641-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "eeo-336643"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "限定范围未注明",
+      "配送预订截止日待核实"
+    ],
+    "sources": [
+      {
+        "id": "eeo-336641-official",
+        "url": "https://eeo.today/store/101/products/detail/336641",
+        "title": "eeo Store｜兽耳针织帽徽章全 8 款套装（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方样品图及韩吉绘柄",
+          "官方价格与销售单位",
+          "规格",
+          "预约说明",
+          "发售安排"
+        ]
+      },
+      {
+        "id": "eeo-336641-announcement",
+        "url": "https://aot-portal.com/ctx_news/goods/",
+        "title": "系列公告索引/活动公告刊载日期（2026-10-02）",
+        "organization": "进击的巨人官方门户",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告日期；原推文时间仍待核实"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "movic-4550621749988",
+    "slug": "hange-guild-mini-stand",
+    "names": {
+      "zh": "韩吉 Adventure Guild 小龙服迷你立牌",
+      "ja": "進撃の巨人　ミニアクリルスタンド／ハンジ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "adventure-guild",
+      "小龙服"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "movic",
+    "seriesId": "adventure-guild",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-guild-mini-stand.svg",
+        "alt": "韩吉 Adventure Guild 小龙服迷你立牌 官方样品图",
+        "sourceUrl": "https://www.movic.jp/shop/g/g02530-00350-02076/",
+        "originalUrl": "https://www.movic.jp/img/goods/L/4550621749988_1.jpg",
+        "credit": "movic",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "可指定韩吉款购买，价格为单件金额。",
+    "specifications": {
+      "高度": "约 10 cm",
+      "材质": "亚克力",
+      "插画": "三川あゆむ",
+      "JAN": "4550621749988",
+      "商品代码": "02530-00350-02076",
+      "官方发售说明": "预计 2026 年 12 月 12 日前后（頃）",
+      "保证备货预约期限": "2026-10-25；之后达到上限即停止受理，非最终截止日"
+    },
+    "releases": [
+      {
+        "releaseId": "movic-4550621749988-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "movic-4550621749988-official",
+          "movic-4550621749988-announcement"
+        ],
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12-12",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1100,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "movic-4550621749988-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "movic-4550621749773"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "限定范围未注明",
+      "税务说明及预订开始日期待核实"
+    ],
+    "sources": [
+      {
+        "id": "movic-4550621749988-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00350-02076/",
+        "title": "movic｜韩吉 Adventure Guild 小龙服迷你立牌 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方样品图及韩吉绘柄",
+          "官方价格与销售单位",
+          "规格",
+          "预约说明",
+          "发售安排"
+        ]
+      },
+      {
+        "id": "movic-4550621749988-announcement",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116435",
+        "title": "系列公告索引/活动公告刊载日期（2026-10-02）",
+        "organization": "アニメイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告日期；原推文时间仍待核实"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "movic-4550621750045",
+    "slug": "hange-guild-round-pouch",
+    "names": {
+      "zh": "韩吉 Adventure Guild 小龙服圆形收纳包",
+      "ja": "進撃の巨人　まんまるポーチ／ハンジ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "adventure-guild",
+      "小龙服"
+    ],
+    "type": "生活用品",
+    "manufacturer": "未注明",
+    "publisher": "movic",
+    "seriesId": "adventure-guild",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-guild-round-pouch.svg",
+        "alt": "韩吉 Adventure Guild 小龙服圆形收纳包 官方样品图",
+        "sourceUrl": "https://www.movic.jp/shop/g/g02530-00682-00266/",
+        "originalUrl": "https://www.movic.jp/img/goods/L/4550621750045_1.jpg",
+        "credit": "movic",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "可指定韩吉款购买，价格为单件金额。",
+    "specifications": {
+      "直径": "约 10 cm",
+      "厚度": "约 3 cm",
+      "材质": "PVC，聚酯纤维内衬",
+      "插画": "三川あゆむ",
+      "JAN": "4550621750045",
+      "商品代码": "02530-00682-00266",
+      "官方发售说明": "预计 2026 年 12 月 12 日前后（頃）",
+      "保证备货预约期限": "2026-10-25；之后达到上限即停止受理，非最终截止日"
+    },
+    "releases": [
+      {
+        "releaseId": "movic-4550621750045-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "movic-4550621750045-official",
+          "movic-4550621750045-announcement"
+        ],
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12-12",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1760,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "movic-4550621750045-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "movic-4550621749773"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "限定范围未注明",
+      "税务说明及预订开始日期待核实"
+    ],
+    "sources": [
+      {
+        "id": "movic-4550621750045-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00682-00266/",
+        "title": "movic｜韩吉 Adventure Guild 小龙服圆形收纳包 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方样品图及韩吉绘柄",
+          "官方价格与销售单位",
+          "规格",
+          "预约说明",
+          "发售安排"
+        ]
+      },
+      {
+        "id": "movic-4550621750045-announcement",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116435",
+        "title": "系列公告索引/活动公告刊载日期（2026-10-02）",
+        "organization": "アニメイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列公告日期；原推文时间仍待核实"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "movic-4550621750106",
+    "slug": "hange-only-badge-box",
+    "names": {
+      "zh": "韩吉がいっぱい 全韩吉徽章盲盒",
+      "ja": "進撃の巨人　ハンジがいっぱいキャラバッジコレクション",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Hange",
+      "hange-ippai",
+      "ハンジがいっぱい"
+    ],
+    "type": "徽章",
+    "manufacturer": "未注明",
+    "publisher": "movic",
+    "seriesId": "hange-ippai",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-only-badge-box.svg",
+        "alt": "韩吉がいっぱい 全韩吉徽章盲盒 官方样品图",
+        "sourceUrl": "https://www.movic.jp/shop/g/g02530-00603-01962/",
+        "originalUrl": "https://www.movic.jp/img/goods/L/4550621750106_1.jpg",
+        "credit": "movic",
+        "usage": "官方商品样品图；保留原图水印，权利归原权利方"
+      }
+    ],
+    "description": "全 6 款均为韩吉，但一盒不保证集齐绘柄；2,640 日元为整盒价格。独立公告日期仍待核实，不标记为已确认的 10 月公告商品。",
+    "specifications": {
+      "直径": "约 5.7 cm",
+      "材质": "纸、铁、PET",
+      "款式": "全 6 种，全部为韩吉",
+      "包装": "每包 1 个；每盒 6 包",
+      "销售说明": "仅整盒销售，一盒不保证集齐全款",
+      "JAN": "4550621750106",
+      "商品代码": "02530-00603-01962",
+      "官方发售说明": "预计 2026 年 12 月 12 日前后（頃）",
+      "保证备货预约期限": "2026-10-25；之后达到上限即停止受理，非最终截止日"
+    },
+    "releases": [
+      {
+        "releaseId": "movic-4550621750106-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "movic-4550621750106-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12-12",
+          "precision": "day"
+        },
+        "salesMethod": "整盒",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 2640,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "整盒",
+            "quantity": 6,
+            "sourceId": "movic-4550621750106-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "movic-4550621749780"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "单品首次公告时间待核实",
+      "限定范围未注明",
+      "税务说明及预订开始日期待核实"
+    ],
+    "sources": [
+      {
+        "id": "movic-4550621750106-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00603-01962/",
+        "title": "movic｜韩吉がいっぱい 全韩吉徽章盲盒 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方样品图及韩吉绘柄",
+          "官方价格与销售单位",
+          "规格",
+          "预约说明",
+          "发售安排"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-06",
+    "updatedAt": "2026-10-06",
+    "isDemo": false
+  },
+  {
+    "id": "movic-guild-status-card",
+    "slug": "hange-guild-status-card",
+    "names": {
+      "zh": "韩吉 Adventure Guild 状态卡购买特典",
+      "ja": "TVアニメ『進撃の巨人』アニメイトフェア2026 ～Adventure Guild～ ステータスカード／ハンジ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "Adventure Guild",
+      "ステータスカード",
+      "购买特典"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "movic",
+    "seriesId": "adventure-guild",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-guild-status-card.svg",
+        "alt": "Adventure Guild 官方活动海报，含韩吉状态卡与赠送条件",
+        "sourceUrl": "https://www.movic.jp/shop/r/r302005_srd-gn/",
+        "originalUrl": "https://www.movic.jp/img/banner_genre/1104_Ud1gp1M21j.jpg",
+        "credit": "movic",
+        "usage": "官方完整活动海报，保留原图；权利归原权利方"
+      }
+    ],
+    "description": "活动购买特典，全 4 种随机配发，包含韩吉，不能选择绘柄。非单独销售。配图保留官方完整活动海报，展示四种卡片及规则，并非韩吉卡片的单独扫描图。",
+    "specifications": {
+      "活动期间": "2026-12-12 至 2027-01-11",
+      "movic 获得条件": "相关商品每满 1,100 日元（含税）赠 1 枚；一配送商品合计须满足条件",
+      "绘柄": "全 4 种，韩吉为其中一款；不能选择，可能重复",
+      "配送范围": "活动期间内发货的订单；与活动期间外发售商品合并发货不适用",
+      "数量限制": "数量有限，赠完即止",
+      "尺寸与材质": "官方活动页未注明"
+    },
+    "releases": [
+      {
+        "releaseId": "movic-guild-status-card-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "movic-guild-status-card-official",
+          "movic-guild-status-card-announcement"
+        ],
+        "announcement": {
+          "value": "2026-10-02",
+          "precision": "day"
+        },
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12-12",
+          "precision": "day"
+        },
+        "salesMethod": "购买特典",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "notSoldSeparately",
+        "prices": [],
+        "condition": "活动期间相关商品每满 1,100 日元（含税）赠 1 枚，全 4 种随机，不能选择；以 movic 订单和配送规则为准。",
+        "conditionSourceId": "movic-guild-status-card-official"
+      }
+    ],
+    "relatedProductIds": [
+      "movic-4550621749773",
+      "movic-4550621749988",
+      "movic-4550621750045"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "卡片单独样品图、尺寸与材质待核实"
+    ],
+    "sources": [
+      {
+        "id": "movic-guild-status-card-official",
+        "url": "https://www.movic.jp/shop/r/r302005_srd-gn/",
+        "title": "movic｜Adventure Guild 活动及特典说明",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "活动日期",
+          "全 4 种状态卡及韩吉关联",
+          "购买特典条件",
+          "随机绘柄及数量限制",
+          "配送适用条件",
+          "官方活动海报"
+        ]
+      },
+      {
+        "id": "movic-guild-status-card-announcement",
+        "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116435",
+        "title": "Adventure Guild 官方活动公告（刊载 2026-10-02）",
+        "organization": "アニメイト",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "系列活动公告日期"
         ]
       }
     ],

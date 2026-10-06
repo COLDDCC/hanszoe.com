@@ -217,6 +217,36 @@
           "店铺领取发售日",
           "配送预计"
         ]
+      },
+      {
+        "id": "eeo-336640-official",
+        "url": "https://eeo.today/store/101/products/detail/336640",
+        "title": "eeo Store｜兽耳针织帽迷你立牌全 8 款套装（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方样品图及韩吉绘柄",
+          "官方价格与销售单位",
+          "规格",
+          "预约说明",
+          "发售安排"
+        ]
+      },
+      {
+        "id": "eeo-336641-official",
+        "url": "https://eeo.today/store/101/products/detail/336641",
+        "title": "eeo Store｜兽耳针织帽徽章全 8 款套装（含韩吉） 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方样品图及韩吉绘柄",
+          "官方价格与销售单位",
+          "规格",
+          "预约说明",
+          "发售安排"
+        ]
       }
     ],
     "updatedAt": "2026-10-06",
@@ -900,6 +930,83 @@
           "规格",
           "预计发售日（頃）",
           "保证备货预约期限"
+        ]
+      },
+      {
+        "id": "movic-4550621749988-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00350-02076/",
+        "title": "movic｜韩吉 Adventure Guild 小龙服迷你立牌 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方样品图及韩吉绘柄",
+          "官方价格与销售单位",
+          "规格",
+          "预约说明",
+          "发售安排"
+        ]
+      },
+      {
+        "id": "movic-4550621750045-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00682-00266/",
+        "title": "movic｜韩吉 Adventure Guild 小龙服圆形收纳包 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方样品图及韩吉绘柄",
+          "官方价格与销售单位",
+          "规格",
+          "预约说明",
+          "发售安排"
+        ]
+      },
+      {
+        "id": "movic-guild-status-card-official",
+        "url": "https://www.movic.jp/shop/r/r302005_srd-gn/",
+        "title": "movic｜Adventure Guild 活动及特典说明",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "活动日期",
+          "全 4 种状态卡及韩吉关联",
+          "购买特典条件",
+          "随机绘柄及数量限制",
+          "配送适用条件",
+          "官方活动海报"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-06",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "hange-ippai",
+    "slug": "hange-ippai",
+    "name": "ハンジがいっぱい · 全韩吉",
+    "aliases": [
+      "韩吉场景徽章",
+      "movic"
+    ],
+    "description": "全款均为韩吉的场景徽章，共 6 种，整盒随机销售；一盒不保证集齐。单独公告日期待核实。",
+    "region": "日本",
+    "type": "角色场景周边系列",
+    "sources": [
+      {
+        "id": "movic-4550621750106-official",
+        "url": "https://www.movic.jp/shop/g/g02530-00603-01962/",
+        "title": "movic｜韩吉がいっぱい 全韩吉徽章盲盒 原商品页",
+        "organization": "movic",
+        "checkedAt": "2026-10-06",
+        "fields": [
+          "官方商品名",
+          "官方样品图及韩吉绘柄",
+          "官方价格与销售单位",
+          "规格",
+          "预约说明",
+          "发售安排"
         ]
       }
     ],
