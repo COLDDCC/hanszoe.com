@@ -33,6 +33,7 @@ const imageSchema = z.object({
   path: z.string().startsWith("/"),
   alt: z.string().min(1),
   sourceUrl: z.url(),
+  originalUrl: z.url().optional(),
   credit: z.string(),
   usage: z.string().min(1),
 });
@@ -169,3 +170,4 @@ export const seriesSchema = z.object({
 export type Product = z.infer<typeof productSchema>;
 export type Series = z.infer<typeof seriesSchema>;
 export type Release = z.infer<typeof releaseSchema>;
+
