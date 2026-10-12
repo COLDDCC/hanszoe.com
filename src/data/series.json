@@ -1313,5 +1313,81 @@
     "updatedAt": "2026-10-06",
     "isDemo": false,
     "images": []
+  },
+  {
+    "id": "srgym-tfs-2026",
+    "slug": "srgym-tfs-2026",
+    "name": "SR-GYM The Final Season · 战斗剪影",
+    "aliases": [
+      "SR-GYM",
+      "The Final Season",
+      "BIGシルエット",
+      "戦闘シーン"
+    ],
+    "description": "SR-GYM 以 The Final Season 为主题的 2026 年周边系列，官方门户 2026-09-24 公告并同日开放预约，预计 2026 年 12 月中旬前后发货。韩吉出现在剪影 T 恤、BIG 毛巾、BIG 透明海报与战斗场景亚克力立牌四种商品中；闪光亚克力面板、九谷烧瓷砖与 BIG 托特包未提供韩吉款。",
+    "region": "日本",
+    "type": "厂商新绘周边系列",
+    "sources": [
+      {
+        "id": "srgym-portal-announcement-20260924",
+        "url": "https://aot-portal.com/news/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%besr-gym%e3%82%88%e3%82%8a%e3%80%81tv%e3%82%a2%e3%83%8b%e3%83%a1%e3%80%8e%e9%80%b2%e6%92%83%e3%81%ae%e5%b7%a8%e4%ba%ba%e3%80%8f%e3%82%b0%e3%83%83%e3%82%ba%e3%81%8c/",
+        "title": "进击的巨人官方门户｜SR-GYM 周边公告（2026-09-24）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "公告刊载日期",
+          "预约开始日期",
+          "发货预计",
+          "商品一览图"
+        ]
+      },
+      {
+        "id": "srgym-portal-price-poster",
+        "url": "https://aot-portal.com/wp/wp-content/uploads/2026/09/%E2%91%A0%E3%80%90%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%80%91%E5%95%86%E5%93%81%E4%B8%80%E8%A6%A7POP.jpg",
+        "title": "官方门户公告附「進撃の巨人」商品一览 POP 图",
+        "organization": "株式会社SR-GYM／「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "各商品含税售价",
+          "种类数",
+          "韩吉款式归属"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-12",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-pumpkin-2026",
+    "slug": "pricafe-pumpkin-2026",
+    "name": "プリンセスカフェ かぼちゃ ver. · 南瓜主题",
+    "aliases": [
+      "かぼちゃVer",
+      "南瓜",
+      "プリンセスカフェ オリジナルグッズ第5弾",
+      "ハロウィン"
+    ],
+    "description": "プリンセスカフェ 原创周边第 5 弾，南瓜主题的迷你角色新绘。官方门户 2026-09-14 公告，店铺于 2026-09-15 12:00 开始贩卖，韩吉款预计 2026-11-03 发货。",
+    "region": "日本",
+    "type": "店铺主题新绘系列",
+    "sources": [
+      {
+        "id": "pricafe-portal-announcement-20260914",
+        "url": "https://aot-portal.com/news/tv%e3%82%a2%e3%83%8b%e3%83%a1%e3%80%8e%e9%80%b2%e6%92%83%e3%81%ae%e5%b7%a8%e4%ba%ba%e3%80%8f%e3%82%aa%e3%83%aa%e3%82%b8%e3%83%8a%e3%83%ab%e3%82%b0%e3%83%83%e3%82%ba%e3%80%90%e7%ac%ac5%e5%bc%be/",
+        "title": "进击的巨人官方门户｜プリンセスカフェ オリジナルグッズ第5弾公告（2026-09-14）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "公告刊载日期",
+          "销售开始时间",
+          "含税售价",
+          "商品种类数"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-12",
+    "isDemo": false,
+    "images": []
   }
 ]

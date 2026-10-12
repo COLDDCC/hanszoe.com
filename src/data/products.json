@@ -11130,5 +11130,809 @@
     "createdAt": "2026-10-06",
     "updatedAt": "2026-10-06",
     "isDemo": false
+  },
+  {
+    "id": "srgym-155574250",
+    "slug": "hange-srgym-silhouette-tshirt",
+    "names": {
+      "zh": "韩吉 SR-GYM 战斗剪影 BIG T 恤",
+      "ja": "TVアニメ『進撃の巨人』 The Final Season BIGシルエットTシャツ（ハンジ・ゾエ）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "漢吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "Hanji Zoe",
+      "Hans Zoe",
+      "1123"
+    ],
+    "type": "服饰",
+    "manufacturer": "SR-GYM",
+    "publisher": null,
+    "seriesId": "srgym-tfs-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-srgym-silhouette-tshirt.svg",
+        "alt": "韩吉 SR-GYM 战斗剪影 BIG T 恤 官方样品图",
+        "sourceUrl": "https://srgym.official.ec/items/155574250",
+        "originalUrl": "https://baseec-img-mng.akamaized.net/images/item/origin/326756fba86ad01b174e49a02082864c.jpg",
+        "credit": "SR-GYM",
+        "usage": "官方商品页样品图，保留原图 SAMPLE 水印；权利归原权利方"
+      }
+    ],
+    "description": "紫色韩吉剪影线条的 BIG 版型 T 恤，韩吉为商品页款式选项之一，各角色同价。预约自 2026 年 9 月 24 日开始，官方门户商品一览图标价 4,950 日元含税，预计 2026 年 12 月中旬起依次发货。",
+    "specifications": {
+      "尺码": "M、L、XL",
+      "材质": "棉",
+      "包装": "OPP 袋装",
+      "款式": "全 6 种中的韩吉·佐耶",
+      "官方发售说明": "商品标题标注 2026 年 12 月中旬顷发售预定",
+      "页面发货说明": "发货预定 2026 年 12 月中旬起依次发货"
+    },
+    "releases": [
+      {
+        "releaseId": "srgym-155574250-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "srgym-155574250-official",
+          "srgym-portal-announcement-20260924",
+          "srgym-portal-price-poster"
+        ],
+        "announcement": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 4950,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "srgym-portal-price-poster"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "预约截止日期未公布",
+      "限定范围未注明",
+      "商品页本身未标注含税字样，含税依据为官方门户商品一览图"
+    ],
+    "sources": [
+      {
+        "id": "srgym-155574250-official",
+        "url": "https://srgym.official.ec/items/155574250",
+        "title": "SR-GYM Online Shop｜BIGシルエットTシャツ 原商品页",
+        "organization": "株式会社SR-GYM",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "日文商品名",
+          "韩吉款式选项",
+          "含税售价",
+          "尺寸",
+          "材质",
+          "包装",
+          "发货预定",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "srgym-portal-announcement-20260924",
+        "url": "https://aot-portal.com/news/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%besr-gym%e3%82%88%e3%82%8a%e3%80%81tv%e3%82%a2%e3%83%8b%e3%83%a1%e3%80%8e%e9%80%b2%e6%92%83%e3%81%ae%e5%b7%a8%e4%ba%ba%e3%80%8f%e3%82%b0%e3%83%83%e3%82%ba%e3%81%8c/",
+        "title": "进击的巨人官方门户｜SR-GYM 周边公告（2026-09-24）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "公告刊载日期",
+          "预约开始日期",
+          "商品一览"
+        ]
+      },
+      {
+        "id": "srgym-portal-price-poster",
+        "url": "https://aot-portal.com/wp/wp-content/uploads/2026/09/%E2%91%A0%E3%80%90%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%80%91%E5%95%86%E5%93%81%E4%B8%80%E8%A6%A7POP.jpg",
+        "title": "官方门户公告附「進撃の巨人」商品一览 POP 图",
+        "organization": "株式会社SR-GYM／「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "含税售价",
+          "种类数",
+          "尺寸",
+          "材质"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-12",
+    "isDemo": false
+  },
+  {
+    "id": "srgym-155575210",
+    "slug": "hange-srgym-big-towel",
+    "names": {
+      "zh": "韩吉 SR-GYM 战斗插画 BIG 毛巾",
+      "ja": "TVアニメ『進撃の巨人』 The Final Season BIGタオル（ハンジ・ゾエ）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "漢吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "Hanji Zoe",
+      "Hans Zoe",
+      "1123"
+    ],
+    "type": "生活用品",
+    "manufacturer": "SR-GYM",
+    "publisher": null,
+    "seriesId": "srgym-tfs-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-srgym-big-towel.svg",
+        "alt": "韩吉 SR-GYM BIG 毛巾 官方样品图",
+        "sourceUrl": "https://srgym.official.ec/items/155575210",
+        "originalUrl": "https://baseec-img-mng.akamaized.net/images/item/origin/75fda165f853181c5b561783e85a12e8.jpg",
+        "credit": "SR-GYM",
+        "usage": "官方商品页样品图，保留原图 SAMPLE 水印；权利归原权利方"
+      }
+    ],
+    "description": "美漫风对话框插画的 BIG 毛巾，韩吉款为持刀跃起构图。韩吉为商品页款式选项之一，各角色同价。预约自 2026 年 9 月 24 日开始，官方门户商品一览图标价 6,600 日元含税，预计 2026 年 12 月中旬起依次发货。",
+    "specifications": {
+      "尺寸": "约 1250×600 mm",
+      "材质": "棉",
+      "包装": "OPP 袋装",
+      "款式": "全 6 种中的韩吉·佐耶",
+      "官方发售说明": "商品标题标注 2026 年 12 月中旬顷发售预定"
+    },
+    "releases": [
+      {
+        "releaseId": "srgym-155575210-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "srgym-155575210-official",
+          "srgym-portal-announcement-20260924",
+          "srgym-portal-price-poster"
+        ],
+        "announcement": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 6600,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "srgym-portal-price-poster"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "预约截止日期未公布",
+      "限定范围未注明",
+      "商品页本身未标注含税字样，含税依据为官方门户商品一览图"
+    ],
+    "sources": [
+      {
+        "id": "srgym-155575210-official",
+        "url": "https://srgym.official.ec/items/155575210",
+        "title": "SR-GYM Online Shop｜BIGタオル 原商品页",
+        "organization": "株式会社SR-GYM",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "日文商品名",
+          "韩吉款式选项",
+          "含税售价",
+          "尺寸",
+          "材质",
+          "包装",
+          "发货预定",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "srgym-portal-announcement-20260924",
+        "url": "https://aot-portal.com/news/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%besr-gym%e3%82%88%e3%82%8a%e3%80%81tv%e3%82%a2%e3%83%8b%e3%83%a1%e3%80%8e%e9%80%b2%e6%92%83%e3%81%ae%e5%b7%a8%e4%ba%ba%e3%80%8f%e3%82%b0%e3%83%83%e3%82%ba%e3%81%8c/",
+        "title": "进击的巨人官方门户｜SR-GYM 周边公告（2026-09-24）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "公告刊载日期",
+          "预约开始日期",
+          "商品一览"
+        ]
+      },
+      {
+        "id": "srgym-portal-price-poster",
+        "url": "https://aot-portal.com/wp/wp-content/uploads/2026/09/%E2%91%A0%E3%80%90%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%80%91%E5%95%86%E5%93%81%E4%B8%80%E8%A6%A7POP.jpg",
+        "title": "官方门户公告附「進撃の巨人」商品一览 POP 图",
+        "organization": "株式会社SR-GYM／「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "含税售价",
+          "种类数",
+          "尺寸",
+          "材质"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-12",
+    "isDemo": false
+  },
+  {
+    "id": "srgym-155573782",
+    "slug": "hange-srgym-clear-poster",
+    "names": {
+      "zh": "韩吉 SR-GYM BIG 透明海报",
+      "ja": "TVアニメ『進撃の巨人』 The Final Season BIGクリアポスター（ハンジ・ゾエ）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "漢吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "Hanji Zoe",
+      "Hans Zoe",
+      "1123"
+    ],
+    "type": "纸品",
+    "manufacturer": "SR-GYM",
+    "publisher": null,
+    "seriesId": "srgym-tfs-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-srgym-clear-poster.svg",
+        "alt": "韩吉 SR-GYM BIG 透明海报 官方样品图",
+        "sourceUrl": "https://srgym.official.ec/items/155573782",
+        "originalUrl": "https://baseec-img-mng.akamaized.net/images/item/origin/1c6ad80d23fe17600e876c6f2ce2e9d4.jpg",
+        "credit": "SR-GYM",
+        "usage": "官方商品页样品图，保留原图 SAMPLE 水印；权利归原权利方"
+      }
+    ],
+    "description": "连帽衫造型的角色海报，韩吉款为紫色底、标注 Hans Zoe。韩吉为商品页款式选项之一，各角色同价；该系列另有两种集合绘柄，未单列条目。预约自 2026 年 9 月 24 日开始，官方门户商品一览图标价 1,210 日元含税，预计 2026 年 12 月中旬起依次发货。",
+    "specifications": {
+      "尺寸": "A3",
+      "材质": "PET",
+      "包装": "台纸、OPP 袋装",
+      "款式": "全 8 种中的韩吉·佐耶",
+      "官方发售说明": "商品标题标注 2026 年 12 月中旬顷发售预定"
+    },
+    "releases": [
+      {
+        "releaseId": "srgym-155573782-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "srgym-155573782-official",
+          "srgym-portal-announcement-20260924",
+          "srgym-portal-price-poster"
+        ],
+        "announcement": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1210,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "srgym-portal-price-poster"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "预约截止日期未公布",
+      "限定范围未注明",
+      "商品页本身未标注含税字样，含税依据为官方门户商品一览图"
+    ],
+    "sources": [
+      {
+        "id": "srgym-155573782-official",
+        "url": "https://srgym.official.ec/items/155573782",
+        "title": "SR-GYM Online Shop｜BIGクリアポスター 原商品页",
+        "organization": "株式会社SR-GYM",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "日文商品名",
+          "韩吉款式选项",
+          "含税售价",
+          "尺寸",
+          "材质",
+          "包装",
+          "发货预定",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "srgym-portal-announcement-20260924",
+        "url": "https://aot-portal.com/news/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%besr-gym%e3%82%88%e3%82%8a%e3%80%81tv%e3%82%a2%e3%83%8b%e3%83%a1%e3%80%8e%e9%80%b2%e6%92%83%e3%81%ae%e5%b7%a8%e4%ba%ba%e3%80%8f%e3%82%b0%e3%83%83%e3%82%ba%e3%81%8c/",
+        "title": "进击的巨人官方门户｜SR-GYM 周边公告（2026-09-24）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "公告刊载日期",
+          "预约开始日期",
+          "商品一览"
+        ]
+      },
+      {
+        "id": "srgym-portal-price-poster",
+        "url": "https://aot-portal.com/wp/wp-content/uploads/2026/09/%E2%91%A0%E3%80%90%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%80%91%E5%95%86%E5%93%81%E4%B8%80%E8%A6%A7POP.jpg",
+        "title": "官方门户公告附「進撃の巨人」商品一览 POP 图",
+        "organization": "株式会社SR-GYM／「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "含税售价",
+          "种类数",
+          "尺寸",
+          "材质"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-12",
+    "isDemo": false
+  },
+  {
+    "id": "srgym-155576491",
+    "slug": "hange-srgym-battle-diorama",
+    "names": {
+      "zh": "韩吉 SR-GYM 战斗场景亚克力立体立牌",
+      "ja": "TVアニメ『進撃の巨人』 The Final Season 戦闘シーンアクリルジオラマスタンド（ハンジ・ゾエ）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "漢吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "Hanji Zoe",
+      "Hans Zoe",
+      "1123"
+    ],
+    "type": "亚克力",
+    "manufacturer": "SR-GYM",
+    "publisher": null,
+    "seriesId": "srgym-tfs-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-srgym-battle-diorama.svg",
+        "alt": "韩吉 SR-GYM 战斗场景亚克力立体立牌 官方样品图",
+        "sourceUrl": "https://srgym.official.ec/items/155576491",
+        "originalUrl": "https://baseec-img-mng.akamaized.net/images/item/origin/d1bde3fc0c3e89f0fc4650aa53e1cf8f.jpg",
+        "credit": "SR-GYM",
+        "usage": "官方商品页样品图，保留原图 SAMPLE 水印；权利归原权利方"
+      }
+    ],
+    "description": "破墙效果背景加角色切割件的双层亚克力立体立牌，韩吉款为紫色特效。韩吉为商品页款式选项之一，各角色同价。预约自 2026 年 9 月 24 日开始，官方门户商品一览图标价 2,200 日元含税，预计 2026 年 12 月中旬起依次发货。",
+    "specifications": {
+      "本体尺寸": "①② 约 100×150 mm 以内",
+      "台座尺寸": "约 100×40 mm",
+      "材质": "亚克力",
+      "包装": "OPP 袋装",
+      "款式": "全 6 种中的韩吉·佐耶",
+      "官方发售说明": "商品标题标注 2026 年 12 月中旬顷发售预定"
+    },
+    "releases": [
+      {
+        "releaseId": "srgym-155576491-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "srgym-155576491-official",
+          "srgym-portal-announcement-20260924",
+          "srgym-portal-price-poster"
+        ],
+        "announcement": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-24",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-12",
+          "precision": "month"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 2200,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "srgym-portal-price-poster"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "预约截止日期未公布",
+      "限定范围未注明",
+      "商品页本身未标注含税字样，含税依据为官方门户商品一览图"
+    ],
+    "sources": [
+      {
+        "id": "srgym-155576491-official",
+        "url": "https://srgym.official.ec/items/155576491",
+        "title": "SR-GYM Online Shop｜戦闘シーンアクリルジオラマスタンド 原商品页",
+        "organization": "株式会社SR-GYM",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "日文商品名",
+          "韩吉款式选项",
+          "含税售价",
+          "尺寸",
+          "材质",
+          "包装",
+          "发货预定",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "srgym-portal-announcement-20260924",
+        "url": "https://aot-portal.com/news/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%besr-gym%e3%82%88%e3%82%8a%e3%80%81tv%e3%82%a2%e3%83%8b%e3%83%a1%e3%80%8e%e9%80%b2%e6%92%83%e3%81%ae%e5%b7%a8%e4%ba%ba%e3%80%8f%e3%82%b0%e3%83%83%e3%82%ba%e3%81%8c/",
+        "title": "进击的巨人官方门户｜SR-GYM 周边公告（2026-09-24）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "公告刊载日期",
+          "预约开始日期",
+          "商品一览"
+        ]
+      },
+      {
+        "id": "srgym-portal-price-poster",
+        "url": "https://aot-portal.com/wp/wp-content/uploads/2026/09/%E2%91%A0%E3%80%90%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%80%91%E5%95%86%E5%93%81%E4%B8%80%E8%A6%A7POP.jpg",
+        "title": "官方门户公告附「進撃の巨人」商品一览 POP 图",
+        "organization": "株式会社SR-GYM／「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "含税售价",
+          "种类数",
+          "尺寸",
+          "材质"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-12",
+    "isDemo": false
+  },
+  {
+    "id": "pricafe-21086",
+    "slug": "hange-pumpkin-stand",
+    "names": {
+      "zh": "韩吉 南瓜主题亚克力立牌",
+      "ja": "TVアニメ『進撃の巨人』 アクリルスタンド かぼちゃVer（ハンジ・ゾエ）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "漢吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "Hanji Zoe",
+      "Hans Zoe",
+      "1123"
+    ],
+    "type": "亚克力",
+    "manufacturer": "プリンセスカフェ",
+    "publisher": "プリンセスカフェ",
+    "seriesId": "pricafe-pumpkin-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-pumpkin-stand.svg",
+        "alt": "韩吉 南瓜主题亚克力立牌 官方样品图",
+        "sourceUrl": "https://www.pricafe.shop/view/item/000000021086",
+        "originalUrl": "https://makeshop-multi-images.akamaized.net/pricafe/itemimages/000000021086_I1cCFMg.jpg",
+        "credit": "プリンセスカフェ",
+        "usage": "官方商品页样品图，保留原图 SAMPLE 水印；权利归原权利方"
+      }
+    ],
+    "description": "南瓜主题迷你角色韩吉，戴南瓜帽、手持棒棒糖，底座印 Hans 名牌。官方门户 2026-09-14 公告第 5 弾，店铺 2026-09-15 12:00 开始贩卖，商品页标价 1,100 日元含税、预计 2026-11-03 发货。",
+    "specifications": {
+      "尺寸": "最大约 H100 mm",
+      "材质": "亚克力",
+      "种类": "1 种",
+      "JAN": "4570266396354",
+      "厂商": "オリジナル",
+      "店铺发货说明": "预计 2026-11-03 发货；入荷、发售预定日前日起 7 日内发货"
+    },
+    "releases": [
+      {
+        "releaseId": "pricafe-000000021086-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "pricafe-21086-official",
+          "pricafe-portal-announcement-20260914"
+        ],
+        "announcement": {
+          "value": "2026-09-14",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-15",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1100,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "pricafe-21086-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "预约截止日期未公布",
+      "正式发售日未公布，仅有店铺发货预定",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "pricafe-21086-official",
+        "url": "https://www.pricafe.shop/view/item/21086",
+        "title": "プリンセスカフェショップオンライン｜アクリルスタンド かぼちゃVer（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "材质",
+          "尺寸",
+          "JAN 代码",
+          "贩卖开始时间",
+          "发货预定",
+          "商品样品图与原图",
+          "希望小売価格"
+        ]
+      },
+      {
+        "id": "pricafe-portal-announcement-20260914",
+        "url": "https://aot-portal.com/news/tv%e3%82%a2%e3%83%8b%e3%83%a1%e3%80%8e%e9%80%b2%e6%92%83%e3%81%ae%e5%b7%a8%e4%ba%ba%e3%80%8f%e3%82%aa%e3%83%aa%e3%82%b8%e3%83%8a%e3%83%ab%e3%82%b0%e3%83%83%e3%82%ba%e3%80%90%e7%ac%ac5%e5%bc%be/",
+        "title": "进击的巨人官方门户｜プリンセスカフェ オリジナルグッズ第5弾公告（2026-09-14）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "公告刊载日期",
+          "销售开始时间",
+          "含税售价",
+          "商品种类数"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-12",
+    "isDemo": false
+  },
+  {
+    "id": "pricafe-21094",
+    "slug": "hange-pumpkin-badge",
+    "names": {
+      "zh": "韩吉 南瓜主题徽章",
+      "ja": "TVアニメ『進撃の巨人』 缶バッジ かぼちゃVer（ハンジ・ゾエ）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "漢吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "Hanji Zoe",
+      "Hans Zoe",
+      "1123"
+    ],
+    "type": "徽章",
+    "manufacturer": "プリンセスカフェ",
+    "publisher": "プリンセスカフェ",
+    "seriesId": "pricafe-pumpkin-2026",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-pumpkin-badge.svg",
+        "alt": "韩吉 南瓜主题徽章 官方样品图",
+        "sourceUrl": "https://www.pricafe.shop/view/item/000000021094",
+        "originalUrl": "https://makeshop-multi-images.akamaized.net/pricafe/itemimages/000000021094_DevsPHm.jpg",
+        "credit": "プリンセスカフェ",
+        "usage": "官方商品页样品图，保留原图 SAMPLE 水印；权利归原权利方"
+      }
+    ],
+    "description": "南瓜主题迷你角色韩吉的圆形徽章，取立牌同款上半身构图。官方门户 2026-09-14 公告第 5 弾，店铺 2026-09-15 12:00 开始贩卖，商品页标价 550 日元含税、预计 2026-11-03 发货。",
+    "specifications": {
+      "尺寸": "约 Φ56 mm",
+      "材质": "铝",
+      "种类": "1 种",
+      "JAN": "4570266396439",
+      "厂商": "オリジナル",
+      "店铺发货说明": "预计 2026-11-03 发货；入荷、发售预定日前日起 7 日内发货"
+    },
+    "releases": [
+      {
+        "releaseId": "pricafe-000000021094-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "pricafe-21094-official",
+          "pricafe-portal-announcement-20260914"
+        ],
+        "announcement": {
+          "value": "2026-09-14",
+          "precision": "day"
+        },
+        "preorderStart": {
+          "value": "2026-09-15",
+          "precision": "day"
+        },
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 550,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "pricafe-21094-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "pricafe-21086"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "原始 X 推文链接及发布时间待核实",
+      "预约截止日期未公布",
+      "正式发售日未公布，仅有店铺发货预定",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "pricafe-21094-official",
+        "url": "https://www.pricafe.shop/view/item/21094",
+        "title": "プリンセスカフェショップオンライン｜缶バッジ かぼちゃVer（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "材质",
+          "尺寸",
+          "JAN 代码",
+          "贩卖开始时间",
+          "发货预定",
+          "商品样品图与原图",
+          "希望小売価格"
+        ]
+      },
+      {
+        "id": "pricafe-portal-announcement-20260914",
+        "url": "https://aot-portal.com/news/tv%e3%82%a2%e3%83%8b%e3%83%a1%e3%80%8e%e9%80%b2%e6%92%83%e3%81%ae%e5%b7%a8%e4%ba%ba%e3%80%8f%e3%82%aa%e3%83%aa%e3%82%b8%e3%83%8a%e3%83%ab%e3%82%b0%e3%83%83%e3%82%ba%e3%80%90%e7%ac%ac5%e5%bc%be/",
+        "title": "进击的巨人官方门户｜プリンセスカフェ オリジナルグッズ第5弾公告（2026-09-14）",
+        "organization": "「進撃の巨人」公式ポータルサイト",
+        "checkedAt": "2026-10-12",
+        "fields": [
+          "公告刊载日期",
+          "销售开始时间",
+          "含税售价",
+          "商品种类数"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-12",
+    "isDemo": false
   }
 ]
