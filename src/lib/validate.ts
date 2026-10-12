@@ -46,7 +46,7 @@ for (const collection of ["news", "wiki"]) {
         resolve(root, "content", collection, file),
         "utf8",
       );
-      const front = raw.match(/^---\n([\s\S]*?)\n---/);
+      const front = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
       if (!front) throw Error("缺少 frontmatter " + file);
       return { ...parse(front[1]), collection };
     });
