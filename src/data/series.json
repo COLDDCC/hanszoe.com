@@ -629,9 +629,24 @@
           "配送说明",
           "店铺领取日期及预约区间"
         ]
+      },
+      {
+        "id": "eeo-287373-official",
+        "url": "https://eeo.today/store/101/products/detail/287373",
+        "title": "eeo Store｜韩吉 赛博朋克款模切贴纸 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税通常标价",
+          "商品尺寸",
+          "销售状态",
+          "配送说明"
+        ]
       }
     ],
-    "updatedAt": "2026-10-06",
+    "updatedAt": "2026-10-13",
     "isDemo": false,
     "images": []
   },
@@ -1387,6 +1402,1729 @@
       }
     ],
     "updatedAt": "2026-10-12",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "graffart-a3",
+    "slug": "graffart-a3",
+    "name": "GraffArt 涂鸦 · A3 原创绘柄",
+    "aliases": [
+      "グラフアート",
+      "GraffArt",
+      "ペイントver.",
+      "A3"
+    ],
+    "description": "收录 A3 GraffArt（らくがき风）系列中出现的韩吉商品。其中 2023 年「ペイントver.」与更早的グラフアート插画编号各自保留发行记录，不合并为同一次发行。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "eeo-79112-official",
+        "url": "https://eeo.today/store/101/products/detail/79112",
+        "title": "eeo Store｜利威尔＆埃尔文＆韩吉 涂鸦版收藏瓶摆件 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税通常标价",
+          "商品尺寸",
+          "商品発売日",
+          "预约区间",
+          "配送说明"
+        ]
+      },
+      {
+        "id": "eeo-79106-official",
+        "url": "https://eeo.today/store/101/products/detail/79106",
+        "title": "eeo Store｜利威尔＆埃尔文＆韩吉 涂鸦版皮革便签本 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税通常标价",
+          "商品尺寸",
+          "商品発売日",
+          "预约区间",
+          "配送说明"
+        ]
+      },
+      {
+        "id": "eeo-50003-official",
+        "url": "https://eeo.today/store/101/products/detail/50003",
+        "title": "eeo Store｜利威尔＆韩吉 GraffArt 皮革便签本 原商品页",
+        "organization": "A3 / eeo Store",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文原名",
+          "商品图",
+          "含税通常标价",
+          "商品尺寸",
+          "配送说明"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-rpg-2025",
+    "slug": "pricafe-rpg-2025",
+    "name": "公主咖啡 RPG · 迷你角色",
+    "aliases": [
+      "RPGver.",
+      "プリンセスカフェ RPG",
+      "进击的巨人 RPG 主题"
+    ],
+    "description": "公主咖啡 RPG · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。RPG 职业造型的迷你角色绘柄。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-15676-official",
+        "url": "https://www.pricafe.shop/view/item/000000015676",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 ミニキャラアクリルスタンド RPGver. (ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-15684-official",
+        "url": "https://www.pricafe.shop/view/item/000000015684",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 ミニキャラアクリルキーホルダー RPGver. (ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-erwin-birthday-2026",
+    "slug": "pricafe-erwin-birthday-2026",
+    "name": "公主咖啡 埃尔文生日款 · 迷你角色",
+    "aliases": [
+      "エルヴィンバースデーVer.",
+      "埃尔文生日主题"
+    ],
+    "description": "公主咖啡 埃尔文生日款 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。埃尔文生日企划绘柄，全员换上庆典服装的迷你角色。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-21446-official",
+        "url": "https://www.pricafe.shop/view/item/000000021446",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラアクリルスタンド エルヴィンバースデーVer.（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-21452-official",
+        "url": "https://www.pricafe.shop/view/item/000000021452",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラ缶バッジ エルヴィンバースデーVer.（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-21455-official",
+        "url": "https://www.pricafe.shop/view/item/000000021455",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラカードセットB エルヴィンバースデーVer.（リヴァイ・エルヴィン・ハンジ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-eren-birthday-2026",
+    "slug": "pricafe-eren-birthday-2026",
+    "name": "公主咖啡 艾伦生日款 · 迷你角色",
+    "aliases": [
+      "エレンバースデーVer.",
+      "艾伦生日主题"
+    ],
+    "description": "公主咖啡 艾伦生日款 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。艾伦生日企划绘柄，全员换上庆典服装的迷你角色，官方曾于 2026-02-20 公告。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-18038-official",
+        "url": "https://www.pricafe.shop/view/item/000000018038",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラアクリルスタンド エレンバースデーVer.（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-18044-official",
+        "url": "https://www.pricafe.shop/view/item/000000018044",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラ缶バッジ エレンバースデーVer.（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-18047-official",
+        "url": "https://www.pricafe.shop/view/item/000000018047",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラカードセットB エレンバースデーVer.（リヴァイ・エルヴィン・ハンジ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-fairytale-2026",
+    "slug": "pricafe-fairytale-2026",
+    "name": "公主咖啡 童话 · 迷你角色",
+    "aliases": [
+      "おとぎ話Ver",
+      "童话主题"
+    ],
+    "description": "公主咖啡 童话 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。童话故事造型的迷你角色绘柄。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-19315-official",
+        "url": "https://www.pricafe.shop/view/item/000000019315",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』アクリルスタンド おとぎ話Ver（ハンジ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-19323-official",
+        "url": "https://www.pricafe.shop/view/item/000000019323",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』缶バッジ おとぎ話Ver（ハンジ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-work-2023",
+    "slug": "pricafe-work-2023",
+    "name": "公主咖啡 职业装 · 双人组合",
+    "aliases": [
+      "お仕事",
+      "职业主题"
+    ],
+    "description": "公主咖啡 职业装 · 双人组合：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。职业装主题的双人组合绘柄。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-11468-official",
+        "url": "https://www.pricafe.shop/view/item/000000011468",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 アクリルキーホルダー サシャ・ハンジ(お仕事) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-nap-2023",
+    "slug": "pricafe-nap-2023",
+    "name": "公主咖啡 小睡 · 连体挂件绘柄",
+    "aliases": [
+      "お昼寝",
+      "午睡主题"
+    ],
+    "description": "公主咖啡 小睡 · 连体挂件绘柄：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。睡前造型的双人迷你角色，挂件可两两相连。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-10218-official",
+        "url": "https://www.pricafe.shop/view/item/000000010218",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 連結チャーム（お昼寝） アルミン・ハンジ グッズ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-kemomimi-parka-2022",
+    "slug": "pricafe-kemomimi-parka-2022",
+    "name": "公主咖啡 兽耳卫衣 · 连体挂件绘柄",
+    "aliases": [
+      "ケモミミパーカー",
+      "兽耳卫衣主题"
+    ],
+    "description": "公主咖啡 兽耳卫衣 · 连体挂件绘柄：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。兽耳卫衣造型的双人迷你角色，挂件可两两相连。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-9755-official",
+        "url": "https://www.pricafe.shop/view/item/000000009755",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 連結チャーム (ケモミミパーカー) アルミン・ハンジ グッズ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-square-2022",
+    "slug": "pricafe-square-2022",
+    "name": "公主咖啡 方形挂件 · 早期常设图案",
+    "aliases": [
+      "スクエアキーホルダー",
+      "方形钥匙扣"
+    ],
+    "description": "公主咖啡 方形挂件 · 早期常设图案：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。2022 年店铺开业期的常设人物图案，商品页未标注绘柄名称。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-8897-official",
+        "url": "https://www.pricafe.shop/view/item/000000008897",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 スクエアキーホルダー ハンジ グッズ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-steampunk-2025",
+    "slug": "pricafe-steampunk-2025",
+    "name": "公主咖啡 蒸汽朋克 · 迷你角色",
+    "aliases": [
+      "スチームパンクver.",
+      "蒸汽朋克主题"
+    ],
+    "description": "公主咖啡 蒸汽朋克 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。蒸汽朋克造型的迷你角色绘柄。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-14962-official",
+        "url": "https://www.pricafe.shop/view/item/000000014962",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 ミニキャラアクリルスタンド スチームパンクver. (ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-14970-official",
+        "url": "https://www.pricafe.shop/view/item/000000014970",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 ミニキャラアクリルキーホルダー スチームパンクver. (ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-street-fashion-2025",
+    "slug": "pricafe-street-fashion-2025",
+    "name": "公主咖啡 街头潮流 · 迷你角色",
+    "aliases": [
+      "ストリートファッションver.",
+      "街头服饰主题"
+    ],
+    "description": "公主咖啡 街头潮流 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。街头潮流服装造型的迷你角色绘柄。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-15371-official",
+        "url": "https://www.pricafe.shop/view/item/000000015371",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 ミニキャラアクリルスタンド ストリートファッションver. (ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-15379-official",
+        "url": "https://www.pricafe.shop/view/item/000000015379",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 ミニキャラアクリルキーホルダー ストリートファッションver. (ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-tarot-cafe-2026",
+    "slug": "pricafe-tarot-cafe-2026",
+    "name": "公主咖啡 塔罗主题咖啡厅 · 迷你角色",
+    "aliases": [
+      "タロット コラボカフェ",
+      "塔罗咖啡厅",
+      "場面写"
+    ],
+    "description": "公主咖啡 塔罗主题咖啡厅 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。塔罗主题联动咖啡厅绘柄，含迷你角色与动画剧照两类图案。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-19210-official",
+        "url": "https://www.pricafe.shop/view/item/000000019210",
+        "title": "プリンセスカフェショップオンライン｜「進撃の巨人」タロット コラボカフェ ミニキャラアクリルスタンド／ハンジ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-19218-official",
+        "url": "https://www.pricafe.shop/view/item/000000019218",
+        "title": "プリンセスカフェショップオンライン｜「進撃の巨人」タロット コラボカフェ ミニキャラアクリルキーホルダー／ハンジ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-19226-official",
+        "url": "https://www.pricafe.shop/view/item/000000019226",
+        "title": "プリンセスカフェショップオンライン｜「進撃の巨人」タロット コラボカフェ ミニキャラアクリルカード／ハンジ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-19234-official",
+        "url": "https://www.pricafe.shop/view/item/000000019234",
+        "title": "プリンセスカフェショップオンライン｜「進撃の巨人」タロット コラボカフェ ミニキャラアクリルマドラー／ハンジ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-19249-official",
+        "url": "https://www.pricafe.shop/view/item/000000019249",
+        "title": "プリンセスカフェショップオンライン｜「進撃の巨人」タロット コラボカフェ 場面写缶バッジ／ハンジ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-nameplate",
+    "slug": "pricafe-nameplate",
+    "name": "公主咖啡 名字款 · 常设图案",
+    "aliases": [
+      "ネームキーホルダー",
+      "ネームバッジ",
+      "名字挂件"
+    ],
+    "description": "公主咖啡 名字款 · 常设图案：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。印有角色名字与头像的常设周边，商品页未标注绘柄名称。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-11646-official",
+        "url": "https://www.pricafe.shop/view/item/000000011646",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 ネームキーホルダー(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-8905-official",
+        "url": "https://www.pricafe.shop/view/item/000000008905",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ネームバッジ ハンジ グッズ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-puzzle-2022",
+    "slug": "pricafe-puzzle-2022",
+    "name": "公主咖啡 拼图造型 · 双人挂件",
+    "aliases": [
+      "パズル型アクリルキーホルダー",
+      "拼图钥匙扣"
+    ],
+    "description": "公主咖啡 拼图造型 · 双人挂件：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。两枚可拼合的双人迷你角色，商品页未标注绘柄名称。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-8829-official",
+        "url": "https://www.pricafe.shop/view/item/000000008829",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 パズル型アクリルキーホルダー アルミン・ハンジ グッズ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-halloween-2025",
+    "slug": "pricafe-halloween-2025",
+    "name": "公主咖啡 万圣节 · 迷你角色",
+    "aliases": [
+      "ハロウィンVer.",
+      "万圣节主题"
+    ],
+    "description": "公主咖啡 万圣节 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。万圣节造型的迷你角色绘柄。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-16014-official",
+        "url": "https://www.pricafe.shop/view/item/000000016014",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラアクリルスタンド ハロウィンVer.ハンジ・ゾエ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-16022-official",
+        "url": "https://www.pricafe.shop/view/item/000000016022",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラアクリルキーホルダー ハロウィンVer.ハンジ・ゾエ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-16030-official",
+        "url": "https://www.pricafe.shop/view/item/000000016030",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラアクリルコースター ハロウィンVer.ハンジ・ゾエ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-16042-official",
+        "url": "https://www.pricafe.shop/view/item/000000016042",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラステッカー ハロウィンVer.ハンジ・ゾエ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-hange-birthday-2026",
+    "slug": "pricafe-hange-birthday-2026",
+    "name": "公主咖啡 韩吉生日款 · 2026",
+    "aliases": [
+      "ハンジバースデーVer.",
+      "韩吉生日主题",
+      "ハンジのバースデーアート"
+    ],
+    "description": "公主咖啡 韩吉生日款 · 2026：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。2026 年韩吉生日绘柄，同一图案同时推出迷你角色与正比例两种版本。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-20717-official",
+        "url": "https://www.pricafe.shop/view/item/000000020717",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラアクリルスタンド ハンジバースデーVer.（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-20723-official",
+        "url": "https://www.pricafe.shop/view/item/000000020723",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラ缶バッジ ハンジバースデーVer.（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-20726-official",
+        "url": "https://www.pricafe.shop/view/item/000000020726",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラカードセットB ハンジバースデーVer.（リヴァイ・エルヴィン・ハンジ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-20727-official",
+        "url": "https://www.pricafe.shop/view/item/000000020727",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 アクリルスタンド ハンジバースデーVer. 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-20728-official",
+        "url": "https://www.pricafe.shop/view/item/000000020728",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 缶バッジ ハンジバースデーVer. 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-20729-official",
+        "url": "https://www.pricafe.shop/view/item/000000020729",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ブロマイド2枚セット ハンジバースデーVer. 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-playing-card-2025",
+    "slug": "pricafe-playing-card-2025",
+    "name": "公主咖啡 扑克牌 · 迷你角色",
+    "aliases": [
+      "プレイングカードVer.",
+      "扑克牌主题"
+    ],
+    "description": "公主咖啡 扑克牌 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。扑克牌花色造型的迷你角色绘柄。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-16067-official",
+        "url": "https://www.pricafe.shop/view/item/000000016067",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラアクリルスタンド プレイングカードVer.ハンジ・ゾエ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-16075-official",
+        "url": "https://www.pricafe.shop/view/item/000000016075",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラアクリルチャーム プレイングカードVer.ハンジ・ゾエ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-16087-official",
+        "url": "https://www.pricafe.shop/view/item/000000016087",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラステッカー プレイングカードVer.ハンジ・ゾエ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-pirate-2026",
+    "slug": "pricafe-pirate-2026",
+    "name": "公主咖啡 海盗 · 迷你角色",
+    "aliases": [
+      "海賊Ver",
+      "海盗主题",
+      "オリジナルグッズ第2弾"
+    ],
+    "description": "公主咖啡 海盗 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。海盗主题新绘迷你角色，属官方原创周边第 2 弾。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-19702-official",
+        "url": "https://www.pricafe.shop/view/item/000000019702",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 アクリルスタンド 海賊Ver（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-19710-official",
+        "url": "https://www.pricafe.shop/view/item/000000019710",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 缶バッジ 海賊Ver（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-tanabata-2022",
+    "slug": "pricafe-tanabata-2022",
+    "name": "公主咖啡 七夕 · 连体挂件绘柄",
+    "aliases": [
+      "七夕",
+      "七夕主题"
+    ],
+    "description": "公主咖啡 七夕 · 连体挂件绘柄：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。和服七夕造型的双人迷你角色，挂件可两两相连。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-8848-official",
+        "url": "https://www.pricafe.shop/view/item/000000008848",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 連結チャーム(七夕) アルミン・ハンジ グッズ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-water-play-2022",
+    "slug": "pricafe-water-play-2022",
+    "name": "公主咖啡 戏水 · 迷你角色",
+    "aliases": [
+      "水遊び",
+      "戏水主题"
+    ],
+    "description": "公主咖啡 戏水 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。夏季戏水造型的迷你角色绘柄。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-8916-official",
+        "url": "https://www.pricafe.shop/view/item/000000008916",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 水遊び アクリルキーホルダー ハンジ グッズ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-constellation-2026",
+    "slug": "pricafe-constellation-2026",
+    "name": "公主咖啡 星座 · 迷你角色",
+    "aliases": [
+      "星座ver.",
+      "星座主题"
+    ],
+    "description": "公主咖啡 星座 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。星座主题新绘迷你角色。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-17807-official",
+        "url": "https://www.pricafe.shop/view/item/000000017807",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 ミニキャラアクリルスタンド星座ver.(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-17819-official",
+        "url": "https://www.pricafe.shop/view/item/000000017819",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 ミニキャラアクリルキーホルダー星座ver.(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-baby-2023",
+    "slug": "pricafe-baby-2023",
+    "name": "公主咖啡 婴儿装 · 双人组合",
+    "aliases": [
+      "赤ちゃん",
+      "幼儿主题"
+    ],
+    "description": "公主咖啡 婴儿装 · 双人组合：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。婴儿服造型的双人迷你角色绘柄。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-10228-official",
+        "url": "https://www.pricafe.shop/view/item/000000010228",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 アクリルキーホルダー アルミン・ハンジ（赤ちゃん） グッズ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-angel-devil-2025",
+    "slug": "pricafe-angel-devil-2025",
+    "name": "公主咖啡 天使与恶魔 · 迷你角色",
+    "aliases": [
+      "天使と悪魔Ver.",
+      "天使与恶魔主题"
+    ],
+    "description": "公主咖啡 天使与恶魔 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。天使与恶魔双造型的迷你角色绘柄。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-14375-official",
+        "url": "https://www.pricafe.shop/view/item/000000014375",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラアクリルスタンド 天使と悪魔Ver. ハンジ・ゾエ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-14383-official",
+        "url": "https://www.pricafe.shop/view/item/000000014383",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラアクリルキーホルダー 天使と悪魔Ver. ハンジ・ゾエ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-14395-official",
+        "url": "https://www.pricafe.shop/view/item/000000014395",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 ミニキャラステッカー 天使と悪魔Ver. ハンジ・ゾエ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-cat-cafe-2023",
+    "slug": "pricafe-cat-cafe-2023",
+    "name": "公主咖啡 猫咪主题咖啡厅",
+    "aliases": [
+      "カフェ(猫)",
+      "猫咖啡馆",
+      "進撃の巨人カフェ（猫）"
+    ],
+    "description": "公主咖啡 猫咪主题咖啡厅：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。猫咪主题联动咖啡厅绘柄，含迷你角色与正比例两种版本。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-10873-official",
+        "url": "https://www.pricafe.shop/view/item/000000010873",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ「進撃の巨人」カフェ(猫) ミニキャラアクリルキーホルダー(アルミン・ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-10879-official",
+        "url": "https://www.pricafe.shop/view/item/000000010879",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ「進撃の巨人」カフェ(猫) ミニキャラ缶バッジ(アルミン・ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-10887-official",
+        "url": "https://www.pricafe.shop/view/item/000000010887",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ「進撃の巨人」カフェ(猫) アクリルスタンド(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-10891-official",
+        "url": "https://www.pricafe.shop/view/item/000000010891",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ「進撃の巨人」カフェ(猫) アクリルキーホルダー(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-10895-official",
+        "url": "https://www.pricafe.shop/view/item/000000010895",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ「進撃の巨人」カフェ(猫) 缶バッジ(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-10899-official",
+        "url": "https://www.pricafe.shop/view/item/000000010899",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ「進撃の巨人」カフェ(猫) 台座付きアクリルコースター(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-original-art-2023",
+    "slug": "pricafe-original-art-2023",
+    "name": "公主咖啡 原创绘柄 · 2023 版",
+    "aliases": [
+      "描き下ろし",
+      "2023 描新绘柄"
+    ],
+    "description": "公主咖啡 原创绘柄 · 2023 版：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。2023 年店铺原创正比例绘柄。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-11659-official",
+        "url": "https://www.pricafe.shop/view/item/000000011659",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 描き下ろしスタンド(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-11663-official",
+        "url": "https://www.pricafe.shop/view/item/000000011663",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 描き下ろしキーホルダー(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-11667-official",
+        "url": "https://www.pricafe.shop/view/item/000000011667",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 描き下ろし缶バッジ(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-original-art-2025",
+    "slug": "pricafe-original-art-2025",
+    "name": "公主咖啡 原创绘柄 · 2025 版",
+    "aliases": [
+      "描き下ろし",
+      "2025 描新绘柄"
+    ],
+    "description": "公主咖啡 原创绘柄 · 2025 版：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。2025 年店铺原创正比例绘柄，与 2023 版为不同插画。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-14756-official",
+        "url": "https://www.pricafe.shop/view/item/000000014756",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 描き下ろしアクリルスタンド(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-14760-official",
+        "url": "https://www.pricafe.shop/view/item/000000014760",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 描き下ろしアクリルキーホルダー(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-14764-official",
+        "url": "https://www.pricafe.shop/view/item/000000014764",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 描き下ろし缶バッジ(ハンジ) 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-ballroom-2026",
+    "slug": "pricafe-ballroom-2026",
+    "name": "公主咖啡 舞会 · 迷你角色",
+    "aliases": [
+      "舞踏会Ver",
+      "舞会主题",
+      "オリジナルグッズ第4弾"
+    ],
+    "description": "公主咖啡 舞会 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。舞会主题新绘迷你角色，属官方原创周边第 4 弾。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-19978-official",
+        "url": "https://www.pricafe.shop/view/item/000000019978",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 アクリルスタンド 舞踏会Ver（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-19986-official",
+        "url": "https://www.pricafe.shop/view/item/000000019986",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 缶バッジ 舞踏会Ver（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-happi-2023",
+    "slug": "pricafe-happi-2023",
+    "name": "公主咖啡 祭典法被 · 双人组合",
+    "aliases": [
+      "法被",
+      "法被主题"
+    ],
+    "description": "公主咖啡 祭典法被 · 双人组合：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。祭典法被造型的双人迷你角色绘柄。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-10679-official",
+        "url": "https://www.pricafe.shop/view/item/000000010679",
+        "title": "プリンセスカフェショップオンライン｜進撃の巨人 アクリルキーホルダー アルミン・ハンジ(法被) グッズ 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-fairy-2026",
+    "slug": "pricafe-fairy-2026",
+    "name": "公主咖啡 精灵 · 迷你角色",
+    "aliases": [
+      "妖精Ver",
+      "妖精主题",
+      "オリジナルグッズ第6弾"
+    ],
+    "description": "公主咖啡 精灵 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。精灵主题新绘迷你角色，属官方原创周边第 6 弾。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-21103-official",
+        "url": "https://www.pricafe.shop/view/item/000000021103",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 アクリルスタンド 妖精Ver（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-21111-official",
+        "url": "https://www.pricafe.shop/view/item/000000021111",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 缶バッジ 妖精Ver（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "pricafe-yukata-2026",
+    "slug": "pricafe-yukata-2026",
+    "name": "公主咖啡 浴衣 · 迷你角色",
+    "aliases": [
+      "浴衣Ver",
+      "浴衣主题",
+      "オリジナルグッズ第3弾"
+    ],
+    "description": "公主咖啡 浴衣 · 迷你角色：收录公主咖啡（プリンセスカフェ）周边中出现的韩吉商品。浴衣主题新绘迷你角色，属官方原创周边第 3 弾。",
+    "region": "日本",
+    "type": "绘柄系列",
+    "sources": [
+      {
+        "id": "pricafe-19961-official",
+        "url": "https://www.pricafe.shop/view/item/000000019961",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 アクリルスタンド 浴衣Ver（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      },
+      {
+        "id": "pricafe-19969-official",
+        "url": "https://www.pricafe.shop/view/item/000000019969",
+        "title": "プリンセスカフェショップオンライン｜TVアニメ『進撃の巨人』 缶バッジ 浴衣Ver（ハンジ・ゾエ） 原商品页",
+        "organization": "プリンセスカフェ",
+        "checkedAt": "2026-10-13",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "贩卖开始日",
+          "材质",
+          "尺寸",
+          "种类",
+          "JAN 代码",
+          "商品样品图与原图"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-13",
     "isDemo": false,
     "images": []
   }
