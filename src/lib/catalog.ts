@@ -6,6 +6,11 @@ export const displayName = (p: Product) =>
 export const firstDate = (p: Product) =>
   p.releases.find((r) => r.kind === "初版")?.releaseDate?.value || "";
 export const year = (p: Product) => firstDate(p).slice(0, 4) || "unknown";
+const unusable = /^(未注明|待核实|未知)$/;
+export const usableBrand = (v?: string | null) =>
+  v && !unusable.test(v.trim()) ? v : "";
+export const brand = (p: Product) =>
+  usableBrand(p.manufacturer) || usableBrand(p.publisher);
 export const priceText = (r: Release) =>
   r.priceStatus === "notSoldSeparately"
     ? "购买特典，非单独销售"
