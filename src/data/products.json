@@ -33887,13 +33887,16 @@
         "usage": "官方商品页样品图；权利归原权利方"
       }
     ],
-    "description": "韩吉 玩偶朋友 贴纸，日文商品名「進撃の巨人 ぬいぴ～すふれんず はらぺこくま ステッカー ハンジ・ゾエ」。商品页标注「ぬいぴ～すふれんず はらぺこくま」联动图案。商品页未标注尺寸与材质。商品页标注「2026年01月 中 発売予定」，为滚动发售预定，未记为发售日。アニメイト通販当前标价 440 日元含税。",
+    "description": "韩吉 玩偶朋友 贴纸，日文商品名「進撃の巨人 ぬいぴ～すふれんず はらぺこくま ステッカー ハンジ・ゾエ」。商品页标注「ぬいぴ～すふれんず はらぺこくま」联动图案。商品页未标注尺寸与材质。商品页标注「2026年01月 中 発売予定」，为滚动发售预定，未记为发售日。アニメイト通販当前标价 440 日元含税。GRANUP ONLINE SHOP 以相同 JAN（4573618347615）上架同款，标价 440 日元含税，与已收录售价一致；该页另标注本体尺寸 MAX約H75×W75mm、素材为紙，并已显示受理结束。",
     "specifications": {
       "种类": "单件",
       "JAN": "4573618347615",
       "商品代码": "10877926",
       "发售窗口": "2026 年 1 月中旬；原文「2026年01月 中 発売予定」，为滚动发售预定，不作为发售日记录",
-      "页面状态": "库存剩余少量（2026-10-13 核查）"
+      "页面状态": "库存剩余少量（2026-10-13 核查）",
+      "尺寸": "MAX約H75×W75mm（GRANUP 官方商城同 JAN 页面标注【本体サイズ：MAX約H75×W75mm】；アニメイト页面未标注）",
+      "材质": "纸（GRANUP 官方商城同 JAN 页面标注【素材：紙】；アニメイト页面未标注）",
+      "跨渠道页面": "GRANUP ONLINE SHOP 该页已标注「【受付終了】」「お届け予定期間：2026年1月末より順次発送予定」（2026-10-15 核查）"
     },
     "releases": [
       {
@@ -33932,12 +33935,12 @@
     ],
     "evidenceStatus": "partial",
     "missingFields": [
-      "商品页未标注尺寸",
-      "商品页未标注材质",
       "商品页未标注発売元，制造商待核实",
       "发售预定为滚动窗口，实际发售日待核实",
       "预约起止日期未公布",
-      "限定范围未注明"
+      "限定范围未注明",
+      "尺寸与材质取自 GRANUP ONLINE SHOP 同 JAN 商品页，アニメイト商品页仍未标注",
+      "同一商品另在 GRANUP ONLINE SHOP 上架（2026-10-15 核查，匹配依据：JAN 相同）：GRANUP 标价 440 日元含税，与已收录售价一致；该页预约已受理结束"
     ],
     "sources": [
       {
@@ -33956,10 +33959,25 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "granup-000000009470-official",
+        "url": "https://granupshop.com/view/item/000000009470",
+        "title": "【受付終了】「進撃の巨人」 ぬいぴ～すふれんず はらぺこくま ステッカー ハンジ・ゾエ | 進撃の巨人 | GRANUP ONLINE SHOP (グラナップオンラインショップ)",
+        "organization": "GRANUP ONLINE SHOP（グラナップオンラインショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "尺寸与材质（页面【本体サイズ：… / 素材：…】）",
+          "JAN 代码",
+          "发货预定窗口",
+          "预约受理状态"
+        ]
       }
     ],
     "createdAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "isDemo": false
   },
   {
@@ -33994,13 +34012,16 @@
         "amiamiOriginalUrl": "https://img.amiami.jp/images/product/main/254/GOODS-04704811.jpg"
       }
     ],
-    "description": "韩吉 玩偶朋友 亚克力立牌，日文商品名「「進撃の巨人」 ぬいぴ～すふれんず はらぺこくま アクリルスタンドJr. ハンジ・ゾエ【再販】」。商品页标注「ぬいぴ～すふれんず はらぺこくま」联动图案。商品页未标注尺寸与材质。商品页标注「2026年11月 中 発売予定」，为滚动发售预定，未记为发售日。商品页标注为再贩。アニメイト通販当前标价 1,870 日元含税。",
+    "description": "韩吉 玩偶朋友 亚克力立牌，日文商品名「「進撃の巨人」 ぬいぴ～すふれんず はらぺこくま アクリルスタンドJr. ハンジ・ゾエ【再販】」。商品页标注「ぬいぴ～すふれんず はらぺこくま」联动图案。商品页未标注尺寸与材质。商品页标注「2026年11月 中 発売予定」，为滚动发售预定，未记为发售日。商品页标注为再贩。アニメイト通販当前标价 1,870 日元含税。GRANUP ONLINE SHOP 以相同 JAN（4573618347578）上架同款，标价 1,870 日元含税，与已收录售价一致；该页另标注本体尺寸 H150×W100×D3mm、素材为アクリル。",
     "specifications": {
       "种类": "单件",
       "JAN": "4573618347578",
       "商品代码": "11115890",
       "发售窗口": "2026 年 11 月中旬；原文「2026年11月 中 発売予定」，为滚动发售预定，不作为发售日记录",
-      "页面状态": "页面显示无库存（2026-10-13 核查）"
+      "页面状态": "页面显示无库存（2026-10-13 核查）",
+      "尺寸": "H150×W100×D3mm（GRANUP 官方商城同 JAN 页面标注【本体サイズ：H150×W100×D3mm】；アニメイト页面未标注）",
+      "材质": "亚克力（GRANUP 官方商城同 JAN 页面标注【素材：アクリル】；アニメイト页面未标注）",
+      "跨渠道页面": "GRANUP ONLINE SHOP 标注「予約9/28〆【10月発売】」「お届け予定期間：2026年10月末より順次発送予定」（2026-10-15 核查）"
     },
     "releases": [
       {
@@ -34067,14 +34088,14 @@
     ],
     "evidenceStatus": "partial",
     "missingFields": [
-      "商品页未标注尺寸",
-      "商品页未标注材质",
       "商品页未标注発売元，制造商待核实",
       "发售预定为滚动窗口，实际发售日待核实",
       "预约起止日期未公布",
       "限定范围未注明",
       "商品页标注为再贩，首次发售时间与初版售价待核实",
-      "同一商品另在 amiami（あみあみ）上架（2026-10-14 核查，匹配依据：JAN 相同）：amiami 标示参考価格 1,870 日元含税，已作为该批次的收录售价（原收录渠道未标价）"
+      "同一商品另在 amiami（あみあみ）上架（2026-10-14 核查，匹配依据：JAN 相同）：amiami 标示参考価格 1,870 日元含税，已作为该批次的收录售价（原收录渠道未标价）",
+      "尺寸与材质取自 GRANUP ONLINE SHOP 同 JAN 商品页，アニメイト商品页仍未标注",
+      "同一商品另在 GRANUP ONLINE SHOP 上架（2026-10-15 核查，匹配依据：JAN 相同）：GRANUP 标价 1,870 日元含税，与已收录售价一致"
     ],
     "sources": [
       {
@@ -34109,10 +34130,25 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "granup-000000009466-official",
+        "url": "https://granupshop.com/view/item/000000009466",
+        "title": "予約9/28〆【10月発売】「進撃の巨人」 ぬいぴ～すふれんず はらぺこくま アクリルスタンドJr. ハンジ・ゾエ | 進撃の巨人 | GRANUP ONLINE SHOP (グラナップオンラインショップ)",
+        "organization": "GRANUP ONLINE SHOP（グラナップオンラインショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "尺寸与材质（页面【本体サイズ：… / 素材：…】）",
+          "JAN 代码",
+          "发货预定窗口",
+          "预约受理状态"
+        ]
       }
     ],
     "createdAt": "2026-10-13",
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false
   },
   {
@@ -34145,13 +34181,16 @@
         "usage": "官方商品页样品图；权利归原权利方"
       }
     ],
-    "description": "韩吉 玩偶朋友 角色图片卡，日文商品名「進撃の巨人 ぬいぴ～すふれんず はらぺこくま キャラPic ハンジ・ゾエ」。商品页标注「ぬいぴ～すふれんず はらぺこくま」联动图案。商品页未标注尺寸与材质。商品页标注「2026年01月 中 発売予定」，为滚动发售预定，未记为发售日。アニメイト通販当前标价 330 日元含税。",
+    "description": "韩吉 玩偶朋友 角色图片卡，日文商品名「進撃の巨人 ぬいぴ～すふれんず はらぺこくま キャラPic ハンジ・ゾエ」。商品页标注「ぬいぴ～すふれんず はらぺこくま」联动图案。商品页未标注尺寸与材质。商品页标注「2026年01月 中 発売予定」，为滚动发售预定，未记为发售日。アニメイト通販当前标价 330 日元含税。GRANUP ONLINE SHOP 以相同 JAN（4573618347653）上架同款，标价 330 日元含税，与已收录售价一致；该页另标注本体尺寸 H90×W60mm、素材为 PP，并已显示受理结束。",
     "specifications": {
       "种类": "单件",
       "JAN": "4573618347653",
       "商品代码": "10877930",
       "发售窗口": "2026 年 1 月中旬；原文「2026年01月 中 発売予定」，为滚动发售预定，不作为发售日记录",
-      "页面状态": "页面显示无库存（2026-10-13 核查）"
+      "页面状态": "页面显示无库存（2026-10-13 核查）",
+      "尺寸": "H90×W60mm（GRANUP 官方商城同 JAN 页面标注【本体サイズ：H90×W60mm】；アニメイト页面未标注）",
+      "材质": "PP（GRANUP 官方商城同 JAN 页面标注【素材：PP】；アニメイト页面未标注）",
+      "跨渠道页面": "GRANUP ONLINE SHOP 该页已标注「【受付終了】」「お届け予定期間：2026年1月末より順次発送予定」（2026-10-15 核查）"
     },
     "releases": [
       {
@@ -34190,12 +34229,12 @@
     ],
     "evidenceStatus": "partial",
     "missingFields": [
-      "商品页未标注尺寸",
-      "商品页未标注材质",
       "商品页未标注発売元，制造商待核实",
       "发售预定为滚动窗口，实际发售日待核实",
       "预约起止日期未公布",
-      "限定范围未注明"
+      "限定范围未注明",
+      "尺寸与材质取自 GRANUP ONLINE SHOP 同 JAN 商品页，アニメイト商品页仍未标注",
+      "同一商品另在 GRANUP ONLINE SHOP 上架（2026-10-15 核查，匹配依据：JAN 相同）：GRANUP 标价 330 日元含税，与已收录售价一致；该页预约已受理结束"
     ],
     "sources": [
       {
@@ -34214,10 +34253,25 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "granup-000000009474-official",
+        "url": "https://granupshop.com/view/item/000000009474",
+        "title": "【受付終了】「進撃の巨人」 ぬいぴ～すふれんず はらぺこくま キャラPic ハンジ・ゾエ | 進撃の巨人 | GRANUP ONLINE SHOP (グラナップオンラインショップ)",
+        "organization": "GRANUP ONLINE SHOP（グラナップオンラインショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "尺寸与材质（页面【本体サイズ：… / 素材：…】）",
+          "JAN 代码",
+          "发货预定窗口",
+          "预约受理状态"
+        ]
       }
     ],
     "createdAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "isDemo": false
   },
   {
@@ -34250,13 +34304,16 @@
         "usage": "官方商品页样品图；权利归原权利方"
       }
     ],
-    "description": "韩吉 玩偶朋友 罐装徽章，日文商品名「「進撃の巨人」 ぬいぴ～すふれんず はらぺこくま 缶バッジ ハンジ・ゾエ【再販】」。商品页标注「ぬいぴ～すふれんず はらぺこくま」联动图案。商品页未标注尺寸与材质。商品页标注「2026年10月 中 発売予定」，为滚动发售预定，未记为发售日。商品页标注为再贩。アニメイト通販当前标价 550 日元含税。",
+    "description": "韩吉 玩偶朋友 罐装徽章，日文商品名「「進撃の巨人」 ぬいぴ～すふれんず はらぺこくま 缶バッジ ハンジ・ゾエ【再販】」。商品页标注「ぬいぴ～すふれんず はらぺこくま」联动图案。商品页未标注尺寸与材质。商品页标注「2026年10月 中 発売予定」，为滚动发售预定，未记为发售日。商品页标注为再贩。アニメイト通販当前标价 550 日元含税。GRANUP ONLINE SHOP 以相同 JAN（4573618347530）上架同款，标价 550 日元含税，与已收录售价一致；该页另标注本体尺寸 φ56mm、素材为スチール。",
     "specifications": {
       "种类": "单件",
       "JAN": "4573618347530",
       "商品代码": "11115886",
       "发售窗口": "2026 年 10 月中旬；原文「2026年10月 中 発売予定」，为滚动发售预定，不作为发售日记录",
-      "页面状态": "页面显示无库存（2026-10-13 核查）"
+      "页面状态": "页面显示无库存（2026-10-13 核查）",
+      "尺寸": "φ56mm（GRANUP 官方商城同 JAN 页面标注【本体サイズ：φ56mm】；アニメイト页面未标注）",
+      "材质": "钢（GRANUP 官方商城同 JAN 页面标注【素材：スチール】；アニメイト页面未标注）",
+      "跨渠道页面": "GRANUP ONLINE SHOP 标注「予約9/28〆【10月発売】」「お届け予定期間：2026年10月末より順次発送予定」（2026-10-15 核查）"
     },
     "releases": [
       {
@@ -34314,13 +34371,13 @@
     ],
     "evidenceStatus": "partial",
     "missingFields": [
-      "商品页未标注尺寸",
-      "商品页未标注材质",
       "商品页未标注発売元，制造商待核实",
       "发售预定为滚动窗口，实际发售日待核实",
       "预约起止日期未公布",
       "限定范围未注明",
-      "商品页标注为再贩，首次发售时间与初版售价待核实"
+      "商品页标注为再贩，首次发售时间与初版售价待核实",
+      "尺寸与材质取自 GRANUP ONLINE SHOP 同 JAN 商品页，アニメイト商品页仍未标注",
+      "同一商品另在 GRANUP ONLINE SHOP 上架（2026-10-15 核查，匹配依据：JAN 相同）：GRANUP 标价 550 日元含税，与已收录售价一致"
     ],
     "sources": [
       {
@@ -34339,10 +34396,25 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "granup-000000009462-official",
+        "url": "https://granupshop.com/view/item/000000009462",
+        "title": "予約9/28〆【10月発売】「進撃の巨人」 ぬいぴ～すふれんず はらぺこくま 缶バッジ ハンジ・ゾエ | 進撃の巨人 | GRANUP ONLINE SHOP (グラナップオンラインショップ)",
+        "organization": "GRANUP ONLINE SHOP（グラナップオンラインショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "尺寸与材质（页面【本体サイズ：… / 素材：…】）",
+          "JAN 代码",
+          "发货预定窗口",
+          "预约受理状态"
+        ]
       }
     ],
     "createdAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "isDemo": false
   },
   {
@@ -41558,13 +41630,15 @@
         "amiamiOriginalUrl": "https://img.amiami.jp/images/product/main/261/GOODS-04764802.jpg"
       }
     ],
-    "description": "韩吉 度假（バカンス） 亚克力立牌，日文商品名「進撃の巨人 アクリルスタンド(ハンジ/バカンス)」。商品页标注「(ハンジ/バカンス)」度假造型图案。商品页未标注尺寸与材质。商品页标注「2026年06月 中 発売予定」，为滚动发售预定，未记为发售日。アニメイト通販当前标价 1,210 日元含税。",
+    "description": "韩吉 度假（バカンス） 亚克力立牌，日文商品名「進撃の巨人 アクリルスタンド(ハンジ/バカンス)」。商品页标注「(ハンジ/バカンス)」度假造型图案。商品页未标注尺寸与材质。商品页标注「2026年06月 中 発売予定」，为滚动发售预定，未记为发售日。アニメイト通販当前标价 1,210 日元含税。Parflette（株式会社Key-th 官方商城）以同一商品名上架该立牌，其分类页标价 1,210 日元，与已收录的含税售价一致；Parflette 页面未标注 JAN，本次并单依据为商品名逐字一致。",
     "specifications": {
       "种类": "单件",
       "JAN": "4571608533345",
       "商品代码": "10969101",
       "发售窗口": "2026 年 6 月中旬；原文「2026年06月 中 発売予定」，为滚动发售预定，不作为发售日记录",
-      "页面状态": "库存剩余少量（2026-10-13 核查）"
+      "页面状态": "库存剩余少量（2026-10-13 核查）",
+      "跨渠道页面": "Parflette 商品详情页标注「販売終了」，分类页列 1,210 円（2026-10-15 核查）",
+      "并单依据": "与 Parflette「[進撃の巨人]アクリルスタンド（ハンジ／バカンス）」并列同一商品：商品名逐字一致（仅括号全角／半角差异）；Parflette 页未标注 JAN，故未能以 JAN 校验"
     },
     "releases": [
       {
@@ -41605,7 +41679,8 @@
       "发售预定为滚动窗口，实际发售日待核实",
       "预约起止日期未公布",
       "限定范围未注明",
-      "同一商品另在 amiami（あみあみ）上架（2026-10-14 核查，匹配依据：JAN 相同）：amiami 标示参考価格 1,210 日元含税，与已收录售价一致"
+      "同一商品另在 amiami（あみあみ）上架（2026-10-14 核查，匹配依据：JAN 相同）：amiami 标示参考価格 1,210 日元含税，与已收录售价一致",
+      "同一商品另在 Parflette（株式会社Key-th 官方商城）上架（2026-10-15 核查，匹配依据：商品名逐字一致，JAN 未能校验）：分类页标价 1,210 円，与已收录的 1,210 日元含税一致"
     ],
     "sources": [
       {
@@ -41640,10 +41715,23 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "parflette-astand-shingeki15-official",
+        "url": "https://parflette.com/item/astand_shingeki15/",
+        "title": "[進撃の巨人]アクリルスタンド（ハンジ／バカンス） - Parflette-パルフレット-",
+        "organization": "Parflette（株式会社Key-th 公式ショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售状态（販売終了）",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
       }
     ],
     "createdAt": "2026-10-13",
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false
   },
   {
@@ -97682,7 +97770,7 @@
         "usage": "官方商品页样品图；权利归原权利方"
       }
     ],
-    "description": "韩吉 与让、莱纳、利威尔 迷你角色度假 ver. 徽章套装 B，日文商品名「[進撃の巨人]ミニキャラ缶バッジセットB(ジャン＆ライナー＆ハンジ＆リヴァイ/バカンス)」。商品页正文未附商品说明（正文区仅推荐位导航文案）。抓取时（2026-10-14）amiami 商品页未标示参考価格。商品页【素材】标注「紙、スチール等」，【サイズ】标注「直径57mm」。商品页标注 JAN 4571608533376。商品页版权标注「© 諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。",
+    "description": "韩吉 与让、莱纳、利威尔 迷你角色度假 ver. 徽章套装 B，日文商品名「[進撃の巨人]ミニキャラ缶バッジセットB(ジャン＆ライナー＆ハンジ＆リヴァイ/バカンス)」。商品页正文未附商品说明（正文区仅推荐位导航文案）。抓取时（2026-10-14）amiami 商品页未标示参考価格。商品页【素材】标注「紙、スチール等」，【サイズ】标注「直径57mm」。商品页标注 JAN 4571608533376。商品页版权标注「© 諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。Parflette（株式会社Key-th 官方商城）以同一商品名上架该 4 人徽章套装，其「進撃の巨人」分类页标价 1,980 日元（未注明含税与否），商品详情页已转停售；该商城页面未标注 JAN，故本次并单依据为商品名逐字一致而非 JAN。",
     "specifications": {
       "种类": "套装",
       "尺寸": "直径57mm（原文【サイズ】直径57mm）",
@@ -97693,7 +97781,10 @@
       "滚动发货标注": "原文「２６年０６月上旬」，为滚动发货窗口，不作为发售日记录",
       "角色标注": "リヴァイ(リヴァイ・アッカーマン)",
       "页面状态": "商品页正常加载但未标示参考価格，页面也未显示销售状态标记（2026-10-14 核查）",
-      "购买限制": "お一人様 12個 まで。 (同一住所、あみあみ本店支店合わせての制限数です)"
+      "购买限制": "お一人様 12個 まで。 (同一住所、あみあみ本店支店合わせての制限数です)",
+      "跨渠道标价": "Parflette 分类页对该商品名列 1,980 円，页面未注明含税与否（2026-10-15 核查）",
+      "跨渠道页面": "Parflette 商品详情页标注「販売終了」，正文未附尺寸・素材・JAN（2026-10-15 核查）",
+      "并单依据": "与 Parflette「[進撃の巨人]ミニキャラ缶バッジセットB（ジャン＆ライナー＆ハンジ＆リヴァイ／バカンス）」并列同一商品：商品名逐字一致（仅括号全角／半角差异）；Parflette 页未标注 JAN，故未能以 JAN 校验"
     },
     "releases": [
       {
@@ -97710,8 +97801,17 @@
         "salesMethod": "单售",
         "limitedScope": null,
         "limitedSourceId": null,
-        "priceStatus": "unknown",
-        "prices": [],
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1980,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "parflette-badgeset-shingeki02-official"
+          }
+        ],
         "condition": null,
         "conditionSourceId": null
       }
@@ -97722,9 +97822,10 @@
       "限定范围未注明",
       "预约起止日期未公布",
       "发售日：商品页仅给出滚动发货标注「２６年０６月上旬」，实际发售日待核实",
-      "售价：抓取时商品页未标示参考価格",
       "商品页正文未附商品说明（正文区仅推荐位导航文案）",
-      "商品页无発売元字段，制造商待核实"
+      "商品页无発売元字段，制造商待核实",
+      "同一商品另在 Parflette（株式会社Key-th 官方商城）上架（2026-10-15 核查，匹配依据：商品名逐字一致，JAN 未能校验）：分类页标价 1,980 円，页面未注明含税与否",
+      "售价取自 Parflette 分类列表页 1,980 円，未注明含税与否，实际税额口径待核实"
     ],
     "sources": [
       {
@@ -97744,10 +97845,23 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "parflette-badgeset-shingeki02-official",
+        "url": "https://parflette.com/item/badgeset_shingeki02/",
+        "title": "[進撃の巨人]ミニキャラ缶バッジセットB（ジャン＆ライナー＆ハンジ＆リヴァイ／バカンス） - Parflette-パルフレット-",
+        "organization": "Parflette（株式会社Key-th 公式ショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售状态（販売終了）",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
       }
     ],
     "createdAt": "2026-10-14",
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false
   },
   {
@@ -106626,7 +106740,7 @@
         "usage": "官方商品页样品图；权利归原权利方"
       }
     ],
-    "description": "韩吉 兔耳餐厅（ウサミミダイナー）亚克力立牌，日文商品名「進撃の巨人 アクリルスタンド(ハンジ/ウサミミダイナー)」。商品页正文未附商品说明（正文区仅推荐位导航文案）。抓取时（2026-10-14）amiami 商品页未标示参考価格。商品页【素材】标注「アクリル」，【サイズ】标注「長辺130mm×短辺70mm 厚み：3mm」。商品页标注 JAN 4571608528235。商品页版权标注「© 諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。",
+    "description": "韩吉 兔耳餐厅（ウサミミダイナー）亚克力立牌，日文商品名「進撃の巨人 アクリルスタンド(ハンジ/ウサミミダイナー)」。商品页正文未附商品说明（正文区仅推荐位导航文案）。抓取时（2026-10-14）amiami 商品页未标示参考価格。商品页【素材】标注「アクリル」，【サイズ】标注「長辺130mm×短辺70mm 厚み：3mm」。商品页标注 JAN 4571608528235。商品页版权标注「© 諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。Parflette（株式会社Key-th 官方商城）以同一商品名上架该立牌，其「進撃の巨人」分类页标价 1,210 日元（未注明含税与否），商品详情页已转停售；该商城页面未标注 JAN，故本次并单依据为商品名逐字一致而非 JAN。",
     "specifications": {
       "种类": "单件",
       "尺寸": "長辺130mm×短辺70mm 厚み：3mm（原文【サイズ】長辺130mm×短辺70mm 厚み：3mm）",
@@ -106638,7 +106752,10 @@
       "角色标注": "ハンジ・ゾエ",
       "页面状态": "商品页正常加载但未标示参考価格，页面也未显示销售状态标记（2026-10-14 核查）",
       "购买限制": "お一人様 3個 まで。 (同一住所、あみあみ本店支店合わせての制限数です)",
-      "页面说明": "与站内同名商品（hange-vacance-stand）的 JAN 不同（amiami 4571608528235，已收录 4571608533345），商品名标注绘柄为ウサミミダイナー，判定为不同商品，单独建档"
+      "页面说明": "与站内同名商品（hange-vacance-stand）的 JAN 不同（amiami 4571608528235，已收录 4571608533345），商品名标注绘柄为ウサミミダイナー，判定为不同商品，单独建档",
+      "跨渠道标价": "Parflette 分类页对该商品名列 1,210 円，页面未注明含税与否（2026-10-15 核查）",
+      "跨渠道页面": "Parflette 商品详情页标注「販売終了」，正文未附尺寸・素材・JAN（2026-10-15 核查）",
+      "并单依据": "与 Parflette「[進撃の巨人]アクリルスタンド（ハンジ／ウサミミダイナー）」并列同一商品：商品名逐字一致（仅括号全角／半角差异）、同为方括号前缀命名；Parflette 页未标注 JAN，故未能以 JAN 校验"
     },
     "releases": [
       {
@@ -106655,8 +106772,17 @@
         "salesMethod": "单售",
         "limitedScope": null,
         "limitedSourceId": null,
-        "priceStatus": "unknown",
-        "prices": [],
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1210,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "parflette-astand-shingeki07-official"
+          }
+        ],
         "condition": null,
         "conditionSourceId": null
       }
@@ -106667,9 +106793,10 @@
       "限定范围未注明",
       "预约起止日期未公布",
       "发售日：商品页仅给出滚动发货标注「２６年０３月中旬」，实际发售日待核实",
-      "售价：抓取时商品页未标示参考価格",
       "商品页正文未附商品说明（正文区仅推荐位导航文案）",
-      "商品页无発売元字段，制造商待核实"
+      "商品页无発売元字段，制造商待核实",
+      "同一商品另在 Parflette（株式会社Key-th 官方商城）上架（2026-10-15 核查，匹配依据：商品名逐字一致，JAN 未能校验）：分类页标价 1,210 円，页面未注明含税与否",
+      "售价取自 Parflette 分类列表页 1,210 円，未注明含税与否，实际税额口径待核实"
     ],
     "sources": [
       {
@@ -106689,10 +106816,23 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "parflette-astand-shingeki07-official",
+        "url": "https://parflette.com/item/astand_shingeki07/",
+        "title": "[進撃の巨人]アクリルスタンド（ハンジ／ウサミミダイナー） - Parflette-パルフレット-",
+        "organization": "Parflette（株式会社Key-th 公式ショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售状态（販売終了）",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
       }
     ],
     "createdAt": "2026-10-14",
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false
   },
   {
@@ -115847,6 +115987,1349 @@
           "仕様（素材・サイズ）",
           "版权标注",
           "官方样品图与原图网址"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "parflette-keyholderacr-shingeki07",
+    "slug": "hange-parf-usamimi-keyholder",
+    "names": {
+      "zh": "韩吉 兔耳餐厅（ウサミミダイナー）亚克力钥匙扣",
+      "ja": "[進撃の巨人]アクリルキーホルダー（ハンジ／ウサミミダイナー）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": null,
+    "publisher": "Parflette（株式会社Key-th 公式ショップ）",
+    "seriesId": "usamimi-diner",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-parf-usamimi-keyholder.svg",
+        "alt": "韩吉 兔耳餐厅（ウサミミダイナー）亚克力钥匙扣 官方样品图",
+        "sourceUrl": "https://parflette.com/item/keyholderacr_shingeki07/",
+        "originalUrl": "https://parflette.com/wp-content/uploads/keyholderacr_shingeki07_1.jpg",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 兔耳餐厅（ウサミミダイナー）亚克力钥匙扣，日文商品名「[進撃の巨人]アクリルキーホルダー（ハンジ／ウサミミダイナー）」。商品详情页标注「販売終了」，页面正文仅剩导航与相关商品位，未标注尺寸、材质与 JAN。售价取自 Parflette 站内「進撃の巨人」分类列表页的 990 円标价，列表页未注明含税与否，故税务状态记为未注明。",
+    "specifications": {
+      "种类": "单件",
+      "标价来源": "Parflette 进击的巨人分类页（//parflette.com/item/tag/shingeki/，共 35 件）标注 990 円；商品详情页已转停售，未再分列含税与否",
+      "页面状态": "商品详情页标注「販売終了」（2026-10-15 核查）",
+      "角色标注": "ハンジ",
+      "绘柄": "ウサミミダイナー（原文商品名「（ハンジ／ウサミミダイナー）」）",
+      "版权标注": "商品详情页版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」"
+    },
+    "releases": [
+      {
+        "releaseId": "parflette-keyholderacr-shingeki07-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "parflette-keyholderacr-shingeki07-official",
+          "parflette-tag-shingeki-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 990,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "parflette-tag-shingeki-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amiami-GOODS-04726726"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：商品页未标注発売日或发货窗口",
+      "尺寸：商品页未标注",
+      "材质：商品页未标注",
+      "JAN：商品页未标注",
+      "商品页无発売元字段，制造商待核实",
+      "标价取自列表页 990 円，未注明含税与否，实际税额口径待核实"
+    ],
+    "sources": [
+      {
+        "id": "parflette-keyholderacr-shingeki07-official",
+        "url": "https://parflette.com/item/keyholderacr_shingeki07/",
+        "title": "[進撃の巨人]アクリルキーホルダー（ハンジ／ウサミミダイナー） - Parflette-パルフレット-",
+        "organization": "Parflette（株式会社Key-th 公式ショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售状态（販売終了）",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      },
+      {
+        "id": "parflette-tag-shingeki-official",
+        "url": "https://parflette.com/item/tag/shingeki/",
+        "title": "進撃の巨人 - Parflette-パルフレット-",
+        "organization": "Parflette（株式会社Key-th 公式ショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "商品列表（35 件）",
+          "日文商品名",
+          "标价",
+          "销售状态（販売終了）",
+          "官方样品图与原图网址"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "parflette-keyholderacr-shingeki15",
+    "slug": "hange-parf-vacance-keyholder",
+    "names": {
+      "zh": "韩吉 度假（バカンス）亚克力钥匙扣",
+      "ja": "[進撃の巨人]アクリルキーホルダー（ハンジ／バカンス）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": null,
+    "publisher": "Parflette（株式会社Key-th 公式ショップ）",
+    "seriesId": "vacance",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-parf-vacance-keyholder.svg",
+        "alt": "韩吉 度假（バカンス）亚克力钥匙扣 官方样品图",
+        "sourceUrl": "https://parflette.com/item/keyholderacr_shingeki15/",
+        "originalUrl": "https://parflette.com/wp-content/uploads/keyholderacr_shingeki15_1.jpg",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 度假（バカンス）亚克力钥匙扣，日文商品名「[進撃の巨人]アクリルキーホルダー（ハンジ／バカンス）」。商品详情页标注「販売終了」，页面正文仅剩导航与相关商品位，未标注尺寸、材质与 JAN。售价取自 Parflette 站内「進撃の巨人」分类列表页的 990 円标价，列表页未注明含税与否，故税务状态记为未注明。",
+    "specifications": {
+      "种类": "单件",
+      "标价来源": "Parflette 进击的巨人分类页（//parflette.com/item/tag/shingeki/，共 35 件）标注 990 円；商品详情页已转停售，未再分列含税与否",
+      "页面状态": "商品详情页标注「販売終了」（2026-10-15 核查）",
+      "角色标注": "ハンジ",
+      "绘柄": "バカンス（原文商品名「（ハンジ／バカンス）」）",
+      "版权标注": "商品详情页版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」"
+    },
+    "releases": [
+      {
+        "releaseId": "parflette-keyholderacr-shingeki15-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "parflette-keyholderacr-shingeki15-official",
+          "parflette-tag-shingeki-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 990,
+            "currency": "JPY",
+            "taxStatus": "未注明",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "parflette-tag-shingeki-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "animate-3405827"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：商品页未标注発売日或发货窗口",
+      "尺寸：商品页未标注",
+      "材质：商品页未标注",
+      "JAN：商品页未标注",
+      "商品页无発売元字段，制造商待核实",
+      "标价取自列表页 990 円，未注明含税与否，实际税额口径待核实"
+    ],
+    "sources": [
+      {
+        "id": "parflette-keyholderacr-shingeki15-official",
+        "url": "https://parflette.com/item/keyholderacr_shingeki15/",
+        "title": "[進撃の巨人]アクリルキーホルダー（ハンジ／バカンス） - Parflette-パルフレット-",
+        "organization": "Parflette（株式会社Key-th 公式ショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售状态（販売終了）",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      },
+      {
+        "id": "parflette-tag-shingeki-official",
+        "url": "https://parflette.com/item/tag/shingeki/",
+        "title": "進撃の巨人 - Parflette-パルフレット-",
+        "organization": "Parflette（株式会社Key-th 公式ショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "商品列表（35 件）",
+          "日文商品名",
+          "标价",
+          "销售状态（販売終了）",
+          "官方样品图与原图网址"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "qooza-21821",
+    "slug": "hange-newrock-boots",
+    "names": {
+      "zh": "韩吉 NEW ROCK 联名靴款",
+      "ja": "NEW ROCK x進撃の巨人 /ハンジ・ゾエ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "服饰",
+    "manufacturer": null,
+    "publisher": "QOOZA（株式会社クリーム）",
+    "seriesId": "new-rock-aot",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-newrock-boots.svg",
+        "alt": "韩吉 NEW ROCK 联名靴款 官方样品图（主图）",
+        "sourceUrl": "https://qooza.jp/products/detail/21821",
+        "originalUrl": "https://qooza.jp/html/upload/save_image/1008160235_68e60c8b5fe31.png",
+        "credit": "商品页未标注版权行（2026-10-15 抓取）",
+        "usage": "官方商品页样品图；权利归原权利方"
+      },
+      {
+        "path": "/images/products/hange-newrock-boots-2.svg",
+        "alt": "韩吉 NEW ROCK 联名靴款 官方样品图（细节图）",
+        "sourceUrl": "https://qooza.jp/products/detail/21821",
+        "originalUrl": "https://qooza.jp/html/upload/save_image/1010135624_68e891f8eba65.png",
+        "credit": "商品页未标注版权行（2026-10-15 抓取）",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 NEW ROCK 联名靴款，日文商品名「NEW ROCK x進撃の巨人 /ハンジ・ゾエ」。QOOZA（株式会社クリーム）官方商品页标注税込 79,200 円（税抜 72,000 円）。商品页标注素材为牛革、尺码 EU36～48，并给出跟高 8cm、防水台 6cm、筒高 21cm、筒围 33cm。商品页说明为「メタリックパープルのハンジモデル」，鞋盒为进击的巨人特别仕様。商品页对 NEW ROCK 预约销售给出「お届けまで4ヶ月以上」的滚动提示，未给出发售日，故发售日留空。商品页未标注版权行，也未单列発売元。",
+    "specifications": {
+      "种类": "单件",
+      "品牌": "NEW ROCK（原文「■ブランド NEW ROCK」，页面另述其西班牙出身与 1929 年起源）",
+      "材质": "牛革（原文「■素材 牛革」）",
+      "尺码": "EU36～EU48（对应 23.0～29.0cm，原文尺码表逐项列出）",
+      "鞋型尺寸": "ヒール高さ 8cm / プラットフォーム 6cm / シャフト高さ 21cm / ふくらはぎ幅 33cm",
+      "造型说明": "原文「メタリックパープルのハンジモデル」「アッパーにはエンブレムメタルパーツを配置」「靴箱は進撃の巨人特別仕様」",
+      "税抜价": "72,000 円（页面结构化数据 price=72000，另列税込 79,200 円）",
+      "页面状态": "结构化数据标注 InStock；页面同时提示「NEW ROCK予約販売は、ご注文いただいてからお届けまで4ヶ月以上お時間をいただく場合がございます」",
+      "发货说明": "原文「ハンドメイドで製作しているため、製作状況や発送時期の個別のご案内はいたしかねます」「※ご注文後のキャンセルは受け付けておりません」"
+    },
+    "releases": [
+      {
+        "releaseId": "qooza-21821-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "qooza-21821-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 79200,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "qooza-21821-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：商品页仅有滚动到货提示，无発売日",
+      "商品页未标注版权行，权利标注待核实",
+      "商品页无発売元字段，制造商待核实",
+      "预约（受注）起止日期未公布"
+    ],
+    "sources": [
+      {
+        "id": "qooza-21821-official",
+        "url": "https://qooza.jp/products/detail/21821",
+        "title": "NEW ROCK x進撃の巨人 /ハンジ・ゾエ - QOOZA",
+        "organization": "QOOZA（株式会社クリーム）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "税込售价与税抜价（EC-CUBE 结构化数据）",
+          "素材",
+          "尺码表（EU36～48 与跟高／筒高等）",
+          "品牌与联名说明",
+          "页面库存与发货说明",
+          "官方样品图与原图网址"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "qooza-21827",
+    "slug": "hange-newrock-tee",
+    "names": {
+      "zh": "韩吉 NEW ROCK 联名图形 T 恤",
+      "ja": "NEW ROCK x進撃の巨人 /ハンジ・ゾエ TEE",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "服饰",
+    "manufacturer": null,
+    "publisher": "QOOZA（株式会社クリーム）",
+    "seriesId": "new-rock-aot",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-newrock-tee.svg",
+        "alt": "韩吉 NEW ROCK 联名图形 T 恤 官方样品图（主图）",
+        "sourceUrl": "https://qooza.jp/products/detail/21827",
+        "originalUrl": "https://qooza.jp/html/upload/save_image/1107133505_690d76f950697.png",
+        "credit": "商品页未标注版权行（2026-10-15 抓取）",
+        "usage": "官方商品页样品图；权利归原权利方"
+      },
+      {
+        "path": "/images/products/hange-newrock-tee-2.svg",
+        "alt": "韩吉 NEW ROCK 联名图形 T 恤 官方样品图（细节图）",
+        "sourceUrl": "https://qooza.jp/products/detail/21827",
+        "originalUrl": "https://qooza.jp/html/upload/save_image/1010140429_68e893dd5ce34.png",
+        "credit": "商品页未标注版权行（2026-10-15 抓取）",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 NEW ROCK 联名图形 T 恤，日文商品名「NEW ROCK x進撃の巨人 /ハンジ・ゾエ TEE」。QOOZA（株式会社クリーム）官方商品页标注税込 8,800 円（税抜 8,000 円）。商品页标注材质为コットン100％，身幅 53cm、着丈 70cm、重さ 155g、カラー ブラック。商品页说明印花取黑白基调，配韩吉台词「HEY...LEVI.DO YOU THINK THEY CAN SEE US NOW ?」等两句。商品页标注「受注後の約3ヶ月後の入荷予定」，为滚动提示，未给发售日，故发售日留空。商品页未标注版权行，也未单列発売元。",
+    "specifications": {
+      "种类": "单件",
+      "品牌": "NEW ROCK（联名方，页面品牌字段）",
+      "材质": "コットン100％（原文「素材：コットン100％」）",
+      "尺寸": "身幅 53cm / 着丈 70cm（原文标注）",
+      "重量": "155g",
+      "颜色": "ブラック",
+      "图案说明": "原文「モノクロを基調としたアートワーク。重厚なゴシックフレームに、象徴的な言葉 “HEY...LEVI.DO YOU THINK THEY CAN SEE US NOW ?” “OUR DEAD COMRADES...WILL THEY BE PROUD OF WHAT WE DO TODAY ?”を配置」",
+      "税抜价": "8,000 円（页面结构化数据 price=8000，另列税込 8,800 円）",
+      "页面状态": "结构化数据标注 InStock",
+      "发货说明": "原文「※受注後の約3ヶ月後の入荷予定※」，为滚动到货提示"
+    },
+    "releases": [
+      {
+        "releaseId": "qooza-21827-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "qooza-21827-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 8800,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "qooza-21827-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "qooza-21821"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：商品页仅给「受注後の約3ヶ月後の入荷予定」滚动提示",
+      "商品页未标注版权行，权利标注待核实",
+      "商品页无発売元字段，制造商待核实",
+      "受注起止日期未公布",
+      "尺码：商品页仅列身幅・着丈，未列完整尺码表"
+    ],
+    "sources": [
+      {
+        "id": "qooza-21827-official",
+        "url": "https://qooza.jp/products/detail/21827",
+        "title": "NEW ROCK x進撃の巨人 /ハンジ・ゾエ TEE - QOOZA",
+        "organization": "QOOZA（株式会社クリーム）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "税込售价与税抜价（EC-CUBE 结构化数据）",
+          "素材",
+          "尺寸（身幅・着丈）与重量、颜色",
+          "印花文字内容",
+          "页面库存与发货说明",
+          "官方样品图与原图网址"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "marukuji-301-7767",
+    "slug": "hange-marukuji-towel",
+    "names": {
+      "zh": "韩吉 星空的魔法使 可选图案大毛巾",
+      "ja": "超大吉04 選べるマフラータオル【ハンジ】",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "生活用品",
+    "manufacturer": null,
+    "publisher": "まるくじ（TEAM Entertainment）",
+    "seriesId": "starry-sky-magician",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-marukuji-towel.svg",
+        "alt": "韩吉 星空的魔法使 可选图案大毛巾 官方样品图",
+        "sourceUrl": "https://marukuji.jp/detail/301",
+        "originalUrl": "https://marukuji.jp/images/items/images/7767/e4b4ed66-ad5d-4731-b990-7b68be793243-01chouDK_04.webp",
+        "credit": "（C）TEAM Entertainment Inc.（まるくじ页面版权行；该页未单列进击的巨人版权行）",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空的魔法使 可选图案大毛巾，出自まるくじ「TVアニメ『進撃の巨人』星空の魔法使い」抽选，赏级名「超大吉04 選べるマフラータオル【ハンジ】」。主题页标注单抽 1 個 880 円（税込），本条按每抽价格收录。主题页给出该赏品尺寸「約W200×H1100mm」与素材「綿100％」。主题页标注售卖期间 2026 年 1 月 14 日 12:00〜2 月 15 日 23:59，售卖已结束；发货仅标注「販売期間終了から約2.5ヶ月後」滚动提示，发售日留空。主题页版权行仅「（C）TEAM Entertainment Inc.」，未单列进击的巨人版权行。",
+    "specifications": {
+      "种类": "单件",
+      "赏级": "超大吉04",
+      "尺寸": "約W200×H1100mm",
+      "材质": "綿100％",
+      "抽选主题": "TVアニメ『進撃の巨人』星空の魔法使い",
+      "赏级概率": "页面 LINE UP 该赏标注 1/100；该赏为中奖后自选绘柄（4 名角色之一），原文「※当選後、『くじ結果一覧』から選択可能です」「└2026-02-16 23:59:59まで変更可能となります」",
+      "单抽价格": "1 個 880 円（税込）",
+      "配送手数料": "1 回の購入あたり全国一律 550 円（税込）、原文「まとめ買いで配送手数料がお得！(1回20個まで550円)」",
+      "售卖期间": "2026 年 1 月 14 日 12:00 〜 2 月 15 日 23:59（原文「【販売期間】2026年01月14日12:00〜2026年02月15日23:59まで」）",
+      "发货窗口": "原文「お届け目安：販売期間終了から約2.5ヶ月後」，为滚动提示，不作为发售日记录",
+      "页面状态": "主题页顶部标注「販売は終了致しました」（2026-10-15 核查）"
+    },
+    "releases": [
+      {
+        "releaseId": "marukuji-301-7767-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "marukuji-301-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "抽奖奖品",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "每抽",
+            "quantity": 1,
+            "sourceId": "marukuji-301-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "marukuji-301-7771",
+      "marukuji-301-7775",
+      "marukuji-301-7779",
+      "marukuji-301-7783",
+      "marukuji-301-7787"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "发售日：仅有「販売期間終了から約2.5ヶ月後」滚动提示，实际到货日待核实",
+      "商品页未标注 JAN",
+      "商品页未单列発売元，制造商待核实",
+      "主题页未单列进击的巨人版权行",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "marukuji-301-official",
+        "url": "https://marukuji.jp/detail/301",
+        "title": "まるくじ - TVアニメ『進撃の巨人』星空の魔法使い 販売終了！",
+        "organization": "まるくじ（TEAM Entertainment）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "抽选主题名",
+          "单抽价格（税込）",
+          "售卖期间",
+          "配送手数料",
+          "お届け目安",
+          "各赏品名称与规格（尺寸・素材）",
+          "赏内当選確率",
+          "页面销售状态",
+          "官方赏品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "marukuji-301-7771",
+    "slug": "hange-marukuji-stand",
+    "names": {
+      "zh": "韩吉 星空的魔法使 亚克力立牌",
+      "ja": "大吉04 アクリルスタンド【ハンジ】",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": null,
+    "publisher": "まるくじ（TEAM Entertainment）",
+    "seriesId": "starry-sky-magician",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-marukuji-stand.svg",
+        "alt": "韩吉 星空的魔法使 亚克力立牌 官方样品图",
+        "sourceUrl": "https://marukuji.jp/detail/301",
+        "originalUrl": "https://marukuji.jp/images/items/images/7771/f5f445b3-96ba-4aa3-8c3b-1d00316070fd-02daiK_04.webp",
+        "credit": "（C）TEAM Entertainment Inc.（まるくじ页面版权行；该页未单列进击的巨人版权行）",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空的魔法使 亚克力立牌，出自まるくじ「TVアニメ『進撃の巨人』星空の魔法使い」抽选，赏级名「大吉04 アクリルスタンド【ハンジ】」。主题页标注单抽 1 個 880 円（税込），本条按每抽价格收录。主题页给出该赏品尺寸「商品サイズ 約W110mm×H210mm；組み上がりサイズ 約W109×H155mm」与素材「アクリル」。主题页标注售卖期间 2026 年 1 月 14 日 12:00〜2 月 15 日 23:59，售卖已结束；发货仅标注「販売期間終了から約2.5ヶ月後」滚动提示，发售日留空。主题页版权行仅「（C）TEAM Entertainment Inc.」，未单列进击的巨人版权行。",
+    "specifications": {
+      "种类": "单件",
+      "赏级": "大吉04",
+      "尺寸": "商品サイズ 約W110mm×H210mm；組み上がりサイズ 約W109×H155mm",
+      "材质": "アクリル",
+      "抽选主题": "TVアニメ『進撃の巨人』星空の魔法使い",
+      "赏级概率": "页面 LINE UP 该赏标注 12/100；页面另标注「賞内の当選確率は1/4です」「サイズはキャラクターによって異なります」",
+      "单抽价格": "1 個 880 円（税込）",
+      "配送手数料": "1 回の購入あたり全国一律 550 円（税込）、原文「まとめ買いで配送手数料がお得！(1回20個まで550円)」",
+      "售卖期间": "2026 年 1 月 14 日 12:00 〜 2 月 15 日 23:59（原文「【販売期間】2026年01月14日12:00〜2026年02月15日23:59まで」）",
+      "发货窗口": "原文「お届け目安：販売期間終了から約2.5ヶ月後」，为滚动提示，不作为发售日记录",
+      "页面状态": "主题页顶部标注「販売は終了致しました」（2026-10-15 核查）"
+    },
+    "releases": [
+      {
+        "releaseId": "marukuji-301-7771-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "marukuji-301-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "抽奖奖品",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "每抽",
+            "quantity": 1,
+            "sourceId": "marukuji-301-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "marukuji-301-7767",
+      "marukuji-301-7775",
+      "marukuji-301-7779",
+      "marukuji-301-7783",
+      "marukuji-301-7787"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "发售日：仅有「販売期間終了から約2.5ヶ月後」滚动提示，实际到货日待核实",
+      "商品页未标注 JAN",
+      "商品页未单列発売元，制造商待核实",
+      "主题页未单列进击的巨人版权行",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "marukuji-301-official",
+        "url": "https://marukuji.jp/detail/301",
+        "title": "まるくじ - TVアニメ『進撃の巨人』星空の魔法使い 販売終了！",
+        "organization": "まるくじ（TEAM Entertainment）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "抽选主题名",
+          "单抽价格（税込）",
+          "售卖期间",
+          "配送手数料",
+          "お届け目安",
+          "各赏品名称与规格（尺寸・素材）",
+          "赏内当選確率",
+          "页面销售状态",
+          "官方赏品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "marukuji-301-7775",
+    "slug": "hange-marukuji-keyholder-a",
+    "names": {
+      "zh": "韩吉 星空的魔法使 亚克力钥匙扣 A 款",
+      "ja": "中吉04 アクリルキーホルダー【ハンジA】",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": null,
+    "publisher": "まるくじ（TEAM Entertainment）",
+    "seriesId": "starry-sky-magician",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-marukuji-keyholder-a.svg",
+        "alt": "韩吉 星空的魔法使 亚克力钥匙扣 A 款 官方样品图",
+        "sourceUrl": "https://marukuji.jp/detail/301",
+        "originalUrl": "https://marukuji.jp/images/items/images/7775/e02e50f3-40db-427c-b8ab-9106b1e64b47-03chuK_04.webp",
+        "credit": "（C）TEAM Entertainment Inc.（まるくじ页面版权行；该页未单列进击的巨人版权行）",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空的魔法使 亚克力钥匙扣 A 款，出自まるくじ「TVアニメ『進撃の巨人』星空の魔法使い」抽选，赏级名「中吉04 アクリルキーホルダー【ハンジA】」。主题页标注单抽 1 個 880 円（税込），本条按每抽价格收录。主题页给出该赏品尺寸「約W70×H70mm（原文「サイズ【A】」）」与素材「アクリル、鉄（原文「素材：アクリル、鉄」，另注「ボールチェーン付属」）」。主题页标注售卖期间 2026 年 1 月 14 日 12:00〜2 月 15 日 23:59，售卖已结束；发货仅标注「販売期間終了から約2.5ヶ月後」滚动提示，发售日留空。主题页版权行仅「（C）TEAM Entertainment Inc.」，未单列进击的巨人版权行。",
+    "specifications": {
+      "种类": "单件",
+      "赏级": "中吉04",
+      "尺寸": "約W70×H70mm（原文「サイズ【A】」）",
+      "材质": "アクリル、鉄（原文「素材：アクリル、鉄」，另注「ボールチェーン付属」）",
+      "抽选主题": "TVアニメ『進撃の巨人』星空の魔法使い",
+      "赏级概率": "页面 LINE UP 该赏标注 32/100；页面标注「賞内の当選確率は1/8です」；A・B 两款绘柄不同",
+      "单抽价格": "1 個 880 円（税込）",
+      "配送手数料": "1 回の購入あたり全国一律 550 円（税込）、原文「まとめ買いで配送手数料がお得！(1回20個まで550円)」",
+      "售卖期间": "2026 年 1 月 14 日 12:00 〜 2 月 15 日 23:59（原文「【販売期間】2026年01月14日12:00〜2026年02月15日23:59まで」）",
+      "发货窗口": "原文「お届け目安：販売期間終了から約2.5ヶ月後」，为滚动提示，不作为发售日记录",
+      "页面状态": "主题页顶部标注「販売は終了致しました」（2026-10-15 核查）"
+    },
+    "releases": [
+      {
+        "releaseId": "marukuji-301-7775-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "marukuji-301-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "抽奖奖品",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "每抽",
+            "quantity": 1,
+            "sourceId": "marukuji-301-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "marukuji-301-7767",
+      "marukuji-301-7771",
+      "marukuji-301-7779",
+      "marukuji-301-7783",
+      "marukuji-301-7787"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "发售日：仅有「販売期間終了から約2.5ヶ月後」滚动提示，实际到货日待核实",
+      "商品页未标注 JAN",
+      "商品页未单列発売元，制造商待核实",
+      "主题页未单列进击的巨人版权行",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "marukuji-301-official",
+        "url": "https://marukuji.jp/detail/301",
+        "title": "まるくじ - TVアニメ『進撃の巨人』星空の魔法使い 販売終了！",
+        "organization": "まるくじ（TEAM Entertainment）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "抽选主题名",
+          "单抽价格（税込）",
+          "售卖期间",
+          "配送手数料",
+          "お届け目安",
+          "各赏品名称与规格（尺寸・素材）",
+          "赏内当選確率",
+          "页面销售状态",
+          "官方赏品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "marukuji-301-7779",
+    "slug": "hange-marukuji-keyholder-b",
+    "names": {
+      "zh": "韩吉 星空的魔法使 亚克力钥匙扣 B 款",
+      "ja": "中吉08 アクリルキーホルダー【ハンジB】",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": null,
+    "publisher": "まるくじ（TEAM Entertainment）",
+    "seriesId": "starry-sky-magician",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-marukuji-keyholder-b.svg",
+        "alt": "韩吉 星空的魔法使 亚克力钥匙扣 B 款 官方样品图",
+        "sourceUrl": "https://marukuji.jp/detail/301",
+        "originalUrl": "https://marukuji.jp/images/items/images/7779/24ce7d43-4ec4-433b-8ecc-456c6f1f1a5b-03chuK_08.webp",
+        "credit": "（C）TEAM Entertainment Inc.（まるくじ页面版权行；该页未单列进击的巨人版权行）",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空的魔法使 亚克力钥匙扣 B 款，出自まるくじ「TVアニメ『進撃の巨人』星空の魔法使い」抽选，赏级名「中吉08 アクリルキーホルダー【ハンジB】」。主题页标注单抽 1 個 880 円（税込），本条按每抽价格收录。主题页给出该赏品尺寸「約W54×H70mm（原文「サイズ【B】」）」与素材「アクリル、鉄（原文「素材：アクリル、鉄」，另注「ボールチェーン付属」）」。主题页标注售卖期间 2026 年 1 月 14 日 12:00〜2 月 15 日 23:59，售卖已结束；发货仅标注「販売期間終了から約2.5ヶ月後」滚动提示，发售日留空。主题页版权行仅「（C）TEAM Entertainment Inc.」，未单列进击的巨人版权行。",
+    "specifications": {
+      "种类": "单件",
+      "赏级": "中吉08",
+      "尺寸": "約W54×H70mm（原文「サイズ【B】」）",
+      "材质": "アクリル、鉄（原文「素材：アクリル、鉄」，另注「ボールチェーン付属」）",
+      "抽选主题": "TVアニメ『進撃の巨人』星空の魔法使い",
+      "赏级概率": "页面 LINE UP 该赏标注 32/100；页面标注「賞内の当選確率は1/8です」；A・B 两款绘柄不同",
+      "单抽价格": "1 個 880 円（税込）",
+      "配送手数料": "1 回の購入あたり全国一律 550 円（税込）、原文「まとめ買いで配送手数料がお得！(1回20個まで550円)」",
+      "售卖期间": "2026 年 1 月 14 日 12:00 〜 2 月 15 日 23:59（原文「【販売期間】2026年01月14日12:00〜2026年02月15日23:59まで」）",
+      "发货窗口": "原文「お届け目安：販売期間終了から約2.5ヶ月後」，为滚动提示，不作为发售日记录",
+      "页面状态": "主题页顶部标注「販売は終了致しました」（2026-10-15 核查）"
+    },
+    "releases": [
+      {
+        "releaseId": "marukuji-301-7779-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "marukuji-301-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "抽奖奖品",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "每抽",
+            "quantity": 1,
+            "sourceId": "marukuji-301-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "marukuji-301-7767",
+      "marukuji-301-7771",
+      "marukuji-301-7775",
+      "marukuji-301-7783",
+      "marukuji-301-7787"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "发售日：仅有「販売期間終了から約2.5ヶ月後」滚动提示，实际到货日待核实",
+      "商品页未标注 JAN",
+      "商品页未单列発売元，制造商待核实",
+      "主题页未单列进击的巨人版权行",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "marukuji-301-official",
+        "url": "https://marukuji.jp/detail/301",
+        "title": "まるくじ - TVアニメ『進撃の巨人』星空の魔法使い 販売終了！",
+        "organization": "まるくじ（TEAM Entertainment）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "抽选主题名",
+          "单抽价格（税込）",
+          "售卖期间",
+          "配送手数料",
+          "お届け目安",
+          "各赏品名称与规格（尺寸・素材）",
+          "赏内当選確率",
+          "页面销售状态",
+          "官方赏品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "marukuji-301-7783",
+    "slug": "hange-marukuji-badge-a",
+    "names": {
+      "zh": "韩吉 星空的魔法使 罐装徽章 A 款",
+      "ja": "小吉04 缶バッジ【ハンジA】",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "徽章",
+    "manufacturer": null,
+    "publisher": "まるくじ（TEAM Entertainment）",
+    "seriesId": "starry-sky-magician",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-marukuji-badge-a.svg",
+        "alt": "韩吉 星空的魔法使 罐装徽章 A 款 官方样品图",
+        "sourceUrl": "https://marukuji.jp/detail/301",
+        "originalUrl": "https://marukuji.jp/images/items/images/7783/827e014b-6b6c-48b8-b677-621c22a973dc-04shouK_04.webp",
+        "credit": "（C）TEAM Entertainment Inc.（まるくじ页面版权行；该页未单列进击的巨人版权行）",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空的魔法使 罐装徽章 A 款，出自まるくじ「TVアニメ『進撃の巨人』星空の魔法使い」抽选，赏级名「小吉04 缶バッジ【ハンジA】」。主题页标注单抽 1 個 880 円（税込），本条按每抽价格收录。主题页给出该赏品尺寸「約Φ56mm」与素材「ブリキ・PET・紙」。主题页标注售卖期间 2026 年 1 月 14 日 12:00〜2 月 15 日 23:59，售卖已结束；发货仅标注「販売期間終了から約2.5ヶ月後」滚动提示，发售日留空。主题页版权行仅「（C）TEAM Entertainment Inc.」，未单列进击的巨人版权行。",
+    "specifications": {
+      "种类": "单件",
+      "赏级": "小吉04",
+      "尺寸": "約Φ56mm",
+      "材质": "ブリキ・PET・紙",
+      "抽选主题": "TVアニメ『進撃の巨人』星空の魔法使い",
+      "赏级概率": "页面 LINE UP 该赏标注 55/100；页面标注「賞内の当選確率は1/8です」；A・B 两款绘柄不同",
+      "单抽价格": "1 個 880 円（税込）",
+      "配送手数料": "1 回の購入あたり全国一律 550 円（税込）、原文「まとめ買いで配送手数料がお得！(1回20個まで550円)」",
+      "售卖期间": "2026 年 1 月 14 日 12:00 〜 2 月 15 日 23:59（原文「【販売期間】2026年01月14日12:00〜2026年02月15日23:59まで」）",
+      "发货窗口": "原文「お届け目安：販売期間終了から約2.5ヶ月後」，为滚动提示，不作为发售日记录",
+      "页面状态": "主题页顶部标注「販売は終了致しました」（2026-10-15 核查）"
+    },
+    "releases": [
+      {
+        "releaseId": "marukuji-301-7783-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "marukuji-301-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "抽奖奖品",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "每抽",
+            "quantity": 1,
+            "sourceId": "marukuji-301-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "marukuji-301-7767",
+      "marukuji-301-7771",
+      "marukuji-301-7775",
+      "marukuji-301-7779",
+      "marukuji-301-7787"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "发售日：仅有「販売期間終了から約2.5ヶ月後」滚动提示，实际到货日待核实",
+      "商品页未标注 JAN",
+      "商品页未单列発売元，制造商待核实",
+      "主题页未单列进击的巨人版权行",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "marukuji-301-official",
+        "url": "https://marukuji.jp/detail/301",
+        "title": "まるくじ - TVアニメ『進撃の巨人』星空の魔法使い 販売終了！",
+        "organization": "まるくじ（TEAM Entertainment）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "抽选主题名",
+          "单抽价格（税込）",
+          "售卖期间",
+          "配送手数料",
+          "お届け目安",
+          "各赏品名称与规格（尺寸・素材）",
+          "赏内当選確率",
+          "页面销售状态",
+          "官方赏品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "marukuji-301-7787",
+    "slug": "hange-marukuji-badge-b",
+    "names": {
+      "zh": "韩吉 星空的魔法使 罐装徽章 B 款",
+      "ja": "小吉08 缶バッジ【ハンジB】",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "徽章",
+    "manufacturer": null,
+    "publisher": "まるくじ（TEAM Entertainment）",
+    "seriesId": "starry-sky-magician",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-marukuji-badge-b.svg",
+        "alt": "韩吉 星空的魔法使 罐装徽章 B 款 官方样品图",
+        "sourceUrl": "https://marukuji.jp/detail/301",
+        "originalUrl": "https://marukuji.jp/images/items/images/7787/6fa32414-37e6-43e3-8a05-f63dd71c2951-04shouK_08.webp",
+        "credit": "（C）TEAM Entertainment Inc.（まるくじ页面版权行；该页未单列进击的巨人版权行）",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空的魔法使 罐装徽章 B 款，出自まるくじ「TVアニメ『進撃の巨人』星空の魔法使い」抽选，赏级名「小吉08 缶バッジ【ハンジB】」。主题页标注单抽 1 個 880 円（税込），本条按每抽价格收录。主题页给出该赏品尺寸「約Φ56mm」与素材「ブリキ・PET・紙」。主题页标注售卖期间 2026 年 1 月 14 日 12:00〜2 月 15 日 23:59，售卖已结束；发货仅标注「販売期間終了から約2.5ヶ月後」滚动提示，发售日留空。主题页版权行仅「（C）TEAM Entertainment Inc.」，未单列进击的巨人版权行。",
+    "specifications": {
+      "种类": "单件",
+      "赏级": "小吉08",
+      "尺寸": "約Φ56mm",
+      "材质": "ブリキ・PET・紙",
+      "抽选主题": "TVアニメ『進撃の巨人』星空の魔法使い",
+      "赏级概率": "页面 LINE UP 该赏标注 55/100；页面标注「賞内の当選確率は1/8です」；A・B 两款绘柄不同",
+      "单抽价格": "1 個 880 円（税込）",
+      "配送手数料": "1 回の購入あたり全国一律 550 円（税込）、原文「まとめ買いで配送手数料がお得！(1回20個まで550円)」",
+      "售卖期间": "2026 年 1 月 14 日 12:00 〜 2 月 15 日 23:59（原文「【販売期間】2026年01月14日12:00〜2026年02月15日23:59まで」）",
+      "发货窗口": "原文「お届け目安：販売期間終了から約2.5ヶ月後」，为滚动提示，不作为发售日记录",
+      "页面状态": "主题页顶部标注「販売は終了致しました」（2026-10-15 核查）"
+    },
+    "releases": [
+      {
+        "releaseId": "marukuji-301-7787-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "marukuji-301-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "抽奖奖品",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "每抽",
+            "quantity": 1,
+            "sourceId": "marukuji-301-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "marukuji-301-7767",
+      "marukuji-301-7771",
+      "marukuji-301-7775",
+      "marukuji-301-7779",
+      "marukuji-301-7783"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "发售日：仅有「販売期間終了から約2.5ヶ月後」滚动提示，实际到货日待核实",
+      "商品页未标注 JAN",
+      "商品页未单列発売元，制造商待核实",
+      "主题页未单列进击的巨人版权行",
+      "限定范围未注明"
+    ],
+    "sources": [
+      {
+        "id": "marukuji-301-official",
+        "url": "https://marukuji.jp/detail/301",
+        "title": "まるくじ - TVアニメ『進撃の巨人』星空の魔法使い 販売終了！",
+        "organization": "まるくじ（TEAM Entertainment）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "抽选主题名",
+          "单抽价格（税込）",
+          "售卖期间",
+          "配送手数料",
+          "お届け目安",
+          "各赏品名称与规格（尺寸・素材）",
+          "赏内当選確率",
+          "页面销售状态",
+          "官方赏品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "bside-label-74468-sticker",
+    "slug": "hange-bside-sticker-2",
+    "names": {
+      "zh": "韩吉 B-SIDE LABEL 进击的巨人贴纸第 2 弹",
+      "ja": "TVアニメ『進撃の巨人』ステッカー第2弾 ハンジ・ゾエ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "纸品",
+    "manufacturer": "B-SIDE LABEL",
+    "publisher": "B-SIDE LABEL",
+    "seriesId": "bside-sticker-aot",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-bside-sticker-2.svg",
+        "alt": "韩吉 B-SIDE LABEL 进击的巨人贴纸第 2 弹 官方样品图",
+        "sourceUrl": "https://bside-label.com/archives/74468",
+        "originalUrl": "https://bside-label.com/wp-content/uploads/2026/04/913999ef7a120c52d23e3f79d363a9a2.png",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 B-SIDE LABEL 进击的巨人贴纸第 2 弹，出自 B-SIDE LABEL 官方公告「TVアニメ『進撃の巨人』ステッカー第2弾&雑貨アイテム発売決定！」（公告日 2026.03.20）。公告标注ステッカー全 6 種，韩吉・ゾエ为其中一款，并附该款官方图案预览图。公告标注价格「各300円（税込330円）」与発売日 2026 年 4 月 3 日，本条按含税 330 円与确定发售日收录。公告未标注贴纸尺寸与材质，也未给出单个角色的独立商品页。公告说明第 2 弹为ラインアート风，韩吉款描绘其操纵立体机动装置的轻盈动作。",
+    "specifications": {
+      "种类": "单件",
+      "弹数": "ステッカー第2弾（公告标题「TVアニメ『進撃の巨人』ステッカー第2弾&雑貨アイテム発売決定！」）",
+      "lineup": "ステッカー全 6 種：エレン・イェーガー／ミカサ・アッカーマン／アルミン・アルレルト／リヴァイ／エルヴィン・スミス／ハンジ・ゾエ",
+      "造型说明": "原文「立体機動装置を操り、軽やかに動く姿を描きました」「躍動感あふれる動きの中に、その人柄まで感じ取れる仕上がりです」，第 2 弹整体为ラインアート风设计",
+      "标价": "「ステッカー 全6種 各300円（税込330円）」，本条按税込 330 円收录",
+      "发售日": "原文「発売日：2026年4月3日発売」，为公告页明示的确定日期",
+      "销售渠道": "原文「取扱店舗：B-SIDE LABEL直営店・WEB SHOP」「当日の12:00より販売開始」「(C)2008-All Right Reserved. B-SIDE LABEL」另注「B-SIDE LABEL商品取扱販売店 順次展開予定」",
+      "同批其他品类": "公告同批的缶バッジ（全6種 税込330円）与アクリルチャーム（全6種 税込660円）页面说明仅列エレン・ミカサ・リヴァイ 3 名角色与调查兵团纹章，未含韩吉，故不收录"
+    },
+    "releases": [
+      {
+        "releaseId": "bside-label-74468-sticker-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "bside-label-74468-official"
+        ],
+        "announcement": {
+          "value": "2026-03-20",
+          "precision": "day"
+        },
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": {
+          "value": "2026-04-03",
+          "precision": "day"
+        },
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 330,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "bside-label-74468-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "尺寸：公告页未标注",
+      "材质：公告页未标注",
+      "JAN：公告页未标注",
+      "限定范围未注明",
+      "公告页未给出单件商品页，WEB SHOP 商品页待补"
+    ],
+    "sources": [
+      {
+        "id": "bside-label-74468-official",
+        "url": "https://bside-label.com/archives/74468",
+        "title": "TVアニメ『進撃の巨人』ステッカー第2弾&雑貨アイテム発売決定！ – B-SIDE LABEL",
+        "organization": "B-SIDE LABEL（ライセンス部）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "公告日期",
+          "日文商品名与弹数",
+          "ステッカー lineup（6 名角色，含ハンジ）",
+          "発売日",
+          "各品类含税标价",
+          "取扱店舗与开售时间",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "megahobby-6017-hange",
+    "slug": "hange-tobimas-figure",
+    "names": {
+      "zh": "韩吉 とびマス 立体挂件（第 5 款）",
+      "ja": "とびマス 進撃の巨人 ⑤ハンジ・ゾエ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "手办",
+    "manufacturer": "メガハウス",
+    "publisher": "メガハウス（メガホビ）",
+    "seriesId": "tobi-mas",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-tobimas-figure.svg",
+        "alt": "韩吉 とびマス 立体挂件（第 5 款） 官方样品图",
+        "sourceUrl": "https://www.megahobby.jp/products/item/6017/",
+        "originalUrl": "https://www.megahobby.jp/images/item/item_0000006017_1EuJMYNqrPVi_01.jpg",
+        "credit": "(C)諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 とびマス 立体挂件（第 5 款），出自メガハウス官方商品情报站「とびマス 進撃の巨人」（商品番号 6017），lineup 第⑤位为ハンジ・ゾエ。页面标注「各1,210円(税込)」，为按角色单体的含税售价。页面标注商品内容为彩色済みフィギュア与支えパーツ（吸盤），商品サイズ全高約50mm。页面标注发售预定为「2026年12月下旬」，属月份窗口，未记为发售日。页面另设套装预约入口，本条只记录单体角色款。",
+    "specifications": {
+      "种类": "单件",
+      "尺寸": "全高約50mm（原文「■商品サイズ 全高約50mm」）",
+      "商品内容": "彩色済みフィギュア、支えパーツ(吸盤)（原文「■ 商品内容」）",
+      "lineup": "全 6 種：①エレン・イェーガー ②アルミン・アルレルト ③ミカサ・アッカーマン ④リヴァイ ⑤ハンジ・ゾエ ⑥エレン・イェーガー(表情替えver.)",
+      "标价": "原文「各1,210円(税込)」，按角色单体标价",
+      "发售窗口": "原文「2026年12月下旬」，为发售预定窗口，不作为发售日记录",
+      "玩法说明": "原文「スピード感あふれる新感覚マスコットフィギュア」「吸盤でピタッとくっつく」「角度や向きの調節も自由自在」",
+      "套装": "页面另有「▶セット品のご予約はこちら」入口，套装条目未在本条收录"
+    },
+    "releases": [
+      {
+        "releaseId": "megahobby-6017-hange-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "megahobby-6017-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1210,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "megahobby-6017-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "发售日：页面仅标注「2026年12月下旬」发售预定窗口，实际发售日待核实",
+      "材质：页面未标注（仅述彩色済みフィギュア）",
+      "JAN：页面未标注",
+      "限定范围未注明",
+      "预约（予約）起止日期未公布"
+    ],
+    "sources": [
+      {
+        "id": "megahobby-6017-official",
+        "url": "https://www.megahobby.jp/products/item/6017/",
+        "title": "とびマス  進撃の巨人｜商品情報｜メガホビ MEGA HOBBY STATION｜メガハウスのホビー商品情報サイト",
+        "organization": "メガハウス（メガホビ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "各体含税售价",
+          "発売予定",
+          "ラインナップ（全 6 種，含ハンジ・ゾエ）",
+          "商品内容",
+          "商品サイズ",
+          "商品结构化数据（schema.org Product）",
+          "官方样品图与原图网址",
+          "版权标注"
         ]
       }
     ],

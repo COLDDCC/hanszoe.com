@@ -7564,7 +7564,7 @@
       "玩偶朋友",
       "(no-key)"
     ],
-    "description": "玩偶朋友·はらぺこくま：商品页标注「ぬいぴ～すふれんず はらぺこくま」联动图案。本系列收录アニメイト通販（アニメイト线上商城）上架的韩吉商品 4 件。",
+    "description": "ぬいぴ〜すふれんず はらぺこくま 联动绘柄：站内收录韩吉商品 4 件（缶バッジ、アクリルスタンドJr.、ステッカー、キャラPic），均以相同 JAN 在 アニメイト通販 与 GRANUP ONLINE SHOP 双渠道上架，尺寸与材质取自 GRANUP 页面。",
     "region": "日本",
     "type": "联动图案系列",
     "sources": [
@@ -7635,9 +7635,23 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "granup-000000009462-series",
+        "url": "https://granupshop.com/view/item/000000009462",
+        "title": "予約9/28〆【10月発売】「進撃の巨人」 ぬいぴ～すふれんず はらぺこくま 缶バッジ ハンジ・ゾエ | GRANUP ONLINE SHOP",
+        "organization": "GRANUP ONLINE SHOP（グラナップオンラインショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "尺寸与材质",
+          "JAN 代码",
+          "发货预定窗口"
+        ]
       }
     ],
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -9424,7 +9438,7 @@
       "度假（バカンス）",
       "(no-key)"
     ],
-    "description": "度假（バカンス）：商品页标注「(ハンジ/バカンス)」度假造型图案。本系列收录アニメイト通販（アニメイト线上商城）上架的韩吉商品 1 件。此外，amiami（あみあみ）另上架本系列韩吉商品 1 件（2026-10-14 核查），站内已按同一系列归并收录。",
+    "description": "度假（バカンス）绘柄：站内收录韩吉商品 3 件（アクリルスタンド、アクリルキーホルダー、ミニキャラ缶バッジセットB）。アニメイト通販与 amiami（あみあみ）分列上架，Parflette（株式会社Key-th 官方商城）亦以同一商品名上架立牌、钥匙扣与 4 人徽章套装，价格与已收录口径一致；Parflette 页面未标注 JAN。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -9444,9 +9458,36 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "parflette-tag-shingeki-official",
+        "url": "https://parflette.com/item/tag/shingeki/",
+        "title": "進撃の巨人 - Parflette-パルフレット-",
+        "organization": "Parflette（株式会社Key-th 公式ショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "商品列表（35 件）",
+          "日文商品名",
+          "标价",
+          "销售状态（販売終了）",
+          "官方样品图与原图网址"
+        ]
+      },
+      {
+        "id": "parflette-keyholderacr-shingeki15-official",
+        "url": "https://parflette.com/item/keyholderacr_shingeki15/",
+        "title": "[進撃の巨人]アクリルキーホルダー（ハンジ／バカンス） - Parflette-パルフレット-",
+        "organization": "Parflette（株式会社Key-th 公式ショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售状态（販売終了）",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -17909,7 +17950,7 @@
     "slug": "usamimi-diner",
     "name": "兔耳餐厅（ウサミミダイナー）",
     "aliases": [],
-    "description": "兔耳餐厅（ウサミミダイナー）：amiami 商品名「進撃の巨人 アクリルスタンド(ハンジ/ウサミミダイナー)」的条目，站内收录韩吉 1 件。该件与站内「度假（バカンス）」系列的亚克力立牌形态相同、JAN 前缀相同（4571608），但商品名标注的绘柄与 JAN 均不一致，故分列两条系列；页面未列出该绘柄的完整角色名单，厂商字段未单列。",
+    "description": "兔耳餐厅（ウサミミダイナー）绘柄：站内收录韩吉商品 2 件（アクリルスタンド、アクリルキーホルダー）。立牌条目原按 amiami 商品页建档（JAN 4571608528235），Parflette（株式会社Key-th 官方商城）以同一商品名另上架该立牌与钥匙扣，其分类页共列进击商品 35 件、均已转停售。该绘柄的完整角色名单页面未列出，厂商字段未单列。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -17930,9 +17971,36 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "parflette-tag-shingeki-official",
+        "url": "https://parflette.com/item/tag/shingeki/",
+        "title": "進撃の巨人 - Parflette-パルフレット-",
+        "organization": "Parflette（株式会社Key-th 公式ショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "商品列表（35 件）",
+          "日文商品名",
+          "标价",
+          "销售状态（販売終了）",
+          "官方样品图与原图网址"
+        ]
+      },
+      {
+        "id": "parflette-keyholderacr-shingeki07-official",
+        "url": "https://parflette.com/item/keyholderacr_shingeki07/",
+        "title": "[進撃の巨人]アクリルキーホルダー（ハンジ／ウサミミダイナー） - Parflette-パルフレット-",
+        "organization": "Parflette（株式会社Key-th 公式ショップ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售状态（販売終了）",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -18143,6 +18211,160 @@
         ]
       }
     ],
+    "updatedAt": "2026-10-15",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "starry-sky-magician",
+    "slug": "starry-sky-magician",
+    "name": "星空的魔法使（星空の魔法使い）",
+    "aliases": [
+      "星空の魔法使い",
+      "まるくじ 進撃の巨人"
+    ],
+    "type": "抽选赏品系列",
+    "description": "まるくじ「TVアニメ『進撃の巨人』星空の魔法使い」抽选赏品：单抽 1 個 880 円（税込），售卖期间 2026 年 1 月 14 日 12:00〜2 月 15 日 23:59，已售卖结束。全 4 档赏共 24 个赏位（超大吉 1/100、大吉 12/100、中吉 32/100、小吉 55/100），韩吉在超大吉、大吉、中吉（A・B 两款）、小吉（A・B 两款）各占 1 个赏位，站内收录 6 件。主题页仅标注「（C）TEAM Entertainment Inc.」，未单列进击的巨人版权行。",
+    "sources": [
+      {
+        "id": "marukuji-301-official",
+        "url": "https://marukuji.jp/detail/301",
+        "title": "まるくじ - TVアニメ『進撃の巨人』星空の魔法使い 販売終了！",
+        "organization": "まるくじ（TEAM Entertainment）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "抽选主题名",
+          "单抽价格（税込）",
+          "售卖期间",
+          "配送手数料",
+          "お届け目安",
+          "各赏品名称与规格（尺寸・素材）",
+          "赏内当選確率",
+          "页面销售状态",
+          "官方赏品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "region": "日本",
+    "updatedAt": "2026-10-15",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "new-rock-aot",
+    "slug": "new-rock-aot",
+    "name": "NEW ROCK × 进击的巨人",
+    "aliases": [
+      "NEW ROCK x進撃の巨人"
+    ],
+    "type": "品牌联名系列",
+    "description": "西班牙靴牌 NEW ROCK 与进击的巨人的联名线，站内收录 QOOZA（株式会社クリーム）官方上架的韩吉款 2 件（靴与图形 T 恤）。QOOZA 商品页以品牌字段标注 NEW ROCK，未单列発売元与版权行；靴款税込 79,200 円（税抜 72,000 円）、T 恤税込 8,800 円（税抜 8,000 円）。",
+    "sources": [
+      {
+        "id": "qooza-21821-official",
+        "url": "https://qooza.jp/products/detail/21821",
+        "title": "NEW ROCK x進撃の巨人 /ハンジ・ゾエ - QOOZA",
+        "organization": "QOOZA（株式会社クリーム）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "税込售价与税抜价（EC-CUBE 结构化数据）",
+          "素材",
+          "尺码表（EU36～48 与跟高／筒高等）",
+          "品牌与联名说明",
+          "页面库存与发货说明",
+          "官方样品图与原图网址"
+        ]
+      },
+      {
+        "id": "qooza-21827-official",
+        "url": "https://qooza.jp/products/detail/21827",
+        "title": "NEW ROCK x進撃の巨人 /ハンジ・ゾエ TEE - QOOZA",
+        "organization": "QOOZA（株式会社クリーム）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "税込售价与税抜价（EC-CUBE 结构化数据）",
+          "素材",
+          "尺寸（身幅・着丈）与重量、颜色",
+          "印花文字内容",
+          "页面库存与发货说明",
+          "官方样品图与原图网址"
+        ]
+      }
+    ],
+    "region": "日本",
+    "updatedAt": "2026-10-15",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "bside-sticker-aot",
+    "slug": "bside-sticker-aot",
+    "name": "B-SIDE LABEL 进击的巨人贴纸",
+    "aliases": [
+      "B-SIDE LABEL",
+      "進撃の巨人 ステッカー第2弾"
+    ],
+    "type": "联名贴纸系列",
+    "description": "B-SIDE LABEL 与 TV 动画进击的巨人的联名贴纸线。站内收录第 2 弹韩吉款 1 件：ステッカー全 6 種（エレン・ミカサ・アルミン・リヴァイ・エルヴィン・ハンジ），各 300 円（税込 330 円），公告标注発売日 2026 年 4 月 3 日。同批缶バッジ与アクリルチャーム的角色名单未含韩吉，故不收录；第 1 弹与第 1.5 弹公告页尚待回扫。",
+    "sources": [
+      {
+        "id": "bside-label-74468-official",
+        "url": "https://bside-label.com/archives/74468",
+        "title": "TVアニメ『進撃の巨人』ステッカー第2弾&雑貨アイテム発売決定！ – B-SIDE LABEL",
+        "organization": "B-SIDE LABEL（ライセンス部）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "公告日期",
+          "日文商品名与弹数",
+          "ステッカー lineup（6 名角色，含ハンジ）",
+          "発売日",
+          "各品类含税标价",
+          "取扱店舗与开售时间",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "region": "日本",
+    "updatedAt": "2026-10-15",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "tobi-mas",
+    "slug": "tobi-mas",
+    "name": "とびマス（吸盘悬浮公仔）",
+    "aliases": [
+      "とびマス",
+      "Tobimas",
+      "メガハウス"
+    ],
+    "type": "景品手办系列",
+    "description": "メガハウス「とびマス」系列的进击的巨人款：彩色済みフィギュア附吸盘支件，全高約50mm，全 6 種 lineup，各 1,210 円（税込），发售预定 2026 年 12 月下旬。站内收录第⑤位ハンジ・ゾエ 1 件；页面另设套装预约入口，套装条目未收录。",
+    "sources": [
+      {
+        "id": "megahobby-6017-official",
+        "url": "https://www.megahobby.jp/products/item/6017/",
+        "title": "とびマス  進撃の巨人｜商品情報｜メガホビ MEGA HOBBY STATION｜メガハウスのホビー商品情報サイト",
+        "organization": "メガハウス（メガホビ）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "各体含税售价",
+          "発売予定",
+          "ラインナップ（全 6 種，含ハンジ・ゾエ）",
+          "商品内容",
+          "商品サイズ",
+          "商品结构化数据（schema.org Product）",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "region": "日本",
     "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
