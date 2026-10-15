@@ -9,7 +9,7 @@ import {
   releaseSchema,
   dateSchema,
 } from "../src/lib/schema";
-import { filterProducts, priceText } from "../src/lib/catalog";
+import { brand, filterProducts, priceText, usableBrand } from "../src/lib/catalog";
 const products = raw.map((x) => productSchema.parse(x));
 const series = rawSeries.map((x) => seriesSchema.parse(x));
 test("全半角、英文大小写、空格与别名兼容", () => {
@@ -125,4 +125,19 @@ test("已移除的筛选参数不再影响结果", () => {
     filterProducts(products, series, new URLSearchParams(retained + "&brand=missing&series=missing&limited=missing")),
     filterProducts(products, series, new URLSearchParams(retained)),
   );
+});
+
+test("品牌与系列只作为检索词和卡片标签，不作为筛选组", () => {
+  const real2 = real.map((x) => productSchema.parse(x));
+  const srgym = filterProducts(real2, series, new URLSearchParams({ q: "SR-GYM" }));
+  assert.equal(srgym.length, 4);
+  assert.deepEqual([...new Set(srgym.map((p) => p.seriesId))], ["srgym-tfs-2026"]);
+  assert.deepEqual(
+    filterProducts(real2, series, new URLSearchParams({ q: "arma bianca", series: "srgym-tfs-2026" })),
+    filterProducts(real2, series, new URLSearchParams({ q: "arma bianca" })),
+  );
+  for (const p of real2)
+    if (p.manufacturer === "未注明")
+      assert.equal(usableBrand(p.manufacturer), "");
+  assert.equal(brand(productSchema.parse(real[1])), "MegaHouse");
 });

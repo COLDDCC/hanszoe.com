@@ -9,6 +9,8 @@ export default defineConfig({
     command: "npm run preview -- --host 127.0.0.1 --port 4321",
     url: "http://127.0.0.1:4321",
     reuseExistingServer: !process.env.CI,
+    timeout: 180_000,
+    stdout: "pipe",
   },
   projects: [
     { name: "desktop", use: { viewport: { width: 1440, height: 1000 } } },

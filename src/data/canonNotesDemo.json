@@ -1,0 +1,38 @@
+[
+  {
+    "id": "demo-note-layout",
+    "kind": "读者问答",
+    "topic": "形象设计",
+    "question": "示例问题：这条版式怎么排？",
+    "questionOriginal": "レイアウト確認用の示例質問です。",
+    "answer": "示例回答，只用于检查卡片版式、剧透折叠与出处区块，不是谏山创的说过的话。",
+    "answerOriginal": "これはレイアウト確認用の示例テキストで、作者の発言ではありません。",
+    "spoiler": "轻微",
+    "citation": {
+      "work": "示例书籍",
+      "edition": "示例出版社 初版",
+      "publishedAt": { "value": "2013", "precision": "year" },
+      "section": "示例章节",
+      "page": "p. 1",
+      "language": "ja"
+    },
+    "attribution": "direct",
+    "evidenceStatus": "partial",
+    "missingFields": ["整条均为版式示例，无真实出处"],
+    "sources": [
+      {
+        "id": "demo-source",
+        "url": "https://attackontitan.fandom.com/wiki/Hange_Zo%C3%AB",
+        "title": "示例来源，仅用于渲染链接",
+        "organization": "示例组织",
+        "checkedAt": "2026-10-14",
+        "fields": ["版式"]
+      }
+    ],
+    "sourceIds": ["demo-source"],
+    "relatedProductIds": ["gsc-nendoroid-1123"],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": true
+  }
+]

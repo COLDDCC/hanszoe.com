@@ -231,6 +231,10 @@ section {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+#catalog-form .search-hints {
+  margin: 12px 2px 22px;
+  flex-wrap: wrap;
+}
 .archive-note {
   background: #efe8f5;
   border: 1px solid #ded1e9;
@@ -351,11 +355,47 @@ section {
   border: 1px solid var(--line);
   border-radius: 4px;
   overflow: hidden;
+  position: relative;
   transition: box-shadow 0.15s;
 }
 .product-card:hover {
   color: var(--ink);
   box-shadow: 0 6px 24px #302a3810;
+}
+.card-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+.card-series {
+  position: relative;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 12px 0 14px;
+}
+.card-tags:empty {
+  display: none;
+}
+.card-tags a {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: border-color 0.15s, background 0.15s;
+}
+.card-tags a:hover {
+  border-color: var(--accent);
+  background: var(--white);
 }
 .product-image {
   aspect-ratio: 1/1;
@@ -1017,6 +1057,10 @@ dd {
   .card-body .eyebrow {
     font-size: 0.64rem;
   }
+  .card-tags {
+    margin: 9px 0 11px;
+    font-size: 0.68rem;
+  }
   .card-meta {
     flex-wrap: wrap;
     font-size: 0.72rem;
@@ -1275,4 +1319,28 @@ button, input, select, .filters, .result-toolbar,
 @media (max-width: 700px) {
   .hero-actions { gap: 10px; }
   .hero-actions .button { padding: 12px 14px; font-size: .85rem; white-space: normal; }
+}
+
+/* Creator notes: per-entry citation cards with own spoiler gating. */
+.note-list { display: grid; gap: 18px; }
+.note-card { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 26px; border: 1px solid var(--line); background: var(--white); padding: 24px; }
+.note-side { display: flex; flex-direction: column; gap: 5px; font-size: .78rem; color: var(--muted); }
+.note-side .tag { align-self: start; }
+.note-topic { margin: 10px 0 4px; font: .95rem/1.5 var(--serif); color: var(--ink); }
+.note-body h2 { margin: 0 0 12px; font: 1.3rem/1.5 var(--serif); }
+.note-question { margin: 0 0 10px; font: 1rem/1.7 var(--ui); color: var(--ink); }
+.note-question[lang] { margin: -4px 0 14px; font-size: .85rem; color: var(--muted); }
+.note-answer p { margin: 0 0 12px; color: #5f5467; }
+.note-answer blockquote { margin: 0 0 12px; padding: 12px 16px; border-left: 3px solid var(--line); background: var(--soft); font-size: .88rem; color: var(--muted); }
+.note-card .spoiler { margin: 0; }
+.note-card .spoiler summary { color: var(--accent-muted); font-size: .86rem; }
+.note-citation { margin: 18px 0 0; }
+.note-citation > div { grid-template-columns: 92px minmax(0, 1fr); }
+.note-products, .note-foot { font-size: .82rem; margin: 14px 0 0; color: var(--muted); }
+.note-products a { text-decoration: underline; text-underline-offset: 4px; }
+@media (max-width: 700px) {
+  .note-card { grid-template-columns: 1fr; gap: 16px; padding: 20px; }
+  .note-side { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 10px; }
+  .note-topic { margin: 0; flex: 1 1 100%; }
+  .note-citation > div { grid-template-columns: 84px minmax(0, 1fr); }
 }

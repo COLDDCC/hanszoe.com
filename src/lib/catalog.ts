@@ -19,7 +19,7 @@ export const priceText = (r: Release) =>
       : r.prices
           .map(
             (p) =>
-              `${new Intl.NumberFormat("zh-CN", { style: "currency", currency: p.currency, maximumFractionDigits: p.currency === "JPY" || p.currency === "KRW" ? 0 : 2 }).format(p.amount / (p.currency === "JPY" || p.currency === "KRW" ? 1 : 100))} ${p.currency} / ${p.unit}（${p.taxStatus}${p.quantity ? ` · ${p.quantity}件` : ""}）`,
+              `${new Intl.NumberFormat("zh-CN", { style: "currency", currency: p.currency, maximumFractionDigits: p.currency === "JPY" || p.currency === "KRW" ? 0 : 2 }).format(p.amount / (p.currency === "JPY" || p.currency === "KRW" ? 1 : 100))} / ${p.unit}（${p.taxStatus}${p.quantity ? ` · ${p.quantity}件` : ""}）`,
           )
           .join("；");
 export const dateText = (d: Release["releaseDate"]) =>

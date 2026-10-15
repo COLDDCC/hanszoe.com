@@ -1,0 +1,39 @@
+{
+  "id": "replace-note-id",
+  "kind": "读者问答",
+  "topic": "填写主题，例如 形象设计",
+  "question": "读者的中文问题（转述）",
+  "questionOriginal": "日本語の質問文（取得できた場合のみ）",
+  "answer": "中文转述内容。",
+  "answerOriginal": null,
+  "spoiler": "无",
+  "citation": {
+    "work": "別冊少年マガジン「諫山先生へ一問一答！！」",
+    "edition": "出版社与版本，未核对时写明",
+    "publishedAt": { "value": "2015", "precision": "year" },
+    "section": "问答所在的分节或年份",
+    "page": null,
+    "language": "ja"
+  },
+  "attribution": "secondhand",
+  "evidenceStatus": "partial",
+  "missingFields": [
+    "具体月号与页码未核对原始出版物",
+    "请核实并替换所有模板内容"
+  ],
+  "sources": [
+    {
+      "id": "note-source",
+      "url": "https://example.org/source",
+      "title": "来源页面标题",
+      "organization": "来源机构，非官方时写明",
+      "checkedAt": "2026-10-14",
+      "fields": ["回答内容"]
+    }
+  ],
+  "sourceIds": ["note-source"],
+  "relatedProductIds": [],
+  "createdAt": "2026-10-14",
+  "updatedAt": "2026-10-14",
+  "isDemo": false
+}

@@ -1,0 +1,317 @@
+---
+import Base from "../../layouts/Base.astro";
+import { canonNotes, products } from "../../lib/data";
+import { dateText } from "../../lib/catalog";
+
+const groups = [
+  {
+    key: "kind",
+    label: "资料类型",
+    values: [...new Set(canonNotes.map((n) => n.kind))],
+  },
+  {
+    key: "topic",
+    label: "主题",
+    values: [...new Set(canonNotes.map((n) => n.topic))].sort((a, b) =>
+      a.localeCompare(b, "zh-CN"),
+    ),
+  },
+  {
+    key: "spoiler",
+    label: "剧透等级",
+    values: ["无", "轻微", "重大"].filter((v) =>
+      canonNotes.some((n) => n.spoiler === v),
+    ),
+  },
+];
+const latest = canonNotes.map((n) => n.updatedAt).sort().at(-1) || "";
+const attributionLabel: Record<string, string> = {
+  direct: "逐字引用",
+  translated: "摘译",
+  secondhand: "二手转述",
+};
+const productById = (id: string) => products.find((p) => p.id === id);
+---
+
+<Base
+  title="作者补充与读者问答"
+  description="谏山创关于韩吉·佐耶的问答、评论与设定补充，逐条记录原始出处与核对日期。"
+>
+  <div class="breadcrumbs">
+    <a href="/wiki/">原作档案</a>
+    <span>/</span>
+    <span>作者补充与读者问答</span>
+  </div>
+  <div class="page-heading">
+    <span class="eyebrow">CREATOR NOTES</span>
+    <h1>作者补充与读者问答</h1>
+    <p>
+      收录谏山创在单行本附录、公式书与访谈里对韩吉·佐耶的说明。每条独立标注出处、引用方式与核对日期；查不到原始出处的内容只列目录，不写成结论。
+    </p>
+    <nav class="section-nav" aria-label="原作档案分区">
+      <a href="/wiki/">全部档案</a>
+      <a href="/wiki/creator-notes/" aria-current="page">作者补充</a>
+    </nav>
+  </div>
+  {
+    canonNotes.length === 0 && (
+      <div class="empty">
+        <h2>作者补充正在核对</h2>
+        <p>
+          每条说明都要对回原始出版物才收录。现在还没有可引用的条目，核对完成后会逐条出现在这里。
+        </p>
+        <a class="button" href="/about/">
+          了解收录规则
+        </a>
+      </div>
+    )
+  }
+  {
+    canonNotes.length > 0 && (
+      <form id="note-form">
+        <div class="catalog-layout">
+          <aside class="filters">
+            <details open id="note-filters">
+              <summary>筛选条件</summary>
+              {groups.map((g) => (
+                <fieldset>
+                  <legend>{g.label}</legend>
+                  {g.values.map((v) => (
+                    <label>
+                      <input type="checkbox" name={g.key} value={v} />
+                      <span>{v}</span>
+                    </label>
+                  ))}
+                </fieldset>
+              ))}
+              <button type="reset" class="clear-button">
+                清空全部条件
+              </button>
+            </details>
+          </aside>
+          <div class="results">
+            <div class="result-toolbar">
+              <p aria-live="polite">
+                找到 <strong id="result-count">{canonNotes.length}</strong> 条记录
+                {latest && ` · 最近核对 ${latest}`}
+              </p>
+            </div>
+            <div class="note-list" id="note-list">
+              {canonNotes.map((n) => {
+                const related = n.relatedProductIds
+                  .map(productById)
+                  .filter(Boolean);
+                const body = (
+                  <>
+                    {n.question && <p class="note-question">{n.question}</p>}
+                    {n.questionOriginal && (
+                      <p
+                        class="note-question"
+                        lang={n.citation.language}
+                      >
+                        {n.questionOriginal}
+                      </p>
+                    )}
+                    <div class="note-answer">
+                      <p>{n.answer}</p>
+                      {n.answerOriginal && (
+                        <blockquote lang={n.citation.language}>
+                          {n.answerOriginal}
+                        </blockquote>
+                      )}
+                    </div>
+                  </>
+                );
+                return (
+                  <article
+                    class="note-card"
+                    id={n.id}
+                    data-note-id={n.id}
+                    data-kind={n.kind}
+                    data-topic={n.topic}
+                    data-spoiler={n.spoiler}
+                  >
+                    <div class="note-side">
+                      <span class="tag">{n.kind}</span>
+                      <p class="note-topic">{n.topic}</p>
+                      <small>
+                        {n.spoiler === "无" ? "无剧透" : "剧透：" + n.spoiler}
+                      </small>
+                      <small>{attributionLabel[n.attribution]}</small>
+                      <small>
+                        {n.evidenceStatus === "verified"
+                          ? "已核对"
+                          : "部分待核实"}
+                      </small>
+                    </div>
+                    <div class="note-body">
+                      <h2>{n.topic}</h2>
+                      {n.spoiler === "无" ? (
+                        body
+                      ) : (
+                        <details class="spoiler">
+                          <summary>
+                            剧透提示：{n.spoiler} · 展开阅读
+                          </summary>
+                          {body}
+                        </details>
+                      )}
+                      <dl class="note-citation">
+                        <div>
+                          <dt>出处</dt>
+                          <dd>
+                            {n.citation.work} · {n.citation.section}
+                            {n.citation.page ? ` · ${n.citation.page}` : ""}
+                          </dd>
+                        </div>
+                        <div>
+                          <dt>版本</dt>
+                          <dd>
+                            {n.citation.edition}（
+                            {n.citation.publishedAt
+                              ? dateText(n.citation.publishedAt)
+                              : "发行日待核实"}
+                            ）· 原文语言 {n.citation.language.toUpperCase()}
+                          </dd>
+                        </div>
+                        <div>
+                          <dt>支持字段</dt>
+                          <dd class="release-sources">
+                            {n.sourceIds.map((id, i) => {
+                              const s = n.sources.find((x) => x.id === id)!;
+                              return (
+                                <>
+                                  {i > 0 && " · "}
+                                  <a
+                                    href={s.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    {s.title} ↗
+                                  </a>
+                                </>
+                              );
+                            })}
+                          </dd>
+                        </div>
+                      </dl>
+                      {n.missingFields.length > 0 && (
+                        <div class="notice">
+                          <strong>待核实项目</strong>
+                          <ul>
+                            {n.missingFields.map((x) => (
+                              <li>{x}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                      {related.length > 0 && (
+                        <p class="note-products">
+                          <span>相关周边：</span>
+                          {related.map((p, i) => (
+                            <>
+                              {i > 0 && " · "}
+                              <a href={`/merch/${p!.slug}/`}>
+                                {p!.names.zh || p!.names.ja}
+                              </a>
+                            </>
+                          ))}
+                        </p>
+                      )}
+                      <p class="note-foot">
+                        收录于 {n.createdAt} · 更新于 {n.updatedAt}
+                        {n.isDemo && " · 示例数据"}
+                      </p>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+            <div class="empty" id="no-results" hidden>
+              <h2>这个条件下暂时没有记录</h2>
+              <p>试试只选剧透等级，或清空条件查看全部记录。</p>
+              <button type="reset" class="button">
+                清空条件
+              </button>
+            </div>
+            <p class="list-footnote">
+              “逐字引用”保留原文与页码；“摘译”为中文压缩转述，原文以出处为准；“二手转述”表示尚未核对原始出版物，只作为线索，不能作为结论。
+            </p>
+          </div>
+        </div>
+      </form>
+    )
+  }
+</Base>
+
+<script>
+  const form = document.getElementById("note-form") as HTMLFormElement | null;
+  const list = document.getElementById("note-list");
+  if (form && list) start(form, list);
+
+  function start(form: HTMLFormElement, list: HTMLElement) {
+    const groups = ["kind", "topic", "spoiler"];
+    const cards = Array.from(list.children) as HTMLElement[];
+    const count = document.getElementById("result-count")!;
+    const noResults = document.getElementById("no-results")!;
+    let restoring = false;
+
+    function render(params: URLSearchParams) {
+      const visible = cards.filter((card) =>
+        groups.every((g) => {
+          const values = params.getAll(g);
+          return !values.length || values.includes(card.dataset[g] || "");
+        }),
+      );
+      cards.forEach((card) => (card.hidden = true));
+      const fragment = document.createDocumentFragment();
+      for (const card of visible) {
+        card.hidden = false;
+        fragment.appendChild(card);
+      }
+      list.appendChild(fragment);
+      count.textContent = String(visible.length);
+      noResults.hidden = visible.length > 0;
+    }
+
+    function restore() {
+      restoring = true;
+      form.reset();
+      const params = new URLSearchParams(location.search);
+      for (const control of Array.from(form.elements)) {
+        if (
+          control instanceof HTMLInputElement &&
+          control.type === "checkbox"
+        )
+          control.checked = params.getAll(control.name).includes(control.value);
+      }
+      restoring = false;
+      render(params);
+    }
+
+    function update() {
+      const params = new URLSearchParams();
+      for (const [key, value] of new FormData(form))
+        if (typeof value === "string" && value) params.append(key, value);
+      const next = location.pathname + (params.size ? "?" + params.toString() : "");
+      if (next !== location.pathname + location.search)
+        history.pushState({}, "", next);
+      render(params);
+    }
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      update();
+    });
+    form.addEventListener("change", update);
+    form.addEventListener("reset", () => {
+      if (!restoring) queueMicrotask(update);
+    });
+    window.addEventListener("popstate", restore);
+    restore();
+    if (matchMedia("(max-width: 700px)").matches)
+      (
+        document.getElementById("note-filters") as HTMLDetailsElement
+      ).open = false;
+  }
+</script>

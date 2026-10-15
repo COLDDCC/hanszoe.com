@@ -1,8 +1,9 @@
 import type { APIRoute } from "astro";
-import { products, series, includeDemo } from "../lib/data";
+import { canonNotes, products, series, includeDemo } from "../lib/data";
 import { getCollection } from "astro:content";
 export const GET: APIRoute = async ({ site }) => {
   const fixed = ["/", "/merch/", "/series/", "/news/", "/wiki/", "/about/"];
+  if (canonNotes.length) fixed.push("/wiki/creator-notes/");
   const news = await getCollection("news", (e) => !e.data.isDemo);
   const wiki = await getCollection("wiki", (e) => !e.data.isDemo);
   const paths = [

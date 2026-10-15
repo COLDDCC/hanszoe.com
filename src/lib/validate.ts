@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 import { parse } from "yaml";
-import { productSchema, seriesSchema, dateSchema } from "./schema";
+import { canonNoteSchema, productSchema, seriesSchema, dateSchema } from "./schema";
 const root = resolve(import.meta.dirname, "..");
 const read = (p: string) => JSON.parse(readFileSync(resolve(root, p), "utf8"));
 const products = read("data/products.json").map((p: unknown) =>
@@ -11,6 +11,12 @@ const demo = read("data/demo.json").map((p: unknown) => productSchema.parse(p));
 const series = read("data/series.json").map((s: unknown) =>
   seriesSchema.parse(s),
 );
+const canonNotes = read("data/canonNotes.json").map((n: unknown) =>
+  canonNoteSchema.parse(n),
+);
+const demoNotes = read("data/canonNotesDemo.json").map((n: unknown) =>
+  canonNoteSchema.parse(n),
+);
 function unique(items: any[], key: string, label: string) {
   const ids = items.map((x) => x[key]);
   if (new Set(ids).size !== ids.length) throw Error(`重复 ${label} ${key}`);
@@ -19,6 +25,13 @@ unique([...products, ...demo], "id", "商品");
 unique([...products, ...demo], "slug", "商品");
 unique(series, "id", "系列");
 unique(series, "slug", "系列");
+unique([...canonNotes, ...demoNotes], "id", "作者补充");
+for (const n of [...canonNotes, ...demoNotes]) {
+  for (const id of n.relatedProductIds)
+    if (!products.some((p: any) => p.id === id))
+      throw Error("作者补充引用无效商品 " + id);
+  if (n.citation.publishedAt) dateSchema.parse(n.citation.publishedAt);
+}
 for (const p of [...products, ...demo]) {
   if (!series.some((s: any) => s.id === p.seriesId))
     throw Error("无效系列引用 " + p.id);
@@ -67,8 +80,19 @@ for (const collection of ["news", "wiki"]) {
   }
 }
 unique(content, "id", "内容");
-if (products.some((p: any) => p.isDemo) || series.some((s: any) => s.isDemo))
+if (
+  content.some(
+    (e) => e.collection === "wiki" && e.slug === "creator-notes",
+  )
+)
+  throw Error("Wiki slug 与作者补充固定路由冲突 creator-notes");
+if (
+  products.some((p: any) => p.isDemo) ||
+  series.some((s: any) => s.isDemo) ||
+  canonNotes.some((n: any) => n.isDemo) ||
+  demoNotes.some((n: any) => !n.isDemo)
+)
   throw Error("真实内容文件不得混入示例数据");
 console.log(
-  `内容校验通过：${products.length} 商品，${series.length} 系列，${content.length} 内容文章，${demo.length} 独立示例。`,
+  `内容校验通过：${products.length} 商品，${series.length} 系列，${content.length} 内容文章，${canonNotes.length} 条作者补充，${demo.length} 独立示例。`,
 );

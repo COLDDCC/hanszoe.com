@@ -167,7 +167,75 @@ export const seriesSchema = z.object({
   isDemo: z.boolean(),
   images: z.array(imageSchema),
 });
+export const noteKinds = [
+  "读者问答",
+  "作者评论",
+  "设定资料",
+  "访谈",
+] as const;
+export const noteLanguages = ["ja", "en", "zh"] as const;
+export const citationSchema = z.object({
+  work: z.string().min(1),
+  edition: z.string().min(1),
+  publishedAt: dateSchema.nullable(),
+  section: z.string().min(1),
+  page: z.string().nullable(),
+  language: z.enum(noteLanguages),
+});
+export const canonNoteSchema = z
+  .object({
+    id: z.string().regex(/^[a-z0-9-]+$/),
+    kind: z.enum(noteKinds),
+    topic: z.string().min(1),
+    question: z.string().nullable(),
+    questionOriginal: z.string().nullable(),
+    answer: z.string().min(1),
+    answerOriginal: z.string().nullable(),
+    spoiler: z.enum(["无", "轻微", "重大"]),
+    citation: citationSchema,
+    attribution: z.enum(["direct", "translated", "secondhand"]),
+    evidenceStatus: z.enum(["verified", "partial"]),
+    missingFields: z.array(z.string()),
+    sources: z.array(sourceSchema).min(1),
+    sourceIds: z.array(z.string()).min(1),
+    relatedProductIds: z.array(z.string()),
+    createdAt: isoDaySchema,
+    updatedAt: isoDaySchema,
+    isDemo: z.boolean(),
+  })
+  .superRefine((v, c) => {
+    const ids = v.sources.map((s) => s.id);
+    if (new Set(ids).size !== ids.length)
+      c.addIssue({ code: "custom", message: "来源 ID 重复" });
+    for (const id of v.sourceIds)
+      if (!ids.includes(id))
+        c.addIssue({ code: "custom", message: "条目引用未知来源 " + id });
+    if (v.kind === "读者问答" && !v.question?.trim())
+      c.addIssue({ code: "custom", message: "读者问答必须有原问题" });
+    if (v.kind !== "读者问答" && (v.question || v.questionOriginal))
+      c.addIssue({ code: "custom", message: "非问答条目不应填写问题" });
+    if (v.attribution === "direct" && (!v.answerOriginal || !v.citation.page))
+      c.addIssue({
+        code: "custom",
+        message: "逐字引用需要原文与可定位的页码",
+      });
+    if (v.attribution === "secondhand" && v.evidenceStatus !== "partial")
+      c.addIssue({
+        code: "custom",
+        message: "二手转述在核对原始出处前只能标记 partial",
+      });
+    if (v.evidenceStatus === "partial" && !v.missingFields.length)
+      c.addIssue({ code: "custom", message: "partial 必须说明缺项" });
+    if (v.evidenceStatus === "verified" && v.missingFields.length)
+      c.addIssue({
+        code: "custom",
+        message: "有待核实项目时不能标记 verified",
+      });
+    if (v.updatedAt < v.createdAt)
+      c.addIssue({ code: "custom", message: "更新日期不能早于收录日期" });
+  });
 export type Product = z.infer<typeof productSchema>;
 export type Series = z.infer<typeof seriesSchema>;
 export type Release = z.infer<typeof releaseSchema>;
+export type CanonNote = z.infer<typeof canonNoteSchema>;
 

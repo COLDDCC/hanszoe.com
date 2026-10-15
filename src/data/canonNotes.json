@@ -1,0 +1,649 @@
+[
+  {
+    "id": "qa-2014-angriest-character",
+    "kind": "读者问答",
+    "topic": "性格与行为",
+    "question": "所有角色里，谁生气时最可怕？",
+    "questionOriginal": "キャラクターの中で怒ると一番怖いのは誰ですか？",
+    "answer": "是韩吉。她把尼克司祭逼下城墙的那一幕里，已经露出了那份可怕的一角。",
+    "answerOriginal": "ハンジですね。ニック司祭を壁から落とそうとした時のハンジには、その怖さの片鱗が表れています。",
+    "spoiler": "轻微",
+    "citation": {
+      "work": "別冊少年マガジン「諫山先生へ一問一答！！」",
+      "edition": "講談社《別冊少年マガジン》（具体月号未核对）",
+      "publishedAt": {
+        "value": "2014",
+        "precision": "year"
+      },
+      "section": "2014 年问答（2014 年 1〜12 月号分）",
+      "page": null,
+      "language": "ja"
+    },
+    "attribution": "secondhand",
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "具体月号与页码未与纸质杂志核对",
+      "日文文本取自粉丝转录站，未与杂志原文逐字比对"
+    ],
+    "sources": [
+      {
+        "id": "takichannel-qa",
+        "url": "https://takichannel.com/shingeki/fan/qa",
+        "title": "【進撃の巨人】別マガ「諫山先生へ一問一答！！」の全まとめ",
+        "organization": "takichannel（粉丝整理站，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "问答的日文文本",
+          "栏目名与年份分段"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "takichannel-qa"
+    ],
+    "relatedProductIds": [],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": false
+  },
+  {
+    "id": "qa-2015-goggles-off",
+    "kind": "读者问答",
+    "topic": "形象设计",
+    "question": "韩吉生气时似乎有摘下护目镜的习惯，本人是有什么用意吗？",
+    "questionOriginal": "ハンジさんは怒る時にゴーグルを外すクセがあるようですが、本人には何か意図があるのですか？",
+    "answer": "戴着镜片的时候，她是隔着一层滤镜看世界的；摘下来的时候，她就会变得情绪化。",
+    "answerOriginal": "レンズをつけているときは、フィルター越しに世の中を見ています。外したときは感情的になります。",
+    "spoiler": "无",
+    "citation": {
+      "work": "別冊少年マガジン「諫山先生へ一問一答！！」",
+      "edition": "講談社《別冊少年マガジン》（具体月号未核对）",
+      "publishedAt": {
+        "value": "2015",
+        "precision": "year"
+      },
+      "section": "2015 年问答",
+      "page": null,
+      "language": "ja"
+    },
+    "attribution": "secondhand",
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "具体月号与页码未与纸质杂志核对",
+      "日文文本取自粉丝转录站，未与杂志原文逐字比对"
+    ],
+    "sources": [
+      {
+        "id": "takichannel-qa",
+        "url": "https://takichannel.com/shingeki/fan/qa",
+        "title": "【進撃の巨人】別マガ「諫山先生へ一問一答！！」の全まとめ",
+        "organization": "takichannel（粉丝整理站，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "问答的日文文本",
+          "栏目名与年份分段"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "takichannel-qa"
+    ],
+    "relatedProductIds": [],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": false
+  },
+  {
+    "id": "qa-2015-training-corps",
+    "kind": "读者问答",
+    "topic": "过往经历",
+    "question": "韩吉在训练兵团时期是个什么样的人？",
+    "questionOriginal": "ハンジさんは訓練兵団の時どういう人でしたか？",
+    "answer": "不算名列前茅。而且比现在还要更被周围的人用异样的眼光看待。",
+    "answerOriginal": "上位ではなかったですね。今以上にまわりから奇異な目で見られてました。",
+    "spoiler": "无",
+    "citation": {
+      "work": "別冊少年マガジン「諫山先生へ一問一答！！」",
+      "edition": "講談社《別冊少年マガジン》（具体月号未核对）",
+      "publishedAt": {
+        "value": "2015",
+        "precision": "year"
+      },
+      "section": "2015 年问答",
+      "page": null,
+      "language": "ja"
+    },
+    "attribution": "secondhand",
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "具体月号与页码未与纸质杂志核对",
+      "日文文本取自粉丝转录站，未与杂志原文逐字比对",
+      "两条转述的用字不同（訓練兵団／訓令兵、奇異な目／奇怪な目），本站不择一当原文",
+      "该问答在读者中引发过训练兵团出身与公式年龄的矛盾讨论，本站不据此推算她的年龄"
+    ],
+    "sources": [
+      {
+        "id": "takichannel-qa",
+        "url": "https://takichannel.com/shingeki/fan/qa",
+        "title": "【進撃の巨人】別マガ「諫山先生へ一問一答！！」の全まとめ",
+        "organization": "takichannel（粉丝整理站，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "问答的日文文本",
+          "栏目名与年份分段"
+        ]
+      },
+      {
+        "id": "chiebukuro-2022",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14261656464",
+        "title": "「諫山先生の一問一答」について Yahoo!知恵袋 问答（2022-05-12）",
+        "organization": "Yahoo!知恵袋 用户投稿（非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "同一问答的独立转引，但用字写作「ハンジが訓令兵時代はもっと奇怪な目で見られてた」"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "takichannel-qa",
+      "chiebukuro-2022"
+    ],
+    "relatedProductIds": [],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": false
+  },
+  {
+    "id": "qa-2016-closest-ally",
+    "kind": "读者问答",
+    "topic": "人物关系",
+    "question": "韩吉在调查兵团里关系最好的是谁？",
+    "questionOriginal": "ハンジさんが調査兵団で一番仲が良いのは誰ですか？",
+    "answer": "她自认为跟利威尔关系最好。（作者特意用了「と本人は思っています」的说法。）",
+    "answerOriginal": "リヴァイと仲が良い、と本人は思っています。",
+    "spoiler": "无",
+    "citation": {
+      "work": "別冊少年マガジン「諫山先生へ一問一答！！」",
+      "edition": "講談社《別冊少年マガジン》（具体月号未核对）",
+      "publishedAt": {
+        "value": "2016",
+        "precision": "year"
+      },
+      "section": "2016 年问答",
+      "page": null,
+      "language": "ja"
+    },
+    "attribution": "secondhand",
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "具体月号与页码未与纸质杂志核对",
+      "括号内说明是本站对原文语气的注释，不是作者原话"
+    ],
+    "sources": [
+      {
+        "id": "takichannel-qa",
+        "url": "https://takichannel.com/shingeki/fan/qa",
+        "title": "【進撃の巨人】別マガ「諫山先生へ一問一答！！」の全まとめ",
+        "organization": "takichannel（粉丝整理站，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "问答的日文文本",
+          "栏目名与年份分段"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "takichannel-qa"
+    ],
+    "relatedProductIds": [],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": false
+  },
+  {
+    "id": "qa-2016-titan-junichi",
+    "kind": "读者问答",
+    "topic": "设定补充",
+    "question": "在“伪预告”里救了韩吉的那只巨人叫什么名字？",
+    "questionOriginal": "にせ予告でハンジさんを助けた巨人の名前は何ですか？",
+    "answer": "它死后，是韩吉给它取名为“纯一”。",
+    "answerOriginal": "彼の亡き後、ハンジが「純一」と名付けました。",
+    "spoiler": "轻微",
+    "citation": {
+      "work": "別冊少年マガジン「諫山先生へ一問一答！！」",
+      "edition": "講談社《別冊少年マガジン》（具体月号未核对）",
+      "publishedAt": {
+        "value": "2016",
+        "precision": "year"
+      },
+      "section": "2016 年问答（疑为 2016 年 5 月号，未核对）",
+      "page": null,
+      "language": "ja"
+    },
+    "attribution": "secondhand",
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "“2016 年 5 月号”只是检索到的线索，未与杂志核对",
+      "问答中的“にせ予告”指哪一支预告片未取得官方说明"
+    ],
+    "sources": [
+      {
+        "id": "takichannel-qa",
+        "url": "https://takichannel.com/shingeki/fan/qa",
+        "title": "【進撃の巨人】別マガ「諫山先生へ一問一答！！」の全まとめ",
+        "organization": "takichannel（粉丝整理站，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "问答的日文文本",
+          "栏目名与年份分段"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "takichannel-qa"
+    ],
+    "relatedProductIds": [],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": false
+  },
+  {
+    "id": "qa-2017-levi-nickname",
+    "kind": "读者问答",
+    "topic": "人物关系",
+    "question": "为什么利威尔不再叫韩吉“没用的眼镜”了？",
+    "questionOriginal": "何でリヴァイはハンジのことを「クソメガネ」と呼ばなくなったのですか？",
+    "answer": "韩吉当上团长之后，就连利威尔也会顾及她作为组织首长的立场。",
+    "answerOriginal": "ハンジが団長になってからは、リヴァイもさすがに組織の長の立場を重んじているようです。",
+    "spoiler": "重大",
+    "citation": {
+      "work": "別冊少年マガジン「諫山先生へ一問一答！！」",
+      "edition": "講談社《別冊少年マガジン》（具体月号未核对）",
+      "publishedAt": {
+        "value": "2017",
+        "precision": "year"
+      },
+      "section": "2017 年问答",
+      "page": null,
+      "language": "ja"
+    },
+    "attribution": "secondhand",
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "具体月号与页码未与纸质杂志核对",
+      "回答涉及韩吉升任团长，未展开说明"
+    ],
+    "sources": [
+      {
+        "id": "takichannel-qa",
+        "url": "https://takichannel.com/shingeki/fan/qa",
+        "title": "【進撃の巨人】別マガ「諫山先生へ一問一答！！」の全まとめ",
+        "organization": "takichannel（粉丝整理站，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "问答的日文文本",
+          "栏目名与年份分段"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "takichannel-qa"
+    ],
+    "relatedProductIds": [],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": false
+  },
+  {
+    "id": "interview-2017-glasses-design",
+    "kind": "作者评论",
+    "topic": "形象设计",
+    "question": null,
+    "questionOriginal": null,
+    "answer": "公式书《キャラクター名鑑》所载谏山创访谈里谈到，韩吉的眼镜（护目镜）是为了在画画时把角色区分开才设置的。转述页给出的日文写作「ハンジの眼鏡（ゴーグル）はキャラクターを描き分けるため」，是条目式摘要而非访谈排版原文，随时可能被截断，所以本站只记录意思，不把它当作作者原句。",
+    "answerOriginal": null,
+    "spoiler": "无",
+    "citation": {
+      "work": "進撃の巨人 キャラクター名鑑",
+      "edition": "講談社 2017-08-09 初版（ISBN 9784065102169）",
+      "publishedAt": {
+        "value": "2017-08",
+        "precision": "month"
+      },
+      "section": "谏山创访谈（角色设计）",
+      "page": null,
+      "language": "ja"
+    },
+    "attribution": "secondhand",
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "未取得书籍正文与页码；講談社官方书页只证明书内有访谈，未逐字给出眼镜的说明",
+      "网络摘要为条目式转述，措辞可能与访谈原文不同"
+    ],
+    "sources": [
+      {
+        "id": "kodansha-namegazumi",
+        "url": "https://www.kodansha.co.jp/comic/products/0000023113",
+        "title": "講談社 公式書籍ページ：進撃の巨人 キャラクター名鑑",
+        "organization": "講談社（官方书籍页）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "书名、著者署名、初版发售日 2017年08月09日 与 ISBN 9784065102169",
+          "官方简介确认书内收录「諫山創先生インタビュー」，并称有“じつは○○にはモデルがいるんです”等新事实"
+        ]
+      },
+      {
+        "id": "fanblog-namegazumi",
+        "url": "https://xn--u9j4g9dxd292pfbtfskdg9f.com/%E3%83%8D%E3%82%BF%E3%83%90%E3%83%AC/%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E5%90%8D%E9%91%91%E3%81%AE%E3%83%8D%E3%82%BF%E3%83%90%E3%83%AC%E3%81%BE%E3%81%A8%E3%82%81/",
+        "title": "【進撃の巨人キャラクター名鑑】ネタバレ内容＜感想＠まとめ＞",
+        "organization": "進撃の巨人最新考察（粉丝博客，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "「ハンジの眼鏡（ゴーグル）はキャラクターを描き分けるため」这条转述文本",
+          "该站公开的发布日期 2017年8月12日 与书内访谈概述"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "kodansha-namegazumi",
+      "fanblog-namegazumi"
+    ],
+    "relatedProductIds": [],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": false
+  },
+  {
+    "id": "magazine-2015-machiyama-image",
+    "kind": "作者评论",
+    "topic": "角色原型",
+    "question": null,
+    "questionOriginal": null,
+    "answer": "模型杂志《月刊 進撃の巨人 公式フィギュアコレクション》的韩吉介绍里，作者给了一个明确的形象说法：她给人的感觉就像“住在美国的影评人町山智浩那样的人”。这是作者自述的印象，不等于“角色的原型就是町山智浩”，本站按原文照录。",
+    "answerOriginal": "ハンジには、｢アメリカ在住の映画評論家、町山智浩さんみたいな人だ｣という明確なイメージがあります",
+    "spoiler": "无",
+    "citation": {
+      "work": "月刊 進撃の巨人 公式フィギュアコレクション",
+      "edition": "講談社（卷次待核实：官网号列表显示 Vol.8 为ハンジ・ゾエ 立体機動Ver.，转引页标注 Vol.10）",
+      "publishedAt": null,
+      "section": "ハンジ・ゾエ 介绍（转引）",
+      "page": null,
+      "language": "ja"
+    },
+    "attribution": "secondhand",
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "引文出自 Vol.8 还是 Vol.10 未定，发行日因此留空",
+      "未取得杂志原页，日文文本来自粉丝站的转引",
+      "转引页的引号写法不规范，标点不能当作杂志原文"
+    ],
+    "sources": [
+      {
+        "id": "monomoney-hange",
+        "url": "https://mono-money.com/attack-on-titan/characters/hanji-zoe/",
+        "title": "ハンジ・ゾエのキャラクター考察（转引公式フィギュアコレクション的作者言）",
+        "organization": "mono-money（粉丝站，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "町山智浩比喻的日文文本，含转引页本身的标点写法（半角「｢｣」与全角”混用）",
+          "转引时标注的卷次与月份：2016年01月 公式フィギュアコレクションVol.10"
+        ]
+      },
+      {
+        "id": "aotportal-books",
+        "url": "https://aot-portal.com/ctx_books/others/",
+        "title": "進撃の巨人 書籍リスト：その他の書籍（月刊 進撃の巨人 Vol.1〜12）",
+        "organization": "aot-portal（资料汇总站，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "该杂志系列的卷次、发售日与 ISBN"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "monomoney-hange",
+      "aotportal-books"
+    ],
+    "relatedProductIds": [],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": false
+  },
+  {
+    "id": "comment-2011-gender-undisclosed",
+    "kind": "读者问答",
+    "topic": "性别设定",
+    "question": "读者提问：调查兵团的韩吉·佐耶性别是什么？（自己认为是女性，但偶尔也看到“男性”的说法），方便的话希望得到回答。",
+    "questionOriginal": "一つ疑問に思ったのですが、調査兵団のハンジ・ゾエさんの性別はどちらですか？（女性だと思うのですが、まれに「男性」という意見も見かけます）宜しければ答えていただけるとありがたいです。（時間があればでいいです）",
+    "answer": "作者的原话是「この質問を受けてそのキャラの性別は明言しない方がよさそうだと確信ましたｗ」（经历这个提问后，我确信这个角色还是不要把性别说破比较好）。本条现已核对到一手出处：谏山创本人旧个人博客「現在進行中の黒歴史」2011 年 3 月 30 日文章「このご時世に自分ごとで恐縮ですが」，他在文首写道「以下気まぐれにコメントに返事させてもらいます」（以下随性回复评论），随后把读者评论原文贴出并逐条作答；性别的提问与这句回答就在同一处。两点需要说明：一是博客上的回答写作「確信ました」，漏了一个「し」，网络转述页普遍改成了「確信しました」，本条按博客原文记录；二是这段提问在页面上是以链接形式引用的另一条读者评论（评论 ID 3715090），署名没有在正文里显示，所以本条不写提问者姓名。本站不据此对角色性别下结论。",
+    "answerOriginal": "この質問を受けてそのキャラの性別は明言しない方がよさそうだと確信ましたｗ",
+    "spoiler": "无",
+    "citation": {
+      "work": "諫山創 個人ブログ「現在進行中の黒歴史」記事「このご時世に自分ごとで恐縮ですが」",
+      "edition": "オンライン版（livedoor Blog、記事 ID 4388712）。2026-10-14 直接读取原文核对；网络转述页把原文的「確信ました」改写为「確信しました」",
+      "publishedAt": {
+        "value": "2011-03-30",
+        "precision": "day"
+      },
+      "section": "「以下気まぐれにコメントに返事させてもらいます」以下、筆者が読者コメントを引用して返事した箇所",
+      "page": "記事 ID 4388712 本文（コメント引用欄、http と https で同一内容 89,000 バイト）",
+      "language": "ja"
+    },
+    "attribution": "direct",
+    "evidenceStatus": "verified",
+    "missingFields": [],
+    "sources": [
+      {
+        "id": "isayama-blog-2011",
+        "url": "https://blog.livedoor.jp/isayamahazime/archives/4388712.html",
+        "title": "このご時世に自分ごとで恐縮ですが（現在進行中の黒歴史）",
+        "organization": "諫山創 個人ブログ（作者本人、一次ソース）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "作者原话「この質問を受けてそのキャラの性別は明言しない方がよさそうだと確信ましたｗ」，含博客上的漏字写法「確信ました」与句末「ｗ」",
+          "读者的提问全文（以链接引用的评论 ID 3715090）",
+          "文章日期标记 2011 年 3 月 30 日 00:23（abbr.updated / dc:date 2011-03-30T00:23:20+09:00）",
+          "文首「以下気まぐれにコメントに返事させてもらいます」，说明这是作者对读者评论的回复",
+          "同页另一条问答（「イェーガー」语源与モンハン影响），可佐证该文是逐条回复读者提问"
+        ]
+      },
+      {
+        "id": "netabare-hange",
+        "url": "https://manga-comic-netabare.com/archives/24220/shingeki-no-kyojin-hange-zoe-last-words/",
+        "title": "ハンジ・ゾエの作者発言まとめ（粉丝整理）",
+        "organization": "manga-comic-netabare（粉丝整理，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "同一回答的转述写法「…と確信しました」（把博客原文的「確信ました」补成了「し」）",
+          "该页对出处的标注只到「読者からの質問への回答」为止，未标博客",
+          "同页并列的作者在三处说法不同这一事实"
+        ]
+      },
+      {
+        "id": "weblio-aot-characters",
+        "url": "https://www.weblio.jp/content/%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%81%AE%E7%99%BB%E5%A0%B4%E4%BA%BA%E7%89%A9",
+        "title": "Weblio 辞書：進撃の巨人の登場人物（注出に作者発言の引用）",
+        "organization": "Weblio（词典聚合内容，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "同一回答的另一种日文写法「性別は明言しない方がよさそうだ」",
+          "其引用的注释来源编号（页面注 [37] 起）"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "isayama-blog-2011",
+      "netabare-hange",
+      "weblio-aot-characters"
+    ],
+    "relatedProductIds": [],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": false
+  },
+  {
+    "id": "interview-2014-kodansha-pronouns",
+    "kind": "访谈",
+    "topic": "性别设定",
+    "question": null,
+    "questionOriginal": null,
+    "answer": "2014-01-16，Daily Dot 报道了 Kodansha Comics 编辑的说明：作者要求英文版尽量不要用带性别的代词指代韩吉，如果要用就必须让 he 与 she 出现得同样频繁；编辑还说，接到这条指示后他们回头把再版第 5 卷里已经用到的少数几个性别代词删掉了。这是版权方编辑的转述，不是谏山创本人的原话。",
+    "answerOriginal": "He has instructed us to avoid gendered pronouns when referring to Hange, or at least to use he AND she with equal frequency.",
+    "spoiler": "无",
+    "citation": {
+      "work": "Daily Dot 报道（转引 Kodansha Comics 编辑说明）",
+      "edition": "Daily Dot，Aja Romano，2014-01-16",
+      "publishedAt": {
+        "value": "2014-01-16",
+        "precision": "day"
+      },
+      "section": "关于韩吉性别的问答报道",
+      "page": null,
+      "language": "en"
+    },
+    "attribution": "secondhand",
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "未取得 Kodansha Comics 当时的原始 Tumblr 贴文，只见媒体报道",
+      "英文转述与作者日文原话之间的对应关系无法核对"
+    ],
+    "sources": [
+      {
+        "id": "dailydot-2014",
+        "url": "https://dailydot.com/attack-titan-snk-hange-hanji-gender-debate",
+        "title": "Attack on Titan’s Hange Gender Debate（Aja Romano，2014-01-16）",
+        "organization": "Daily Dot（英文媒体）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "编辑转述的英文原句（avoid gendered pronouns / he AND she with equal frequency）",
+          "「we went back through Vol. 5 and removed the couple of gendered pronouns we had used for reprint」原句",
+          "报道日期 2014-01-16 与作者署名 Aja Romano"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "dailydot-2014"
+    ],
+    "relatedProductIds": [],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": false
+  },
+  {
+    "id": "comment-2015-anime-female-portrayal",
+    "kind": "作者评论",
+    "topic": "性别设定",
+    "question": null,
+    "questionOriginal": null,
+    "answer": "网络上转引到作者的另一句话：「我姑且是按女性来画的，但故意画成也能被看成男性的样子。」这句话的出处有两种说法——剧场版后编 BD 初回限定版特典的《アニメーション原案設定資料集》，或官方账号的贴文——本次两者都无法核对正文，所以只按转引记录。本条原文采用特典小册子说法那一支转录的用字；聚合站点另有一种「一応女性のつもりではあるが」的写法，两种都只是网络转述。另需区分：动画由朴璐美配音、真人版为女性演员，是制作与选角事实，不是作者对性别的定论。",
+    "answerOriginal": "一応女性のつもりではありますがあえて男性とも見れなくもない感じ",
+    "spoiler": "无",
+    "citation": {
+      "work": "劇場版『進撃の巨人』後編〜自由の翼〜 初回限定版特典『アニメーション原案設定資料集』",
+      "edition": "ポニーキャニオン 2015-12-16（特典小册子 24 页，正文未核对）",
+      "publishedAt": {
+        "value": "2015-12-16",
+        "precision": "day"
+      },
+      "section": "原案设定资料集（网络转引）",
+      "page": null,
+      "language": "ja"
+    },
+    "attribution": "secondhand",
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "特典小册子正文未取得，该句只有网络转引",
+      "另一说指向官方 X 贴文，本次无法访问",
+      "网络转述存在 ではあるが／ではありますが 两种用字，本站按所标来源照录，不宣称是原排版文本",
+      "该转述页面的引文里没有顿号，标点不能当作原书排版"
+    ],
+    "sources": [
+      {
+        "id": "netabare-hange",
+        "url": "https://manga-comic-netabare.com/archives/24220/shingeki-no-kyojin-hange-zoe-last-words/",
+        "title": "ハンジ・ゾエの作者発言まとめ（粉丝整理）",
+        "organization": "manga-comic-netabare（粉丝整理，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "该句日文文本（ではありますが 的写法）",
+          "指向特典小册子的出处说法",
+          "同页并列的另两句「アニメ・実写では女性になりました」等转述"
+        ]
+      },
+      {
+        "id": "shingeki-bd-jiyuu",
+        "url": "https://shingeki.tv/season1/products/movie_jiyu.php",
+        "title": "公式：劇場版後編〜自由の翼〜 Blu-ray 商品页（初回限定版特典一览）",
+        "organization": "進撃の巨人 动画官网（shingeki.tv）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "特典《アニメーション原案設定資料集》的存在、页数与发售日"
+        ]
+      },
+      {
+        "id": "weblio-aot-characters",
+        "url": "https://www.weblio.jp/content/%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%81%AE%E7%99%BB%E5%A0%B4%E4%BA%BA%E7%89%A9",
+        "title": "Weblio 辞書：進撃の巨人の登場人物（注出に作者発言の引用）",
+        "organization": "Weblio（词典聚合内容，非官方）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "同一句话的另一种写法「一応女性のつもりではあるが、あえて男性とも見れなくもない感じ。」"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "netabare-hange",
+      "shingeki-bd-jiyuu",
+      "weblio-aot-characters"
+    ],
+    "relatedProductIds": [],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": false
+  },
+  {
+    "id": "comment-2015-hange-song-image",
+    "kind": "作者评论",
+    "topic": "角色印象",
+    "question": null,
+    "questionOriginal": null,
+    "answer": "作者在自己的博客里推荐了一个乐队（神聖かまってちゃん）的精选辑，顺带写道：如果要出韩吉的角色歌，会是这首歌「做自己（自分らしく）」的那种印象，并且补了一句「以前可能也说过」。这句话同时说明「自分らしく」是作者心里韩吉的底色。作者自己写了「前にも言ったかもしれないけど」，更早的那次说法本次没有查到，本条只以这篇博客为准。",
+    "answerOriginal": "もしハンジのキャラソンみたいなものがあったら\nこちらの「自分らしく」なイメージですね\n前にも言ったかもしれないけど",
+    "spoiler": "无",
+    "citation": {
+      "work": "諫山創 個人ブログ「現在進行中の黒歴史」記事「神聖かまってちゃんのベストアルバム」",
+      "edition": "オンライン版（livedoor Blog、記事 ID 8867221、カテゴリ「作業用BGM」）",
+      "publishedAt": {
+        "value": "2015-06-24",
+        "precision": "day"
+      },
+      "section": "記事本文（CD 紹介に続く筆者の発言）",
+      "page": "記事 ID 8867221 本文",
+      "language": "ja"
+    },
+    "attribution": "direct",
+    "evidenceStatus": "verified",
+    "missingFields": [],
+    "sources": [
+      {
+        "id": "isayama-blog-2015-song",
+        "url": "https://blog.livedoor.jp/isayamahazime/archives/8867221.html",
+        "title": "神聖かまってちゃんのベストアルバム（現在進行中の黒歴史）",
+        "organization": "諫山創 個人ブログ（作者本人、一次ソース）",
+        "checkedAt": "2026-10-14",
+        "fields": [
+          "作者原话三行「もしハンジのキャラソンみたいなものがあったら／こちらの「自分らしく」なイメージですね／前にも言ったかもしれないけど」",
+          "文章日期标记 2015 年 6 月 24 日 03:02（abbr.updated 2015-06-24T03:02:57+09:00）",
+          "该篇分类为「作業用BGM」，同篇另附该精选辑的发售信息（ワーナーミュージック・ジャパン、2015-06-24）"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "isayama-blog-2015-song"
+    ],
+    "relatedProductIds": [],
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14",
+    "isDemo": false
+  }
+]
