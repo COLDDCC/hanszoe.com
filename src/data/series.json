@@ -8131,7 +8131,7 @@
     "aliases": [
       "M-UF 第 17 弹"
     ],
-    "description": "M-UF 第 17 弹 · シンクイノベーション：商品页标注「M-UF」第 17 弹，制造商シンクイノベーション。本系列收录アニメイト通販（アニメイト线上商城）上架的韩吉商品 3 件。此外，amiami（あみあみ）另上架本系列韩吉商品 2 件（2026-10-14 核查），站内已按同一系列归并收录。",
+    "description": "M-UF 第 17 弹 · シンクイノベーション：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 17 弹周边，商品名标注「第17弾 … M-UF」，制造商シンクイノベーション。站内按同一弹数归并收录 8 件韩吉商品（アニメイト通販 3 件、あみあみ（amiami） 2 件、Vvit（発売元官方商城） 3 件，2026-10-15 核查）。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -8191,20 +8191,32 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "vvit-cat-m-uf",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
   {
     "id": "m-cf",
     "slug": "m-cf",
-    "name": "M-CF · シンクイノベーション",
+    "name": "M-CF 第 16 弹 · シンクイノベーション",
     "aliases": [
       "M-CF"
     ],
-    "description": "M-CF · シンクイノベーション：商品页标注「M-CF」系列名。本系列收录アニメイト通販（アニメイト线上商城）上架的韩吉商品 2 件。此外，amiami（あみあみ）另上架本系列韩吉商品 2 件（2026-10-14 核查），站内已按同一系列归并收录。",
+    "description": "M-CF 第 16 弹 · シンクイノベーション：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 16 弹周边，商品名标注「第16弾 … M-CF」，制造商シンクイノベーション。站内按同一弹数归并收录 8 件韩吉商品（アニメイト通販 2 件、あみあみ（amiami） 2 件、Vvit（発売元官方商城） 4 件，2026-10-15 核查）。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -8241,9 +8253,21 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "vvit-cat-m-cf",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -14815,43 +14839,11 @@
     "images": []
   },
   {
-    "id": "amiami-passcase",
-    "slug": "amiami-passcase",
-    "name": "卡包（Season 1～3 MF 款）",
-    "aliases": [],
-    "description": "卡包（Season 1～3 MF 款）：amiami 商品名「Season1～3 パスケース MF (ハンジ)」的挂绳卡包条目，MF 为商品名内的编号标记，站内收录韩吉 1 件。页面未标注厂商与该弹完整名单。",
-    "region": "日本",
-    "type": "商品形态系列",
-    "sources": [
-      {
-        "id": "amiami-GOODS-04792061-official-series",
-        "url": "https://www.amiami.jp/top/detail/detail?gcode=GOODS-04792061",
-        "title": "TVアニメ『進撃の巨人』Season1～3 パスケース MF (ハンジ)-amiami.jp-あみあみオンライン本店-",
-        "organization": "あみあみ（amiami）",
-        "checkedAt": "2026-10-14",
-        "fields": [
-          "日文商品名",
-          "参考価格（含税）",
-          "JAN 码",
-          "材质与尺寸（页面【素材】【サイズ】项）",
-          "滚动发货标注",
-          "角色标注",
-          "页面销售状态与购买限制",
-          "官方样品图与原图网址",
-          "版权标注"
-        ]
-      }
-    ],
-    "updatedAt": "2026-10-14",
-    "isDemo": false,
-    "images": []
-  },
-  {
     "id": "amiami-plush",
     "slug": "amiami-plush",
     "name": "毛绒玩偶（amiami 上架多款）",
     "aliases": [],
-    "description": "毛绒玩偶（amiami 上架多款）：按商品形态「ぬいぐるみ」归类的组，站内收录 amiami 上架的韩吉毛绒玩偶 3 件（ぬいぐるみシリーズ ver.2、手乗りぬいぐるみ、限定 04 坐姿 ver.）。三件并非同一官方系列，仅作形态归类；「限定商品」为商品页标题自身标注，各页均未单列厂商字段。",
+    "description": "毛绒玩偶（amiami 上架多款）：按商品形态「ぬいぐるみ」归类的组，站内收录 amiami 上架的韩吉毛绒玩偶 2 件（ぬいぐるみシリーズ ver.2、限定 04 坐姿 ver.）。两件并非同一官方系列，仅作形态归类；各页均未单列厂商字段。原并入本组的「手乗りぬいぐるみ」已于 2026-10-15 依 Good Smile 官方商品档案改归手乗り毛绒玩偶系列。",
     "region": "日本",
     "type": "商品形态系列",
     "sources": [
@@ -14910,7 +14902,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -16023,7 +16015,7 @@
     "slug": "m-nf-15",
     "name": "M-NF 第 15 弹",
     "aliases": [],
-    "description": "M-NF 第 15 弹：amiami 商品名「TVアニメ『進撃の巨人 The Final Season』第15弾 前髪クリップ M-NF」的条目，站内收录韩吉 1 件。M-NF 为商品名内的弹编号标记；该弹商品码的 JAN 前缀为 4582721，与站内 M-CF／M-UF 两弹（前缀 45808425）不同，故未并入既有弹系列。页面未标注厂商与该弹完整角色名单。",
+    "description": "M-NF 第 15 弹：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 15 弹周边，商品名标注「第15弾 … M-NF」，制造商シンクイノベーション。站内按同一弹数归并收录 8 件韩吉商品（あみあみ（amiami） 1 件、Vvit（発売元官方商城） 7 件，2026-10-15 核查）。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -16044,9 +16036,21 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "vvit-cat-m-nf-15",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -16055,7 +16059,7 @@
     "slug": "m-of-11",
     "name": "M-OF 第 11 弹",
     "aliases": [],
-    "description": "M-OF 第 11 弹：amiami 商品名「TVアニメ『進撃の巨人 The Final Season』第11弾 レザーバッジ丸形 M-OF」的条目，站内收录韩吉 1 件。该弹商品码的 JAN 前缀为 4582721，与站内 M-CF／M-UF 两弹（45808425）不同，故单列系列。页面未标注厂商与该弹完整角色名单。",
+    "description": "M-OF 第 11 弹：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 11 弹周边，商品名标注「第11弾 … M-OF」，制造商シンクイノベーション。站内按同一弹数归并收录 8 件韩吉商品（あみあみ（amiami） 1 件、Vvit（発売元官方商城） 7 件，2026-10-15 核查）。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -16076,9 +16080,21 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "vvit-cat-m-of-11",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -16087,7 +16103,7 @@
     "slug": "m-sf-14",
     "name": "M-SF 第 14 弹",
     "aliases": [],
-    "description": "M-SF 第 14 弹：amiami 商品名「TVアニメ『進撃の巨人 The Final Season』第14弾 ◯◯ M-SF」的条目，站内收录韩吉 2 件（前发夹、亚克力立牌）。该弹商品码的 JAN 前缀为 4582721，与站内 M-CF／M-UF 两弹（45808425）不同，故单列系列。页面未标注厂商与该弹完整角色名单。",
+    "description": "M-SF 第 14 弹：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 14 弹周边，商品名标注「第14弾 … M-SF」，制造商シンクイノベーション。站内按同一弹数归并收录 8 件韩吉商品（あみあみ（amiami） 2 件、Vvit（発売元官方商城） 6 件，2026-10-15 核查）。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -16126,9 +16142,21 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "vvit-cat-m-sf-14",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -16251,7 +16279,7 @@
     "slug": "mocho-f-8",
     "name": "Mocho-F 第 8 弹",
     "aliases": [],
-    "description": "Mocho-F 第 8 弹：amiami 商品名「『進撃の巨人 The Final Season』 第8弾 ◯◯ Mocho-F」的条目，站内收录韩吉 2 件（亚克力立牌、心形徽章）。该弹商品码的 JAN 前缀为 4570116，与站内 M-CF／M-UF 两弹（45808425）不同，故单列系列；页面未标注厂商与该弹完整角色名单。",
+    "description": "Mocho-F 第 8 弹：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 8 弹周边，商品名标注「第8弾 … Mocho-F」，制造商シンクイノベーション。站内按同一弹数归并收录 6 件韩吉商品（あみあみ（amiami） 2 件、Vvit（発売元官方商城） 4 件，2026-10-15 核查）。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -16290,9 +16318,21 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "vvit-cat-mocho-f-8",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -17105,7 +17145,7 @@
     "slug": "tfs-nf-10",
     "name": "NF 第 10 弹",
     "aliases": [],
-    "description": "NF 第 10 弹：amiami 商品名「TVアニメ『進撃の巨人 The Final Season』第10弾 ◯◯ NF」的条目，站内收录韩吉 2 件（皮革杯垫、皮革挂件），页面正文注明为 PU 皮革制。该弹商品码的 JAN 前缀为 4582721，与站内 M-CF／M-UF 两弹（45808425）不同，故单列系列；页面未标注厂商与该弹完整角色名单。",
+    "description": "NF 第 10 弹：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 10 弹周边，商品名标注「第10弾 … NF」，制造商シンクイノベーション。站内按同一弹数归并收录 9 件韩吉商品（あみあみ（amiami） 2 件、Vvit（発売元官方商城） 7 件，2026-10-15 核查）。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -17144,18 +17184,30 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "vvit-cat-tfs-nf-10",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
   {
     "id": "tfs-vf",
     "slug": "tfs-vf",
-    "name": "VF 款（三用徽章／卡包）",
+    "name": "VF 第 7 弹 · シンクイノベーション",
     "aliases": [],
-    "description": "VF 款（三用徽章／卡包）：amiami 商品名「『進撃の巨人 The Final Season』◯◯ VF (ハンジ)」的条目，站内收录韩吉 2 件（三用徽章 75mm、卡包）。VF 为商品名内的编号标记，页面未标注所属弹数、完整名单与厂商。",
+    "description": "VF 第 7 弹 · シンクイノベーション：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 7 弹周边，商品名标注「第7弾 … VF」，制造商シンクイノベーション。站内按同一弹数归并收录 10 件韩吉商品（あみあみ（amiami） 2 件、Vvit（発売元官方商城） 8 件，2026-10-15 核查）。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -17194,9 +17246,21 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "vvit-cat-tfs-vf",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -17205,7 +17269,7 @@
     "slug": "tfs-wf-9",
     "name": "WF 第 9 弹",
     "aliases": [],
-    "description": "WF 第 9 弹：amiami 商品名「進撃の巨人 The Final Season 第9弾 パスケース WF (ハンジ)」的条目，站内收录韩吉 1 件。该弹商品码的 JAN 前缀为 4570116，与 Mocho-F 第 8 弹相同、与站内 M-CF／M-UF 两弹（45808425）不同；页面未标注厂商与该弹完整角色名单。",
+    "description": "WF 第 9 弹：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 9 弹周边，商品名标注「第9弾 … WF」，制造商シンクイノベーション。站内按同一弹数归并收录 6 件韩吉商品（あみあみ（amiami） 1 件、Vvit（発売元官方商城） 5 件，2026-10-15 核查）。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -17226,9 +17290,21 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "vvit-cat-tfs-wf-9",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -17237,7 +17313,7 @@
     "slug": "tfs-xf-6",
     "name": "XF 第 6 弹",
     "aliases": [],
-    "description": "XF 第 6 弹：amiami 商品名「『進撃の巨人 The Final Season』第6弾 ◯◯ XF」的条目，站内收录韩吉 2 件（亚克力钥匙扣、三用徽章 75mm）。该弹商品码的 JAN 前缀为 4582615，与 YF 第 5 弹相同、与站内 M-CF／M-UF 两弹（45808425）不同；页面未标注厂商与该弹完整角色名单。",
+    "description": "XF 第 6 弹：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 6 弹周边，商品名标注「第6弾 … XF」，制造商シンクイノベーション。站内按同一弹数归并收录 8 件韩吉商品（あみあみ（amiami） 2 件、Vvit（発売元官方商城） 6 件，2026-10-15 核查）。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -17276,9 +17352,21 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "vvit-cat-tfs-xf-6",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -17287,7 +17375,7 @@
     "slug": "tfs-yf-5",
     "name": "YF 第 5 弹",
     "aliases": [],
-    "description": "YF 第 5 弹：amiami 商品名「『進撃の巨人 The Final Season』第5弾 ◯◯ YF」的条目，站内收录韩吉 3 件（三用徽章、亚克力立牌、木质挂件）。该弹商品码的 JAN 前缀为 4582615，与站内 M-CF／M-UF 两弹（45808425）不同，故单列系列；页面未标注厂商与该弹完整角色名单。",
+    "description": "YF 第 5 弹：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 5 弹周边，商品名标注「第5弾 … YF」，制造商シンクイノベーション。站内按同一弹数归并收录 10 件韩吉商品（あみあみ（amiami） 3 件、Vvit（発売元官方商城） 7 件，2026-10-15 核查）。",
     "region": "日本",
     "type": "主题周边系列",
     "sources": [
@@ -17344,9 +17432,21 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "vvit-cat-tfs-yf-5",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
       }
     ],
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   },
@@ -17865,6 +17965,185 @@
       }
     ],
     "updatedAt": "2026-10-14",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "tfs-ch-12",
+    "slug": "tfs-ch-12",
+    "name": "CH 第 12 弹 · シンクイノベーション",
+    "aliases": [
+      "CH 第 12 弹",
+      "M-CH"
+    ],
+    "description": "CH 第 12 弹 · シンクイノベーション：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 12 弹周边，商品名标注「第12弾 … CH」，制造商シンクイノベーション。站内按同一弹数归并收录 2 件韩吉商品（Vvit（発売元官方商城） 2 件，2026-10-15 核查）。",
+    "region": "日本",
+    "type": "主题周边系列",
+    "sources": [
+      {
+        "id": "vvit-cat-tfs-ch-12",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-15",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "tfs-tf-13",
+    "slug": "tfs-tf-13",
+    "name": "TF 第 13 弹 · シンクイノベーション",
+    "aliases": [
+      "TF 第 13 弹",
+      "M-TF"
+    ],
+    "description": "TF 第 13 弹 · シンクイノベーション：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的《进击的巨人 The Final Season》第 13 弹周边，商品名标注「第13弾 … TF」，制造商シンクイノベーション。站内按同一弹数归并收录 2 件韩吉商品（Vvit（発売元官方商城） 2 件，2026-10-15 核查）。",
+    "region": "日本",
+    "type": "主题周边系列",
+    "sources": [
+      {
+        "id": "vvit-cat-tfs-tf-13",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-15",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "season13-mf",
+    "slug": "season13-mf",
+    "name": "Season1～3 MF 款 · シンクイノベーション",
+    "aliases": [
+      "Season1～3 MF"
+    ],
+    "description": "Season1～3 MF 款 · シンクイノベーション：シンクイノベーション（Vvit）官方商城与零售渠道同步上架的Season1～3 绘柄周边，商品名标注「Season1～3 … MF」，制造商シンクイノベーション。站内按同一弹数归并收录 7 件韩吉商品（あみあみ（amiami） 1 件、Vvit（発売元官方商城） 6 件，2026-10-15 核查）。",
+    "region": "日本",
+    "type": "主题周边系列",
+    "sources": [
+      {
+        "id": "vvit-cat-season13-mf",
+        "url": "https://www.vvit.jp/c/20005",
+        "title": "進撃の巨人 The Final Season グッズ｜Vvit（シンクイノベーション公式通販）",
+        "organization": "Vvit（シンクイノベーション公式通販）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "进击的巨人分类页",
+          "ハンジ 款名单",
+          "各款含税标价"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-15",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "cospa-namaskan-passcase",
+    "slug": "cospa-namaskan-passcase",
+    "name": "角色卡包（带登山扣）· コスパ",
+    "aliases": [
+      "パスケース（ナスカン付き）"
+    ],
+    "description": "角色卡包（带登山扣）· コスパ：Cospa（コスパ）上架的一带扣卡包线，同线含エレン／ミカサ／アルミン／リヴァイ／エルヴィン／ハンジ与調査兵団款，各款 1,650 日元含税。站内收录韩吉款 1 件。",
+    "region": "日本",
+    "type": "主题周边系列",
+    "sources": [
+      {
+        "id": "cospa-00000136067-official-series",
+        "url": "https://www.cospa.com/cospa/detail/id/00000136067",
+        "title": "ハンジ パスケース（ナスカン付き）[進撃の巨人]｜Cospa 官方商城",
+        "organization": "コスパ（Cospa）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "含税售价",
+          "JAN 码",
+          "材质与尺寸",
+          "同线其他角色款",
+          "版权标注"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-15",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "gsc-scarf-charm-2019",
+    "slug": "gsc-scarf-charm-2019",
+    "name": "围巾挂饰 · Good Smile（2019）",
+    "aliases": [
+      "スカーフチャーム"
+    ],
+    "description": "围巾挂饰 · Good Smile（2019）：Good Smile Company 2019 年 8 月发售的角色意象织物围巾挂饰，全 6 款（エレン／ミカサ／アルミン／ハンジ／エルヴィン／リヴァイ），各 1,760 日元含税，曾在「進撃の巨人展 FINAL」先行贩卖。站内收录韩吉款 1 件。",
+    "region": "日本",
+    "type": "主题周边系列",
+    "sources": [
+      {
+        "id": "gsc-product-8630-official-series",
+        "url": "https://www.goodsmile.info/ja/product/8630/",
+        "title": "進撃の巨人 スカーフチャーム｜Good Smile Company 官方商品档案",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "メーカー",
+          "各款含税价格",
+          "発売時期",
+          "仕様（素材・サイズ）",
+          "版权标注"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-15",
+    "isDemo": false,
+    "images": []
+  },
+  {
+    "id": "gsc-tenori-plush",
+    "slug": "gsc-tenori-plush",
+    "name": "手乗り毛绒玩偶 · Good Smile",
+    "aliases": [
+      "手乗りぬいぐるみ"
+    ],
+    "description": "手乗り毛绒玩偶 · Good Smile：Good Smile Company「手乗りぬいぐるみ」线，全 10 款（含伤だらけのリヴァイぬいぐるみ），各 2,750 日元含税，2022 年 8 月发售、2023 年 8 月再贩。站内收录韩吉款 1 件，购买来源为あみあみ（amiami）。",
+    "region": "日本",
+    "type": "主题周边系列",
+    "sources": [
+      {
+        "id": "gsc-product-12607-official-series",
+        "url": "https://www.goodsmile.info/ja/product/12607/",
+        "title": "進撃の巨人 手乗りぬいぐるみ｜Good Smile Company 官方商品档案",
+        "organization": "Good Smile Company",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "メーカー",
+          "各款含税价格",
+          "発売時期",
+          "再贩标注",
+          "仕様（素材・サイズ）",
+          "版权标注"
+        ]
+      }
+    ],
+    "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
   }
