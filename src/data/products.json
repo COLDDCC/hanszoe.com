@@ -87342,11 +87342,11 @@
         "alt": "埃尔文＆韩吉 骑马 ver. 烫金透明照片卡套装 官方样品图",
         "sourceUrl": "https://www.amiami.jp/top/detail/detail?gcode=GOODS-04871759",
         "originalUrl": "https://img.amiami.jp/images/product/main/263/GOODS-04871759.jpg",
-        "credit": "抓取时未在商品页捕获版权行",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会（版权行取自 AniqueShop 同款页面）",
         "usage": "官方商品页样品图；权利归原权利方"
       }
     ],
-    "description": "埃尔文＆韩吉 骑马 ver. 烫金透明照片卡套装，日文商品名「進撃の巨人 騎馬 エルヴィン＆ハンジ 箔押しクリアフォトカードセット」。商品页正文未附商品说明（正文区仅推荐位导航文案）。amiami 商品页标示参考価格 1,100 日元含税（页面另标折扣价，不作为收录售价）。商品页标注 JAN 4573633078495。抓取时未在商品页捕获版权行。",
+    "description": "埃尔文＆韩吉 骑马 ver. 烫金透明照片卡套装，日文商品名「進撃の巨人 騎馬 エルヴィン＆ハンジ 箔押しクリアフォトカードセット」。商品页正文未附商品说明（正文区仅推荐位导航文案）。amiami 商品页标示参考価格 1,100 日元含税（页面另标折扣价，不作为收录售价）。商品页标注 JAN 4573633078495。抓取时未在商品页捕获版权行。2026-10-15 增补：同款在 AniqueShop 官方商城有售（页面商品名「『進撃の巨人』描き下ろしイラスト【騎馬】箔押しクリアフォトカードセット」，档位分 エレン&リヴァイ／エルヴィン&ハンジ），韩吉档位标 1,100 円（税込），与 amiami 参考価格一致；两页官方样品图为同一张图，据此并单。AniqueShop 页面另标注【サイズ】台紙サイズ … (約)W16×H12cm 本体 … (約)W6.3×H8.9cm、【素材】PP、版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」，受注至 2025/11/23 23:59 截止，配送为「2026年4月下旬頃」滚动窗口。",
     "specifications": {
       "种类": "套装",
       "JAN": "4573633078495",
@@ -87357,7 +87357,14 @@
       "页面状态": "预约受理中（2026-10-14 核查）",
       "价格说明": "官方标示参考価格 1,100 日元含税（消费税 10%）",
       "折扣标注": "页面另标折扣价 10%OFF 990円(税込)；折扣价不作为收录售价",
-      "购买限制": "お一人様 6個 まで。 (同一住所、あみあみ本店支店合わせての制限数です)"
+      "购买限制": "お一人様 6個 まで。 (同一住所、あみあみ本店支店合わせての制限数です)",
+      "材质": "PP",
+      "尺寸": "台紙サイズ … (約)W16×H12cm 本体 … (約)W6.3×H8.9cm",
+      "版权标注": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会（取自 AniqueShop 同款页面）",
+      "角色 lineup": "AniqueShop 同款页面档位：エレン&リヴァイ／エルヴィン&ハンジ",
+      "跨渠道标价": "AniqueShop 韩吉档位标 1,100 円（税込），与 amiami 参考価格 1,100 円（税込）一致",
+      "并单依据": "官方样品图逐像素同源（同一张 Anique 制图，含 ANIQUE 标识与版权行）、商品形态与角色档位一致、含税标价一致",
+      "Anique 销售期间": "販売期間：2025/11/23 23:59まで受付；配送時期「2026年4月下旬頃」（与 amiami「２７年０１月未定」不是同一批次窗口）"
     },
     "releases": [
       {
@@ -87365,7 +87372,8 @@
         "kind": "初版",
         "region": "日本",
         "sourceIds": [
-          "amiami-GOODS-04871759-official"
+          "amiami-GOODS-04871759-official",
+          "anique-snka04gi0-official"
         ],
         "announcement": null,
         "preorderStart": null,
@@ -87389,17 +87397,23 @@
         "conditionSourceId": null
       }
     ],
-    "relatedProductIds": [],
+    "relatedProductIds": [
+      "amiami-GOODS-04871763",
+      "amiami-GOODS-04871756",
+      "amiami-GOODS-04871767",
+      "anique-snka04eb01a01",
+      "anique-snka04ea01",
+      "anique-snka04aa01",
+      "anique-snka04ac02",
+      "anique-snka04ac01"
+    ],
     "evidenceStatus": "partial",
     "missingFields": [
       "限定范围未注明",
-      "预约起止日期未公布",
       "发售日：商品页仅给出滚动发货标注「２７年０１月未定」，实际发售日待核实",
-      "商品页未标注材质",
-      "商品页未标注尺寸",
-      "抓取时未在商品页捕获版权行",
       "商品页正文未附商品说明（正文区仅推荐位导航文案）",
-      "商品页无発売元字段，制造商待核实"
+      "商品页无発売元字段，制造商待核实",
+      "两渠道销售窗口不一致：amiami 为预约受理中（发货「２７年０１月未定」），AniqueShop 页受注至 2025/11/23，首发批次归属待核实"
     ],
     "sources": [
       {
@@ -87419,10 +87433,27 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "anique-snka04gi0-official",
+        "url": "https://shop.anique.jp/products/snka04gi0",
+        "title": "『進撃の巨人』描き下ろしイラスト【騎馬】箔押しクリアフォトカードセット｜TVアニメ『進撃の巨人』騎馬｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "韩吉档位含税售价",
+          "角色 lineup（页面档位名单）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "销售期间截止与滚动配送窗口",
+          "SKU",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
       }
     ],
     "createdAt": "2026-10-14",
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false
   },
   {
@@ -87769,11 +87800,11 @@
         "alt": "韩吉 骑马 ver. 明信片 2 枚套装 官方样品图",
         "sourceUrl": "https://www.amiami.jp/top/detail/detail?gcode=GOODS-04871763",
         "originalUrl": "https://img.amiami.jp/images/product/main/263/GOODS-04871763.jpg",
-        "credit": "抓取时未在商品页捕获版权行",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会（版权行取自 AniqueShop 同款页面）",
         "usage": "官方商品页样品图；权利归原权利方"
       }
     ],
-    "description": "韩吉 骑马 ver. 明信片 2 枚套装，日文商品名「進撃の巨人 騎馬 ハンジ ポストカード2枚セット」。商品页正文未附商品说明（正文区仅推荐位导航文案）。amiami 商品页标示参考価格 440 日元含税（页面另标折扣价，不作为收录售价）。商品页标注 JAN 4573633078570。抓取时未在商品页捕获版权行。",
+    "description": "韩吉 骑马 ver. 明信片 2 枚套装，日文商品名「進撃の巨人 騎馬 ハンジ ポストカード2枚セット」。商品页正文未附商品说明（正文区仅推荐位导航文案）。amiami 商品页标示参考価格 440 日元含税（页面另标折扣价，不作为收录售价）。商品页标注 JAN 4573633078570。抓取时未在商品页捕获版权行。2026-10-15 增补：同款在 AniqueShop 官方商城有售（页面商品名「『進撃の巨人』描き下ろしイラスト【騎馬】ポストカード2枚セット」，档位分 エレン／リヴァイ／エルヴィン／ハンジ），韩吉档位标 440 円（税込），与 amiami 参考価格一致；两页官方样品图为同一张图，据此并单。AniqueShop 页面另标注【サイズ】(約)W10×H14.8cm、【素材】紙、版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」，受注至 2025/11/23 23:59 截止，配送为「2026年4月下旬頃」滚动窗口。",
     "specifications": {
       "种类": "套装",
       "JAN": "4573633078570",
@@ -87784,7 +87815,14 @@
       "页面状态": "预约受理中（2026-10-14 核查）",
       "价格说明": "官方标示参考価格 440 日元含税（消费税 10%）",
       "折扣标注": "页面另标折扣价 11%OFF 390円(税込)；折扣价不作为收录售价",
-      "购买限制": "お一人様 3個 まで。 (同一住所、あみあみ本店支店合わせての制限数です)"
+      "购买限制": "お一人様 3個 まで。 (同一住所、あみあみ本店支店合わせての制限数です)",
+      "材质": "紙",
+      "尺寸": "(約)W10×H14.8cm",
+      "版权标注": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会（取自 AniqueShop 同款页面）",
+      "角色 lineup": "AniqueShop 同款页面档位：エレン／リヴァイ／エルヴィン／ハンジ",
+      "跨渠道标价": "AniqueShop 韩吉档位标 440 円（税込），与 amiami 参考価格 440 円（税込）一致",
+      "并单依据": "官方样品图逐像素同源（同一张 Anique 制图，含 ANIQUE 标识与版权行）、商品形态与角色档位一致、含税标价一致",
+      "Anique 销售期间": "販売期間：2025/11/23 23:59まで受付；配送時期「2026年4月下旬頃」（与 amiami「２７年０１月未定」不是同一批次窗口）"
     },
     "releases": [
       {
@@ -87792,7 +87830,8 @@
         "kind": "初版",
         "region": "日本",
         "sourceIds": [
-          "amiami-GOODS-04871763-official"
+          "amiami-GOODS-04871763-official",
+          "anique-snka04ga0-official"
         ],
         "announcement": null,
         "preorderStart": null,
@@ -87816,17 +87855,23 @@
         "conditionSourceId": null
       }
     ],
-    "relatedProductIds": [],
+    "relatedProductIds": [
+      "amiami-GOODS-04871759",
+      "amiami-GOODS-04871756",
+      "amiami-GOODS-04871767",
+      "anique-snka04eb01a01",
+      "anique-snka04ea01",
+      "anique-snka04aa01",
+      "anique-snka04ac02",
+      "anique-snka04ac01"
+    ],
     "evidenceStatus": "partial",
     "missingFields": [
       "限定范围未注明",
-      "预约起止日期未公布",
       "发售日：商品页仅给出滚动发货标注「２７年０１月未定」，实际发售日待核实",
-      "商品页未标注材质",
-      "商品页未标注尺寸",
-      "抓取时未在商品页捕获版权行",
       "商品页正文未附商品说明（正文区仅推荐位导航文案）",
-      "商品页无発売元字段，制造商待核实"
+      "商品页无発売元字段，制造商待核实",
+      "两渠道销售窗口不一致：amiami 为预约受理中（发货「２７年０１月未定」），AniqueShop 页受注至 2025/11/23，首发批次归属待核实"
     ],
     "sources": [
       {
@@ -87846,10 +87891,27 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "anique-snka04ga0-official",
+        "url": "https://shop.anique.jp/products/snka04ga0",
+        "title": "『進撃の巨人』描き下ろしイラスト【騎馬】ポストカード2枚セット｜TVアニメ『進撃の巨人』騎馬｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "韩吉档位含税售价",
+          "角色 lineup（页面档位名单）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "销售期间截止与滚动配送窗口",
+          "SKU",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
       }
     ],
     "createdAt": "2026-10-14",
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false
   },
   {
@@ -88407,11 +88469,11 @@
         "alt": "韩吉 骑马 ver. BIG 亚克力立牌 官方样品图",
         "sourceUrl": "https://www.amiami.jp/top/detail/detail?gcode=GOODS-04871756",
         "originalUrl": "https://img.amiami.jp/images/product/main/263/GOODS-04871756.jpg",
-        "credit": "抓取时未在商品页捕获版权行",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会（版权行取自 AniqueShop 同款页面）",
         "usage": "官方商品页样品图；权利归原权利方"
       }
     ],
-    "description": "韩吉 骑马 ver. BIG 亚克力立牌，日文商品名「進撃の巨人 騎馬 ハンジ BIGアクリルスタンド」。商品页正文未附商品说明（正文区仅推荐位导航文案）。amiami 商品页标示参考価格 3,850 日元含税（页面另标折扣价，不作为收录售价）。商品页标注 JAN 4573633078471。抓取时未在商品页捕获版权行。",
+    "description": "韩吉 骑马 ver. BIG 亚克力立牌，日文商品名「進撃の巨人 騎馬 ハンジ BIGアクリルスタンド」。商品页正文未附商品说明（正文区仅推荐位导航文案）。amiami 商品页标示参考価格 3,850 日元含税（页面另标折扣价，不作为收录售价）。商品页标注 JAN 4573633078471。抓取时未在商品页捕获版权行。2026-10-15 增补：同款在 AniqueShop 官方商城有售（页面商品名「『進撃の巨人』描き下ろしイラスト【騎馬】BIGアクリルスタンド」，档位分 エレン／リヴァイ／エルヴィン／ハンジ），韩吉档位标 3,850 円（税込），与 amiami 参考価格一致；两页官方样品图为同一张图，据此并单。AniqueShop 页面另标注【サイズ】■本体：最大(約)W20.4×H20.7cm以内 ■台座：(約)W14.6×H3.4cm、【素材】アクリル(3mm厚)、版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」，受注至 2025/11/23 23:59 截止，配送为「2026年4月下旬頃」滚动窗口。",
     "specifications": {
       "种类": "单件",
       "JAN": "4573633078471",
@@ -88422,7 +88484,14 @@
       "页面状态": "预约受理中（2026-10-14 核查）",
       "价格说明": "官方标示参考価格 3,850 日元含税（消费税 10%）",
       "折扣标注": "页面另标折扣价 10%OFF 3,460円(税込)；折扣价不作为收录售价",
-      "购买限制": "お一人様 3個 まで。 (同一住所、あみあみ本店支店合わせての制限数です)"
+      "购买限制": "お一人様 3個 まで。 (同一住所、あみあみ本店支店合わせての制限数です)",
+      "材质": "アクリル(3mm厚)",
+      "尺寸": "■本体：最大(約)W20.4×H20.7cm以内 ■台座：(約)W14.6×H3.4cm",
+      "版权标注": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会（取自 AniqueShop 同款页面）",
+      "角色 lineup": "AniqueShop 同款页面档位：エレン／リヴァイ／エルヴィン／ハンジ",
+      "跨渠道标价": "AniqueShop 韩吉档位标 3,850 円（税込），与 amiami 参考価格 3,850 円（税込）一致",
+      "并单依据": "官方样品图逐像素同源（同一张 Anique 制图，含 ANIQUE 标识与版权行）、商品形态与角色档位一致、含税标价一致",
+      "Anique 销售期间": "販売期間：2025/11/23 23:59まで受付；配送時期「2026年4月下旬頃」（与 amiami「２７年０１月未定」不是同一批次窗口）"
     },
     "releases": [
       {
@@ -88430,7 +88499,8 @@
         "kind": "初版",
         "region": "日本",
         "sourceIds": [
-          "amiami-GOODS-04871756-official"
+          "amiami-GOODS-04871756-official",
+          "anique-snka04ea0-official"
         ],
         "announcement": null,
         "preorderStart": null,
@@ -88454,17 +88524,23 @@
         "conditionSourceId": null
       }
     ],
-    "relatedProductIds": [],
+    "relatedProductIds": [
+      "amiami-GOODS-04871759",
+      "amiami-GOODS-04871763",
+      "amiami-GOODS-04871767",
+      "anique-snka04eb01a01",
+      "anique-snka04ea01",
+      "anique-snka04aa01",
+      "anique-snka04ac02",
+      "anique-snka04ac01"
+    ],
     "evidenceStatus": "partial",
     "missingFields": [
       "限定范围未注明",
-      "预约起止日期未公布",
       "发售日：商品页仅给出滚动发货标注「２７年０１月未定」，实际发售日待核实",
-      "商品页未标注材质",
-      "商品页未标注尺寸",
-      "抓取时未在商品页捕获版权行",
       "商品页正文未附商品说明（正文区仅推荐位导航文案）",
-      "商品页无発売元字段，制造商待核实"
+      "商品页无発売元字段，制造商待核实",
+      "两渠道销售窗口不一致：amiami 为预约受理中（发货「２７年０１月未定」），AniqueShop 页受注至 2025/11/23，首发批次归属待核实"
     ],
     "sources": [
       {
@@ -88484,10 +88560,27 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "anique-snka04ea0-official",
+        "url": "https://shop.anique.jp/products/snka04ea0",
+        "title": "『進撃の巨人』描き下ろしイラスト【騎馬】BIGアクリルスタンド｜TVアニメ『進撃の巨人』騎馬｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "韩吉档位含税售价",
+          "角色 lineup（页面档位名单）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "销售期间截止与滚动配送窗口",
+          "SKU",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
       }
     ],
     "createdAt": "2026-10-14",
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false
   },
   {
@@ -90558,11 +90651,11 @@
         "alt": "韩吉 骑马 ver. 异形贴纸 官方样品图",
         "sourceUrl": "https://www.amiami.jp/top/detail/detail?gcode=GOODS-04871767",
         "originalUrl": "https://img.amiami.jp/images/product/main/263/GOODS-04871767.jpg",
-        "credit": "抓取时未在商品页捕获版权行",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会（版权行取自 AniqueShop 同款页面）",
         "usage": "官方商品页样品图；权利归原权利方"
       }
     ],
-    "description": "韩吉 骑马 ver. 异形贴纸，日文商品名「進撃の巨人 騎馬 ハンジ ダイカットステッカー」。商品页正文未附商品说明（正文区仅推荐位导航文案）。amiami 商品页标示参考価格 440 日元含税（页面另标折扣价，不作为收录售价）。商品页标注 JAN 4573633078532。抓取时未在商品页捕获版权行。",
+    "description": "韩吉 骑马 ver. 异形贴纸，日文商品名「進撃の巨人 騎馬 ハンジ ダイカットステッカー」。商品页正文未附商品说明（正文区仅推荐位导航文案）。amiami 商品页标示参考価格 440 日元含税（页面另标折扣价，不作为收录售价）。商品页标注 JAN 4573633078532。抓取时未在商品页捕获版权行。2026-10-15 增补：同款在 AniqueShop 官方商城有售（页面商品名「『進撃の巨人』描き下ろしイラスト【騎馬】ダイカットステッカー」，档位分 エレン／リヴァイ／エルヴィン／ハンジ），韩吉档位标 440 円（税込），与 amiami 参考価格一致；两页官方样品图为同一张图，据此并单。AniqueShop 页面另标注【サイズ】最大(約)W6.8×H10cm以内、【素材】紙、版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」，受注至 2025/11/23 23:59 截止，配送为「2026年4月下旬頃」滚动窗口。",
     "specifications": {
       "种类": "单件",
       "JAN": "4573633078532",
@@ -90573,7 +90666,14 @@
       "页面状态": "预约受理中（2026-10-14 核查）",
       "价格说明": "官方标示参考価格 440 日元含税（消费税 10%）",
       "折扣标注": "页面另标折扣价 11%OFF 390円(税込)；折扣价不作为收录售价",
-      "购买限制": "お一人様 12個 まで。 (同一住所、あみあみ本店支店合わせての制限数です)"
+      "购买限制": "お一人様 12個 まで。 (同一住所、あみあみ本店支店合わせての制限数です)",
+      "材质": "紙",
+      "尺寸": "最大(約)W6.8×H10cm以内",
+      "版权标注": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会（取自 AniqueShop 同款页面）",
+      "角色 lineup": "AniqueShop 同款页面档位：エレン／リヴァイ／エルヴィン／ハンジ",
+      "跨渠道标价": "AniqueShop 韩吉档位标 440 円（税込），与 amiami 参考価格 440 円（税込）一致",
+      "并单依据": "官方样品图逐像素同源（同一张 Anique 制图，含 ANIQUE 标识与版权行）、商品形态与角色档位一致、含税标价一致",
+      "Anique 销售期间": "販売期間：2025/11/23 23:59まで受付；配送時期「2026年4月下旬頃」（与 amiami「２７年０１月未定」不是同一批次窗口）"
     },
     "releases": [
       {
@@ -90581,7 +90681,8 @@
         "kind": "初版",
         "region": "日本",
         "sourceIds": [
-          "amiami-GOODS-04871767-official"
+          "amiami-GOODS-04871767-official",
+          "anique-snka04gd0-official"
         ],
         "announcement": null,
         "preorderStart": null,
@@ -90605,17 +90706,23 @@
         "conditionSourceId": null
       }
     ],
-    "relatedProductIds": [],
+    "relatedProductIds": [
+      "amiami-GOODS-04871759",
+      "amiami-GOODS-04871763",
+      "amiami-GOODS-04871756",
+      "anique-snka04eb01a01",
+      "anique-snka04ea01",
+      "anique-snka04aa01",
+      "anique-snka04ac02",
+      "anique-snka04ac01"
+    ],
     "evidenceStatus": "partial",
     "missingFields": [
       "限定范围未注明",
-      "预约起止日期未公布",
       "发售日：商品页仅给出滚动发货标注「２７年０１月未定」，实际发售日待核实",
-      "商品页未标注材质",
-      "商品页未标注尺寸",
-      "抓取时未在商品页捕获版权行",
       "商品页正文未附商品说明（正文区仅推荐位导航文案）",
-      "商品页无発売元字段，制造商待核实"
+      "商品页无発売元字段，制造商待核实",
+      "两渠道销售窗口不一致：amiami 为预约受理中（发货「２７年０１月未定」），AniqueShop 页受注至 2025/11/23，首发批次归属待核实"
     ],
     "sources": [
       {
@@ -90635,10 +90742,27 @@
           "官方样品图与原图网址",
           "版权标注"
         ]
+      },
+      {
+        "id": "anique-snka04gd0-official",
+        "url": "https://shop.anique.jp/products/snka04gd0",
+        "title": "『進撃の巨人』描き下ろしイラスト【騎馬】ダイカットステッカー｜TVアニメ『進撃の巨人』騎馬｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "韩吉档位含税售价",
+          "角色 lineup（页面档位名单）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "销售期间截止与滚动配送窗口",
+          "SKU",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
       }
     ],
     "createdAt": "2026-10-14",
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
     "isDemo": false
   },
   {
@@ -117328,6 +117452,3832 @@
           "商品内容",
           "商品サイズ",
           "商品结构化数据（schema.org Product）",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka04eb01a01",
+    "slug": "hange-ani-kiba-dio-stained",
+    "names": {
+      "zh": "韩吉 骑马 ver. 彩窗场景亚克力立牌（四人骑马全景）",
+      "ja": "『進撃の巨人』描き下ろしイラスト【騎馬】ジオラマアクリルステンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "kiba-2027",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-kiba-dio-stained.svg",
+        "alt": "韩吉 骑马 ver. 彩窗场景亚克力立牌（四人骑马全景） 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka04eb01a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/files/aot_06_Dioac_01.png?v=1760083355",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 骑马 ver. 彩窗场景亚克力立牌（四人骑马全景），日文商品名「『進撃の巨人』描き下ろしイラスト【騎馬】ジオラマアクリルステンド」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「騎馬」系列商品。单件商品含 4 名角色骑马绘柄；页面商品数据 tags 标注エルヴィン／エレン／ハンジ／リヴァイ，与同系列角色差分款的四款名单一致。页面正文起首：TVアニメ『進撃の巨人』より、 【騎馬】 をテーマにした新規描き下ろしイラスト使用のオリジナルグッズが登場！ 新規描き下ろしイラストを使用した、ステンドグラス風の大きなアクリルスタンドです。 透明度の高いアクリルを採用しているため、光にかざすと水面のように色鮮やかな影が浮かび上がります。售价 3,850 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】商品页未标注尺寸、【素材】アクリル(3mm厚)、【パッケージ】クリアOPP＋外箱。销售期间至 2025/11/23 截止（页面原文「販売期間：…まで受付」），配送为「2026年4月下旬頃」的滚动窗口，故不填发售日。板面为艾伦／利威尔／埃尔文／韩吉四人骑马全景，非韩吉单人差分款，一并收录以便对照同系列角色款。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA04EB01A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：3,850 円",
+      "商品番号": "SNKA04EB01A01",
+      "尺寸": "商品页未标注尺寸",
+      "材质": "アクリル(3mm厚)",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2025/11/23 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2026年4月下旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "单件商品含 4 名角色骑马绘柄；页面商品数据 tags 标注エルヴィン／エレン／ハンジ／リヴァイ，与同系列角色差分款的四款名单一致",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "单件商品含 4 名角色骑马绘柄；页面商品数据 tags 标注エルヴィン／エレン／ハンジ／リヴァイ，与同系列角色差分款的四款名单一致"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka04eb01a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka04eb01a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2025-11-23",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3850,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snka04eb01a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amiami-GOODS-04871759",
+      "amiami-GOODS-04871763",
+      "amiami-GOODS-04871756",
+      "amiami-GOODS-04871767",
+      "anique-snka04ea01",
+      "anique-snka04aa01",
+      "anique-snka04ac02",
+      "anique-snka04ac01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2026年4月下旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "商品页未标注尺寸"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka04eb01a01-official",
+        "url": "https://shop.anique.jp/products/snka04eb01a01",
+        "title": "『進撃の巨人』描き下ろしイラスト【騎馬】ジオラマアクリルステンド｜TVアニメ『進撃の巨人』騎馬｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka04ea01",
+    "slug": "hange-ani-kiba-mini-acsta",
+    "names": {
+      "zh": "韩吉 骑马 ver. Q版亚克力立牌（6 款随机）",
+      "ja": "『進撃の巨人』描き起こしミニキャライラスト【騎馬 ／ Art by ヒョーゴノスケ】トレーディングアクリルスタンド（全6種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "kiba-2027",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-kiba-mini-acsta.svg",
+        "alt": "韩吉 骑马 ver. Q版亚克力立牌（6 款随机） 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka04ea01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/files/aot_04_acsta_ALL.png?v=1760083353",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 骑马 ver. Q版亚克力立牌（6 款随机），日文商品名「『進撃の巨人』描き起こしミニキャライラスト【騎馬 ／ Art by ヒョーゴノスケ】トレーディングアクリルスタンド（全6種）」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「騎馬」系列商品。页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉。页面正文起首：TVアニメ『進撃の巨人』より、【騎馬】をテーマにした新規描き下ろしイラスト使用のオリジナルグッズが登場！ --- イラストレーター：ヒョーゴノスケ氏描き起こしのコラボイラストを使用した、手のひらサイズのアクリルスタンドです。 台座を繋げて並べると円形になり、メリーゴーランドのようなディスプレイを楽し。售价 990 日元／1 包，5,940 日元／1 BOX（6 个入）（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面档位：1パック 990 円／1BOX 5,940 円。页面标注【サイズ】■本体：最大(約)W6.6×H7.3cm程度 ■台座：(約)W7.2×H3.4cm、【素材】アクリル(3mm厚)、【パッケージ】アルミ蒸着袋。销售期间至 2025/11/23 截止（页面原文「販売期間：…まで受付」），配送为「2026年4月下旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA04EA01B01、SNKA04EA01C01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "随机盲抽（全 6 种）",
+      "销售形式": "1パック／1BOX 两档同页销售",
+      "页面档位": "1パック：990 円；1BOX：5,940 円",
+      "商品番号": "SNKA04EA01B01、SNKA04EA01C01",
+      "尺寸": "■本体：最大(約)W6.6×H7.3cm程度 ■台座：(約)W7.2×H3.4cm",
+      "材质": "アクリル(3mm厚)",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2025/11/23 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2026年4月下旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka04ea01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka04ea01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2025-11-23",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 990,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "anique-snka04ea01-official"
+          },
+          {
+            "amount": 5940,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 6,
+            "sourceId": "anique-snka04ea01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amiami-GOODS-04871759",
+      "amiami-GOODS-04871763",
+      "amiami-GOODS-04871756",
+      "amiami-GOODS-04871767",
+      "anique-snka04eb01a01",
+      "anique-snka04aa01",
+      "anique-snka04ac02",
+      "anique-snka04ac01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2026年4月下旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "单包随机，实际到手的角色中缝待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka04ea01-official",
+        "url": "https://shop.anique.jp/products/snka04ea01",
+        "title": "『進撃の巨人』描き起こしミニキャライラスト【騎馬 ／ Art by ヒョーゴノスケ】トレーディングアクリルスタンド（全6種）｜TVアニメ『進撃の巨人』騎馬｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka04aa01",
+    "slug": "hange-ani-kiba-mini-keyholder",
+    "names": {
+      "zh": "韩吉 骑马 ver. Q版亚克力钥匙扣（6 款随机）",
+      "ja": "『進撃の巨人』描き起こしミニキャライラスト【騎馬 ／ Art by ヒョーゴノスケ】トレーディングアクリルキーホルダー（全6種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "kiba-2027",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-kiba-mini-keyholder.svg",
+        "alt": "韩吉 骑马 ver. Q版亚克力钥匙扣（6 款随机） 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka04aa01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/files/aot_03_ackey_ALL.png?v=1760083352",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 骑马 ver. Q版亚克力钥匙扣（6 款随机），日文商品名「『進撃の巨人』描き起こしミニキャライラスト【騎馬 ／ Art by ヒョーゴノスケ】トレーディングアクリルキーホルダー（全6種）」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「騎馬」系列商品。页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉。页面正文起首：TVアニメ『進撃の巨人』より、【騎馬】をテーマにした新規描き下ろしイラスト使用のオリジナルグッズが登場！ --- イラストレーター：ヒョーゴノスケ氏描き起こしのコラボイラストを使用した、アクリルキーホルダーです。 メリーゴーランドをモチーフとした楽しさあふれるデザインに仕上げました。售价 660 日元／1 包，3,960 日元／1 BOX（6 个入）（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面档位：1パック 660 円／1BOX 3,960 円。页面标注【サイズ】最大(約) W5.1cm×H6.1cm以内、【素材】アクリル(3mm厚)、【パッケージ】アルミ蒸着袋。销售期间至 2025/11/23 截止（页面原文「販売期間：…まで受付」），配送为「2026年4月下旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA04AA01B01、SNKA04AA01C01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "随机盲抽（全 6 种）",
+      "销售形式": "1パック／1BOX 两档同页销售",
+      "页面档位": "1パック：660 円；1BOX：3,960 円",
+      "商品番号": "SNKA04AA01B01、SNKA04AA01C01",
+      "尺寸": "最大(約) W5.1cm×H6.1cm以内",
+      "材质": "アクリル(3mm厚)",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2025/11/23 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2026年4月下旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka04aa01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka04aa01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2025-11-23",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 660,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "anique-snka04aa01-official"
+          },
+          {
+            "amount": 3960,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 6,
+            "sourceId": "anique-snka04aa01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amiami-GOODS-04871759",
+      "amiami-GOODS-04871763",
+      "amiami-GOODS-04871756",
+      "amiami-GOODS-04871767",
+      "anique-snka04eb01a01",
+      "anique-snka04ea01",
+      "anique-snka04ac02",
+      "anique-snka04ac01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2026年4月下旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "单包随机，实际到手的角色中缝待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka04aa01-official",
+        "url": "https://shop.anique.jp/products/snka04aa01",
+        "title": "『進撃の巨人』描き起こしミニキャライラスト【騎馬 ／ Art by ヒョーゴノスケ】トレーディングアクリルキーホルダー（全6種）｜TVアニメ『進撃の巨人』騎馬｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka04ac02",
+    "slug": "hange-ani-kiba-mini-badge",
+    "names": {
+      "zh": "韩吉 骑马 ver. Q版徽章（6 款随机）",
+      "ja": "『進撃の巨人』描き起こしミニキャライラスト【騎馬 ／ Art by ヒョーゴノスケ】トレーディング缶バッジ（全6種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "徽章",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "kiba-2027",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-kiba-mini-badge.svg",
+        "alt": "韩吉 骑马 ver. Q版徽章（6 款随机） 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka04ac02",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/files/aot_02_canbB_ALL.png?v=1760083351",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 骑马 ver. Q版徽章（6 款随机），日文商品名「『進撃の巨人』描き起こしミニキャライラスト【騎馬 ／ Art by ヒョーゴノスケ】トレーディング缶バッジ（全6種）」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「騎馬」系列商品。页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉。页面正文起首：TVアニメ『進撃の巨人』より、 【騎馬】 をテーマにした新規描き下ろしイラスト使用のオリジナルグッズが登場！ イラストレーター：ヒョーゴノスケ氏描き起こしのコラボイラストを使用した、カラフルな缶バッジです。 メリーゴーランドをモチーフにパステルカラーが目を惹く遊び心あふれるデザインに仕上げました。售价 440 日元／1 包，2,640 日元／1 BOX（6 个入）（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面档位：1パック 440 円／1BOX 2,640 円。页面标注【サイズ】(約)直径5.6cm、【素材】ブリキ、【パッケージ】アルミ蒸着袋。销售期间至 2025/11/23 截止（页面原文「販売期間：…まで受付」），配送为「2026年4月下旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA04AC02B01、SNKA04AC02C01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "随机盲抽（全 6 种）",
+      "销售形式": "1パック／1BOX 两档同页销售",
+      "页面档位": "1パック：440 円；1BOX：2,640 円",
+      "商品番号": "SNKA04AC02B01、SNKA04AC02C01",
+      "尺寸": "(約)直径5.6cm",
+      "材质": "ブリキ",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2025/11/23 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2026年4月下旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka04ac02-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka04ac02-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2025-11-23",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 440,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "anique-snka04ac02-official"
+          },
+          {
+            "amount": 2640,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 6,
+            "sourceId": "anique-snka04ac02-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amiami-GOODS-04871759",
+      "amiami-GOODS-04871763",
+      "amiami-GOODS-04871756",
+      "amiami-GOODS-04871767",
+      "anique-snka04eb01a01",
+      "anique-snka04ea01",
+      "anique-snka04aa01",
+      "anique-snka04ac01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2026年4月下旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "单包随机，实际到手的角色中缝待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka04ac02-official",
+        "url": "https://shop.anique.jp/products/snka04ac02",
+        "title": "『進撃の巨人』描き起こしミニキャライラスト【騎馬 ／ Art by ヒョーゴノスケ】トレーディング缶バッジ（全6種）｜TVアニメ『進撃の巨人』騎馬｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka04ac01",
+    "slug": "hange-ani-kiba-foil-badge",
+    "names": {
+      "zh": "韩吉 骑马 ver. 烫金徽章（8 款随机）",
+      "ja": "『進撃の巨人』描き下ろしイラスト【騎馬】トレーディング箔押し缶バッジ（全8種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "徽章",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "kiba-2027",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-kiba-foil-badge.svg",
+        "alt": "韩吉 骑马 ver. 烫金徽章（8 款随机） 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka04ac01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/files/aot_01_canbA_ALL.png?v=1760083349",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 骑马 ver. 烫金徽章（8 款随机），日文商品名「『進撃の巨人』描き下ろしイラスト【騎馬】トレーディング箔押し缶バッジ（全8種）」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「騎馬」系列商品。页面正文「全8種」名单含ハンジ。页面正文起首：TVアニメ『進撃の巨人』より、【騎馬】をテーマにした新規描き下ろしイラスト使用のオリジナルグッズが登場！ --- ツヤのある素材に一部デザインを金箔押しで精緻に刻んだ、高級感溢れる缶バッジです。 オリジナルモチーフアイコンを使用したシックなデザインで美麗に仕上げました。售价 550 日元／1 包，4,400 日元／1 BOX（8 个入）（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面档位：1パック 550 円／1BOX 4,400 円。页面标注【サイズ】(約)直径5.6cm、【素材】ブリキ、【パッケージ】アルミ蒸着袋。销售期间至 2025/11/23 截止（页面原文「販売期間：…まで受付」），配送为「2026年4月下旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA04AC01B01、SNKA04AC01C01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "随机盲抽（全 8 种）",
+      "销售形式": "1パック／1BOX 两档同页销售",
+      "页面档位": "1パック：550 円；1BOX：4,400 円",
+      "商品番号": "SNKA04AC01B01、SNKA04AC01C01",
+      "尺寸": "(約)直径5.6cm",
+      "材质": "ブリキ",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2025/11/23 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2026年4月下旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "页面正文「全8種」名单含ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "页面正文「全8種」名单含ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka04ac01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka04ac01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2025-11-23",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 550,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "anique-snka04ac01-official"
+          },
+          {
+            "amount": 4400,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 8,
+            "sourceId": "anique-snka04ac01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "amiami-GOODS-04871759",
+      "amiami-GOODS-04871763",
+      "amiami-GOODS-04871756",
+      "amiami-GOODS-04871767",
+      "anique-snka04eb01a01",
+      "anique-snka04ea01",
+      "anique-snka04aa01",
+      "anique-snka04ac02"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2026年4月下旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "单包随机，实际到手的角色中缝待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka04ac01-official",
+        "url": "https://shop.anique.jp/products/snka04ac01",
+        "title": "『進撃の巨人』描き下ろしイラスト【騎馬】トレーディング箔押し缶バッジ（全8種）｜TVアニメ『進撃の巨人』騎馬｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka02ki06a01",
+    "slug": "hange-ani-kinokos-plush",
+    "names": {
+      "zh": "韩吉 KINOKOS 自立型公仔",
+      "ja": "『進撃の巨人』KINOKOS ハンジ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "玩偶",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "kinokos-2024",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-kinokos-plush.svg",
+        "alt": "韩吉 KINOKOS 自立型公仔 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka02ki06a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/files/KINOKOS_12cm_6_d6585a48-086a-4363-aa1e-93f161451bda.jpg?v=1735006970",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 KINOKOS 自立型公仔，日文商品名「『進撃の巨人』KINOKOS ハンジ」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「KINOKOS」系列商品。商品名直接标注ハンジ。页面正文起首：TVアニメ『進撃の巨人』より、自立型ぬいぐるみ新シリーズ\"KINOKOS（キノコス）\"が初登場！ 調査兵団のコスチュームをまとったキャラクターたちが\"KINOKOS（キノコス）\"として登場します。 フィギュアとしての存在感を放つサイズが魅力です。售价 1,760 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】全長(約)12cm、【素材】ポリエステル、ポリエチレン、【パッケージ】外箱。销售期间至 2024/08/18 截止（页面原文「販売期間：…まで受付」），配送为「2024年11月下旬頃」的滚动窗口，故不填发售日。该品在 AniqueShop 先后开放 2 次受注（页面截止分别为 2024/08/18、2025/11/23），页面商品名前缀【再販】表明此前另有首发，首发批次站内未捕获。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA02KI06A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：1,760 円",
+      "商品番号": "SNKA02KI06A01",
+      "尺寸": "全長(約)12cm",
+      "材质": "ポリエステル、ポリエチレン",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/08/18 23:59 まで受付／2025/11/23 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年11月下旬頃」；页面原文「配送時期：2025年12月下旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名直接标注ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名直接标注ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka02ki06a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02ki06a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-08-18",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1760,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snka02ki06a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      },
+      {
+        "releaseId": "anique-snka02ki06a01-re1",
+        "kind": "再贩",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02ki06a01-resale-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2025-11-23",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1760,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snka02ki06a01-resale-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snka02km01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年11月下旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka02ki06a01-official",
+        "url": "https://shop.anique.jp/products/snka02ki06a01",
+        "title": "『進撃の巨人』KINOKOS ハンジ｜TVアニメ『進撃の巨人』KINOKOS｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      },
+      {
+        "id": "anique-snka02ki06a01-resale-official",
+        "url": "https://shop.anique.jp/products/snka02ki06a01-resale",
+        "title": "【再販】『進撃の巨人』KINOKOS ハンジ｜【再販】TVアニメ『進撃の巨人』KINOKOS｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka02km01",
+    "slug": "hange-ani-kinokos-mini",
+    "names": {
+      "zh": "韩吉 KINOKOS mini 公仔（6 款随机）",
+      "ja": "『進撃の巨人』トレーディングKINOKOS mini（全6種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "玩偶",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "kinokos-2024",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-kinokos-mini.svg",
+        "alt": "韩吉 KINOKOS mini 公仔（6 款随机） 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka02km01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/files/KINOKOS_mini_all_3a450896-dea2-44f7-9d40-2fa0c3f86de4.jpg?v=1735006960",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 KINOKOS mini 公仔（6 款随机），日文商品名「『進撃の巨人』トレーディングKINOKOS mini（全6種）」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「KINOKOS」系列商品。页面正文「全6種」名单含ハンジ。页面正文起首：TVアニメ『進撃の巨人』より、自立型ぬいぐるみ新シリーズ\"KINOKOS（キノコス）\"が初登場！ 全長(約)7cmのKINOKOS miniは カフェでドリンクの隣に立たせたり、お部屋にフィギュアとして飾ったり、 アイデア次第でご自由にお楽しみいただけます。 小さくても凛とした佇まいが愛らしいサイズ。售价 880 日元／1 包，5,280 日元／1 BOX（6 个入）（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面档位：1パック 880 円／1BOX（6個入り） 5,280 円。页面标注【サイズ】全長(約)7cm、【素材】ポリエステル、ポリエチレン、【パッケージ】外箱。销售期间至 2024/08/18 截止（页面原文「販売期間：…まで受付」），配送为「2024年11月下旬頃」的滚动窗口，故不填发售日。该品在 AniqueShop 先后开放 2 次受注（页面截止分别为 2024/08/18、2025/11/23），页面商品名前缀【再販】表明此前另有首发，首发批次站内未捕获。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA02KM01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "随机盲抽（全 6 种）",
+      "销售形式": "1パック／1BOX 两档同页销售",
+      "页面档位": "1パック：880 円；1BOX（6個入り）：5,280 円",
+      "商品番号": "SNKA02KM01",
+      "尺寸": "全長(約)7cm",
+      "材质": "ポリエステル、ポリエチレン",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/08/18 23:59 まで受付／2025/11/23 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年11月下旬頃」；页面原文「配送時期：2025年12月下旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "页面正文「全6種」名单含ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "页面正文「全6種」名单含ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka02km01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02km01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-08-18",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "anique-snka02km01-official"
+          },
+          {
+            "amount": 5280,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 6,
+            "sourceId": "anique-snka02km01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      },
+      {
+        "releaseId": "anique-snka02km01-re1",
+        "kind": "再贩",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02km01-resale-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2025-11-23",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "anique-snka02km01-resale-official"
+          },
+          {
+            "amount": 5280,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 6,
+            "sourceId": "anique-snka02km01-resale-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snka02ki06a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年11月下旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "单包随机，实际到手的角色中缝待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka02km01-official",
+        "url": "https://shop.anique.jp/products/snka02km01",
+        "title": "『進撃の巨人』トレーディングKINOKOS mini（全6種）｜TVアニメ『進撃の巨人』KINOKOS｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      },
+      {
+        "id": "anique-snka02km01-resale-official",
+        "url": "https://shop.anique.jp/products/snka02km01-resale",
+        "title": "【再販】『進撃の巨人』トレーディングKINOKOS mini（全6種）｜【再販】TVアニメ『進撃の巨人』KINOKOS｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka02ac01",
+    "slug": "hange-ani-starry-glitter-badge",
+    "names": {
+      "zh": "韩吉 星空收藏 闪粉徽章（6 款随机）",
+      "ja": "『進撃の巨人』トレーディンググリッター缶バッジ（全6種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "徽章",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "starry-sky-collection",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-starry-glitter-badge.svg",
+        "alt": "韩吉 星空收藏 闪粉徽章（6 款随机） 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka02ac01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/files/canb_all_7e5853b8-1c73-4a48-bb50-8ff5e48231fc.jpg?v=1723094557",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空收藏 闪粉徽章（6 款随机），日文商品名「『進撃の巨人』トレーディンググリッター缶バッジ（全6種）」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Starry Sky Collection」系列商品。页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉。页面正文起首：TVアニメ『進撃の巨人』新規オリジナルグッズが登場！ 仲間たちの遺志を受け継ぐ調査兵団の絆と、自由への願いを星々に込めたStarry Sky Collectionです。 流れ星や数多の星の輝きを繊細なグリッターで表現した美しい缶バッジです。售价 550 日元／1 包，3,300 日元／1 BOX（6 个入）（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面档位：1パック 550 円／1BOX 3,300 円。页面标注【サイズ】(約)直径5.6cm、【素材】ブリキ、【パッケージ】アルミ蒸着袋。销售期间至 2024/03/24 截止（页面原文「販売期間：…まで受付」），配送为「2024年7月上旬頃」的滚动窗口，故不填发售日。该品在 AniqueShop 先后开放 2 次受注（页面截止分别为 2024/03/24、2024/09/08），页面商品名前缀【再販】表明此前另有首发，首发批次站内未捕获。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA02AC01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "随机盲抽（全 6 种）",
+      "销售形式": "1パック／1BOX 两档同页销售",
+      "页面档位": "1パック：550 円；1BOX：3,300 円",
+      "商品番号": "SNKA02AC01",
+      "尺寸": "(約)直径5.6cm",
+      "材质": "ブリキ",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/03/24 23:59 まで受付／2024/09/08 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年7月上旬頃」；页面原文「配送時期：2024年11月下旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka02ac01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02ac01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-03-24",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 550,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "anique-snka02ac01-official"
+          },
+          {
+            "amount": 3300,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 6,
+            "sourceId": "anique-snka02ac01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      },
+      {
+        "releaseId": "anique-snka02ac01-re1",
+        "kind": "再贩",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02ac01_resale-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-09-08",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 550,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "anique-snka02ac01_resale-official"
+          },
+          {
+            "amount": 3300,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 6,
+            "sourceId": "anique-snka02ac01_resale-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snka02ej01",
+      "anique-snka02ea06a01",
+      "anique-snka02aa06a01",
+      "anique-snka02fa06a01",
+      "anique-snka02gi03a01",
+      "anique-snka02gd06a01",
+      "anique-snka02be06a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年7月上旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "单包随机，实际到手的角色中缝待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka02ac01-official",
+        "url": "https://shop.anique.jp/products/snka02ac01",
+        "title": "『進撃の巨人』トレーディンググリッター缶バッジ（全6種）｜TVアニメ『進撃の巨人』Starry Sky Collection｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      },
+      {
+        "id": "anique-snka02ac01_resale-official",
+        "url": "https://shop.anique.jp/products/snka02ac01_resale",
+        "title": "【再販】『進撃の巨人』トレーディンググリッター缶バッジ（全6種）｜【再販】TVアニメ『進撃の巨人』Starry Sky Collection｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka02ej01",
+    "slug": "hange-ani-starry-acrylic-block",
+    "names": {
+      "zh": "韩吉 星空收藏 迷你亚克力块（6 款随机）",
+      "ja": "『進撃の巨人』トレーディングミニアクリルブロック（全6種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "starry-sky-collection",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-starry-acrylic-block.svg",
+        "alt": "韩吉 星空收藏 迷你亚克力块（6 款随机） 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka02ej01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/miniacb_all_7b8d52f4-9c1a-4f0e-836d-ad57685b2697.jpg?v=1707277148",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空收藏 迷你亚克力块（6 款随机），日文商品名「『進撃の巨人』トレーディングミニアクリルブロック（全6種）」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Starry Sky Collection」系列商品。页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉。页面正文起首：TVアニメ『進撃の巨人』新規オリジナルグッズが登場！ 仲間たちの遺志を受け継ぐ調査兵団の絆と、自由への願いを星々に込めたStarry Sky Collectionです。 流れ星が印象的なミニアクリルブロックです。售价 880 日元／1 包，5,280 日元／1 BOX（6 个入）（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面档位：1パック 880 円／1BOX 5,280 円。页面标注【サイズ】(約)W5×H5cm、【素材】アクリル(1cm厚)、【パッケージ】アルミ蒸着袋。销售期间至 2024/03/24 截止（页面原文「販売期間：…まで受付」），配送为「2024年7月上旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA02EJ01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "随机盲抽（全 6 种）",
+      "销售形式": "1パック／1BOX 两档同页销售",
+      "页面档位": "1パック：880 円；1BOX：5,280 円",
+      "商品番号": "SNKA02EJ01",
+      "尺寸": "(約)W5×H5cm",
+      "材质": "アクリル(1cm厚)",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/03/24 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年7月上旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "页面正文「全6種：エレン / ミカサ / アルミン / リヴァイ / エルヴィン / ハンジ」点名韩吉"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka02ej01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02ej01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-03-24",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "anique-snka02ej01-official"
+          },
+          {
+            "amount": 5280,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 6,
+            "sourceId": "anique-snka02ej01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snka02ac01",
+      "anique-snka02ea06a01",
+      "anique-snka02aa06a01",
+      "anique-snka02fa06a01",
+      "anique-snka02gi03a01",
+      "anique-snka02gd06a01",
+      "anique-snka02be06a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年7月上旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "单包随机，实际到手的角色中缝待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka02ej01-official",
+        "url": "https://shop.anique.jp/products/snka02ej01",
+        "title": "『進撃の巨人』トレーディングミニアクリルブロック（全6種）｜TVアニメ『進撃の巨人』Starry Sky Collection｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka02ea06a01",
+    "slug": "hange-ani-starry-acrylic-stand",
+    "names": {
+      "zh": "韩吉 星空收藏 迷你亚克力立牌",
+      "ja": "『進撃の巨人』ハンジ アクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "starry-sky-collection",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-starry-acrylic-stand.svg",
+        "alt": "韩吉 星空收藏 迷你亚克力立牌 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka02ea06a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/acsta_6_cf64bb7e-92a6-44ee-8028-a4d43afd33b0.jpg?v=1707277098",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空收藏 迷你亚克力立牌，日文商品名「『進撃の巨人』ハンジ アクリルスタンド」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Starry Sky Collection」系列商品。商品名直接标注ハンジ。售价 1,540 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】商品页未标注尺寸、【素材】アクリル。销售期间至 2024/03/24 截止（页面原文「販売期間：…まで受付」），配送为「2024年7月上旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA02EA06A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：1,540 円",
+      "商品番号": "SNKA02EA06A01",
+      "尺寸": "商品页未标注尺寸",
+      "材质": "アクリル",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/03/24 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年7月上旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名直接标注ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名直接标注ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka02ea06a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02ea06a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-03-24",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1540,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snka02ea06a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snka02ac01",
+      "anique-snka02ej01",
+      "anique-snka02aa06a01",
+      "anique-snka02fa06a01",
+      "anique-snka02gi03a01",
+      "anique-snka02gd06a01",
+      "anique-snka02be06a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年7月上旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "商品页未标注尺寸"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka02ea06a01-official",
+        "url": "https://shop.anique.jp/products/snka02ea06a01",
+        "title": "『進撃の巨人』ハンジ アクリルスタンド｜TVアニメ『進撃の巨人』Starry Sky Collection｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka02aa06a01",
+    "slug": "hange-ani-starry-keyholder",
+    "names": {
+      "zh": "韩吉 星空收藏 亚克力钥匙扣",
+      "ja": "『進撃の巨人』ハンジ アクリルキーホルダー",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "starry-sky-collection",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-starry-keyholder.svg",
+        "alt": "韩吉 星空收藏 亚克力钥匙扣 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka02aa06a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/ackey_6.jpg?v=1707277061",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空收藏 亚克力钥匙扣，日文商品名「『進撃の巨人』ハンジ アクリルキーホルダー」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Starry Sky Collection」系列商品。商品名直接标注ハンジ。售价 660 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】(約)W4.3×H5cm以内、【素材】アクリル(3mm厚)。销售期间至 2024/03/24 截止（页面原文「販売期間：…まで受付」），配送为「2024年7月上旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA02AA06A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：660 円",
+      "商品番号": "SNKA02AA06A01",
+      "尺寸": "(約)W4.3×H5cm以内",
+      "材质": "アクリル(3mm厚)",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/03/24 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年7月上旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名直接标注ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名直接标注ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka02aa06a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02aa06a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-03-24",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 660,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snka02aa06a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snka02ac01",
+      "anique-snka02ej01",
+      "anique-snka02ea06a01",
+      "anique-snka02fa06a01",
+      "anique-snka02gi03a01",
+      "anique-snka02gd06a01",
+      "anique-snka02be06a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年7月上旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka02aa06a01-official",
+        "url": "https://shop.anique.jp/products/snka02aa06a01",
+        "title": "『進撃の巨人』ハンジ アクリルキーホルダー｜TVアニメ『進撃の巨人』Starry Sky Collection｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka02fa06a01",
+    "slug": "hange-ani-starry-clear-file",
+    "names": {
+      "zh": "韩吉 星空收藏 文件夹",
+      "ja": "『進撃の巨人』ハンジ クリアファイル",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "starry-sky-collection",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-starry-clear-file.svg",
+        "alt": "韩吉 星空收藏 文件夹 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka02fa06a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/file_6_265a609d-1318-470a-ba43-ebde8dcff663.jpg?v=1707277023",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空收藏 文件夹，日文商品名「『進撃の巨人』ハンジ クリアファイル」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Starry Sky Collection」系列商品。商品名直接标注ハンジ。页面正文起首：TVアニメ『進撃の巨人』新規オリジナルグッズが登場！ 仲間たちの遺志を受け継ぐ調査兵団の絆と、自由への願いを星々に込めたStarry Sky Collectionです。 流れ星の美しさが際立つA4サイズのクリアファイル。售价 550 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】(約)W22×H31cm (A4サイズ)、【素材】PP、【パッケージ】クリアOPP。销售期间至 2024/03/24 截止（页面原文「販売期間：…まで受付」），配送为「2024年7月上旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA02FA06A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：550 円",
+      "商品番号": "SNKA02FA06A01",
+      "尺寸": "(約)W22×H31cm (A4サイズ)",
+      "材质": "PP",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/03/24 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年7月上旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名直接标注ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名直接标注ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka02fa06a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02fa06a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-03-24",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 550,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snka02fa06a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snka02ac01",
+      "anique-snka02ej01",
+      "anique-snka02ea06a01",
+      "anique-snka02aa06a01",
+      "anique-snka02gi03a01",
+      "anique-snka02gd06a01",
+      "anique-snka02be06a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年7月上旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka02fa06a01-official",
+        "url": "https://shop.anique.jp/products/snka02fa06a01",
+        "title": "『進撃の巨人』ハンジ クリアファイル｜TVアニメ『進撃の巨人』Starry Sky Collection｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka02gi03a01",
+    "slug": "hange-ani-starry-clear-card-set",
+    "names": {
+      "zh": "韩吉＆利威尔 星空收藏 透明卡片套装",
+      "ja": "『進撃の巨人』リヴァイ＆ハンジ クリアカードセット",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "starry-sky-collection",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-starry-clear-card-set.svg",
+        "alt": "韩吉＆利威尔 星空收藏 透明卡片套装 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka02gi03a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/clearcard_set_all_a3a20739-1427-423e-b60d-5f2c13a26552.jpg?v=1707277004",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉＆利威尔 星空收藏 透明卡片套装，日文商品名「『進撃の巨人』リヴァイ＆ハンジ クリアカードセット」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Starry Sky Collection」系列商品。商品名为リヴァイ＆ハンジ双人款。页面正文起首：TVアニメ『進撃の巨人』新規オリジナルグッズが登場！ 仲間たちの遺志を受け継ぐ調査兵団の絆と、自由への願いを星々に込めたStarry Sky Collectionです。 箔押しのキャラクター名と、フレームに星空のデザインをあしらった豪華なクリアカード2枚セットです。售价 880 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】(約)W6.3×H8.9cm、【素材】PP、【パッケージ】クリアOPP。销售期间至 2024/03/24 截止（页面原文「販売期間：…まで受付」），配送为「2024年7月上旬頃」的滚动窗口，故不填发售日。页面标注为烫金角色名＋星空边框的透明卡片 2 枚套装。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA02GI03A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件（套装）",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：880 円",
+      "商品番号": "SNKA02GI03A01",
+      "尺寸": "(約)W6.3×H8.9cm",
+      "材质": "PP",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/03/24 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年7月上旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名为リヴァイ＆ハンジ双人款",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名为リヴァイ＆ハンジ双人款"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka02gi03a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02gi03a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-03-24",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 2,
+            "sourceId": "anique-snka02gi03a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snka02ac01",
+      "anique-snka02ej01",
+      "anique-snka02ea06a01",
+      "anique-snka02aa06a01",
+      "anique-snka02fa06a01",
+      "anique-snka02gd06a01",
+      "anique-snka02be06a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年7月上旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka02gi03a01-official",
+        "url": "https://shop.anique.jp/products/snka02gi03a01",
+        "title": "『進撃の巨人』リヴァイ＆ハンジ クリアカードセット｜TVアニメ『進撃の巨人』Starry Sky Collection｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka02gd06a01",
+    "slug": "hange-ani-starry-holo-sticker",
+    "names": {
+      "zh": "韩吉 星空收藏 全息异形贴纸",
+      "ja": "『進撃の巨人』ハンジ ホログラムステッカー",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "starry-sky-collection",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-starry-holo-sticker.svg",
+        "alt": "韩吉 星空收藏 全息异形贴纸 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka02gd06a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/sticker_6_35c14f4e-7aab-47aa-b5c6-97bdeb8c3787.jpg?v=1707276962",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空收藏 全息异形贴纸，日文商品名「『進撃の巨人』ハンジ ホログラムステッカー」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Starry Sky Collection」系列商品。商品名直接标注ハンジ。售价 440 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】(約)W5.6×H5.8cm以内、【素材】紙。销售期间至 2024/03/24 截止（页面原文「販売期間：…まで受付」），配送为「2024年7月上旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA02GD06A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：440 円",
+      "商品番号": "SNKA02GD06A01",
+      "尺寸": "(約)W5.6×H5.8cm以内",
+      "材质": "紙",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/03/24 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年7月上旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名直接标注ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名直接标注ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka02gd06a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02gd06a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-03-24",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 440,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snka02gd06a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snka02ac01",
+      "anique-snka02ej01",
+      "anique-snka02ea06a01",
+      "anique-snka02aa06a01",
+      "anique-snka02fa06a01",
+      "anique-snka02gi03a01",
+      "anique-snka02be06a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年7月上旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka02gd06a01-official",
+        "url": "https://shop.anique.jp/products/snka02gd06a01",
+        "title": "『進撃の巨人』ハンジ ホログラムステッカー｜TVアニメ『進撃の巨人』Starry Sky Collection｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka02be06a01",
+    "slug": "hange-ani-starry-tote-bag",
+    "names": {
+      "zh": "韩吉 星空收藏 托特包",
+      "ja": "『進撃の巨人』ハンジ トートバッグ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "生活用品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "starry-sky-collection",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-starry-tote-bag.svg",
+        "alt": "韩吉 星空收藏 托特包 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snka02be06a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/tote_6.jpg?v=1707276899",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空收藏 托特包，日文商品名「『進撃の巨人』ハンジ トートバッグ」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Starry Sky Collection」系列商品。商品名与页面 tags 均只标注ハンジ（同款按角色分款），官方样品图印「Hans Zoe」角色名与调查兵团纹章。售价 2,200 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】(約)W35×H38cm （マチ11cm）、【素材】綿。销售期间至 2024/03/24 截止（页面原文「販売期間：…まで受付」），配送为「2024年7月上旬頃」的滚动窗口，故不填发售日。包面图案为角色名与兵团纹章的排版设计，不含人物绘柄。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKA02BE06A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：2,200 円",
+      "商品番号": "SNKA02BE06A01",
+      "尺寸": "(約)W35×H38cm （マチ11cm）",
+      "材质": "綿",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/03/24 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年7月上旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名与页面 tags 均只标注ハンジ（同款按角色分款），官方样品图印「Hans Zoe」角色名与调查兵团纹章",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名与页面 tags 均只标注ハンジ（同款按角色分款），官方样品图印「Hans Zoe」角色名与调查兵团纹章"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka02be06a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02be06a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-03-24",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 2200,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snka02be06a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snka02ac01",
+      "anique-snka02ej01",
+      "anique-snka02ea06a01",
+      "anique-snka02aa06a01",
+      "anique-snka02fa06a01",
+      "anique-snka02gi03a01",
+      "anique-snka02gd06a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年7月上旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka02be06a01-official",
+        "url": "https://shop.anique.jp/products/snka02be06a01",
+        "title": "『進撃の巨人』ハンジ トートバッグ｜TVアニメ『進撃の巨人』Starry Sky Collection｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkcei08a01",
+    "slug": "hange-ani-kyodai-acryl-collection",
+    "names": {
+      "zh": "韩吉 巨人大战 亚克力组合件（立牌／钥匙扣两用）",
+      "ja": "『進撃の巨人』巨人大戦 アクリルコレクション ハンジ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "kyodai-taisen",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-kyodai-acryl-collection.svg",
+        "alt": "韩吉 巨人大战 亚克力组合件（立牌／钥匙扣两用） 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkcei08a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/files/accl_6_f8f2bf3a-cae9-4204-bb79-ece0209ecf09.jpg?v=1711682631",
+        "credit": "©諫山創／講談社",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 巨人大战 亚克力组合件（立牌／钥匙扣两用），日文商品名「『進撃の巨人』巨人大戦 アクリルコレクション ハンジ」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「巨人大戦」系列商品。商品名直接标注ハンジ。页面正文起首：漫画『進撃の巨人』新規オリジナルグッズ【巨人大戦】シリーズがAniqueショップに登場！ 九つの巨人シリーズの初版グッズにオリジナルアレンジを加え、新たな魅力を吹き込みました。 キャラクターたちの物語を、色彩の美しさとともにお楽しみください。售价 3,850 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】商品页未标注尺寸、【素材】アクリル(3mm厚)、【パッケージ】クリアOPP。销售期间至 2024/05/19 截止（页面原文「販売期間：…まで受付」），配送为「2024年9月上中旬頃」的滚动窗口，故不填发售日。页面标注手前零件可拆，穿球链可作亚克力钥匙扣。页面版权行「©諫山創／講談社」。商品番号／SKU：SNKCEI08A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：3,850 円",
+      "商品番号": "SNKCEI08A01",
+      "尺寸": "商品页未标注尺寸",
+      "材质": "アクリル(3mm厚)",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/05/19 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年9月上中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名直接标注ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名直接标注ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkcei08a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkcei08a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-05-19",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3850,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snkcei08a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkcac10a01",
+      "anique-snkcba02a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年9月上中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "商品页未标注尺寸"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkcei08a01-official",
+        "url": "https://shop.anique.jp/products/snkcei08a01",
+        "title": "『進撃の巨人』巨人大戦 アクリルコレクション ハンジ｜『進撃の巨人』 巨人大戦｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkcac10a01",
+    "slug": "hange-ani-kyodai-holo-badge-set",
+    "names": {
+      "zh": "利威尔＆韩吉 巨人大战 全息徽章 2 个套装",
+      "ja": "『進撃の巨人』巨人大戦 リヴァイ＆ハンジ ホログラム缶バッジ 2個セット",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "徽章",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "kyodai-taisen",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-kyodai-holo-badge-set.svg",
+        "alt": "利威尔＆韩吉 巨人大战 全息徽章 2 个套装 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkcac10a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/files/canb_3_70e679eb-29a5-4495-b516-1c3fb79c1633.jpg?v=1711682601",
+        "credit": "©諫山創／講談社",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "利威尔＆韩吉 巨人大战 全息徽章 2 个套装，日文商品名「『進撃の巨人』巨人大戦 リヴァイ＆ハンジ ホログラム缶バッジ 2個セット」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「巨人大戦」系列商品。商品名为リヴァイ＆ハンジ双人款。页面正文起首：漫画『進撃の巨人』新規オリジナルグッズ【巨人大戦】シリーズがAniqueショップに登場！ 九つの巨人シリーズの初版グッズにオリジナルアレンジを加え、新たな魅力を吹き込みました。 キャラクターたちの物語を、色彩の美しさとともにお楽しみください。售价 880 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】(約)直径5.7cm、【素材】ブリキ、【パッケージ】クリアOPP。销售期间至 2024/05/19 截止（页面原文「販売期間：…まで受付」），配送为「2024年9月上中旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創／講談社」。商品番号／SKU：SNKCAC10A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件（套装）",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：880 円",
+      "商品番号": "SNKCAC10A01",
+      "尺寸": "(約)直径5.7cm",
+      "材质": "ブリキ",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/05/19 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年9月上中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名为リヴァイ＆ハンジ双人款",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名为リヴァイ＆ハンジ双人款"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkcac10a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkcac10a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-05-19",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 2,
+            "sourceId": "anique-snkcac10a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkcei08a01",
+      "anique-snkcba02a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年9月上中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkcac10a01-official",
+        "url": "https://shop.anique.jp/products/snkcac10a01",
+        "title": "『進撃の巨人』巨人大戦 リヴァイ＆ハンジ ホログラム缶バッジ 2個セット｜『進撃の巨人』 巨人大戦｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkcba02a01",
+    "slug": "hange-ani-kyodai-vol14-tshirt",
+    "names": {
+      "zh": "韩吉 巨人大战 第14卷封面 T恤",
+      "ja": "『進撃の巨人』第14巻表紙 Tシャツ",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "服饰",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "kyodai-taisen",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-kyodai-vol14-tshirt.svg",
+        "alt": "韩吉 巨人大战 第14卷封面 T恤 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkcba02a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/files/Tshirt_14kan_1.jpg?v=1711682596",
+        "credit": "©諫山創／講談社",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 巨人大战 第14卷封面 T恤，日文商品名「『進撃の巨人』第14巻表紙 Tシャツ」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「巨人大戦」系列商品。页面商品数据 tags 标注ハンジ／エルヴィン／リヴァイ；绘柄为漫画第 14 卷封面插画。页面正文起首：漫画『進撃の巨人』新規オリジナルグッズ 【巨人大戦】 シリーズがAniqueショップに登場！ コミックス第14巻表紙イラストをデザインした白地の半袖Tシャツです。 サイズはM / L / XLの3種からお選びいただけます。售价 3,850 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面档位：M 3,850 円／L 3,850 円／XL 3,850 円。页面标注【サイズ】M / L / XL ■サイズ表 M L XL 身丈 69 73 77 身幅 52 55 58 肩幅 46 50 54 袖丈 20 22 24、【素材】綿、【パッケージ】クリアOPP。销售期间至 2024/05/19 截止（页面原文「販売期間：…まで受付」），配送为「2024年9月上中旬頃」的滚动窗口，故不填发售日。尺码分 M／L／XL 三档，三档标价一致。页面版权行「©諫山創／講談社」。商品番号／SKU：SNKCBA02A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售（分尺码或分角色档位）",
+      "页面档位": "M：3,850 円；L：3,850 円；XL：3,850 円",
+      "商品番号": "SNKCBA02A01",
+      "尺寸": "M / L / XL ■サイズ表 M L XL 身丈 69 73 77 身幅 52 55 58 肩幅 46 50 54 袖丈 20 22 24",
+      "材质": "綿",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/05/19 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年9月上中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "页面商品数据 tags 标注ハンジ／エルヴィン／リヴァイ；绘柄为漫画第 14 卷封面插画",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "页面商品数据 tags 标注ハンジ／エルヴィン／リヴァイ；绘柄为漫画第 14 卷封面插画"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkcba02a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkcba02a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-05-19",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3850,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snkcba02a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkcei08a01",
+      "anique-snkcac10a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年9月上中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkcba02a01-official",
+        "url": "https://shop.anique.jp/products/snkcba02a01",
+        "title": "『進撃の巨人』第14巻表紙 Tシャツ｜『進撃の巨人』 巨人大戦｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkceb05a0201",
+    "slug": "hange-ani-memory-vol14-dio",
+    "names": {
+      "zh": "韩吉 回忆收藏 第14卷场景亚克力立牌～策划夺还王政～",
+      "ja": "【再販】『進撃の巨人』第14巻 ジオラマアクリルスタンド ～王政奪還の画策～",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "memory-collection",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-memory-vol14-dio.svg",
+        "alt": "韩吉 回忆收藏 第14卷场景亚克力立牌～策划夺还王政～ 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkceb05a0201",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/mc_dioac_14.jpg?v=1710728822",
+        "credit": "©諫山創／講談社",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 回忆收藏 第14卷场景亚克力立牌～策划夺还王政～，日文商品名「【再販】『進撃の巨人』第14巻 ジオラマアクリルスタンド ～王政奪還の画策～」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Memory Collection」系列商品。页面商品数据 tags 标注ハンジ／エルヴィン／リヴァイ；背板为漫画第 14 卷封面。页面正文起首：『進撃の巨人』“Memory Collection”シリーズのジオラマアクリルスタンドです。 コミックス表紙を大きく背面に置いたジオラマアクリルスタンドです。售价 3,850 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】商品页未标注尺寸、【素材】アクリル(3mm厚)、【パッケージ】クリアOPP＋外箱。销售期间至 2024/05/12 截止（页面原文「販売期間：…まで受付」），配送为「2024年9月上中旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創／講談社」。商品番号／SKU：SNKCEB05A0201。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：3,850 円",
+      "商品番号": "SNKCEB05A0201",
+      "尺寸": "商品页未标注尺寸",
+      "材质": "アクリル(3mm厚)",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/05/12 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年9月上中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "页面商品数据 tags 标注ハンジ／エルヴィン／リヴァイ；背板为漫画第 14 卷封面",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "页面商品数据 tags 标注ハンジ／エルヴィン／リヴァイ；背板为漫画第 14 卷封面"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkceb05a0201-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkceb05a0201-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-05-12",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3850,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snkceb05a0201-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkcgd01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年9月上中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "商品页未标注尺寸"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkceb05a0201-official",
+        "url": "https://shop.anique.jp/products/snkceb05a0201",
+        "title": "【再販】『進撃の巨人』第14巻 ジオラマアクリルスタンド ～王政奪還の画策～｜再販『進撃の巨人』オリジナルグッズ｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkcgd01",
+    "slug": "hange-ani-memory-trading-sticker",
+    "names": {
+      "zh": "韩吉 回忆收藏 原作画面贴纸（8 款随机）",
+      "ja": "【再販】『進撃の巨人』トレーディングステッカー（全8種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "memory-collection",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-memory-trading-sticker.svg",
+        "alt": "韩吉 回忆收藏 原作画面贴纸（8 款随机） 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkcgd01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/mc_sti_all1.jpg?v=1710728810",
+        "credit": "©諫山創／講談社",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 回忆收藏 原作画面贴纸（8 款随机），日文商品名「【再販】『進撃の巨人』トレーディングステッカー（全8種）」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Memory Collection」系列商品。页面正文「全8種」名单含「エルヴィン＆ハンジ」「リヴァイ＆ハンジ」两款。页面正文起首：『進撃の巨人』“Memory Collection” シリーズのトレーディングステッカーです。 絆を感じさせるシーンを使用した、心動かされる仕上がりです。售价 440 日元／1 包，3,520 日元／1 BOX（8 个入）（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面档位：1パック 440 円／1BOX 3,520 円。页面标注【サイズ】(約)W5.5×H6.8cm、【素材】紙。销售期间至 2024/05/12 截止（页面原文「販売期間：…まで受付」），配送为「2024年9月上中旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創／講談社」。商品番号／SKU：SNKCGD01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "随机盲抽（全 8 种）",
+      "销售形式": "1パック／1BOX 两档同页销售",
+      "页面档位": "1パック：440 円；1BOX：3,520 円",
+      "商品番号": "SNKCGD01",
+      "尺寸": "(約)W5.5×H6.8cm",
+      "材质": "紙",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/05/12 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年9月上中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "页面正文「全8種」名单含「エルヴィン＆ハンジ」「リヴァイ＆ハンジ」两款",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "页面正文「全8種」名单含「エルヴィン＆ハンジ」「リヴァイ＆ハンジ」两款"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkcgd01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkcgd01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-05-12",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 440,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "anique-snkcgd01-official"
+          },
+          {
+            "amount": 3520,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 8,
+            "sourceId": "anique-snkcgd01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkceb05a0201"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年9月上中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "单包随机，实际到手的角色中缝待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkcgd01-official",
+        "url": "https://shop.anique.jp/products/snkcgd01",
+        "title": "【再販】『進撃の巨人』トレーディングステッカー（全8種）｜再販『進撃の巨人』オリジナルグッズ｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkceb04a0i01",
+    "slug": "hange-ani-final1-levi-hange-dio",
+    "names": {
+      "zh": "利威尔＆韩吉 完结一周年 场景亚克力立牌“誓言与约定”",
+      "ja": "【再販】『進撃の巨人』リヴァイ&ハンジ ジオラマアクリルスタンド “誓いと約束”",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "final-1st-anniversary",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-final1-levi-hange-dio.svg",
+        "alt": "利威尔＆韩吉 完结一周年 场景亚克力立牌“誓言与约定” 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkceb04a0i01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/1y_chikai_3.jpg?v=1710728404",
+        "credit": "©諫山創／講談社",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "利威尔＆韩吉 完结一周年 场景亚克力立牌“誓言与约定”，日文商品名「【再販】『進撃の巨人』リヴァイ&ハンジ ジオラマアクリルスタンド “誓いと約束”」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「完結1周年」系列商品。商品名为リヴァイ&ハンジ双人款，正文写作「リヴァイとハンジの絆を感じさせるシーン」。页面正文起首：『進撃の巨人』完結1周年を記念したジオラマアクリルスタンドです。 リヴァイとハンジの絆を感じさせるシーンを使用した、心動かされる仕上がりです。售价 3,850 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】商品页未标注尺寸、【素材】アクリル(3mm厚)、【パッケージ】クリアOPP＋外箱。销售期间至 2023/12/11 截止（页面原文「販売期間：…まで受付」），配送为「2024年9月上中旬頃」的滚动窗口，故不填发售日。该品在 AniqueShop 先后开放 3 次受注（页面截止分别为 2023/12/11、2023/12/31、2024/05/12），页面商品名前缀【再販】表明此前另有首发，首发批次站内未捕获。页面版权行「©諫山創／講談社」。商品番号／SKU：SNKCEB04A0I01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：3,850 円",
+      "商品番号": "SNKCEB04A0I01",
+      "尺寸": "商品页未标注尺寸",
+      "材质": "アクリル(3mm厚)",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2023/12/11 23:59 まで受付／2023/12/31 23:59 まで受付／2024/05/12 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年3月下旬頃」；页面原文「配送時期：2024年4月下旬頃」；页面原文「配送時期：2024年9月上中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名为リヴァイ&ハンジ双人款，正文写作「リヴァイとハンジの絆を感じさせるシーン」",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名为リヴァイ&ハンジ双人款，正文写作「リヴァイとハンジの絆を感じさせるシーン」"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkceb04a0i01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkceb04a0i01_resale1-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2023-12-11",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3850,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snkceb04a0i01_resale1-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      },
+      {
+        "releaseId": "anique-snkceb04a0i01-re1",
+        "kind": "再贩",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkceb04a0i01_resale-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2023-12-31",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3850,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snkceb04a0i01_resale-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      },
+      {
+        "releaseId": "anique-snkceb04a0i01-re2",
+        "kind": "再贩",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkceb04a0i01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-05-12",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 3850,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snkceb04a0i01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年9月上中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "商品页未标注尺寸"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkceb04a0i01_resale1-official",
+        "url": "https://shop.anique.jp/products/snkceb04a0i01_resale1",
+        "title": "【再販】『進撃の巨人』リヴァイ&amp;ハンジ ジオラマアクリルスタンド “誓いと約束”｜再販『進撃の巨人』完結1周年｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      },
+      {
+        "id": "anique-snkceb04a0i01_resale-official",
+        "url": "https://shop.anique.jp/products/snkceb04a0i01_resale",
+        "title": "2次受注【再販】『進撃の巨人』リヴァイ&amp;ハンジ ジオラマアクリルスタンド “誓いと約束”｜再販『進撃の巨人』完結1周年｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      },
+      {
+        "id": "anique-snkceb04a0i01-official",
+        "url": "https://shop.anique.jp/products/snkceb04a0i01",
+        "title": "【再販】『進撃の巨人』リヴァイ&amp;ハンジ ジオラマアクリルスタンド “誓いと約束”｜再販『進撃の巨人』オリジナルグッズ｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkc03ac01",
+    "slug": "hange-ani-valentine-heart-badge",
+    "names": {
+      "zh": "韩吉 2022情人节 心形徽章（6 款随机）",
+      "ja": "【再販】『進撃の巨人』トレーディングハート型缶バッジ（全6種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "徽章",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "valentine-white-day-2022",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-valentine-heart-badge.svg",
+        "alt": "韩吉 2022情人节 心形徽章（6 款随机） 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkc03ac01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/vd_canb_all2.jpg?v=1710728388",
+        "credit": "©諫山創／講談社",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 2022情人节 心形徽章（6 款随机），日文商品名「【再販】『進撃の巨人』トレーディングハート型缶バッジ（全6種）」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Valentine's Day/White Day2022」系列商品。页面正文「全6種：エレン / アルミン / ジャン / エルヴィン / ハンジ / リヴァイ」点名韩吉。页面正文起首：『進撃の巨人』Valentine's Day/White Day2022シリーズのバレンタインデー トレーディングハート型缶バッジです。 ビターチョコレートを思わせるハート型缶バッジです。售价 500 日元／1 包，3,000 日元／1 BOX（6 个入）（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面档位：1パック 500 円／1BOX 3,000 円。页面标注【サイズ】(約)W5.7×H5.3cm、【素材】ブリキ、【パッケージ】アルミ蒸着袋。销售期间至 2024/05/12 截止（页面原文「販売期間：…まで受付」），配送为「2024年9月上中旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創／講談社」。商品番号／SKU：SNKC03AC01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "随机盲抽（全 6 种）",
+      "销售形式": "1パック／1BOX 两档同页销售",
+      "页面档位": "1パック：500 円；1BOX：3,000 円",
+      "商品番号": "SNKC03AC01",
+      "尺寸": "(約)W5.7×H5.3cm",
+      "材质": "ブリキ",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/05/12 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年9月上中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "页面正文「全6種：エレン / アルミン / ジャン / エルヴィン / ハンジ / リヴァイ」点名韩吉",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "页面正文「全6種：エレン / アルミン / ジャン / エルヴィン / ハンジ / リヴァイ」点名韩吉"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkc03ac01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkc03ac01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-05-12",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "盲抽",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 500,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单包",
+            "quantity": 1,
+            "sourceId": "anique-snkc03ac01-official"
+          },
+          {
+            "amount": 3000,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "整盒",
+            "quantity": 6,
+            "sourceId": "anique-snkc03ac01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkc03gd05a01",
+      "anique-snkc03ea05a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年9月上中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "单包随机，实际到手的角色中缝待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkc03ac01-official",
+        "url": "https://shop.anique.jp/products/snkc03ac01",
+        "title": "【再販】『進撃の巨人』トレーディングハート型缶バッジ（全6種）｜再販『進撃の巨人』オリジナルグッズ｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkc03gd05a01",
+    "slug": "hange-ani-whiteday-acrylic-stand",
+    "names": {
+      "zh": "韩吉 白色情人节 亚克力立牌",
+      "ja": "【再販】『進撃の巨人』ハンジ ホワイトデーアクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "valentine-white-day-2022",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-whiteday-acrylic-stand.svg",
+        "alt": "韩吉 白色情人节 亚克力立牌 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkc03gd05a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/wd_acsta_5.jpg?v=1710728353",
+        "credit": "©諫山創／講談社",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 白色情人节 亚克力立牌，日文商品名「【再販】『進撃の巨人』ハンジ ホワイトデーアクリルスタンド」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Valentine's Day/White Day2022」系列商品。商品名直接标注ハンジ。页面正文起首：『進撃の巨人』Valentine's Day/White Day2022シリーズのホワイトデーアクリルスタンドです。 繊細で可憐なデザインが好評のアクリルスタンド。售价 2,400 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】商品页未标注尺寸、【素材】アクリル(3mm厚)、【パッケージ】クリアOPP。销售期间至 2024/05/12 截止（页面原文「販売期間：…まで受付」），配送为「2024年9月上中旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創／講談社」。商品番号／SKU：SNKC03GD05A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：2,400 円",
+      "商品番号": "SNKC03GD05A01",
+      "尺寸": "商品页未标注尺寸",
+      "材质": "アクリル(3mm厚)",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/05/12 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年9月上中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名直接标注ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名直接标注ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkc03gd05a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkc03gd05a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-05-12",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 2400,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snkc03gd05a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkc03ac01",
+      "anique-snkc03ea05a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年9月上中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "商品页未标注尺寸"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkc03gd05a01-official",
+        "url": "https://shop.anique.jp/products/snkc03gd05a01",
+        "title": "【再販】『進撃の巨人』ハンジ ホワイトデーアクリルスタンド｜再販『進撃の巨人』オリジナルグッズ｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkc03ea05a01",
+    "slug": "hange-ani-valentine-heart-sticker",
+    "names": {
+      "zh": "韩吉 情人节 心形贴纸",
+      "ja": "【再販】『進撃の巨人』ハンジ ハート型ステッカー",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "valentine-white-day-2022",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-valentine-heart-sticker.svg",
+        "alt": "韩吉 情人节 心形贴纸 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkc03ea05a01",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/vd_sti_5.jpg?v=1710728328",
+        "credit": "©諫山創／講談社",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 情人节 心形贴纸，日文商品名「【再販】『進撃の巨人』ハンジ ハート型ステッカー」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「Valentine's Day/White Day2022」系列商品。商品名直接标注ハンジ。页面正文起首：『進撃の巨人』Valentine's Day/White Day2022シリーズのバレンタインデー ハート型ステッカーです。 甘すぎないシックなデザインに仕上げたステッカーです。售价 440 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】(約)W5.7×H5.3cm、【素材】紙、【パッケージ】クリアOPP。销售期间至 2024/05/12 截止（页面原文「販売期間：…まで受付」），配送为「2024年9月上中旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創／講談社」。商品番号／SKU：SNKC03EA05A01。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：440 円",
+      "商品番号": "SNKC03EA05A01",
+      "尺寸": "(約)W5.7×H5.3cm",
+      "材质": "紙",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2024/05/12 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年9月上中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名直接标注ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名直接标注ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkc03ea05a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkc03ea05a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-05-12",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 440,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snkc03ea05a01-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkc03ac01",
+      "anique-snkc03gd05a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年9月上中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkc03ea05a01-official",
+        "url": "https://shop.anique.jp/products/snkc03ea05a01",
+        "title": "【再販】『進撃の巨人』ハンジ ハート型ステッカー｜再販『進撃の巨人』オリジナルグッズ｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkagd06a0001",
+    "slug": "hange-ani-trick-pvc-sticker",
+    "names": {
+      "zh": "韩吉 命运拨弄 PVC贴纸",
+      "ja": "【2次受注】『進撃の巨人』ハンジ PVCステッカー",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "trick-of-fate",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-trick-pvc-sticker.svg",
+        "alt": "韩吉 命运拨弄 PVC贴纸 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkagd06a0001",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/sticker_6_897ddeab-ec2a-4404-bb3b-17566c85e387.jpg?v=1694584565",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 命运拨弄 PVC贴纸，日文商品名「【2次受注】『進撃の巨人』ハンジ PVCステッカー」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「TRICK OF FATE」系列商品。商品名直接标注ハンジ。售价 440 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】(約)W5.4×H8.6cm、【素材】PVC。销售期间至 2023/11/04 截止（页面原文「販売期間：…まで受付」），配送为「2024年2月中旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKAGD06A0001。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：440 円",
+      "商品番号": "SNKAGD06A0001",
+      "尺寸": "(約)W5.4×H8.6cm",
+      "材质": "PVC",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2023/11/04 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年2月中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名直接标注ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名直接标注ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkagd06a0001-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkagd06a0001-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2023-11-04",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 440,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snkagd06a0001-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkafa06a0001",
+      "anique-snkagi03a0001",
+      "anique-snkaac03a0001",
+      "anique-snkaea06a0001",
+      "anique-snkaeb02a0001"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年2月中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkagd06a0001-official",
+        "url": "https://shop.anique.jp/products/snkagd06a0001",
+        "title": "【2次受注】『進撃の巨人』ハンジ PVCステッカー｜TVアニメ『進撃の巨人』TRICK OF FATE｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkafa06a0001",
+    "slug": "hange-ani-trick-clear-file",
+    "names": {
+      "zh": "韩吉 命运拨弄 文件夹",
+      "ja": "【2次受注】『進撃の巨人』ハンジ クリアファイル",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "trick-of-fate",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-trick-clear-file.svg",
+        "alt": "韩吉 命运拨弄 文件夹 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkafa06a0001",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/cf_061.jpg?v=1694584426",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 命运拨弄 文件夹，日文商品名「【2次受注】『進撃の巨人』ハンジ クリアファイル」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「TRICK OF FATE」系列商品。商品名直接标注ハンジ。页面正文起首：TVアニメ『進撃の巨人』よりクリアファイルが登場。 運命に翻弄されながら、屈することなく立ち向かい続けるキャラクターたち。售价 440 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】A4、【素材】PP、【パッケージ】クリアOPP。销售期间至 2023/11/04 截止（页面原文「販売期間：…まで受付」），配送为「2024年2月中旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKAFA06A0001。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：440 円",
+      "商品番号": "SNKAFA06A0001",
+      "尺寸": "A4",
+      "材质": "PP",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2023/11/04 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年2月中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名直接标注ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名直接标注ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkafa06a0001-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkafa06a0001-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2023-11-04",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 440,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snkafa06a0001-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkagd06a0001",
+      "anique-snkagi03a0001",
+      "anique-snkaac03a0001",
+      "anique-snkaea06a0001",
+      "anique-snkaeb02a0001"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年2月中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkafa06a0001-official",
+        "url": "https://shop.anique.jp/products/snkafa06a0001",
+        "title": "【2次受注】『進撃の巨人』ハンジ クリアファイル｜TVアニメ『進撃の巨人』TRICK OF FATE｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkagi03a0001",
+    "slug": "hange-ani-trick-clear-card-2",
+    "names": {
+      "zh": "利威尔＆韩吉 命运拨弄 透明卡片2枚套装",
+      "ja": "【2次受注】『進撃の巨人』リヴァイ＆ハンジ クリアカード2枚セット",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "trick-of-fate",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-trick-clear-card-2.svg",
+        "alt": "利威尔＆韩吉 命运拨弄 透明卡片2枚套装 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkagi03a0001",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/card_3.jpg?v=1694584352",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "利威尔＆韩吉 命运拨弄 透明卡片2枚套装，日文商品名「【2次受注】『進撃の巨人』リヴァイ＆ハンジ クリアカード2枚セット」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「TRICK OF FATE」系列商品。商品名为リヴァイ＆ハンジ双人款。页面正文起首：TVアニメ『進撃の巨人』よりクリアカード2枚セットが登場。 運命に翻弄されながら、屈することなく立ち向かい続けるキャラクターたち。售价 880 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】(約)W6.5×H8.9cm、【素材】PVC 0.3mm、【パッケージ】クリアOPP。销售期间至 2023/11/04 截止（页面原文「販売期間：…まで受付」），配送为「2024年2月中旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKAGI03A0001。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件（套装）",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：880 円",
+      "商品番号": "SNKAGI03A0001",
+      "尺寸": "(約)W6.5×H8.9cm",
+      "材质": "PVC 0.3mm",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2023/11/04 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年2月中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名为リヴァイ＆ハンジ双人款",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名为リヴァイ＆ハンジ双人款"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkagi03a0001-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkagi03a0001-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2023-11-04",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 2,
+            "sourceId": "anique-snkagi03a0001-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkagd06a0001",
+      "anique-snkafa06a0001",
+      "anique-snkaac03a0001",
+      "anique-snkaea06a0001",
+      "anique-snkaeb02a0001"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年2月中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkagi03a0001-official",
+        "url": "https://shop.anique.jp/products/snkagi03a0001",
+        "title": "【2次受注】『進撃の巨人』リヴァイ＆ハンジ クリアカード2枚セット｜TVアニメ『進撃の巨人』TRICK OF FATE｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkaac03a0001",
+    "slug": "hange-ani-trick-badge-2",
+    "names": {
+      "zh": "利威尔＆韩吉 命运拨弄 徽章2个套装",
+      "ja": "【2次受注】『進撃の巨人』リヴァイ＆ハンジ 缶バッジ2個セット",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "徽章",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "trick-of-fate",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-trick-badge-2.svg",
+        "alt": "利威尔＆韩吉 命运拨弄 徽章2个套装 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkaac03a0001",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/canb_3_13aa3a30-dc15-42c3-a53a-524f6a3f1347.jpg?v=1694584330",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "利威尔＆韩吉 命运拨弄 徽章2个套装，日文商品名「【2次受注】『進撃の巨人』リヴァイ＆ハンジ 缶バッジ2個セット」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「TRICK OF FATE」系列商品。商品名为リヴァイ＆ハンジ双人款。售价 880 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】(約)直径5.6cm、【素材】ブリキ。销售期间至 2023/11/04 截止（页面原文「販売期間：…まで受付」），配送为「2024年2月中旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKAAC03A0001。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件（套装）",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：880 円",
+      "商品番号": "SNKAAC03A0001",
+      "尺寸": "(約)直径5.6cm",
+      "材质": "ブリキ",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2023/11/04 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年2月中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名为リヴァイ＆ハンジ双人款",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名为リヴァイ＆ハンジ双人款"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkaac03a0001-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkaac03a0001-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2023-11-04",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 880,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "套装",
+            "quantity": 2,
+            "sourceId": "anique-snkaac03a0001-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkagd06a0001",
+      "anique-snkafa06a0001",
+      "anique-snkagi03a0001",
+      "anique-snkaea06a0001",
+      "anique-snkaeb02a0001"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年2月中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkaac03a0001-official",
+        "url": "https://shop.anique.jp/products/snkaac03a0001",
+        "title": "【2次受注】『進撃の巨人』リヴァイ＆ハンジ 缶バッジ2個セット｜TVアニメ『進撃の巨人』TRICK OF FATE｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkaea06a0001",
+    "slug": "hange-ani-trick-acrylic-stand",
+    "names": {
+      "zh": "韩吉 命运拨弄 亚克力立牌",
+      "ja": "【2次受注】『進撃の巨人』ハンジ アクリルスタンド",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "trick-of-fate",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-trick-acrylic-stand.svg",
+        "alt": "韩吉 命运拨弄 亚克力立牌 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkaea06a0001",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/acsta_6_e8722254-49ff-4038-85c7-cee3124dea37.jpg?v=1694584286",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 命运拨弄 亚克力立牌，日文商品名「【2次受注】『進撃の巨人』ハンジ アクリルスタンド」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「TRICK OF FATE」系列商品。商品名直接标注ハンジ。售价 1,650 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】商品页未标注尺寸、【素材】アクリル (3mm厚)。销售期间至 2023/11/04 截止（页面原文「販売期間：…まで受付」），配送为「2024年2月中旬頃」的滚动窗口，故不填发售日。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKAEA06A0001。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：1,650 円",
+      "商品番号": "SNKAEA06A0001",
+      "尺寸": "商品页未标注尺寸",
+      "材质": "アクリル (3mm厚)",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2023/11/04 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年2月中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "商品名直接标注ハンジ",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "商品名直接标注ハンジ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkaea06a0001-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkaea06a0001-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2023-11-04",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 1650,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snkaea06a0001-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkagd06a0001",
+      "anique-snkafa06a0001",
+      "anique-snkagi03a0001",
+      "anique-snkaac03a0001",
+      "anique-snkaeb02a0001"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年2月中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "商品页未标注尺寸"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkaea06a0001-official",
+        "url": "https://shop.anique.jp/products/snkaea06a0001",
+        "title": "【2次受注】『進撃の巨人』ハンジ アクリルスタンド｜TVアニメ『進撃の巨人』TRICK OF FATE｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
+          "官方样品图与原图网址",
+          "版权标注"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkaeb02a0001",
+    "slug": "hange-ani-trick-commanders-dio",
+    "names": {
+      "zh": "韩吉 命运拨弄 统率者 彩窗场景亚克力立牌",
+      "ja": "【2次受注】『進撃の巨人』ジオラマアクリルステンド～統率者～",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe"
+    ],
+    "type": "亚克力",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "trick-of-fate",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-trick-commanders-dio.svg",
+        "alt": "韩吉 命运拨弄 统率者 彩窗场景亚克力立牌 官方样品图",
+        "sourceUrl": "https://shop.anique.jp/products/snkaeb02a0001",
+        "originalUrl": "https://shop.anique.jp/cdn/shop/products/acste_2_bf733b9c-1312-4811-9609-6e2d4c79922f.jpg?v=1694584215",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页样品图；权利归原权利方"
+      }
+    ],
+    "description": "韩吉 命运拨弄 统率者 彩窗场景亚克力立牌，日文商品名「【2次受注】『進撃の巨人』ジオラマアクリルステンド～統率者～」。AniqueShop（shop.anique.jp，页面标题作「アニメ漫画グッズならAniqueShop」）「TRICK OF FATE」系列商品。页面商品数据 tags 标注アルミン／エルヴィン／ハンジ／ヒストリア／リヴァ伊五人，官方样品图为五人并排的彩窗场景立牌。页面正文起首：TVアニメ『進撃の巨人』よりジオラマアクリルステンドが登場。 運命に翻弄されながら、屈することなく立ち向かい続けるキャラクターたち。售价 4,180 日元（页面「価格：販売価格 ¥…（税込）」；抓取时页面显示「売り切れ」）。页面标注【サイズ】商品页未标注尺寸、【素材】アクリル (3mm厚)、【パッケージ】クリアOPP＋外箱。销售期间至 2023/11/04 截止（页面原文「販売期間：…まで受付」），配送为「2024年2月中旬頃」的滚动窗口，故不填发售日。单件商品含 5 名角色绘柄，非韩吉单人差分款。页面版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品番号／SKU：SNKAEB02A0001。页面未标注発売元，制造商待核实。",
+    "specifications": {
+      "种类": "单件",
+      "销售形式": "单件销售",
+      "页面档位": "Default Title：4,180 円",
+      "商品番号": "SNKAEB02A0001",
+      "尺寸": "商品页未标注尺寸",
+      "材质": "アクリル (3mm厚)",
+      "制造商": "未注明（商品页无発売元字段）",
+      "销售期间": "販売期間：2023/11/04 23:59 まで受付",
+      "滚动发货标注": "页面原文「配送時期：2024年2月中旬頃」，为滚动发货窗口，不作为发售日记录",
+      "角色标注": "页面商品数据 tags 标注アルミン／エルヴィン／ハンジ／ヒストリア／リヴァ伊五人，官方样品图为五人并排的彩窗场景立牌",
+      "页面状态": "受注期间已结束，页面显示「売り切れ」（2026-10-15 核查）",
+      "价格说明": "AniqueShop 页面「販売価格」（税込）",
+      "收录依据": "页面商品数据 tags 标注アルミン／エルヴィン／ハンジ／ヒストリア／リヴァ伊五人，官方样品图为五人并排的彩窗场景立牌"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkaeb02a0001-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkaeb02a0001-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2023-11-04",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "单售",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "known",
+        "prices": [
+          {
+            "amount": 4180,
+            "currency": "JPY",
+            "taxStatus": "含税",
+            "unit": "单个",
+            "quantity": 1,
+            "sourceId": "anique-snkaeb02a0001-official"
+          }
+        ],
+        "condition": null,
+        "conditionSourceId": null
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkagd06a0001",
+      "anique-snkafa06a0001",
+      "anique-snkagi03a0001",
+      "anique-snkaac03a0001",
+      "anique-snkaea06a0001"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "发售日：页面仅给出滚动配送窗口「2024年2月中旬頃」，实际到货日待核实",
+      "商品页无発売元字段，制造商待核实",
+      "商品页未标注尺寸"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkaeb02a0001-official",
+        "url": "https://shop.anique.jp/products/snkaeb02a0001",
+        "title": "【2次受注】『進撃の巨人』ジオラマアクリルステンド～統率者～｜TVアニメ『進撃の巨人』TRICK OF FATE｜アニメ漫画グッズならAniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "页面销售价（税込）与全部档位",
+          "销售期间截止（页面「販売期間」）",
+          "滚动配送窗口（页面「配送時期」）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号／SKU",
+          "角色标注（页面商品数据 tags）",
+          "页面销售状态",
           "官方样品图与原图网址",
           "版权标注"
         ]

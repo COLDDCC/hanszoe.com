@@ -546,3 +546,30 @@
 **未做与下一步**：anique（shop.anique.jp）43 个含「ハンジ」的商品句柄里，详情页只取回 14 个 —— 该站对普通请求返回 429 `local_rate_limited`（18 字节体），后台重试循环仍在跑，没取回页面的商品一条都没建档。骑馬主题中 4 件（ハンジ ポストカード2枚セット／BIGアクリルスタンド／ダイカットステッカー／エルヴィン＆ハンジ 箔押しクリアフォトカードセット）与 amiami 已建档记录同名，届时按并源处理、系列归到既有 `kiba-2027`。hyappyo 页面仅 57 字节仍未打通；MegaHouse 主站检索仍是 JS；B-SIDE LABEL 第 1 弾／第 1.5 弾公告未扫。
 
 **提交状态**：本批已提交，推送待确认。
+
+
+## 2026-10-15 AniqueShop 回扫：30 条新建 + 4 条并源 + 7 个新系列
+
+**渠道与全集**：shop.anique.jp 是 Shopify 站，商品全集走 `/products.json?limit=250&page=N`，进巨相关 304 件，其中商品名／正文／tags 含「ハンジ」的句柄 43 个 = 38 个商品基号 + 5 个再贩页。上一批该站普通请求被 429 `local_rate_limited` 卡住，本批改为一页一停、带日本代理重试，43 个详情页全部取回并落盘（`lt/d/ani_<handle>.html`，均 20KB 以上，审计里逐条验过大小）。字段取自页内嵌的 `<script type="application/json" data-product-json>`。
+
+**取舍**：38 个商品里 30 件新建、4 件与 amiami 既有记录并源、4 件排除。排除的是騎馬主题里 4 件通用総柄商品（ミニトートバッグ 2,420／オリジナルポーチ 2,200／ワンピース 16,500／ブラウス 11,000）—— 商品本体无角色绘柄、只有一个 Default Title 档位、正文不点名角色，仅店铺 tags 挂了 4 个角色名，按站内「必须有明确角色指向」的口径不建；这条判断连同理由写进了 `kiba-2027` 系列描述，读者能看到为什么少了 4 件。
+
+**并源 4 条**：amiami 已建档的騎馬 4 件（异形贴纸 440／明信片 2 枚套装 440／烫金透明照片卡套装 1,100／BIG 亚克力立牌 3,850）加上 AniqueShop 第二来源。判定用了三条独立依据：两边官方绘像素级同款（都带 ANIQUE 水印与同一版权行）、含税价一致、商品形态与角色档位一致。并单只增不改 —— 原商品名、价格、slug、主图路径由审计逐条断言未变；同时回补了 amiami 页缺失的材质、尺寸、版权标注、角色 lineup、销售期间，并把 4 条主图的 credit 从「抓取时未在商品页捕获版权行」升级为页面原文版权行，对应的 `missingFields` 已清理。另排掉 3 件伪同款（amnibus arma bianca 1,100／pricafe 550 円 8 種／amnibus arma bianca 990），比对 maker＋价格＋系列后确认是不同商品。
+
+**记录口径**：30 条新建共 35 个发行批次（30 初版 + 5 再贩），价格 440–5,940 円全部含税，类型分布为亚克力 12／纸品 8／徽章 6／玩偶 2／生活用品 1／服饰 1。9 条盲抽按「一次发行、两个计价单位」记（单包 + 整盒），审计断言整盒价 = 单包价 × 入数。销售截止取页面「販売期間：2025/11/23 23:59まで受付」写成 `preorderEnd`（day 精度，范围 2023-11-04～2025-11-23）；「配送時期：…頃より順次配送予定」是滚动窗口，只进规格项，30 条 `releaseDate` 全为 null。`snkceb04a0i01` 页面有三次受注轮次（截止 2023-12-11／2023-12-31／2024-05-12），按最早可考的一次记初版，并在描述里写明最初一轮未取到页面。
+
+**系列**：新建 7 个 —— `kinokos-2024`（2 件）、`starry-sky-collection`（8 件）、`kyodai-taisen`（3 件）、`memory-collection`（2 件）、`final-1st-anniversary`（1 件）、`valentine-white-day-2022`（3 件）、`trick-of-fate`（6 件）；`kiba-2027` 由 amiami 4 件 + anique 5 件 = 9 件，描述改写为两渠道共同构成。归属依据是页面 `vendor` 字段与正文系列名：統率者彩窗立牌按 vendor 归 TRICK OF FATE，第 14 卷封面 T 恤归巨人大戦、第 14 卷场景立牌归 Memory Collection。8 个系列描述里的「站内收录 N 件」全部按实际成员数同步过。
+
+**图片**：30 张官方样品图，`originalUrl` 全部取自页面 product-json 里的 CDN 地址（`shop.anique.jp/cdn/shop/...`），没有一条是拼出来的。目视核对做了三张表：`lt/ani_sheet_1/2.png`（騎馬与全批逐行看绘柄）、`lt/ani_main_1/2.png`（30 条主图各一张）、`lt/cmp/sheet.png`（4 组 amiami↔anique 并排比像素），确认每张都是韩吉而不是同系列其他角色。
+
+**校验**：`npm run validate` 通过（1,074 商品／281 系列／8 文章／12 条作者补充／7 示例），`npm test` 20/20，`npm run build` 1,371 页（1,334→1,371 = 商品 +30、系列 +7）。自建审计 `lt_ani_audit.mjs` 七组断言全绿，且刻意不信任中间 JSON、重新解析原始 HTML：商品名与 `data-product-json` 的 title 对拍（全角空格归一；再贩批次允许页面多带【再販】／2次受注前缀）、每个价格既要能在页面档位里找到（页面单位是分，÷100 后比对）又要在正文里出现 `¥` 文本、页面全部档位价都要被覆盖、販売期間／売り切れ／尺寸／材质／商品番号逐条回原文、盲抽整盒价与入数、初版唯一与来源 ID 唯一、`releaseDate` 全空、图片来源域名与版权行、并单四条非破坏性、系列声明件数与实际成员一致、互链与 `seriesId` 指向存在的记录、4 件排除商品确未入库。
+
+**审计自己踩的坑（都是误报，改的是审计不是库）**：① `new Set(ids).length` 恒为 `undefined`，「来源 ID 唯一」这条形同虚设 —— 与上一批同一类错误第二次犯，已改 `.size`；② 页面 `variants[].price` 以分保存，直接当円比会全线误报；③「商品番号：SNKA02KI06A01」在页面里位于 meta 与内嵌 JSON 中，剥标签后的正文取不到，改为「正文或档位 SKU 命中其一即可」；④ Shopify 把该属性写成 `data-product-json=""`，正则要放宽为 `data-product-json[^>]*>`。**审计查出的真缺陷只有 1 个**：5 条记录的商品番号值写成「SKU SNKA…」，而字段名本身已是「商品番号」，页面渲染出来读成「商品番号／SKU：SKU …」重复；连同另外 25 条的「商品番号：」前缀一起清洗为纯代码（共 30 条），清洗前逐条回原始 HTML 验过代码确在页内。
+
+**浏览器抽查**：Edge 实机，7 条商品页 + 8 个系列页。首屏判定把推荐位里未进入视口的懒加载图误报成坏图，整页滚过一遍后复测为 0 坏图；0 横向溢出、0 控制台报错、状态码全 200。渲染文本核对：盲抽页显示「JP¥990 / 单包（含税 · 1件）；JP¥5,940 / 整盒（含税 · 6件）」，并单页同时给出 amiami 与 AniqueShop 两个购买位，8 个系列页卡片数与「收录 N 件」文案逐一对上。
+
+**留证文件**：`Temp/an/nx/lt/`（`d/` 43 个详情页 HTML、`anique_all.json` 304 件进巨全集、`anique_hange.json`／`anique_sel.json` 43 件韩吉句柄、`anique_plan.json` 38 件取舍、`anique_details.json` 字段表、`ani_table.txt` 逐条工作表、`aimg/` 官方图 + `ani_img_manifest.json`、`ani_sheet_1/2.png`、`ani_main_1/2.png`、`cmp/sheet.png`、`br_*.png`、`brs_*.png`、`br_report.json`）；脚本 `nx/lt_ani_html.mjs`、`lt_ani_img.mjs`、`lt_ani_sheet2.mjs`、`lt_ani_cmp_sheet.mjs`、`lt_ani_mainsheet.mjs`、`lt_ani_build.mjs`、`lt_ani_audit.mjs`、`lt_ani_fixsku.mjs`、`lt_ani_fixsku2.mjs`、`lt_ani_browser.mjs`、`lt_ani_lazy.mjs`、`lt_ani_series.mjs`。写入前基线备份 `src/data/products.json.bak-2026-10-15T06-40-anique`、`series.json.bak-` 同批时间戳（不入库）。sha256 双检照旧：落库与两次清洗都在写盘前重算哈希，与读入时不一致就整批中止。
+
+**未做与下一步**：hyappyo 页面仍只有 57 字节未打通；MegaHouse 主站检索仍是纯 JS 接口；B-SIDE LABEL 第 1 弾／第 1.5 弾公告未扫；anique 站内不含「ハンジ」字样的其余 260 余件（多为四人同款盲抽与全员系列）尚未逐条回看绘柄。
+
+**提交状态**：本批已提交，推送待确认。
