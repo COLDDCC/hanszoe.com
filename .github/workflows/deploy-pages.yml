@@ -37,6 +37,7 @@ jobs:
         run: npm run build
         env:
           SITE_URL: https://hanszoe.com
+          PUBLIC_INDEXABLE: "true"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
