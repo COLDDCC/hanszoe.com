@@ -121286,5 +121286,896 @@
     "createdAt": "2026-10-15",
     "updatedAt": "2026-10-15",
     "isDemo": false
+  },
+  {
+    "id": "anique-snkcja03a0001",
+    "slug": "hange-ani-memorial-heart-badge",
+    "names": {
+      "zh": "韩吉 完结一周年纪念 心形徽章（5 款随机赠品）",
+      "ja": "【購入特典】『進撃の巨人』ハート型缶バッジ（全5種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "HANS ZOE",
+      "購入特典"
+    ],
+    "type": "徽章",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "final-1st-anniversary",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-memorial-heart-badge.svg",
+        "alt": "韩吉 完结一周年纪念 心形徽章（5 款随机赠品） 官方宣传图",
+        "sourceUrl": "https://shop.anique.jp/products/snkcja03a0001",
+        "originalUrl": "https://cdn.shopify.com/s/files/1/0233/6705/7488/files/shingeki_1year_heart_badge_banner_re_ffc06438-6aac-4cd5-a6c8-788fdd372b98.jpg?v=1699148338",
+        "credit": "©諫山創／講談社",
+        "usage": "官方商品页宣传图（含全套绘柄与获取条件），权利归原权利方"
+      }
+    ],
+    "description": "韩吉 完结一周年纪念 心形徽章（5 款随机赠品），日文商品名「【購入特典】『進撃の巨人』ハート型缶バッジ（全5種）」。AniqueShop（shop.anique.jp）「【購入特典】『進撃の巨人』ハート型缶バッジ（全5種）ランダム」／「【購入特典】『進撃の巨人』ハート型缶バッジ（全5種）セット」／「2次受注【購入特典】『進撃の巨人』ハート型缶バッジ（全5種）ランダム」／「2次受注【購入特典】『進撃の巨人』ハート型缶バッジ（全5種）セット」 页面商品。获取条件：页面正文「2200円(税込)以上で1点プレゼント」（ランダム页）／「11000円(税込)以上で1セットプレゼント」（セット页）：对象商品每满 2,200 日元（含税）赠随机 1 件，满 11,000 日元（含税）赠全套 5 件。页面 product_type 字段为「購入特典」，vendor 字段为「再販『進撃の巨人』完結1周年」，站内据此归入该轮次系列。页面标签为「Hidden recommendation, SEARCHANISE_IGNORE」，即店铺把赠品页从搜索与推荐位隐藏、也不挂在公开分类下，这正是本批此前按分类枚举漏收的原因。两个页面分别为随机 1 件与全套，档位价均为 0 円。赠品不单独定价，故站内不记售价。页面正文：2200円(税込)以上で1点プレゼント --- 【サイズ】L版 【素材】光沢紙 商品番号：SNKCJA03A0001。官方宣传图为 5 枚心形徽章的角色头像，其中一枚为戴眼镜、扎发的韩吉；页面正文未点名角色。特典対象期间：官方宣传图标注「購入特典 11月5日(日)―12月31日(日)」；ランダム页接口上架日为 2023-11-05（星期日），与该期间起点吻合，故记为 2023 年。2 次受注页（商品名前缀「2次受注」，接口上架日 2023-12-11）沿用同一张宣传图，图上期间仍为 11/5～12/31，故再贩批次不另填截止日。两类页面的 vendor 字段均写作「再販『進撃の巨人』完結1周年」，说明该特典依附于完结一周年商品的再贩活动；店铺当前在线的最早一页即此页，更早是否另有首发轮次站内无法证实。图内版权行「©諫山創／講談社」。商品页未标注発売元，制造商待核实。",
+    "specifications": {
+      "销售形式": "非单独销售；店铺为「ランダム 1 件」与「コンプリートセット」各建一个商品页",
+      "页面商品类型": "購入特典（取自页面 product_type 字段）",
+      "商品番号": "SNKCJA03A0001（ランダム）、SNKCJA04A0001（セット）",
+      "特典対象期間": "官方宣传图标注「購入特典 11月5日(日)―12月31日(日)」；ランダム页接口上架日为 2023-11-05（星期日），与该期间起点吻合，故记为 2023 年",
+      "绘柄名单": "官方宣传图为 5 枚心形徽章的角色头像，其中一枚为戴眼镜、扎发的韩吉；页面正文未点名角色",
+      "制造商": "未注明（商品页无発売元字段）",
+      "收录依据": "图内 5 枚徽章中有一枚为戴眼镜的韩吉头像",
+      "种类": "随机赠品（全 5 种，不能选择绘柄）",
+      "页面档位": "两个页面的接口 price 均为 0 円（赠品占位商品，available=false 不可加购）",
+      "尺寸": "页面正文标注「L版」，与徽章形态不符，待核实",
+      "材质": "页面正文标注「光沢紙」，与徽章形态不符，待核实"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkcja03a0001-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkcja03a0001-official",
+          "anique-snkcja04a0001-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2023-12-31",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "购买特典",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "notSoldSeparately",
+        "prices": [],
+        "condition": "页面正文「2200円(税込)以上で1点プレゼント」（ランダム页）／「11000円(税込)以上で1セットプレゼント」（セット页）：对象商品每满 2,200 日元（含税）赠随机 1 件，满 11,000 日元（含税）赠全套 5 件。",
+        "conditionSourceId": "anique-snkcja03a0001-official"
+      },
+      {
+        "releaseId": "anique-snkcja03a0001-re",
+        "kind": "再贩",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkcja03a0002-official",
+          "anique-snkcja04a0002-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": null,
+        "releaseDate": null,
+        "salesMethod": "购买特典",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "notSoldSeparately",
+        "prices": [],
+        "condition": "2 次受注页正文与初版一致：「2200円(税込)以上で1点プレゼント」／「11000円(税込)以上で1セットプレゼント」。",
+        "conditionSourceId": "anique-snkcja03a0002-official"
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkceb04a0i01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "赠品无单独售价，站内不记价格",
+      "商品页无発売元字段，制造商待核实",
+      "尺寸待核实",
+      "材质待核实",
+      "随机赠品，实际到手的绘柄待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkcja03a0001-official",
+        "url": "https://shop.anique.jp/products/snkcja03a0001",
+        "title": "【購入特典】『進撃の巨人』ハート型缶バッジ（全5種）ランダム｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "商品类型（页面 product_type 字段）",
+          "档位价格（页面接口 price 字段）",
+          "获取条件（页面正文或官方宣传图标注的满额门槛）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号",
+          "上架日（接口 published_at）",
+          "页面可售状态（接口 available）",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与特典対象期间"
+        ]
+      },
+      {
+        "id": "anique-snkcja04a0001-official",
+        "url": "https://shop.anique.jp/products/snkcja04a0001",
+        "title": "【購入特典】『進撃の巨人』ハート型缶バッジ（全5種）セット｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "商品类型（页面 product_type 字段）",
+          "档位价格（页面接口 price 字段）",
+          "获取条件（页面正文或官方宣传图标注的满额门槛）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号",
+          "上架日（接口 published_at）",
+          "页面可售状态（接口 available）",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与特典対象期间"
+        ]
+      },
+      {
+        "id": "anique-snkcja03a0002-official",
+        "url": "https://shop.anique.jp/products/snkcja03a0002",
+        "title": "2次受注【購入特典】『進撃の巨人』ハート型缶バッジ（全5種）ランダム｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "商品类型（页面 product_type 字段）",
+          "档位价格（页面接口 price 字段）",
+          "获取条件（页面正文或官方宣传图标注的满额门槛）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号",
+          "上架日（接口 published_at）",
+          "页面可售状态（接口 available）",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与特典対象期间"
+        ]
+      },
+      {
+        "id": "anique-snkcja04a0002-official",
+        "url": "https://shop.anique.jp/products/snkcja04a0002",
+        "title": "2次受注【購入特典】『進撃の巨人』ハート型缶バッジ（全5種）セット｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "商品类型（页面 product_type 字段）",
+          "档位价格（页面接口 price 字段）",
+          "获取条件（页面正文或官方宣传图标注的满额门槛）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号",
+          "上架日（接口 published_at）",
+          "页面可售状态（接口 available）",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与特典対象期间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka02ja01a01",
+    "slug": "hange-ani-starry-bonus-bromide",
+    "names": {
+      "zh": "韩吉 星空收藏 购入特典生写（6 款随机）",
+      "ja": "『進撃の巨人』購入特典ブロマイド（全6種）ランダム",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "HANS ZOE",
+      "購入特典"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "starry-sky-collection",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-starry-bonus-bromide.svg",
+        "alt": "韩吉 星空收藏 购入特典生写（6 款随机） 官方宣传图",
+        "sourceUrl": "https://shop.anique.jp/products/snka02ja01a01",
+        "originalUrl": "https://cdn.shopify.com/s/files/1/0233/6705/7488/products/shingeki_starry_banner_e2e026a2-6eba-4022-b706-7f302d72ab95.jpg?v=1707276887",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页宣传图（含全套绘柄与获取条件），权利归原权利方"
+      }
+    ],
+    "description": "韩吉 星空收藏 购入特典生写（6 款随机），日文商品名「『進撃の巨人』購入特典ブロマイド（全6種）ランダム」。AniqueShop（shop.anique.jp）「『進撃の巨人』購入特典ブロマイド（全6種）ランダム」／「【再販】『進撃の巨人』購入特典ブロマイド（全6種）ランダム」 页面商品。获取条件：页面正文「商品を3300円（税込）お買い上げごとに、ランダムで特典を1枚プレゼント」：每满 3,300 日元（含税）随机赠 1 张。页面 product_type 字段为「購入特典」，vendor 字段为「TVアニメ『進撃の巨人』Starry Sky Collection」，站内据此归入该轮次系列。页面标签为「Hidden recommendation, SEARCHANISE_IGNORE」，即店铺把赠品页从搜索与推荐位隐藏、也不挂在公开分类下，这正是本批此前按分类枚举漏收的原因。两个页面分别为随机 1 件与全套，档位价均为 0 円。赠品不单独定价，故站内不记售价。页面正文：商品を3300円（税込）お買い上げごとに、ランダムで特典を1枚プレゼント --- 【サイズ】L版 【素材】光沢紙 商品番号：SNKA02JA01A01。官方宣传图 6 张生写分别标注 Eren Yeager／Mikasa Ackerman／Armin Arlert／Levi／Erwin Smith／Hange Zoe，韩吉为星空主题新绘。特典対象期间：官方宣传图标注「対象期間 2/22(木)～3/24(日) 23:59」；页面上架日 2024-02-19，且同系列商品的销售截止为 2024-03-24，故记为 2024 年。再贩页图上期间为「8/21(水)～9/8(日)」，与 2024 年星期吻合。初版页正文的商品番号写作 SNKA02JA01A01，而该页接口 SKU 字段为 SNKA02JA01A02，两处不一致；再贩页的 SKU 又回到 SNKA02JA01A01。站内按正文「商品番号」记录。图内版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品页未标注発売元，制造商待核实。",
+    "specifications": {
+      "销售形式": "非单独销售",
+      "页面商品类型": "購入特典（取自页面 product_type 字段）",
+      "商品番号": "SNKA02JA01A01",
+      "特典対象期間": "官方宣传图标注「対象期間 2/22(木)～3/24(日) 23:59」；页面上架日 2024-02-19，且同系列商品的销售截止为 2024-03-24，故记为 2024 年。再贩页图上期间为「8/21(水)～9/8(日)」，与 2024 年星期吻合",
+      "绘柄名单": "官方宣传图 6 张生写分别标注 Eren Yeager／Mikasa Ackerman／Armin Arlert／Levi／Erwin Smith／Hange Zoe，韩吉为星空主题新绘",
+      "制造商": "未注明（商品页无発売元字段）",
+      "收录依据": "图内 6 张生写之一标注「Hange Zoe」，为星空主题新绘",
+      "种类": "随机赠品（全 6 种，不能选择绘柄）",
+      "页面档位": "接口 price 为 0 円",
+      "尺寸": "L版",
+      "材质": "光沢紙"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka02ja01a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02ja01a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-03-24",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "购买特典",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "notSoldSeparately",
+        "prices": [],
+        "condition": "页面正文「商品を3300円（税込）お買い上げごとに、ランダムで特典を1枚プレゼント」：每满 3,300 日元（含税）随机赠 1 张。",
+        "conditionSourceId": "anique-snka02ja01a01-official"
+      },
+      {
+        "releaseId": "anique-snka02ja01a01-re",
+        "kind": "再贩",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02ja01a01_resale-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-09-08",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "购买特典",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "notSoldSeparately",
+        "prices": [],
+        "condition": "再贩页正文同初版：「商品を3300円（税込）お買い上げごとに、ランダムで特典を1枚プレゼント」。",
+        "conditionSourceId": "anique-snka02ja01a01_resale-official"
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snka02ac01",
+      "anique-snka02ej01",
+      "anique-snka02ea06a01",
+      "anique-snka02aa06a01",
+      "anique-snka02fa06a01",
+      "anique-snka02gi03a01",
+      "anique-snka02gd06a01",
+      "anique-snka02be06a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "赠品无单独售价，站内不记价格",
+      "商品页无発売元字段，制造商待核实",
+      "随机赠品，实际到手的绘柄待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka02ja01a01-official",
+        "url": "https://shop.anique.jp/products/snka02ja01a01",
+        "title": "『進撃の巨人』購入特典ブロマイド（全6種）ランダム｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "商品类型（页面 product_type 字段）",
+          "档位价格（页面接口 price 字段）",
+          "获取条件（页面正文或官方宣传图标注的满额门槛）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号",
+          "上架日（接口 published_at）",
+          "页面可售状态（接口 available）",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与特典対象期间"
+        ]
+      },
+      {
+        "id": "anique-snka02ja01a01_resale-official",
+        "url": "https://shop.anique.jp/products/snka02ja01a01_resale",
+        "title": "【再販】『進撃の巨人』購入特典ブロマイド（全6種）ランダム｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "商品类型（页面 product_type 字段）",
+          "档位价格（页面接口 price 字段）",
+          "获取条件（页面正文或官方宣传图标注的满额门槛）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号",
+          "上架日（接口 published_at）",
+          "页面可售状态（接口 available）",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与特典対象期间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkcja05a01",
+    "slug": "hange-ani-initial-bromide",
+    "names": {
+      "zh": "韩吉 原作画首字母生写（AniqueShop 版，6 款随机）",
+      "ja": "【購入特典】『進撃の巨人』特典オリジナルブロマイド Aniqueショップver.（全6種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "HANS ZOE",
+      "購入特典"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "anique-bromide-initial",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-initial-bromide.svg",
+        "alt": "韩吉 原作画首字母生写（AniqueShop 版，6 款随机） 官方宣传图",
+        "sourceUrl": "https://shop.anique.jp/products/snkcja05a01",
+        "originalUrl": "https://cdn.shopify.com/s/files/1/0233/6705/7488/products/shigeki_knokni_tokuten_banner_240305_ef143216-faa8-4abb-b8ae-1e0c13953879.jpg?v=1710728324",
+        "credit": "©諫山創／講談社",
+        "usage": "官方商品页宣传图（含全套绘柄与获取条件），权利归原权利方"
+      }
+    ],
+    "description": "韩吉 原作画首字母生写（AniqueShop 版，6 款随机），日文商品名「【購入特典】『進撃の巨人』特典オリジナルブロマイド Aniqueショップver.（全6種）」。AniqueShop（shop.anique.jp）「【購入特典】『進撃の巨人』特典オリジナルブロマイド Aniqueショップver.（全6種）」 页面商品。获取条件：页面正文「商品を2200円（税込）お買い上げごとに、ランダムで特典を1枚プレゼント」：每满 2,200 日元（含税）随机赠 1 张。页面 product_type 字段为「購入特典」，vendor 字段为「再販『進撃の巨人』オリジナルグッズ」，站内据此归入该轮次系列。页面标签为「Hidden recommendation, SEARCHANISE_IGNORE」，即店铺把赠品页从搜索与推荐位隐藏、也不挂在公开分类下，这正是本批此前按分类枚举漏收的原因。接口档位价为 0 円（赠品占位商品）。赠品不单独定价，故站内不记售价。页面正文：商品を2200円（税込）お買い上げごとに、ランダムで特典を1枚プレゼント --- 【サイズ】L版 【素材】光沢紙 商品番号：SNKCJA05A01。图内 6 张生写以金色首字母区分：EY／AV／JK／IL／SE／HZ，HZ 一张为戴眼镜的韩吉原作漫画画风。特典対象期间：官方宣传图标注「ご購入対象期間 3/29(金)～5/12(日)」；页面上架日 2024-03-21，与 2024 年星期吻合，故记为 2024 年。卡片上印有「Attack on Titan 2009.09.09-2021.04.09」（漫画连载起讫日期），页面未把这串日期写进正文。图内版权行「©諫山創／講談社」。商品页未标注発売元，制造商待核实。",
+    "specifications": {
+      "销售形式": "非单独销售",
+      "页面商品类型": "購入特典（取自页面 product_type 字段）",
+      "商品番号": "SNKCJA05A01",
+      "特典対象期間": "官方宣传图标注「ご購入対象期間 3/29(金)～5/12(日)」；页面上架日 2024-03-21，与 2024 年星期吻合，故记为 2024 年",
+      "绘柄名单": "图内 6 张生写以金色首字母区分：EY／AV／JK／IL／SE／HZ，HZ 一张为戴眼镜的韩吉原作漫画画风",
+      "制造商": "未注明（商品页无発売元字段）",
+      "收录依据": "图内 6 张生写之一为首字母「HZ」的韩吉原作漫画画风肖像",
+      "种类": "随机赠品（全 6 种，不能选择绘柄）",
+      "页面档位": "接口 price 为 0 円，抓取时 available=true",
+      "尺寸": "L版",
+      "材质": "光沢紙"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkcja05a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkcja05a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-05-12",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "购买特典",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "notSoldSeparately",
+        "prices": [],
+        "condition": "页面正文「商品を2200円（税込）お買い上げごとに、ランダムで特典を1枚プレゼント」：每满 2,200 日元（含税）随机赠 1 张。",
+        "conditionSourceId": "anique-snkcja05a01-official"
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "赠品无单独售价，站内不记价格",
+      "商品页无発売元字段，制造商待核实",
+      "随机赠品，实际到手的绘柄待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkcja05a01-official",
+        "url": "https://shop.anique.jp/products/snkcja05a01",
+        "title": "【購入特典】『進撃の巨人』特典オリジナルブロマイド Aniqueショップver.（全6種）｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "商品类型（页面 product_type 字段）",
+          "档位价格（页面接口 price 字段）",
+          "获取条件（页面正文或官方宣传图标注的满额门槛）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号",
+          "上架日（接口 published_at）",
+          "页面可售状态（接口 available）",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与特典対象期间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkcja01a01",
+    "slug": "hange-ani-kyodai-taisen-bonus-bromide",
+    "names": {
+      "zh": "韩吉 巨人大战 购入特典生写（6 款随机）",
+      "ja": "【購入特典】『進撃の巨人』購入特典ブロマイド（全6種）ランダム",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "HANS ZOE",
+      "購入特典"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "kyodai-taisen",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-kyodai-taisen-bonus-bromide.svg",
+        "alt": "韩吉 巨人大战 购入特典生写（6 款随机） 官方宣传图",
+        "sourceUrl": "https://shop.anique.jp/products/snkcja01a01",
+        "originalUrl": "https://cdn.shopify.com/s/files/1/0233/6705/7488/files/shigeki_kyojintaisen_tokuten_banner_2403071.jpg?v=1711682562",
+        "credit": "©諫山創／講談社",
+        "usage": "官方商品页宣传图（含全套绘柄与获取条件），权利归原权利方"
+      }
+    ],
+    "description": "韩吉 巨人大战 购入特典生写（6 款随机），日文商品名「【購入特典】『進撃の巨人』購入特典ブロマイド（全6種）ランダム」。AniqueShop（shop.anique.jp）「【購入特典】『進撃の巨人』購入特典ブロマイド（全6種）ランダム」 页面商品。获取条件：页面正文「3300円以上(税込)で1点プレゼント」：满 3,300 日元（含税）赠随机 1 件。页面 product_type 字段为「購入特典」，vendor 字段为「『進撃の巨人』 巨人大戦」，站内据此归入该轮次系列。页面标签为「Hidden recommendation, SEARCHANISE_IGNORE」，即店铺把赠品页从搜索与推荐位隐藏、也不挂在公开分类下，这正是本批此前按分类枚举漏收的原因。接口档位价为 0 円（赠品占位商品）。赠品不单独定价，故站内不记售价。页面正文：3300円以上(税込)で1点プレゼント --- 【サイズ】L版 【素材】光沢紙 商品番号：SNKCJA01A01。图内 6 张生写为漫画原画配几何金线，含艾伦、阿尔敏、米卡莎、埃尔文、利威尔与戴眼镜的韩吉；宣传图正文写「《巨人大戦》シリーズのご購入」。特典対象期间：官方宣传图标注「対象期間 4/4(木)～5/19(日)」，与巨人大戦系列商品页的销售截止 2024-05-19 一致，故记为 2024 年。图内版权行「©諫山創／講談社」。商品页未标注発売元，制造商待核实。",
+    "specifications": {
+      "销售形式": "非单独销售",
+      "页面商品类型": "購入特典（取自页面 product_type 字段）",
+      "商品番号": "SNKCJA01A01",
+      "特典対象期間": "官方宣传图标注「対象期間 4/4(木)～5/19(日)」，与巨人大戦系列商品页的销售截止 2024-05-19 一致，故记为 2024 年",
+      "绘柄名单": "图内 6 张生写为漫画原画配几何金线，含艾伦、阿尔敏、米卡莎、埃尔文、利威尔与戴眼镜的韩吉；宣传图正文写「《巨人大戦》シリーズのご購入」",
+      "制造商": "未注明（商品页无発売元字段）",
+      "收录依据": "图内 6 张原画风生写之一为戴眼镜的韩吉",
+      "种类": "随机赠品（全 6 种，不能选择绘柄）",
+      "页面档位": "接口 price 为 0 円，抓取时 available=false",
+      "尺寸": "L版",
+      "材质": "光沢紙"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkcja01a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkcja01a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-05-19",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "购买特典",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "notSoldSeparately",
+        "prices": [],
+        "condition": "页面正文「3300円以上(税込)で1点プレゼント」：满 3,300 日元（含税）赠随机 1 件。",
+        "conditionSourceId": "anique-snkcja01a01-official"
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkcei08a01",
+      "anique-snkcac10a01",
+      "anique-snkcba02a01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "赠品无单独售价，站内不记价格",
+      "商品页无発売元字段，制造商待核实",
+      "随机赠品，实际到手的绘柄待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkcja01a01-official",
+        "url": "https://shop.anique.jp/products/snkcja01a01",
+        "title": "【購入特典】『進撃の巨人』購入特典ブロマイド（全6種）ランダム｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "商品类型（页面 product_type 字段）",
+          "档位价格（页面接口 price 字段）",
+          "获取条件（页面正文或官方宣传图标注的满额门槛）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号",
+          "上架日（接口 published_at）",
+          "页面可售状态（接口 available）",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与特典対象期间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka02ja02a01",
+    "slug": "hange-ani-tv-art-bonus-bromide",
+    "names": {
+      "zh": "韩吉 TV 动画绘柄购入特典生写（6 款随机）",
+      "ja": "【購入特典】『進撃の巨人』オリジナルブロマイド（全6種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "HANS ZOE",
+      "購入特典"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "anique-bromide-tv",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-tv-art-bonus-bromide.svg",
+        "alt": "韩吉 TV 动画绘柄购入特典生写（6 款随机） 官方宣传图",
+        "sourceUrl": "https://shop.anique.jp/products/snka02ja02a01",
+        "originalUrl": "https://cdn.shopify.com/s/files/1/0233/6705/7488/files/shingeki_kinokos_tokuten_banner_240605_6679d8da-170a-427d-a686-e8ee0f5496b7.jpg?v=1718589238",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页宣传图（含全套绘柄与获取条件），权利归原权利方"
+      }
+    ],
+    "description": "韩吉 TV 动画绘柄购入特典生写（6 款随机），日文商品名「【購入特典】『進撃の巨人』オリジナルブロマイド（全6種）」。AniqueShop（shop.anique.jp）「【購入特典】『進撃の巨人』オリジナルブロマイド（全6種）」 页面商品。获取条件：官方宣传图标注「対象商品をご購入 ¥3,300（税込）ごとに ランダム1点 プレゼント」：对象商品每满 3,300 日元（含税）随机赠 1 张；页面正文未重复该条件。页面 product_type 字段为「購入特典」，vendor 字段为「TVアニメ『進撃の巨人』KINOKOS」，站内据此归入该轮次系列。页面标签为「Hidden recommendation, SEARCHANISE_IGNORE」，即店铺把赠品页从搜索与推荐位隐藏、也不挂在公开分类下，这正是本批此前按分类枚举漏收的原因。接口档位价为 0 円（赠品占位商品）。赠品不单独定价，故站内不记售价。页面正文：--- 商品番号：SNKA02JA02A01。图内 6 张生写为动画风的立体机动姿势绘，含艾伦、米卡莎、阿尔敏、利威尔、埃尔文与戴眼镜的韩吉。特典対象期间：官方宣传图标注「ご購入対象期間 7/10(水)－8/18(日)」，与 KINOKOS 轮次的销售截止 2024-08-18 一致，故记为 2024 年。该页 vendor 字段写作「TVアニメ『進撃の巨人』KINOKOS」，说明它挂在 KINOKOS 轮次的购买活动下，但生写绘柄并非 KINOKOS 造型，故单列系列而不并入 KINOKOS。图内版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品页未标注発売元，制造商待核实。",
+    "specifications": {
+      "销售形式": "非单独销售",
+      "页面商品类型": "購入特典（取自页面 product_type 字段）",
+      "商品番号": "SNKA02JA02A01",
+      "特典対象期間": "官方宣传图标注「ご購入対象期間 7/10(水)－8/18(日)」，与 KINOKOS 轮次的销售截止 2024-08-18 一致，故记为 2024 年",
+      "绘柄名单": "图内 6 张生写为动画风的立体机动姿势绘，含艾伦、米卡莎、阿尔敏、利威尔、埃尔文与戴眼镜的韩吉",
+      "制造商": "未注明（商品页无発売元字段）",
+      "收录依据": "图内 6 张立体机动生写之一为戴眼镜、扎发的韩吉",
+      "种类": "随机赠品（全 6 种，不能选择绘柄）",
+      "页面档位": "接口 price 为 0 円，抓取时 available=true",
+      "尺寸": "页面正文未标注",
+      "材质": "页面正文未标注"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka02ja02a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka02ja02a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2024-08-18",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "购买特典",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "notSoldSeparately",
+        "prices": [],
+        "condition": "官方宣传图标注「対象商品をご購入 ¥3,300（税込）ごとに ランダム1点 プレゼント」：对象商品每满 3,300 日元（含税）随机赠 1 张；页面正文未重复该条件。",
+        "conditionSourceId": "anique-snka02ja02a01-official"
+      }
+    ],
+    "relatedProductIds": [],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "赠品无单独售价，站内不记价格",
+      "商品页无発売元字段，制造商待核实",
+      "尺寸待核实",
+      "材质待核实",
+      "随机赠品，实际到手的绘柄待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka02ja02a01-official",
+        "url": "https://shop.anique.jp/products/snka02ja02a01",
+        "title": "【購入特典】『進撃の巨人』オリジナルブロマイド（全6種）｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "商品类型（页面 product_type 字段）",
+          "档位价格（页面接口 price 字段）",
+          "获取条件（页面正文或官方宣传图标注的满额门槛）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号",
+          "上架日（接口 published_at）",
+          "页面可售状态（接口 available）",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与特典対象期间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snka04ja01a01",
+    "slug": "hange-ani-kiba-bonus-bromide",
+    "names": {
+      "zh": "韩吉 骑马 ver. 购入特典生写（8 款随机）",
+      "ja": "『進撃の巨人』購入特典オリジナルブロマイド（全8種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "HANS ZOE",
+      "購入特典"
+    ],
+    "type": "纸品",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "kiba-2027",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-kiba-bonus-bromide.svg",
+        "alt": "韩吉 骑马 ver. 购入特典生写（8 款随机） 官方宣传图",
+        "sourceUrl": "https://shop.anique.jp/products/snka04ja01a01",
+        "originalUrl": "https://cdn.shopify.com/s/files/1/0233/6705/7488/files/AoT_kiba_tokuten_banner_0918_1da33e65-bde6-4b3b-aa32-88868f8df2a0.jpg?v=1760083361",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season製作委員会",
+        "usage": "官方商品页宣传图（含全套绘柄与获取条件），权利归原权利方"
+      }
+    ],
+    "description": "韩吉 骑马 ver. 购入特典生写（8 款随机），日文商品名「『進撃の巨人』購入特典オリジナルブロマイド（全8種）」。AniqueShop（shop.anique.jp）「『進撃の巨人』購入特典オリジナルブロマイド（全8種）」 页面商品。获取条件：官方宣传图标注「対象商品をご購入 ¥3,300（税込）ごとに ランダム1枚 プレゼント」：对象商品每满 3,300 日元（含税）随机赠 1 张；页面正文未重复该条件。页面 product_type 字段为「購入特典」，vendor 字段为「TVアニメ『進撃の巨人』騎馬」，站内据此归入该轮次系列。页面标签为「Hidden recommendation, SEARCHANISE_IGNORE」，即店铺把赠品页从搜索与推荐位隐藏、也不挂在公开分类下，这正是本批此前按分类枚举漏收的原因。接口档位价为 0 円（赠品占位商品）。赠品不单独定价，故站内不记售价。页面正文：商品番号：SNKA04JA01A01。图内 8 张生写为 4 名角色 × 2 种画风：写实头像与 Q 版骑马造型，Q 版卡面直接印着 EREN／LEVI／ERWIN／HANGI 四个名字，韩吉为其中一列。特典対象期间：官方宣传图标注「ご購入対象期間 10.23 THU ≫ 11.23 SUN」，与骑马系列商品页的销售截止 2025/11/23 一致，故记为 2025 年。图内版权行「©諫山創・講談社／「進撃の巨人」The Final Season製作委員会」。商品页未标注発売元，制造商待核实。",
+    "specifications": {
+      "销售形式": "非单独销售",
+      "页面商品类型": "購入特典（取自页面 product_type 字段）",
+      "商品番号": "SNKA04JA01A01",
+      "特典対象期間": "官方宣传图标注「ご購入対象期間 10.23 THU ≫ 11.23 SUN」，与骑马系列商品页的销售截止 2025/11/23 一致，故记为 2025 年",
+      "绘柄名单": "图内 8 张生写为 4 名角色 × 2 种画风：写实头像与 Q 版骑马造型，Q 版卡面直接印着 EREN／LEVI／ERWIN／HANGI 四个名字，韩吉为其中一列",
+      "制造商": "未注明（商品页无発売元字段）",
+      "收录依据": "图内 Q 版骑马生写卡面直接印着「HANGI」",
+      "种类": "随机赠品（全 8 种，不能选择绘柄）",
+      "页面档位": "接口 price 为 0 円，抓取时 available=false",
+      "尺寸": "页面正文未标注",
+      "材质": "页面正文未标注"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snka04ja01a01-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snka04ja01a01-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2025-11-23",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "购买特典",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "notSoldSeparately",
+        "prices": [],
+        "condition": "官方宣传图标注「対象商品をご購入 ¥3,300（税込）ごとに ランダム1枚 プレゼント」：对象商品每满 3,300 日元（含税）随机赠 1 张；页面正文未重复该条件。",
+        "conditionSourceId": "anique-snka04ja01a01-official"
+      }
+    ],
+    "relatedProductIds": [
+      "amiami-GOODS-04871759",
+      "amiami-GOODS-04871763",
+      "amiami-GOODS-04871756",
+      "amiami-GOODS-04871767",
+      "anique-snka04eb01a01",
+      "anique-snka04ea01",
+      "anique-snka04aa01",
+      "anique-snka04ac02",
+      "anique-snka04ac01"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "赠品无单独售价，站内不记价格",
+      "商品页无発売元字段，制造商待核实",
+      "尺寸待核实",
+      "材质待核实",
+      "随机赠品，实际到手的绘柄待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snka04ja01a01-official",
+        "url": "https://shop.anique.jp/products/snka04ja01a01",
+        "title": "『進撃の巨人』購入特典オリジナルブロマイド（全8種）｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "商品类型（页面 product_type 字段）",
+          "档位价格（页面接口 price 字段）",
+          "获取条件（页面正文或官方宣传图标注的满额门槛）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号",
+          "上架日（接口 published_at）",
+          "页面可售状态（接口 available）",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与特典対象期间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
+  },
+  {
+    "id": "anique-snkaja01a0001",
+    "slug": "hange-ani-trick-bonus-badge",
+    "names": {
+      "zh": "韩吉 命运拨弄 购入特典徽章（8 款随机）",
+      "ja": "【購入特典】缶バッジ（全8種）",
+      "en": ""
+    },
+    "aliases": [
+      "韩吉",
+      "ハンジ",
+      "ハンジ・ゾエ",
+      "Hange Zoe",
+      "HANS ZOE",
+      "購入特典"
+    ],
+    "type": "徽章",
+    "manufacturer": "未注明",
+    "publisher": "AniqueShop（shop.anique.jp）",
+    "seriesId": "trick-of-fate",
+    "region": "日本",
+    "images": [
+      {
+        "path": "/images/products/hange-ani-trick-bonus-badge.svg",
+        "alt": "韩吉 命运拨弄 购入特典徽章（8 款随机） 官方宣传图",
+        "sourceUrl": "https://shop.anique.jp/products/snkaja01a0001",
+        "originalUrl": "https://cdn.shopify.com/s/files/1/0233/6705/7488/files/aot_tarot_banner_0907-01.jpg?v=1695172836",
+        "credit": "©諫山創・講談社／「進撃の巨人」The Final Season 製作委員会",
+        "usage": "官方商品页宣传图（含全套绘柄与获取条件），权利归原权利方"
+      }
+    ],
+    "description": "韩吉 命运拨弄 购入特典徽章（8 款随机），日文商品名「【購入特典】缶バッジ（全8種）」。AniqueShop（shop.anique.jp）「【購入特典】缶バッジ（全8種）ランダム」／「【購入特典】缶バッジ（全8種）コンプリートセット」 页面商品。获取条件：页面正文「3300円（税込）お買い上げごとにランダムで缶バッジ（全8種）を1点プレゼント」／セット页「16500円（税込）ごとに全8種コンプリートセットを1セットプレゼント」：每满 3,300 日元（含税）赠随机 1 枚，满 16,500 日元（含税）赠全套 8 枚。页面 product_type 字段为「購入特典」，vendor 字段为「TVアニメ『進撃の巨人』TRICK OF FATE」，站内据此归入该轮次系列。页面标签为「Hidden recommendation, SEARCHANISE_IGNORE」，即店铺把赠品页从搜索与推荐位隐藏、也不挂在公开分类下，这正是本批此前按分类枚举漏收的原因。两个页面分别为随机 1 件与全套，档位价均为 0 円。赠品不单独定价，故站内不记售价。页面正文：3300円（税込）お買い上げごとにランダムで缶バッジ（全8種）を1点プレゼント --- 【サイズ】(約)直径5.6cm 【素材】ブリキ --- 商品番号：SNKAJA01A0001。图内 8 枚徽章逐枚印着角色名：EREN YEAGER／MIKASA ACKERMAN／ARMIN ARLEERT／HISTORIA REISS／LEVI／ERWIN SMITH／JEAN KIRSTEIN／HANS ZOE。特典対象期间：官方宣传图标注「対象期間 9/14(木)～10/22(日)」；2023-09-14 为星期四、2023-10-22 为星期日，且该页面上架日为 2023-11-10，故记为 2023 年。两个页面标题都不含「進撃の巨人」字样，作品归属取自页面 vendor 字段「TVアニメ『進撃の巨人』TRICK OF FATE」与图内版权行。图内版权行「©諫山創・講談社／「進撃の巨人」The Final Season 製作委員会」。商品页未标注発売元，制造商待核实。",
+    "specifications": {
+      "销售形式": "非单独销售；店铺为「ランダム」与「コンプリートセット」各建一个商品页",
+      "页面商品类型": "購入特典（取自页面 product_type 字段）",
+      "商品番号": "SNKAJA01A0001（ランダム）、SNKAJA02A0001（コンプリートセット）",
+      "特典対象期間": "官方宣传图标注「対象期間 9/14(木)～10/22(日)」；2023-09-14 为星期四、2023-10-22 为星期日，且该页面上架日为 2023-11-10，故记为 2023 年",
+      "绘柄名单": "图内 8 枚徽章逐枚印着角色名：EREN YEAGER／MIKASA ACKERMAN／ARMIN ARLEERT／HISTORIA REISS／LEVI／ERWIN SMITH／JEAN KIRSTEIN／HANS ZOE",
+      "制造商": "未注明（商品页无発売元字段）",
+      "收录依据": "图内 8 枚徽章之一直接印着「HANS ZOE」",
+      "种类": "随机赠品（全 8 种，不能选择绘柄）",
+      "页面档位": "两个页面的接口 price 均为 0 円，抓取时 available=false",
+      "尺寸": "(約)直径5.6cm",
+      "材质": "ブリキ"
+    },
+    "releases": [
+      {
+        "releaseId": "anique-snkaja01a0001-first",
+        "kind": "初版",
+        "region": "日本",
+        "sourceIds": [
+          "anique-snkaja01a0001-official",
+          "anique-snkaja02a0001-official"
+        ],
+        "announcement": null,
+        "preorderStart": null,
+        "preorderEnd": {
+          "value": "2023-10-22",
+          "precision": "day"
+        },
+        "releaseDate": null,
+        "salesMethod": "购买特典",
+        "limitedScope": null,
+        "limitedSourceId": null,
+        "priceStatus": "notSoldSeparately",
+        "prices": [],
+        "condition": "页面正文「3300円（税込）お買い上げごとにランダムで缶バッジ（全8種）を1点プレゼント」／セット页「16500円（税込）ごとに全8種コンプリートセットを1セットプレゼント」：每满 3,300 日元（含税）赠随机 1 枚，满 16,500 日元（含税）赠全套 8 枚。",
+        "conditionSourceId": "anique-snkaja01a0001-official"
+      }
+    ],
+    "relatedProductIds": [
+      "anique-snkagd06a0001",
+      "anique-snkafa06a0001",
+      "anique-snkagi03a0001",
+      "anique-snkaac03a0001",
+      "anique-snkaea06a0001",
+      "anique-snkaeb02a0001"
+    ],
+    "evidenceStatus": "partial",
+    "missingFields": [
+      "限定范围未注明",
+      "赠品无单独售价，站内不记价格",
+      "商品页无発売元字段，制造商待核实",
+      "随机赠品，实际到手的绘柄待核实"
+    ],
+    "sources": [
+      {
+        "id": "anique-snkaja01a0001-official",
+        "url": "https://shop.anique.jp/products/snkaja01a0001",
+        "title": "【購入特典】缶バッジ（全8種）ランダム｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "商品类型（页面 product_type 字段）",
+          "档位价格（页面接口 price 字段）",
+          "获取条件（页面正文或官方宣传图标注的满额门槛）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号",
+          "上架日（接口 published_at）",
+          "页面可售状态（接口 available）",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与特典対象期间"
+        ]
+      },
+      {
+        "id": "anique-snkaja02a0001-official",
+        "url": "https://shop.anique.jp/products/snkaja02a0001",
+        "title": "【購入特典】缶バッジ（全8種）コンプリートセット｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "商品类型（页面 product_type 字段）",
+          "档位价格（页面接口 price 字段）",
+          "获取条件（页面正文或官方宣传图标注的满额门槛）",
+          "尺寸与材质（页面【サイズ】【素材】项）",
+          "商品番号",
+          "上架日（接口 published_at）",
+          "页面可售状态（接口 available）",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与特典対象期间"
+        ]
+      }
+    ],
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "isDemo": false
   }
 ]

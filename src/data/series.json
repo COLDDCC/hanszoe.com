@@ -15888,7 +15888,7 @@
     "slug": "kiba-2027",
     "name": "骑马 ver.（騎馬）",
     "aliases": [],
-    "description": "骑马 ver.（騎馬）：以「騎馬」为主题的新规描き下ろし插画周边，最早由 amiami 以「進撃の巨人 騎馬」命名建档，2026-10-15 回扫后确认 AniqueShop 官方商城同售该系列，故本系列由两渠道记录共同构成，站内收录韩吉相关 9 件。角色差分款档位为エレン／リヴァイ／エルヴィン／ハンジ 四人，Q版（Art by ヒョーゴノスケ）与箔押し徽章为随机盲抽，名单含ハンジ。两渠道均未标注発売元；发货标注为滚动窗口，故不填发售日。AniqueShop 该系列另有迷你托特包、收纳包、连衣裙、衬衫 4 件通用商品，页面为纯纹样总柄、不含角色绘柄，故未收录。",
+    "description": "骑马 ver.（騎馬）：以「騎馬」为主题的新规描き下ろし插画周边，最早由 amiami 以「進撃の巨人 騎馬」命名建档，2026-10-15 回扫后确认 AniqueShop 官方商城同售该系列，故本系列由两渠道记录共同构成，站内收录韩吉相关 10 件（含该轮次的购入特典生写 1 件，全 8 种随机，为 4 名角色 × 2 种画风，Q 版卡面直接印着 EREN／LEVI／ERWIN／HANGI）。角色差分款档位为エレン／リヴァイ／エルヴィン／ハンジ 四人，Q版（Art by ヒョーゴノスケ）与箔押し徽章为随机盲抽，名单含ハンジ。两渠道均未标注発売元；发货标注为滚动窗口，故不填发售日。AniqueShop 该系列另有迷你托特包、收纳包、连衣裙、衬衫 4 件通用商品，页面为纯纹样总柄、不含角色绘柄，故未收录。",
     "region": "日本",
     "type": "主题新绘周边系列",
     "sources": [
@@ -16030,6 +16030,18 @@
           "SKU",
           "官方样品图与原图网址",
           "版权标注"
+        ]
+      },
+      {
+        "id": "anique-snka04ja01a01-official-series",
+        "url": "https://shop.anique.jp/products/snka04ja01a01",
+        "title": "『進撃の巨人』購入特典オリジナルブロマイド（全8種）｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "系列归属（页面 vendor 字段与正文系列名）",
+          "特典获取条件",
+          "图内角色绘柄"
         ]
       }
     ],
@@ -18495,7 +18507,7 @@
       "スターリースカイ"
     ],
     "type": "主题新绘周边系列",
-    "description": "AniqueShop「Starry Sky Collection」：以星空为主题的调查兵团新绘周边，正文写作「仲間たちの遺志を受け継ぐ調査兵団の絆と、自由への願いを星々に込めた」。站内收录 8 件（含韩吉单人款与全 6 种盲抽款）；盲抽款的六人名单为艾伦／米卡莎／阿尔敏／利威尔／埃尔文／韩吉。系列另有闪粉徽章的 2024 年再贩批次。页面未标注厂商与确定发售日。",
+    "description": "AniqueShop「Starry Sky Collection」：以星空为主题的调查兵团新绘周边，正文写作「仲間たちの遺志を受け継ぐ調査兵団の絆と、自由への願いを星々に込めた」。站内收录 9 件（含韩吉单人款与全 6 种盲抽款 8 件），另有该轮次的购入特典生写 1 件（全 6 种随机，卡面标注 Hange Zoe，站内同时记有该特典的 2024 年 8～9 月再贩页）；盲抽款的六人名单为艾伦／米卡莎／阿尔敏／利威尔／埃尔文／韩吉。系列另有闪粉徽章的 2024 年再贩批次。页面未标注厂商与确定发售日。",
     "region": "日本",
     "sources": [
       {
@@ -18545,6 +18557,18 @@
           "销售期间与配送窗口",
           "版权标注"
         ]
+      },
+      {
+        "id": "anique-snka02ja01a01-official-series",
+        "url": "https://shop.anique.jp/products/snka02ja01a01",
+        "title": "『進撃の巨人』購入特典ブロマイド（全6種）ランダム｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "系列归属（页面 vendor 字段与正文系列名）",
+          "特典获取条件",
+          "图内角色绘柄"
+        ]
       }
     ],
     "updatedAt": "2026-10-15",
@@ -18559,7 +18583,7 @@
       "巨人大戦"
     ],
     "type": "漫画原画周边系列",
-    "description": "AniqueShop 漫画原画周边【巨人大戦】系列，正文写作「九つの巨人シリーズの初版グッズにオリジナルアレンジを加え」。站内收录 3 件：韩吉单人亚克力组合件、利威尔＆韩吉全息徽章 2 个套装、第 14 卷封面 T 恤。页面未标注厂商与确定发售日。",
+    "description": "AniqueShop 漫画原画周边【巨人大戦】系列，正文写作「九つの巨人シリーズの初版グッズにオリジナルアレンジを加え」。站内收录 4 件：韩吉单人亚克力组合件、利威尔＆韩吉全息徽章 2 个套装、第 14 卷封面 T 恤，另有该轮次的购入特典生写 1 件（全 6 种随机，漫画原画配金线，含韩吉）。页面未标注厂商与确定发售日。",
     "region": "日本",
     "sources": [
       {
@@ -18608,6 +18632,18 @@
           "尺寸与材质",
           "销售期间与配送窗口",
           "版权标注"
+        ]
+      },
+      {
+        "id": "anique-snkcja01a01-official-series",
+        "url": "https://shop.anique.jp/products/snkcja01a01",
+        "title": "【購入特典】『進撃の巨人』購入特典ブロマイド（全6種）ランダム｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "系列归属（页面 vendor 字段与正文系列名）",
+          "特典获取条件",
+          "图内角色绘柄"
         ]
       }
     ],
@@ -18671,7 +18707,7 @@
       "完結1周年"
     ],
     "type": "纪念场景周边",
-    "description": "AniqueShop 漫画完结一周年纪念的场景亚克力立牌。站内收录 1 件（利威尔＆韩吉“誓いと約束”双人场景款）。该品在 AniqueShop 先后开放三次受注（页面商品名前缀【再販】【2次受注】），站内以最早可考的一次为初版记录。页面未标注厂商与确定发售日。",
+    "description": "AniqueShop 漫画完结一周年纪念（页面 vendor 与图内「1 Year Anniversary」字样）周边。站内收录 2 件：利威尔＆韩吉“誓いと約束”双人场景亚克力立牌，以及该纪念活动的购入特典心形徽章（全 5 种随机，图内含戴眼镜的韩吉头像）。立牌在 AniqueShop 先后开放三次受注（页面商品名前缀【再販】【2次受注】），站内以最早可考的一次为初版记录；徽章另有 2 次受注页。页面未标注厂商与确定发售日。",
     "region": "日本",
     "sources": [
       {
@@ -18688,6 +18724,18 @@
           "尺寸与材质",
           "销售期间与配送窗口",
           "版权标注"
+        ]
+      },
+      {
+        "id": "anique-snkcja03a0001-official-series",
+        "url": "https://shop.anique.jp/products/snkcja03a0001",
+        "title": "【購入特典】『進撃の巨人』ハート型缶バッジ（全5種）ランダム｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "系列归属（页面 vendor 字段与正文系列名）",
+          "特典获取条件",
+          "图内角色绘柄"
         ]
       }
     ],
@@ -18769,7 +18817,7 @@
       "TRICK OF FATE"
     ],
     "type": "主题新绘周边系列",
-    "description": "AniqueShop「TVアニメ『進撃の巨人』TRICK OF FATE」系列，正文写作「運命に翻弄されながら、屈することなく立ち向かい続けるキャラクターたち。一人一人の物語をカードに模したデザインテイスト」。站内收录 6 件（韩吉单人款 4 件，利威尔＆韩吉双人款 2 件，含统率者场景亚克力彩窗立牌）。页面未标注厂商与确定发售日。",
+    "description": "AniqueShop「TVアニメ『進撃の巨人』TRICK OF FATE」系列，正文写作「運命に翻弄されながら、屈することなく立ち向かい続けるキャラクターたち。一人一人の物語をカードに模したデザインテイスト」。站内收录 7 件：韩吉单人款 4 件、利威尔＆韩吉双人款 2 件（含统率者场景亚克力彩窗立牌），另有该轮次的购入特典徽章 1 件（全 8 种随机，图内逐枚印着角色名，含「HANS ZOE」）。页面未标注厂商与确定发售日。",
     "region": "日本",
     "sources": [
       {
@@ -18819,10 +18867,85 @@
           "销售期间与配送窗口",
           "版权标注"
         ]
+      },
+      {
+        "id": "anique-snkaja01a0001-official-series",
+        "url": "https://shop.anique.jp/products/snkaja01a0001",
+        "title": "【購入特典】缶バッジ（全8種）ランダム｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "系列归属（页面 vendor 字段与正文系列名）",
+          "特典获取条件",
+          "图内角色绘柄"
+        ]
       }
     ],
     "updatedAt": "2026-10-15",
     "isDemo": false,
     "images": []
+  },
+  {
+    "id": "anique-bromide-initial",
+    "slug": "anique-bromide-initial",
+    "name": "原作画首字母生写（イニシャルブロマイド）",
+    "aliases": [
+      "イニシャル",
+      "Aniqueショップver."
+    ],
+    "type": "漫画原画周边系列",
+    "region": "日本",
+    "updatedAt": "2026-10-15",
+    "isDemo": false,
+    "images": [],
+    "description": "AniqueShop 购入特典生写的一组漫画原画风肖像，每张卡上方印金色首字母（EY／AV／JK／IL／SE／HZ），并印「Attack on Titan 2009.09.09-2021.04.09」（漫画连载起讫日期）。页面 vendor 字段写作「再販『進撃の巨人』オリジナルグッズ」，未给出官方系列名，站内按图内首字母设计归类命名。站内收录 1 件（含韩吉的 6 款随机赠品）。",
+    "sources": [
+      {
+        "id": "anique-snkcja05a01-official-series",
+        "url": "https://shop.anique.jp/products/snkcja05a01",
+        "title": "【購入特典】『進撃の巨人』特典オリジナルブロマイド Aniqueショップver.（全6種）｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "vendor 字段",
+          "接口 price 与 available",
+          "页面正文尺寸材质与商品番号",
+          "官方宣传图与原图网址",
+          "图内首字母与角色"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anique-bromide-tv",
+    "slug": "anique-bromide-tv",
+    "name": "TV 动画绘柄购入特典生写",
+    "aliases": [
+      "オリジナルブロマイド"
+    ],
+    "type": "商品形态系列",
+    "region": "日本",
+    "updatedAt": "2026-10-15",
+    "isDemo": false,
+    "images": [],
+    "description": "AniqueShop 2024 年 7/10～8/18 购买活动的购入特典生写（全 6 种），绘柄为动画风的立体机动姿势图，未冠以特定主题名。该页 vendor 字段挂在 KINOKOS 轮次下，但绘柄并非 KINOKOS 造型，故单列一组。站内收录 1 件（名单含韩吉）。",
+    "sources": [
+      {
+        "id": "anique-snka02ja02a01-official-series",
+        "url": "https://shop.anique.jp/products/snka02ja02a01",
+        "title": "【購入特典】『進撃の巨人』オリジナルブロマイド（全6種）｜AniqueShop",
+        "organization": "AniqueShop（shop.anique.jp）",
+        "checkedAt": "2026-10-15",
+        "fields": [
+          "日文商品名",
+          "vendor 字段",
+          "接口 price 与 available",
+          "页面正文商品番号",
+          "官方宣传图与原图网址",
+          "图内角色绘柄与対象期间"
+        ]
+      }
+    ]
   }
 ]

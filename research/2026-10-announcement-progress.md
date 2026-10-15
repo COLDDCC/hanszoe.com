@@ -573,3 +573,31 @@
 **未做与下一步**：hyappyo 页面仍只有 57 字节未打通；MegaHouse 主站检索仍是纯 JS 接口；B-SIDE LABEL 第 1 弾／第 1.5 弾公告未扫；anique 站内不含「ハンジ」字样的其余 260 余件（多为四人同款盲抽与全员系列）尚未逐条回看绘柄。
 
 **提交状态**：本批已提交，推送待确认。
+
+## 2026-10-15 AniqueShop 二次回扫（站点地图复核）：7 条购入特典新建 + 2 个新系列 + 5 个系列描述同步
+
+**起因**：作者反馈「记得 anique 那里很多韩吉商品」，而上一批只收了 30 条。复核确认作者是对的，站内确实漏了一批。
+
+**漏收根因（重要，其他 Shopify 渠道同源）**：上一批用 `shop.anique.jp/collections/shingeki/products.json` 枚举商品，这个接口只返回挂在公开分类下的商品。购入特典的赠品页在 Shopify 里打了 `Hidden recommendation, SEARCHANISE_IGNORE` 两个标签，既不进分类也不进站内搜索，因此整批从枚举里消失了。改用 `sitemap.xml → sitemap_products_*.xml` 取到 2,952 个已发布商品（这是站方自己交给搜索引擎的全集，比任何分类接口都权威），按标题筛出 310 条进巨，再用 handle 前缀 `snk` / `shingeki` 兜底补到 312 条（有 2 条标题根本不写「進撃の巨人」）。与库内已有的 34 个 anique handle 对拍，得到 14 个从未入库的页面。
+
+**抓取通路**：`shop.anique.jp` 对 curl 一律回 429 或 18 字节的 `local_rate_limited`，走代理也一样；改用 playwright 起本机 Edge（`channel:'msedge'` + 同一代理）才拿得到。而且该店用的 Warehouse 2.6.6 主题页面里没有 `data-product-json`，剥 HTML 取不到字段，最终事实来源是 Shopify 自己的两个只读接口：`/products/<handle>.js`（`price`／`available`／`published_at`）与 `/products/<handle>.json`（`body_html`／`product_type`／`vendor`／`tags`／`images[]`／`variants[]`）。图片走 `cdn.shopify.com`，普通 curl 就能下。
+
+**取舍**：14 个页面里 12 个含韩吉绘柄，合成 7 条记录（同一活动的「ランダム 1 件」页与「コンプリートセット」页并成一条，初版页与 2 次受注／再贩页并成一条的两个发行批次）。含韩吉的判据全部来自官方宣传图本身：卡面印着「Hange Zoe」（星空特典生写）、「HANGI」（騎馬特典生写 Q 版卡面）、「HANS ZOE」（TRICK OF FATE 特典徽章逐枚印名）、金色首字母「HZ」（原作画首字母生写），或戴眼镜扎发的韩吉头像（完结一周年心形徽章、巨人大戦特典生写、TV 绘柄特典生写）。排除 2 页：`snkcja04-resale`（リーヴバースデー特典，全 5 种绘柄全是利威尔）、`snka05ja01a01`（海を見に行こう特典，全 8 种 = 4 名角色 × 2 姿势，名单无韩吉）。
+
+**记录口径**：14 页的 `product_type` 字段都是「購入特典」、接口 `price` 与全部 `variants[].price` 都是 0 円、`available=false`，即店铺建的赠品占位商品。因此 7 条一律记为 `salesMethod:'购买特典'` + `priceStatus:'notSoldSeparately'` + `prices:[]`，满额门槛（2,200／3,300／11,000／16,500 円税込）写进 `condition` 并挂 `conditionSourceId`，绝不写成售价。`releaseDate` 全为 `null`；特典対象期间只作为文字记在规格里，其中两条（KINOKOS 轮次与騎馬轮次）的门槛只出现在宣传图上、正文只有商品番号，已在 `condition` 里注明取自宣传图。推年份用「图上星期注记 + 接口 `published_at`」互锁，例如 9/14(木)～10/22(日) 只有 2023 年满足且该页上架日正是 2023-11-10。
+
+**系列归属**：5 条并入既有系列（`final-1st-anniversary` 1→2、`trick-of-fate` 6→7、`kyodai-taisen` 3→4、`starry-sky-collection` 8→9、`kiba-2027` 9→10），归属依据是页面 `vendor` 字段（「再販『進撃の巨人』完結1周年」「TVアニメ『進撃の巨人』TRICK OF FATE」「『進撃の巨人』 巨人大戦」「TVアニメ『進撃の巨人』Starry Sky Collection」「TVアニメ『進撃の巨人』騎馬」）。新建 2 个系列：`anique-bromide-initial`（原作画首字母生写）、`anique-bromide-tv`（TV 动画绘柄特典生写，页面 vendor 挂在 KINOKOS 轮次下但绘柄并非 KINOKOS 造型，故单列）。5 个既有系列的「收录 N 件」全部按实际成员数手工重写，不再用正则追加。
+
+**数据**：`products.json` 1,074 → 1,081，`series.json` 281 → 283，官方宣传图 7 张（`originalUrl` 全部取自接口 `images[].src`）。`npm run validate` 通过（1,081 商品／283 系列／8 文章／12 条作者补充／7 示例），`npm test` 20/20，`npm run build` 1,380 页（1,371 → 1,380 = 商品 +7、系列 +2）。
+
+**审计**：自建 `lt_ani_bonus_audit.mjs`，237 项断言全绿，且刻意不信任中间产物 —— 重新解析原始 `bj_*.json` / `bj_*.js.json`：日文名须是页面 title 的前缀、接口与全部档位 price 必须为 0、`product_type` 必须是「購入特典」、所记商品番号须能在页正文找到、门槛金额（去掉千分位逗号后）须能在页正文找到或明确标注取自宣传图、截止日年份不得早于页面上架年、恰好一个初版、来源引用与 `conditionSourceId` 有效、图片 `originalUrl` 须出自接口 `images[].src` 且文件落地大于 40KB、系列件数与描述一致、2 个排除页确未入库。
+
+**落库踩的坑（这次是真缺陷，不是误报）**：`CONDITIONS` 表用带 `anique-` 前缀的 id 作键，取值时传的是裸 handle，于是 7 条记录的 `condition` 全是 `undefined`，描述里还写出「获取条件：undefined」。`npm run validate` 的 zod 报错抓到第一处；因为描述也被污染，没有就地打补丁，而是先比对「当前文件 vs 写盘前备份」的差异确实只含本批 7 条 + 2 系列 + 5 系列描述（无其他会话改动），确认后才用备份回滚、修脚本重跑。审计自身另有 3 类误报，改的是审计：`/products/<h>.json` 顶层是 `{product:{…}}` 包装、`price` 只在 `.js` 与 `variants` 上、一套多页的商品番号每页只印自己那条。
+
+**浏览器抽查**：Edge 实机，7 条商品页 + 2 个新系列页，状态码全 200、图片全部加载（含同系列商品卡与并排来源位）、0 控制台报错、渲染文本无 `undefined`／`NaN`。逐页看到「购买特典 · 非单独销售」「日期待确认」与满额门槛原文，完结一周年心形徽章页正确显示 2 个发行批次（初版截至 2023.12.31、2 次受注批次日期留空）。
+
+**留证文件**：`Temp/an/nx/lt/`（`sm_index.xml` + `sm_p1..3.xml` 站点地图、`sm_urls.json` 2,952 条 handle、`sm_bonus.json` 12 条漏收、`db_ani_handles.txt` 库内 34 条、`bonus_meta.json` 14 页字段表、`d/bj_*` 28 个接口快照、`d/brk_*` 页面 HTML、`scan2/` 宣传图与左右分幅放大图、`bimg/` 原图、`shot/` 9 张整页截图、`bonus_written.json` 本批记录）。脚本 `nx/lt_ani_bonus_img.mjs`、`lt_ani_bonus_zoom.mjs`、`lt_ani_bonus_br.mjs`、`lt_ani_bonus_parse.mjs`、`lt_ani_bonus_js.mjs`、`lt_ani_bonus_build.mjs`、`lt_ani_bonus_audit.mjs`、`lt_ani_bonus_shot.mjs`。写盘前基线备份 `src/data/products.json.bak-2026-10-15T09-40-bonus`、`series.json.bak-` 同批时间戳（不入库），sha256 双检照旧。
+
+**未做与下一步**：同一盲区可能存在于其他按 `collections/...` 枚举过的 Shopify 渠道（IG Port、bushiroad、fanitem、menegi、penguinparade 等），下一批要用各站 `sitemap_products_*.xml` 重做全集对拍；hyappyo 仍是 57 字节；MegaHouse 主站检索仍是纯 JS；B-SIDE LABEL 第 1 弾／第 1.5 弾公告未扫。
+
+**提交状态**：本批已本地提交，推送待作者确认（连同上一批 `2e5a7a3`、`bc499b0` 的推送决定一起）。
