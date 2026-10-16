@@ -32,7 +32,7 @@ region: 日本
 cover:
   path: /images/news/marukuji-starry-sky-magician.svg
   alt: 官方主视觉「星空の魔法使い」：埃尔文、韩吉、艾伦、利威尔四人魔法使装束
-  sourceUrl: https://shingeki.tv/news/archives/9407
+  sourceUrl: https://shingeki.tv/news/wp-content/uploads/2026/01/db253c705dfc9aa2853728e4c66a003b.png
   credit: TVアニメ「進撃の巨人」公式サイト / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会
 sources:
   - title: TVアニメ『進撃の巨人』星空の魔法使いver.がまるくじに登場！
@@ -66,3 +66,7 @@ sources:
 全 4 档赏共 24 个赏位，韩吉在其中占 6 个：超大吉 04 選べるマフラータオル、大吉 04 アクリルスタンド、中吉 04／08 アクリルキーホルダー A・B、小吉 04／08 缶バッジ A・B。站内已按赏级逐件收录为 6 个商品条目，可直接在下方「关联周边」查看尺寸与素材。
 
 **待核实**：主题页的版权行仅标注「（C）TEAM Entertainment Inc.」，未单列进击的巨人版权行；官方新闻稿未说明各赏级的具体抽选率与发货日，抽选率仅主题页 LINE UP 有标注。
+
+## 与韩吉档案的关联
+
+官方在 2026 年 1 月（本篇）与 7 月（「まるくじ」新绘「standolce」）两次把韩吉放进同一组四人阵容——エレン、リヴァイ、エルヴィン、ハンジ，两批商品可按同一角色组合对照。本篇正文只写「2026年1月14日（水）～2026年2月15日（日）」，开始 12:00、结束 23:59 两个时刻仅出现在官方主视觉的图片文案中。

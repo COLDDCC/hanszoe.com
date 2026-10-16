@@ -6,7 +6,7 @@ summary: 官方门户 2026 年 2 月 18 日公布 Parflette 进击的巨人新�
 category: 新品
 publishedAt: '2026-02-18'
 updatedAt: '2026-10-16'
-productIds: []
+productIds: [animate-3405827, amiami-GOODS-04764805, parflette-keyholderacr-shingeki15]
 dates:
   - label: 官方新闻刊载日
     value: '2026-02-18'
@@ -25,7 +25,7 @@ region: 日本
 cover:
   path: /images/news/parflette-beach-acrylic.svg
   alt: 官方主视觉：八款阿罗哈衬衫造型 Q 版亚克力立牌，含戴眼镜、抱紫色泳圈的韩吉
-  sourceUrl: https://shingeki.tv/news/archives/9428
+  sourceUrl: https://shingeki.tv/news/wp-content/uploads/2026/02/f3909332f34a7186d83c04f4f29d1b5e-600x450.jpg
   credit: TVアニメ「進撃の巨人」公式サイト / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会
 sources:
   - title: Parflette-パルフレット-よりTVアニメ『進撃の巨人』の新商品が登場！
@@ -56,4 +56,8 @@ sources:
 
 预约期间 **2026 年 2 月 18 日（水）～3 月 31 日（火）**，销售网站为 parflette.com 的进击的巨人标签页。
 
-**待核实**：官方对亚克力立牌与钥匙扣只写「全 8 種」，未逐一列出八名角色姓名，韩吉是否两款皆有需以 Parflette 商品页的绘柄列表复核；发货时间官方未说明。页面另注「画像はイメージです。実際の商品とは異なる場合がございます」。
+**待核实**：官方本篇对亚克力立牌与钥匙扣只写「全 8 種」，未逐一列出八名角色姓名；封面一览图中各 Q 版角色的名牌字号过小，除按眼镜特征指认韩吉外本档案不逐个指认。不过韩吉确有立牌与钥匙扣两款：Parflette 站内商品页「アクリルキーホルダー（ハンジ／バカンス）」与 animate、AmiAmi 侧的「アクリルスタンド(ハンジ/バカンス)」「ミニキャラ缶バッジセットB(ジャン＆ライナー＆ハンジ＆リヴァイ)」已各自收录为档案商品，可反证本篇的 8 种含韩吉。发货时间官方未说明。页面另注「画像はイメージです。実際の商品とは異なる場合がございます」。
+
+## 与韩吉档案的关联
+
+官方在本篇把六名角色分成两组徽章：A 组给エレン／ミカサ／アルミン／エルヴィン，B 组给ジャン／ライナー／ハンジ／リヴァイ；这是最终季之后官方对韩吉商品分层的一次直接标注——她没有进入主角组，而是与让、莱纳、利威尔并列。
