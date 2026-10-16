@@ -1,12 +1,12 @@
 :root {
-  --paper: #faf8fc;
+  --paper: #f9f7fb;
   --white: #ffffff;
-  --ink: #302a38;
-  --muted: #706777;
-  --line: #e3dce9;
-  --accent: #695083;
-  --accent-muted: #795b91;
-  --soft: #f0eaf5;
+  --ink: #302b36;
+  --muted: #675e6d;
+  --line: #e6deeb;
+  --accent: #806692;
+  --accent-muted: #6c547e;
+  --soft: #f1eaf6;
   --serif: "Zen Old Mincho", "EB Garamond", "Noto Serif SC", "Yu Mincho", "Hiragino Mincho ProN", "Songti SC", SimSun, serif;
   --latin-serif: "EB Garamond", Georgia, serif;
   --ui: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Microsoft YaHei", sans-serif;
@@ -189,7 +189,7 @@ section {
   display: flex;
   align-items: center;
   background: var(--white);
-  border: 1px solid #c9b9d7;
+  border: 1px solid #b9a3c9;
   border-radius: 5px;
   max-width: 660px;
   padding: 7px;
@@ -236,8 +236,8 @@ section {
   flex-wrap: wrap;
 }
 .archive-note {
-  background: #efe8f5;
-  border: 1px solid #ded1e9;
+  background: #f1eaf6;
+  border: 1px solid #dfd2e8;
   padding: 26px 28px;
   position: relative;
   display: flex;
@@ -249,7 +249,7 @@ section {
   content: "";
   position: absolute;
   inset: 8px;
-  border: 1px solid #ddd0e8;
+  border: 1px solid #dfd2e8;
   pointer-events: none;
 }
 .note-number {
@@ -267,7 +267,7 @@ section {
 .glasses i {
   width: 67px;
   height: 51px;
-  border: 3px solid #795b91;
+  border: 3px solid #806692;
   border-radius: 45%;
   transform: rotate(-7deg);
 }
@@ -280,7 +280,7 @@ section {
   position: absolute;
   left: calc(50% - 9px);
   top: 16px;
-  border-top: 3px solid #795b91;
+  border-top: 3px solid #806692;
 }
 .archive-note h2 {
   font-size: 1.45rem;
@@ -400,7 +400,7 @@ section {
 .product-image {
   aspect-ratio: 1/1;
   position: relative;
-  background: #f3eef7;
+  background: #f6f1f9;
 }
 .product-image img {
   width: 100%;
@@ -1344,3 +1344,18 @@ button, input, select, .filters, .result-toolbar,
   .note-topic { margin: 0; flex: 1 1 100%; }
   .note-citation > div { grid-template-columns: 84px minmax(0, 1fr); }
 }
+
+/* Misty Wisteria UI refinement: restrained navigation, readable cards, visible controls. */
+:root { --wisteria: #ab94bd; --wisteria-strong: #806692; --wisteria-deep: #594568; }
+.header-inner { gap: clamp(20px, 3vw, 48px); padding-block: 17px; }
+.header-inner nav { gap: clamp(14px, 2vw, 28px); }
+.search-bar { box-shadow: 0 4px 20px #5945680b; border-radius: 9px; }
+.search-bar:focus-within { border-color: var(--wisteria-strong); box-shadow: 0 0 0 3px #ab94bd33; }
+.product-card { border-radius: 10px; transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
+.product-card:hover { transform: translateY(-2px); border-color: #c8b6d5; box-shadow: 0 12px 28px #59456815; }
+.product-image { background: #f7f3f9; }
+.product-image img { transition: transform .25s ease; }
+.product-card:hover .product-image img { transform: scale(1.025); }
+.button, .search-bar button { border-radius: 7px; font-weight: 600; }
+.button:hover, .search-bar button:hover { background: var(--wisteria-deep); color: white; }
+@media (prefers-reduced-motion: reduce) { .product-card, .product-image img { transition: none; } .product-card:hover { transform: none; } .product-card:hover .product-image img { transform: none; } }
