@@ -36,6 +36,10 @@ sources:
     url: https://attackontitan-themusical.com/cast.html
     organization: ©I・K/AMPC（纽约公演制作）
     checkedAt: '2026-10-17'
+  - title: 「進撃の巨人」-The Musical- ニューヨーク公演（公式ポータル THEATER 页）
+    url: https://aot-portal.com/theater/attack-on-titan-the-musical-new-york-performance/
+    organization: 「進撃の巨人」公式ポータルサイト
+    checkedAt: '2026-10-17'
 ---
 CAST 页原句（第 13 组）：「Hange Zoë / ハンジ・ゾエ / 立道梨緒奈 / Riona Tatemichi」
 
@@ -87,6 +91,7 @@ About 段原句：「features a cast of 35 actors」「This production will be p
 
 **待核实**：
 
+- **两个官方页面对纽约卡司的说法不一致**：公式ポータル（aot-portal.com）的纽约公演页把ミカサ写成「七木奏音」、ジャン写成「福澤侑」，即日本凯旋版卡司；而纽约公演官网自己的 cast 页写的是「Mikasa Ackerman／ミカサ・アッカーマン／高月彩良」与「Jean Kirstein／ジャン・キルシュタイン／松田昇大」，整页检索「七木奏音」「福澤侑」均为 **0 次**。本条对照表以纽约官网 cast 页为准，ポータル页只用于核对演出期间与场馆（两处一致：2024 年 10 月 11 日（金）〜13 日（日）、New York City Center，131 W 55th St）。
 - 官网排期表的机器可读 `datetime` 属性有错：19:30 的两场也写成 `T14:00-04:00`。本条按页面上**显示**的 2:00 PM／7:30 PM 记录，不采信该属性。
 - 页面把预售与一般发售时间都标为「EST」，但 5〜6 月的纽约实际执行夏令时（EDT，UTC−4）；本条按 EDT 计算时差。
 - 票价、演出时长、加演与否，官网正文未给出，本条不代填。
