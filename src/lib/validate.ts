@@ -61,11 +61,13 @@ for (const collection of ["news", "wiki"]) {
       );
       const front = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
       if (!front) throw Error("缺少 frontmatter " + file);
-      return { ...parse(front[1]), collection };
+      return { ...parse(front[1]), collection, file };
     });
   unique(entries, "slug", collection);
   content.push(...entries);
   for (const e of entries) {
+    if (String(e.slug).startsWith(collection + "-"))
+      throw Error("slug 重复了集合前缀 " + e.file + " -> " + e.slug);
     if (e.seriesId && !series.some((s: any) => s.id === e.seriesId))
       throw Error("资讯引用无效系列");
     for (const id of e.productIds || [])
