@@ -1,7 +1,7 @@
 ---
 id: news-mayla-ear-objet-hange
 slug: mayla-ear-objet-hange
-title: mayla 耳饰「Brilliant Sepia」：韩吉款为翅膀造型的单只耳饰，全线同价 24,970 円
+title: mayla 耳饰：韩吉款是翅膀造型单只
 summary: 官方门户 2022 年 5 月 28 日公布 mayla classic 联名「アイコニックイヤオブジェ」，以艾伦、三笠、阿尔敏、利威尔、埃尔文、韩吉 6 人为原型，主题「Brilliant Sepia −鮮やかなセピア−」，统一售价 24,970 円（税込），受注期 5 月 28 日 12:00 至 6 月 28 日 23:59，日本与中国官网同步受注。
 category: 新品
 publishedAt: '2022-05-28'

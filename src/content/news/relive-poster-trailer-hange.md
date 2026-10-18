@@ -1,7 +1,7 @@
 ---
 id: news-relive-poster-trailer-hange
 slug: relive-poster-trailer-hange
-title: THE LAST ATTACK 复活上映主视觉与本预告：官方把「韩吉冲向地鸣巨人」写进预告看点
+title: 复活上映主视觉：韩吉冲向地鸣巨人写进看点
 summary: 官方门户 2025 年 12 月 18 日公開劇場版「進撃の巨人」完結編 THE LAST ATTACK 复活上映的ポスタービジュアル与本预告，正文明确列出预告含「ハンジが地鳴らしをする巨人に立ち向かっていくシーン」；本片 2026 年 1 月 9 日起以本系列首个 Dolby Cinema 版本先行公开。
 category: 动画
 publishedAt: '2025-12-18'

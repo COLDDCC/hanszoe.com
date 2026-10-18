@@ -1,7 +1,7 @@
 ---
 id: news-penguinparade-final-season-levi-hange
 slug: penguinparade-final-season-levi-hange
-title: Penguin Parade 利威尔＆韩吉野炊新绘 7 件：钥匙扣上印着「Hans」，挂毯标 B2 而尺寸正是 515×728mm
+title: Penguin Parade 野炊新绘：挂件印着 Hans
 summary: 2025 年 4 月 18 日官方门户公布，Penguin Parade 用「利威尔与韩吉野炊」新绘做了 7 件周边，全部标注 2025 年 6 月下旬頃发售、价格含税。挂毯标 B2，而尺寸 W515×H728mm 正是 B2 纸的标准，图上印着「Levi & Hans」。
 category: 新品
 publishedAt: '2025-04-18'

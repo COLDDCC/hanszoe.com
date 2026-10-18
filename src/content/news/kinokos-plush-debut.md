@@ -1,7 +1,7 @@
 ---
 id: news-kinokos-plush-debut
 slug: kinokos-plush-debut
-title: 韩吉进入自立型公仔系列首弹：『進撃の巨人』KINOKOS 全 6 种含韩吉
+title: KINOKOS 首弹：韩吉进自立型公仔六种
 summary: 官方门户 2024 年 7 月 10 日公布 Anique 的自立型ぬいぐるみフィギュア「KINOKOS（キノコス）」首次推出『進撃の巨人』系列，KINOKOS 全 6 种各 1,760 円（税込）、トレーディング KINOKOS mini 全 6 种（エレン/ミカサ/アルミン/リヴァイ/エルヴィン/ハンジ）880 円一包，2024 年 7 月 10 日～8 月 18 日 23:59 在 Anique 商店受注；2024 年 12 月 27 日官方另篇宣布同系列再贩。
 category: 新品
 publishedAt: '2024-07-10'

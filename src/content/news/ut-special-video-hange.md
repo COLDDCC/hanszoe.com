@@ -1,7 +1,7 @@
 ---
 id: news-ut-special-video-hange
 slug: ut-special-video-hange
-title: 完結編（前編）主題歌「UNDER THE TREE」动画特别影像：官方点名「对抗巨人的韩吉」镜头
+title: UNDER THE TREE 特别影像：点名对抗巨人的韩吉
 summary: 官方门户 2023 年 3 月 4 日公布 SiM 演唱的完結編（前編）主題歌「UNDER THE TREE」アニメスペシャル映像，说明文字直接列出「巨人たちに立ち向かうハンジ」等镜头；影像在 YouTube 官方频道公开。
 category: 动画
 publishedAt: '2023-03-04'

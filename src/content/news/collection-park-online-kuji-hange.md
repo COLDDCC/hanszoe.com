@@ -1,7 +1,7 @@
 ---
 id: news-collection-park-online-kuji-hange
 slug: collection-park-online-kuji-hange
-title: これくしょんパーク在线抽赏：C 赏三种擦布之一是「極限までハンジVer」，1 回 650 円另加 500 円运费
+title: これくしょん在线抽赏：C 赏有极限韩吉擦布
 summary: 官方门户 2019 年 8 月 7 日公布これくしょんパーク的进击的巨人在线抽赏，销售期 2019 年 8 月 6 日 18:00 至 8 月 19 日 23:59，1 回 650 円（税别）、运费 500 円（税别）、10/20/30 连免运费、无空奖；C 赏マイクロファイバークロス分「OP場面Ver」「極限までハンジVer」「ちみキャラ集合Ver」全 3 种，是韩吉单独命名的一个赏。
 category: 新品
 publishedAt: '2019-08-07'

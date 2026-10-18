@@ -1,7 +1,7 @@
 ---
 id: news-chainpuzzle-christmas-hange
 slug: chainpuzzle-christmas-hange
-title: チェンパズ圣诞活动的韩吉：她是关卡报酬角色，官方 200×238 立绘戴圆眼镜坐雪橇
+title: チェンパズ圣诞：韩吉是关卡报酬角色
 summary: 2017 年 12 月 22 日官方门户公布手游『チェインパズルフィーバー』的圣诞活动：ハンジ クリスマス靠通关活动 map 取得、不用抽，带新录 CV 的利威尔与埃尔文圣诞款才走 premium 扭蛋。官方配图是 200×238 的韩吉圣诞立绘。
 category: 活动
 publishedAt: '2017-12-22'

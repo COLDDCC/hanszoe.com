@@ -1,7 +1,7 @@
 ---
 id: news-last-attack-week89-hange-erwin-card
 slug: last-attack-week89-hange-erwin-card
-title: 剧场版《THE LAST ATTACK》第 8·9 周入场特典：MAPPA 新绘韩吉与埃尔文
+title: 第8·9周入场特典：MAPPA 新绘韩吉与埃尔文
 summary: 完结篇剧场版的第 8、9 周入场者特典由 MAPPA 重新绘制，画面为韩吉与埃尔文两人，由总作画监督秋田学执笔；先着数量限定，赠完即止。
 category: 活动
 publishedAt: '2024-12-24'

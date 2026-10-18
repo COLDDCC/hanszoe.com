@@ -1,7 +1,7 @@
 ---
 id: news-supergroupies-hange-phone-case
 slug: supergroupies-hange-phone-case
-title: SuperGroupies 手帐型手机壳 5 款：韩吉款的金属件是「韩吉戴的眼镜」，4,800 円（税别）
+title: SuperGroupies 手机壳：韩吉款金属件是眼镜
 summary: 官方门户 2016 年 11 月 11 日公布 SuperGroupies 联名，长钱包用「进击的巨人」世界地图，手帐型智能手机壳按角色分 5 款（艾伦、让、利威尔、埃尔文、韩吉），预约期 2016 年 11 月 10 日至 11 月 27 日，手机壳各 4,800 円（税别）、钱包 7,800 円（税别）；品牌页 2026 年 10 月 16 日仍可打开，韩吉款文案写明以眼镜为金属件母题、酒红色麂皮、中央压印角色名，状态为贩售结束。
 category: 新品
 publishedAt: '2016-11-11'

@@ -1,7 +1,7 @@
 ---
 id: news-last-attack-week5-replica-genes
 slug: last-attack-week5-replica-genes
-title: THE LAST ATTACK 第5周入场特典：官方点名的六场景中有「韩吉任命阿尔敏为调查兵团团长」
+title: 第5周入场特典：含韩吉任命阿尔敏一幕
 summary: 官方门户 2024 年 12 月 3 日公布劇場版「進撃の巨人」完結編 THE LAST ATTACK 第5周入场者特典为複製原画ポストカードセット（随机 3 种、每套 2 枚），官方说明六个入选场景中包含「ハンジがアルミンに調査兵団団長を命じるシーン」，2024 年 12 月 6 日至 12 日配布。
 category: 活动
 publishedAt: '2024-12-03'

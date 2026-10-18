@@ -1,7 +1,7 @@
 ---
 id: news-pococha-campaign-hange-profile
 slug: pococha-campaign-hange-profile
-title: Pococha×进击的巨人（2024）：限定个人主页背景是「エレン、ミカサ、リヴァイ、ハンジ」四种，主视觉最左就是戴眼罩的韩吉
+title: Pococha 联动：限定主页背景四种含韩吉
 summary: 2024 年 11 月 1 日〜14 日直播应用 Pococha 与进击的巨人联动。与韩吉直接相关的是「限定プロフミッション」：达成任务可得到限定个人主页背景，正文点名的 4 名与「全 4 種類」逐字相符。
 category: 活动
 publishedAt: '2024-11-01'

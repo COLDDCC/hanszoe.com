@@ -1,7 +1,7 @@
 ---
 id: news-graffart-hange-birthday-postcard
 slug: graffart-hange-birthday-postcard
-title: _graphart_ 门店韩吉生日明信片配布：2020 年 9 月 5 日起一周
+title: graphart 门店：韩吉生日明信片配布一周
 summary: 官方门户 2020 年 8 月 8 日公布，为庆祝韩吉生日，_graphart_ 四家门店自 2020 年 9 月 5 日至 11 日限定配布 _graphart_ 插画明信片，消费满 2,200 円含税赠 1 张、每单限 1 张。
 category: 活动
 publishedAt: '2020-08-08'

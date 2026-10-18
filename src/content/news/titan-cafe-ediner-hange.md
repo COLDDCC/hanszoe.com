@@ -1,7 +1,7 @@
 ---
 id: news-titan-cafe-ediner-hange
 slug: titan-cafe-ediner-hange
-title: 进击的巨人 in E-DINER「TITAN CAFE」：韩吉入选人类 B 组周边与 21 人新绘
+title: TITAN CAFE：韩吉入选人类 B 组与 21 人新绘
 summary: 官方门户 2022 年 7 月 28 日公布在 E-DINER 池袋・梅田举办的「進撃の巨人 in E-DINER TITAN CAFE」，The Final Season 的 21 名角色以イーディス新绘「イートゥーン」登场；韩吉在官方名单中属人類B（6 种）组，出现于 880 日元的交易式亚克力立牌挂件与 2,750 日元的巨型立牌。
 category: 活动
 publishedAt: '2022-07-28'

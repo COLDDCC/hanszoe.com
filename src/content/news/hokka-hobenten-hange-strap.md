@@ -1,7 +1,7 @@
 ---
 id: news-hokka-hobenten-hange-strap
 slug: hokka-hobenten-hange-strap
-title: ほっかほっか亭「进击的巨弁」第 2 弹：韩吉在 9 月 17 日第二阵的 4 款挂件里，便当 590 円
+title: 进击的巨弁第2弹：韩吉在第二阵四款里
 summary: 2014 年 9 月 10 日〜30 日ほっかほっか亭「進撃の巨人弁当」（590 円）第 2 弹，买 1 个送 1 个 Q 版亚克力挂件：第一阵 9 月 10 日起 4 款、第二阵 9 月 17 日起 4 款，韩吉在第二阵；官方 8 张挂件图底部的英文名正好等于两阵名单之和。
 category: 活动
 publishedAt: '2014-09-12'

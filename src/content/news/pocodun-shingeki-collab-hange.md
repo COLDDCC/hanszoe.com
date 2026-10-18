@@ -1,7 +1,7 @@
 ---
 id: news-pocodun-shingeki-collab-hange
 slug: pocodun-shingeki-collab-hange
-title: ポコロンダンジョンズ×进击的巨人（2017）：韩吉是ハンジ・ゾエ（★4），正文 8＋3 相加正好是「合计 11 体」
+title: ポコロン联动：韩吉是★4，合计 11 体
 summary: 2017 年 8 月 18 日官方门户公布手游「ポコロンダンジョンズ」联动：正文列出 8 名角色加 3 只新绘，8＋3 与「合計11体」完全吻合。韩吉落在ハンジ・ゾエ（★4）一档，第 1、2 弹都在出现率 UP 名单里。
 category: 活动
 publishedAt: '2017-08-18'

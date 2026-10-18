@@ -1,7 +1,7 @@
 ---
 id: news-last-attack-goods-animate-rakuten
 slug: last-attack-goods-animate-rakuten
-title: 剧场版周边进 animate 七家门店与乐天图书：官方清单点名韩吉的两款
+title: 剧场周边进 animate 与乐天：点名韩吉两款
 summary: 官方门户 2025 年 7 月 31 日公布 THE LAST ATTACK 剧场周边的一部分改在アニメイト（池袋本店、名古屋店、秋葉原店、横浜ビブレ店、梅田店、札幌店、福岡店）与楽天ブックス贩售，2025 年 8 月 1 日（金）起；官方逐条列出的贩售清单中韩吉出现两项——コスチュームキューピー（ハンジ）与ぬいぐるみキーホルダー（ハンジ）。
 category: 再贩
 publishedAt: '2025-07-31'

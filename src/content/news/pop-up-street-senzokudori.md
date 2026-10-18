@@ -1,7 +1,7 @@
 ---
 id: news-pop-up-street-senzokudori
 slug: pop-up-street-senzokudori
-title: 千束通商店街「POP UP STREET」：韩吉入选四名主视觉角色
+title: 千束通商店街：韩吉入选四名主视觉角色
 summary: arma bianca 与东京千束通商店街合作的整条街联动，主视觉角色为艾伦、埃尔文、韩吉、利威尔，2026 年 8 月 28 日至 9 月 23 日举办。
 category: 活动
 publishedAt: '2026-07-31'

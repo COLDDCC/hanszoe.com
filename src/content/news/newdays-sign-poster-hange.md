@@ -1,7 +1,7 @@
 ---
 id: news-newdays-sign-poster-hange
 slug: newdays-sign-poster-hange
-title: NewDays 抽选海报带朴璐美（韩吉役）签名：A 赏 3 名，600 円含税购物门槛
+title: NewDays 抽选海报：带朴璐美（韩吉役）签名
 summary: 官方门户 2021 年 12 月 20 日公布进击的巨人×NewDays 抽奖再开，凭含対象三得利饮料 1 件以上、600 円（含税）以上的购物小票 ID 应募；A 赏为声优签名海报，名单含朴璐美さん（ハンジ役），抽 3 名，B 赏 NewDays 描新绘毯子抽 50 名，小票有效期 2021-12-21～2022-01-10、应募期至 2022-01-11。
 category: 活动
 publishedAt: '2021-12-20'

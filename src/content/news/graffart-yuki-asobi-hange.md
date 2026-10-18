@@ -1,7 +1,7 @@
 ---
 id: news-graffart-yuki-asobi-hange
 slug: graffart-yuki-asobi-hange
-title: GraffArt 玩雪版 9 人：徽章 BOX 4,320 円＝480×9、钥匙扣 BOX 7,020 円＝780×9，两种都对得上
+title: GraffArt 玩雪版 9 人：韩吉在内
 summary: 官方门户 2020 年 1 月 20 日公布，2020 年 2 月 1 日起在 GraffArt Shop 8 家门店与 EC 发售雪遊びver. グラフアート新品，正文点名 9 人（含ハンジ）在玩雪；徽章全 9 种单抽 480 円、BOX 4,320 円（480×9=4,320），钥匙扣全 9 种单抽 780 円、BOX 7,020 円（780×9=7,020），马克杯 1,500 円为店铺与 EC 限定；官方配图确实是 3×3 共 9 只徽章加 9 只钥匙扣。
 category: 新品
 publishedAt: '2020-01-20'

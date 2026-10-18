@@ -1,7 +1,7 @@
 ---
 id: news-bd5-stand-display-hange
 slug: bd5-stand-display-hange
-title: The Final Season 第5卷发售纪念立牌展示：韩吉款固定在 animate 梅田店
+title: 第5卷发售纪念立牌：韩吉款固定在 animate 梅田
 summary: 官方门户 2024 年 3 月 11 日公布 BD・DVD 第5卷发售纪念的全国 animate 角色立牌展示，官方按门店分配角色并写明「アニメイト梅田：ハンジ」；梅田店展期为 2024 年 3 月 11 日至 4 月 7 日。
 category: 活动
 publishedAt: '2024-03-11'

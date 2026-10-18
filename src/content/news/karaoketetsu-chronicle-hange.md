@@ -1,7 +1,7 @@
 ---
 id: news-karaoketetsu-chronicle-hange
 slug: karaoketetsu-chronicle-hange
-title: 进击的巨人编年史 × 卡拉OK的铁人：韩吉在 9 种描新绘里，钥匙扣 650×9=5,850、徽章 450×9=4,050 两笔都对上
+title: 编年史×卡拉OK铁人：韩吉在 9 种新绘里
 summary: 2020 年 7 月 17 日起与カラオケの鉄人联名到 8 月 31 日，9 名角色的吃播主题新绘里含ハンジ。传单标价两笔都对得上：钥匙扣 650 円×9＝5,850、徽章 450 円×9＝4,050，与「全 9 種」严格成整数倍。周边只在 3 家门店销售。
 category: 活动
 publishedAt: '2020-07-10'

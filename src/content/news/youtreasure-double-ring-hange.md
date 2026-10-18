@@ -1,7 +1,7 @@
 ---
 id: news-youtreasure-double-ring-hange
 slug: youtreasure-double-ring-hange
-title: U-TREASURE 双环吊坠（2020）：角色环 7 选 2 含韩吉，这一弹新增的是三笠与让
+title: U-TREASURE 双环吊坠：角色环 7 选 2 含韩吉
 summary: 官方门户 2020 年 12 月 1 日发布《进击的巨人》×U-TREASURE 的「ダブルリングペンダント」新品预告，用两枚不会脱落的环表现调查兵团成员的羁绊，本次追加三笠与让；预约期为 12 月 1 日（火）〜12 月 25 日（金），含首尾 25 天。正文列出可选角色环共 7 个名字，「ハンジ」在列；按 7 选 2 不重复算是 21 种搭配（推算）。官方只放出三笠、让两款配图与台词，韩吉款的刻字与宝石颜色没有公布，价格与详情短链也已失效。
 category: 预订
 publishedAt: '2020-12-01'

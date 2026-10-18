@@ -1,7 +1,7 @@
 ---
 id: news-cakejp-cake-can-hange
 slug: cakejp-cake-can-hange
-title: 韩吉对应提拉米苏：Cake.jp「ケーキ缶」8 名角色两两成组，韩吉与萨莎同罐
+title: Cake.jp 蛋糕罐：韩吉对应提拉米苏
 summary: 官方门户 2022 年 7 月 21 日公布 Cake.jp 联名「ケーキ缶」，8 名角色两两成组共 4 种罐装蛋糕，每组 2,600 円、两罐一套各 150g，另附可立起来的场面写缶バッジ；韩吉与サシャ同组，Cake.jp 商品页明确写出「【ハンジ】ティラミス／【サシャ】アップルミックスベリー」，制作者为パティスリー ラヴィアンレーヴ，该页现已标示贩売終了。
 category: 新品
 publishedAt: '2022-07-21'

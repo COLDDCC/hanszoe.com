@@ -1,7 +1,7 @@
 ---
 id: news-wit-c96-frame-charm-hange
 slug: wit-c96-frame-charm-hange
-title: 'WIT STUDIO C96 新品：额框风亚克力挂件全 8 种，韩吉款印的是第 41 话「Episode 41: Trust」'
+title: WIT C96 额框挂件全 8 种：韩吉在内
 summary: 2019 年 7 月 22 日官方门户发布 WIT STUDIO 新品「額縁アクリルチャームコレクション」：741 円（税抜）、全 8 种盲抽，正文点名的 8 个名字里有「ハンジ」。样品图上每枚挂件只印英文场面标注，8 枚分成 3＋3＋2 正好对上全 8 种。
 category: 新品
 publishedAt: '2019-07-22'

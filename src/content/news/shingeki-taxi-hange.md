@@ -1,7 +1,7 @@
 ---
 id: news-shingeki-taxi-hange
 slug: shingeki-taxi-hange
-title: 进击的出租车：韩吉入选 50 台车的车窗角色，2021 年末至 2022 年初行驶东京 23 区
+title: 进击的出租车：韩吉入选 50 台车的车窗角色
 summary: 官方门户 2021 年 12 月 23 日公布 The Final Season Part 2 放送纪念企划『進撃のタクシー』，2021 年 12 月 27 日至 2022 年 1 月 9 日 50 台车在东京 23 区行驶；空车车窗电子屏的 10 名角色中官方列出韩吉，车内另放映「20 分で追いつける！アニメ『進撃の巨人』」。
 category: 活动
 publishedAt: '2021-12-23'

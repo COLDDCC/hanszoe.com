@@ -1,7 +1,7 @@
 ---
 id: news-ichibankuji-seikansen-hange-towel
 slug: ichibankuji-seikansen-hange-towel
-title: 一番くじ「生還せよ！調査兵団」E 赏是韩吉大毛巾：A～E 五款同规格，1 回 620 円（税込）
+title: 一番くじ生还：E 赏是韩吉大毛巾
 summary: 官方门户 2017 年 5 月 11 日公布『一番くじ 進撃の巨人～生還せよ！調査兵団～』，2017 年 6 月 10 日起在便利店等顺次发售，1 回 620 円（税込）；A～D 赏分别是艾伦、三笠、利威尔、埃尔文毛巾，E 赏为「ハンジ・ゾエ タオル」，五款大毛巾同为大判描新绘，另有 F～J 赏与最后一只赏、双重机会赏。
 category: 新品
 publishedAt: '2017-05-11'

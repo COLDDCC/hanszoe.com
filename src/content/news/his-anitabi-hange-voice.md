@@ -1,7 +1,7 @@
 ---
 id: news-his-anitabi-hange-voice
 slug: his-anitabi-hange-voice
-title: 进击的巨人 × HIS「アニ旅」：韩吉新录语音，三人合计 50 条以上
+title: HIS アニ旅：韩吉新录语音三人共 50 条
 summary: 官方门户 2022 年 3 月 22 日公布与 HIS 旅行「アニ旅」的联动旅游商品，官方写明使用「エレン・リヴァイ・ハンジの新規録りおろしボイス（総数50以上）」；目的地为北海道／冲绳，预约窗口 2022 年 3 月 22 日至 9 月 21 日，出行期 4 月 1 日至 11 月 21 日。
 category: 活动
 publishedAt: '2022-03-22'

@@ -1,7 +1,7 @@
 ---
 id: news-mayla-ear-objet-plus-hange
 slug: mayla-ear-objet-plus-hange
-title: mayla 耳饰＋：韩吉等 6 款再登场、追加安妮莎希史，仍为 24,970 円且不再完全受注
+title: mayla 耳饰＋：韩吉等 6 款再登场
 summary: 官方门户 2023 年 7 月 17 日公布 mayla「アイコニック イヤオブジェ+」预约受理中，艾伦、三笠、阿尔敏、利威尔、埃尔文、韩吉 6 人再登场，并新增安妮、莎夏、希斯特利亚 3 人，共 9 款、24,970 円（税込）；官方特别注明本次「完全受注生産ではございません」。
 category: 新品
 publishedAt: '2023-07-17'

@@ -1,7 +1,7 @@
 ---
 id: news-marukuji-standolche
 slug: marukuji-standolche
-title: 线上抽赏「まるくじ」新绘「standolce」：韩吉入选四名角色
+title: まるくじ新绘 standolce：韩吉入选四名
 summary: 艾伦、利威尔、埃尔文、韩吉四人换装新绘的线上抽赏，单次 880 日元含税，2026 年 7 月 3 日至 8 月 9 日举办；每买满 20 次赠四款写真卡套装。
 category: 新品
 publishedAt: '2026-07-03'

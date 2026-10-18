@@ -1,7 +1,7 @@
 ---
 id: news-fanfun-classical-ring-hange
 slug: fanfun-classical-ring-hange
-title: FanFun MARKET 古典戒指：韩吉款编号 F-SGR205SVAM，14,300 円
+title: FanFun 古典戒指：韩吉款是 205 号
 summary: 官方门户 2023 年 10 月 24 日公布 FanFunMARKET「進撃の巨人 クラシカルリング」受注开始，方切石加角色印象天然石、内圈英文刻名，艾伦等 6 角色各 14,300 円（税込），尺码 7～15 号仅奇数号，受注期 10 月 24 日至 11 月 20 日；品牌页面 2026 年 10 月 16 日仍列出韩吉款编号 F-SGR205SVAM。
 category: 新品
 publishedAt: '2023-10-24'

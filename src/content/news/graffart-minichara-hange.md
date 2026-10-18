@@ -1,7 +1,7 @@
 ---
 id: news-graffart-minichara-hange
 slug: graffart-minichara-hange
-title: GraffArt「ミニキャラ」12 人周边：韩吉徽章图上印着 HANJI，1 BOX 2,880 円正好是 480×6
+title: GraffArt 迷你角色 12 人：韩吉徽章印 HANJI
 summary: 2020 年 8 月 29 日起在 GraffArt Shop 四店及 EC 发售「ダークで可愛いミニキャラ」系列，点名 12 名角色含ハンジ。徽章单抽 480 円、1 BOX 2,880 円（480×6）；立牌 800 円、1 BOX 4,800 円，立牌发售日另推迟到 9 月 5 日。
 category: 新品
 publishedAt: '2020-08-08'

@@ -1,7 +1,7 @@
 ---
 id: news-puppela-erwin-hange
 slug: puppela-erwin-hange
-title: 手指玩偶 PUPPELA：韩吉与埃尔文做成一对，各 1,980 円
+title: 手指玩偶 PUPPELA：韩吉与埃尔文成对
 summary: 官方门户 2020 年 10 月 2 日公布「PUPPELA（パペラ）」手指玩偶系列，3 种组合为エレン＆リヴァイ、エルヴィン＆ハンジ、ミカサ＆ジャン，各 1,980 円（税込），2020 年 12 月前后发售，全国动画商店与通信贩售依次开始预约。
 category: 新品
 publishedAt: '2020-10-02'

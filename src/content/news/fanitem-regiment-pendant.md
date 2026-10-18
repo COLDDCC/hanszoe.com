@@ -1,7 +1,7 @@
 ---
 id: news-fanitem-regiment-pendant
 slug: fanitem-regiment-pendant
-title: FANITEM 调查兵团吊坠：背面可刻 17 名角色名（含韩吉），首轮受注 2023-09-14～09-26
+title: FANITEM 吊坠：背面可刻 17 名角色含韩吉
 summary: 2023 年 9 月 14 日官方门户公布 FANITEM 联名调查兵团吊坠：双翼拼成心脏轮廓，背面可刻角色名，对应 17 名角色含韩吉，完全受注生产，初回收注 9 月 14 日〜26 日。品牌页至今仍列该线，且全部完售。
 category: 新品
 publishedAt: '2023-09-14'

@@ -1,7 +1,7 @@
 ---
 id: news-line-theme-hange
 slug: line-theme-hange
-title: LINE 换装「ハンジver.」：2018 年 360 円（税込）或 150 硬币，2026 年 10 月仍在售、标价 370 円
+title: LINE 韩吉换装 2018 年上架仍在售
 summary: 官方门户 2018 年 9 月 7 日公布 LINE 换装第三批，三款分别是利威尔、韩吉、埃尔文，发售日 2018 年 8 月 31 日，利用料金 360 円（税込）或 150 硬币，发行方株式会社インクルーズ；韩吉款的商店直链到 2026 年 10 月 16 日仍可打开，LINE STORE 上以「Attack on Titan Hans ver.」名义在售，标价 370 円、无使用期限。
 category: 新品
 publishedAt: '2018-09-07'

@@ -1,7 +1,7 @@
 ---
 id: news-saison-card-hange
 slug: saison-card-hange
-title: SAISON CARD Digital 联名信用卡：韩吉描新绘卡面，入会期 2023-11-13 至 2024-03-31
+title: SAISON CARD 联名卡：韩吉新绘卡面
 summary: 官方门户 2023 年 11 月 13 日公布三井住友卡与进击的巨人联名的「SAISON CARD Digital＜進撃の巨人＞」，塑料卡面为艾伦／三笠／让／利威尔／韩吉描下ろし插画等三种设计，入会窗口 2023 年 11 月 13 日至 2024 年 3 月 31 日，年会费永年免费。
 category: 新品
 publishedAt: '2023-11-13'

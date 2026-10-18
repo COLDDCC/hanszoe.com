@@ -1,7 +1,7 @@
 ---
 id: news-tfs-special-event-2022-hange-cv
 slug: tfs-special-event-2022-hange-cv
-title: The Final Season SPECIAL EVENT 2022（立川，两场制）：第 2 部トーク出演 8 人，朴璐美列第 6 位
+title: Final Season 立川活动：朴璐美列第 6 位
 summary: FINAL SEASON SPECIAL EVENT 2022 于 2022 年 11 月 13 日在 TACHIKAWA STAGE GARDEN 办两部：第 1 部音乐会 13:00、第 2 部座谈 18:30。第 2 部出演 8 人（7 名声优＋1 名 MC），韩吉的声优朴璐美列第 6 位。
 category: 活动
 publishedAt: '2022-06-17'

@@ -1,7 +1,7 @@
 ---
 id: news-ddtown-wall-baum-hange
 slug: ddtown-wall-baum-hange
-title: DDtown 线上商店：韩吉与利威尔、埃尔文同组「ウォールバウム」，角色插牌按 3 人一套分两种
+title: DDtown：韩吉与利威尔、埃尔文同组插牌
 summary: 2022 年 1 月 21 日官方门户公布 DDtown 线上商店的原创周边：「ウォールバウム」把ウォール・マリア做成双层巴姆蛋糕，附立体机动姿势的角色插牌，插牌分「リヴァイ・エルヴィン・ハンジ」与「エレン・ミカサ・アルミン」两套。
 category: 新品
 publishedAt: '2022-01-21'

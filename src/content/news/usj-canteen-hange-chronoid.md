@@ -1,7 +1,7 @@
 ---
 id: news-usj-canteen-hange-chronoid
 slug: usj-canteen-hange-chronoid
-title: USJ「调查兵团食堂」：韩吉以克罗诺人偶形式在场内与游客合影
+title: USJ 调查兵团食堂：韩吉以克罗诺人偶在场
 summary: 官方门户 2019 年 11 月 28 日公布ユニバーサル・クールジャパン2020 的「進撃の巨人 XRライド」与「進撃の巨人 調査兵団の食堂」，2020 年 1 月 21 日至 6 月 28 日举办；官方写明店内设「リヴァイ」と「ハンジ」的クロノイド合影点（付费，需点指定菜单），食堂内另可听到角色对话。
 category: 活动
 publishedAt: '2019-11-28'

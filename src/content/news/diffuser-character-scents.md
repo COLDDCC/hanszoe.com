@@ -1,7 +1,7 @@
 ---
 id: news-diffuser-character-scents
 slug: diffuser-character-scents
-title: 角色印象香薰「HANS ZOE ～烟熏柑橘～」：官方逐段写出韩吉的香气
+title: 角色印象香薰：官方写出韩吉的香气
 summary: fav's room TOKYO 的进击的巨人 The Final Season 系列扩散器为韩吉单独出一款，官方以「冷静判断力与覚悟」「率领军团的战略思考」「使命告终后启程」写满四段香调；2025 年 10 月 31 日开启预约，2026 年 2 月 2 日发售，4,400 円含税。
 category: 新品
 publishedAt: '2025-10-31'

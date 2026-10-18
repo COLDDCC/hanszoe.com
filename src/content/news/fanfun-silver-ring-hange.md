@@ -1,7 +1,7 @@
 ---
 id: news-fanfun-silver-ring-hange
 slug: fanfun-silver-ring-hange
-title: FanFun MARKET 银戒 8 款：韩吉款现售编号 F-SGR705SVAM，已完售
+title: FanFun 银戒 8 款：韩吉款已完售
 summary: 官方门户 2020 年 11 月 26 日公布 Fan Fun MARKET「進撃の巨人 シルバーリング」全 8 种，平打戒面带砖纹、中央镶角色印象色宝石、内圈刻角色名与图标，素材 Silver925 加天然石，12,000 円＋税、7～21 号奇数号，受注期 11 月 26 日至 12 月 28 日；品牌页 2026 年 10 月 16 日仍列韩吉款 F-SGR705SVAM，标价 13,200 円（含税）并标注完售。
 category: 新品
 publishedAt: '2020-11-26'

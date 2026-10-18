@@ -1,7 +1,7 @@
 ---
 id: news-youtreasure-message-ring-black-hange
 slug: youtreasure-message-ring-black-hange
-title: 台词戒指黑色镀膜版：官方列出 7 名角色含韩吉，9 月 8 日至 22 日预约
+title: 台词戒指黑镀版：7 名角色含韩吉
 summary: 官方门户 2021 年 9 月 8 日公布ユートレジャー「メッセージリング」的ブラックコーティング版本，展开エレン、アルミン、エルヴィン、リヴァイ、ハンジ、ミカサ、ジャン共 7 款，官方说明为「7人のキャラクターそれぞれのセリフを刻印し、イメージカラーの天然石を留めています」；预约受理 2021 年 9 月 8 日至 9 月 22 日，本篇未给出价格。
 category: 新品
 publishedAt: '2021-09-08'

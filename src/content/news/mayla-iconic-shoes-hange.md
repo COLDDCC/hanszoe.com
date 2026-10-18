@@ -1,7 +1,7 @@
 ---
 id: news-mayla-iconic-shoes-hange
 slug: mayla-iconic-shoes-hange
-title: 韩吉款高跟鞋：mayla classic「進撃の巨人 アイコニックシューズ」受注生产
+title: mayla classic：韩吉款高跟鞋受注生产
 summary: 官方门户 2022 年 4 月 20 日公布 mayla classic 与『進撃の巨人』的联名鞋「進撃の巨人 アイコニックシューズ」，以エレン、ミカサ、アルミン、リヴァイ、エルヴィン、ハンジ六名角色为设计原型，主题「The Dress Of Regiment ― 兵士のドレス ―」，2022 年 4 月 20 日 12:00～5 月 20 日 23:59 在 mayla classic 官方 EC 受注，28,600 円（税込）。
 category: 新品
 publishedAt: '2022-04-20'

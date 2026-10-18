@@ -1,7 +1,7 @@
 ---
 id: news-line-theme-survey-corps-hange
 slug: line-theme-survey-corps-hange
-title: LINE 换装「調査兵団ver.」：主视觉就是 Q 版韩吉，2017 年 4 月 28 日开始配信
+title: LINE 调查兵团换装：主视觉是 Q 版韩吉
 summary: 官方门户 2017 年 4 月 28 日公布 LINE クリエイターズ着せかえ「進撃の巨人 調査兵団ver.」，原文写「今度はハンジやジャン、コニーなど調査兵団のキャラクターたちが登場」，并给出主题直链与同系列ちみキャラスタンプ链接；本篇唯一配图是紫底砖墙上的戴圆眼镜 Q 版角色，即韩吉；2026 年 10 月 16 日该主题在 LINE STORE 已返回 404，同篇链接的スタンプ 8413 仍在售、标价 320 円。
 category: 新品
 publishedAt: '2017-04-28'

@@ -1,7 +1,7 @@
 ---
 id: musical-ny-premiere-hange-tatemichi
 slug: musical-ny-premiere-hange-tatemichi
-title: 音乐剧纽约首演（2024-10-11〜13，共 4 场）：15 个有名角色里韩吉仍是立道梨绪奈，与日本版只差 2 人
+title: 音乐剧纽约首演 4 场：韩吉仍是立道梨绪奈
 summary: 纽约公演官网列明 2024 年 10 月 11 日〜13 日在 New York City Center 演出，排期表合计 4 场；cast 页 15 个有名角色里「ハンジ・ゾエ 立道梨緒奈」列第 13 位，与日本凯旋同一人。两版逐条对照只有ミカサ、ジャン换人。
 category: 活动
 publishedAt: '2024-10-11'

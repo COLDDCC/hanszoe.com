@@ -1,7 +1,7 @@
 ---
 id: news-last-attack-goods-mailorder
 slug: last-attack-goods-mailorder
-title: THE LAST ATTACK 剧场周边事后通贩：官方追加韩吉、埃尔文的玩偶钥匙扣
+title: 剧场周边事后通贩：追加韩吉、埃尔文挂件
 summary: 官方门户 2025 年 2 月 26 日宣布剧场版「進撃の巨人」完結編 THE LAST ATTACK 的剧场周边开启事后通贩，并追加新商品；官方写明ぬいぐるみキーホルダー在剧场已售的エレン、ミカサ、アルミン、リヴァイ之外，追加ハンジ、エルヴィン等调查兵团成员与ライナー、ガビ、ファルコ等马莱侧角色；受注期间为 2025 年 2 月 27 日（木）19 時～3 月 10 日（月）23:59。
 category: 再贩
 publishedAt: '2025-02-26'

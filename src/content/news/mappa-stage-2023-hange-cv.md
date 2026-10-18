@@ -1,7 +1,7 @@
 ---
 id: news-mappa-stage-2023-hange-cv
 slug: mappa-stage-2023-hange-cv
-title: MAPPA STAGE 2023 进击的巨人参加发表（2023-03-23）：CAST 4 人名单第 3 位是韩吉的声优朴璐美
+title: MAPPA STAGE 2023：朴璐美列 CAST 第 3 位
 summary: 官方门户 2023 年 3 月 23 日发表『MAPPA STAGE 2023』（5 月 21 日，东京ガーデンシアター）有进击的巨人参加。名单 4 人是 3 名声优加 1 名监督，韩吉的声优朴璐美排在第 3 位，同页官方配图直接标注「朴璐美（ハンジ・ゾエ役）」。
 category: 活动
 publishedAt: '2023-03-23'

@@ -1,7 +1,7 @@
 ---
 id: news-youtreasure-message-ring-hange
 slug: youtreasure-message-ring-hange
-title: ユートレジャー台词戒指：韩吉刻「今 最高にかっこつけたい気分なんだよ」
+title: ユートレジャー台词戒指：韩吉刻台词
 summary: 官方门户 2024 年 9 月 19 日公布六款角色台词戒指，韩吉款刻印作中台词「I want to look as cool as I possibly can right now.（今 最高にかっこつけたい気分なんだよ）」；官方未给出价格与发售日。
 category: 新品
 publishedAt: '2024-09-19'

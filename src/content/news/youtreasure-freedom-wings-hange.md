@@ -1,7 +1,7 @@
 ---
 id: news-youtreasure-freedom-wings-hange
 slug: youtreasure-freedom-wings-hange
-title: 自由之翼耳饰：官方写明韩吉对应宝石为紫水晶（アメシスト）
+title: 自由之翼耳饰：韩吉对应紫水晶
 summary: 官方门户 2020 年 7 月 14 日公布ユートレジャー「自由の翼」ピアス・イヤリング，以调查兵团纹章为造型，可按角色选 7 种彩色宝石，官方逐一列出对应关系，韩吉为アメシスト（紫水晶）；银色 12,100 円、K10 黄金／粉金 24,200 円（税込），2020 年 7 月 14 日至 8 月 11 日预约受理。
 category: 新品
 publishedAt: '2020-07-14'

@@ -1,7 +1,7 @@
 ---
 id: news-animation-gallery-audio-guide-hange
 slug: animation-gallery-audio-guide-hange
-title: 原画展「THE ANIMATION GALLERY」语音导览：韩吉经粉丝投票当选五位导览角色之一
+title: 原画展语音导览：韩吉经投票当选五位角色
 summary: 官方门户 2018 年 7 月 25 日公布，动画原画展「進撃の巨人 THE ANIMATION GALLERY」的展示区语音导览角色由「みん撃」投票决定，最终为艾伦、三笠、利威尔、韩吉、埃尔文五名；导览器在会场入口贩售，另设含导览的入场券。
 category: 活动
 publishedAt: '2018-07-25'

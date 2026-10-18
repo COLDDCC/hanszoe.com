@@ -1,7 +1,7 @@
 ---
 id: news-wit-studio-sketch-hange
 slug: wit-studio-sketch-hange
-title: WIT STUDIO 新绘周边 5 项：正文写「全 8 種類」，角色名单也正好 8 人，但每人后面的数字含义官方没说明
+title: WIT 新绘周边：写全 8 種、名单也 8 人
 summary: 2019 年 2 月 21 日官方门户公布 WIT STUDIO 新绘周边：亚克力钥匙扣标「全 8 種類・各 1,200 円（税抜）」，角色名单正好 8 人且含ハンジ，透明文件夹沿用同一份名单；同场托特包与马克杯只列エレン／リヴァイ／エルヴィン，不含韩吉。
 category: 新品
 publishedAt: '2019-02-21'

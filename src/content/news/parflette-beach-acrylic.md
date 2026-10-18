@@ -1,7 +1,7 @@
 ---
 id: news-parflette-beach-acrylic
 slug: parflette-beach-acrylic
-title: Parflette 冲绳主题新绘：韩吉入选徽章 B 组与八款立牌
+title: Parflette 冲绳新绘：韩吉进徽章 B 组
 summary: 官方门户 2026 年 2 月 18 日公布 Parflette 进击的巨人新商品，主题为阿罗哈衬衫与泳圈；韩吉被官方明确列入缶バッジセットB（让／莱纳／韩吉／利威尔，1,980 円含税），预约窗口 2026 年 2 月 18 日至 3 月 31 日。
 category: 新品
 publishedAt: '2026-02-18'

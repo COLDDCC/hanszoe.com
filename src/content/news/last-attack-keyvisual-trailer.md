@@ -1,7 +1,7 @@
 ---
 id: news-last-attack-keyvisual-trailer
 slug: last-attack-keyvisual-trailer
-title: 剧场版完結編 THE LAST ATTACK 主视觉与本预告解禁：官方写明「韩吉冲向地鸣巨人」
+title: 完結編主视觉解禁：官方写明韩吉冲向地鸣
 summary: 官方门户 2024 年 9 月 13 日解禁劇場版「進撃の巨人」完結編 THE LAST ATTACK 的キービジュアル与本预告，正文点名预告使用了「ハンジが地鳴らし巨人に、ミカサ、リヴァイが終尾の巨人に立ち向かう」的画面；2024 年 11 月 8 日起全国影院限定上映 3 周。
 category: 动画
 publishedAt: '2024-09-13'

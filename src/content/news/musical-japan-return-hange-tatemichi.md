@@ -1,7 +1,7 @@
 ---
 id: news-musical-japan-return-hange-tatemichi
 slug: musical-japan-return-hange-tatemichi
-title: 音乐剧日本凯旋公演（2024 东京＋2025 大阪）：韩吉・佐耶由立道梨绪奈饰演，官网 15 个角色里排第 13
+title: 音乐剧日本凯旋：韩吉役立道梨绪奈列第 13
 summary: 音乐剧日本凯旋公演官网写明ハンジ・ゾエ役为立道梨緒奈，cast 图片文件名是 13_Hange.jpg，即 15 个有名角色里的第 13 位。东京公演 14 回＋大阪 6 回合计 20 回，票价全席指定与サイドシート同为 13,000 円（税込）。
 category: 活动
 publishedAt: '2024-12-13'

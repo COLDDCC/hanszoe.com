@@ -1,7 +1,7 @@
 ---
 id: game-shingeki2-hange-lab-unlock-npc
 slug: game-shingeki2-hange-lab-unlock-npc
-title: 游戏《进击的巨人２》在线系统页：要开「巨人研究所」得先去团长室找韩吉说话
+title: 进击的巨人2：开研究所得去团长室找韩吉
 summary: 《進撃の巨人２》官网在线系统页原句写明：通关 2 章 2 话之后，要在日常环节到团长室跟韩吉说话，才解锁「巨人研究所」。同站更新日志记了研究所的 3 次改动（2018/3/29、2018/8/9、2019/7/4）。
 category: 新品
 publishedAt: '2018-03-29'

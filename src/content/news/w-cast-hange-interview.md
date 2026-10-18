@@ -1,7 +1,7 @@
 ---
 id: news-w-cast-hange-interview
 slug: w-cast-hange-interview
-title: 2015 两大电影 W  cast 访谈：石原里美 × 朴璐美「W 韩吉」对谈分四本杂志刊载
+title: W 韩吉对谈：石原里美×朴璐美分四刊载
 summary: 官方门户 2015 年 6 月 18 日公布剧场版后篇～自由之翼～与实写电影「進撃の巨人 ATTACK ON TITAN」的 W cast＆W 监督大型对谈，讲谈社 18 志自 6 月 23 日起顺次刊载；其中韩吉由实写版石原さとみ与动画版朴璐美组成「Wハンジ・スペシャルインタビュー」，官方列出 VOCE 9 月号、Kiss 9 月号、ARIA 9 月号、週刊少年マガジン 35 号四本及各自发售日。
 category: 连载
 publishedAt: '2015-06-18'

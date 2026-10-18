@@ -1,7 +1,7 @@
 ---
 id: news-ichibankuji-jiyu-hange
 slug: ichibankuji-jiyu-hange
-title: 一番くじ「自由への進撃」：韩吉是 C 赏 15cm 读书坐姿手办，12 等级 43 种逐条对得上
+title: 一番くじ自由への進撃：韩吉是 C 赏手办
 summary: 一番くじ「進撃の巨人～自由への進撃～」2014 年 12 月 9 日起发售，1 回 620 円（税込）。正文写「12等級全43種+ラストワン賞」，官方等级图上 C 赏是韩吉的读书坐姿手办（约 15cm）；把各等级的种数逐条相加正好 43。
 category: 新品
 publishedAt: '2014-12-08'

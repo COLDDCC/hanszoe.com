@@ -1,7 +1,7 @@
 ---
 id: news-newrock-hange-boots
 slug: newrock-hange-boots
-title: NEW ROCK 联名靴全 12 型：韩吉为六个设计母题之一，西班牙手工完全受注生产
+title: NEW ROCK 联名靴 12 型：韩吉是母题之一
 summary: 官方门户 2025 年 11 月 1 日公布西班牙靴牌 NEW ROCK 与进击的巨人的联名，官方以艾伦／三笠／利威尔／阿尔敏／韩吉／超大型巨人六个形象为母题做成全 12 型，2025 年 11 月 1 日 19:00 起完全受注生产，约 5 个月后配送，价格官方在本篇未印出。
 category: 新品
 publishedAt: '2025-11-01'

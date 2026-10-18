@@ -1,7 +1,7 @@
 ---
 id: news-sunshine-hotel-hange-illustration
 slug: sunshine-hotel-hange-illustration
-title: 阳光城王子酒店联动住宿：韩吉入选四张描新绘，用于生日会场拍照点
+title: 王子酒店联动：韩吉入选四张新绘
 summary: 官方门户 2021 年 12 月 7 日公布进击的巨人 × サンシャインシティプリンスホテル的联动住宿计划，虽以「リヴァイ兵長バースデー記念」为名，但官方写明会场（拍照点）使用「リヴァイ」「エレン」「ハンジ」「エルヴィン」四名描下ろし插画，住宿期为 2021 年 12 月 24 日至 26 日共三天。
 category: 活动
 publishedAt: '2021-12-07'

@@ -1,7 +1,7 @@
 ---
 id: news-animtion-addict-botanical-hange
 slug: animtion-addict-botanical-hange
-title: アニ中ストア 龟井英里联名：官方把韩吉的象征写成「ゴーグル」，6 品 1,800～3,600 円（税别）
+title: アニ中×龟井英里：韩吉的象征写成ゴーグル
 summary: 官方门户 2019 年 6 月 6 日公布 ANIMTION ADDICT STORE 的完全受注生产系列，插画家龟井英里为作品设计专属图案，花枝间藏角色意象，官方点名「ハンジ:ゴーグル」等母题；6 件商品从バンダナ 1,800 円到スライドサンダル 3,600 円（均为＋税），受注期 2019 年 6 月 6 日至 6 月 28 日，预定 2019 年 9 月中旬发货。
 category: 新品
 publishedAt: '2019-06-06'

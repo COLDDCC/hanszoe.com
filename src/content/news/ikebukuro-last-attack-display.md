@@ -1,7 +1,7 @@
 ---
 id: news-ikebukuro-last-attack-display
 slug: ikebukuro-last-attack-display
-title: THE LAST ATTACK 复活上映纪念：animate 池袋本店 1F 韩吉等五人立牌与超大型巨人气球
+title: 池袋 animate：韩吉等五人立牌与巨型气球
 summary: 官方门户 2025 年 12 月 25 日公布劇場版「進撃の巨人」完結編 THE LAST ATTACK 复活上映纪念的 animate 池袋本店 1F 特别展示，展示内容为超大型巨人气球与「エレン・ミカサ・アルミン・リヴァイ・ハンジ予定」的立牌，展期 2026 年 1 月 15 日至 1 月 16 日两天。
 category: 活动
 publishedAt: '2025-12-25'

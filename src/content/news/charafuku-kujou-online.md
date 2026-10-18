@@ -1,7 +1,7 @@
 ---
 id: news-charafuku-kujou-online
 slug: charafuku-kujou-online
-title: キャラ福くじONLINE：韩吉与艾伦、让、利威尔四人新绘
+title: キャラ福くじ：韩吉与艾伦、让、利威尔
 summary: 官方门户 2025 年 11 月 20 日宣布キャラ福くじONLINE 上线「進撃の巨人」，采用利威尔、艾伦、让、韩吉四人的新规描き下ろし插画；单抽 770 円，10 回抽 7,700 円并附随机写真特典。
 category: 新品
 publishedAt: '2025-11-20'

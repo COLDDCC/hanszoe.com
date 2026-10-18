@@ -1,7 +1,7 @@
 ---
 id: musical-worldtour-singapore-hange-tatemichi
 slug: musical-worldtour-singapore-hange-tatemichi
-title: 音乐剧首次世界巡演发表（2026-10-13）：新加坡站的韩吉仍由立道梨绪奈饰演，卡司表列 27 个有名角色
+title: 首次世界巡演：新加坡站韩吉仍由立道梨绪奈饰演
 summary: 音乐剧官网 2026 年 10 月 13 日发表首次世界巡演，首站新加坡 Sands Theatre，档期 2027 年 4 月 15 日〜5 月 2 日、含首尾 18 天。新加坡站 CAST 页列出 27 个有名角色，「ハンジ・ゾエ役 立道梨緒奈」排在第 25 位。
 category: 活动
 publishedAt: '2026-10-13'

@@ -1,7 +1,7 @@
 ---
 id: news-season1-bluray-box-hange
 slug: season1-bluray-box-hange
-title: Season 1 Blu-ray／DVD BOX：韩吉・佐耶的声优朴璐美写在 Vol.2「悔いなき選択」出演栏，7 张碟＝5＋2
+title: Season1 BOX：韩吉声优印在 Vol.2 出演栏
 summary: 官方门户 2016 年 12 月 20 日公布 Season 1 Blu-ray／DVD BOX：2017 年 3 月 15 日发售、35,000 円（税抜）、DISC 7 枚＝本篇・特典映像 5 枚＋视觉小说 2 枚。Vol.2「悔いなき選択」的出演栏印着「ハンジ・ゾエ：朴璐美」。
 category: 新品
 publishedAt: '2016-12-20'

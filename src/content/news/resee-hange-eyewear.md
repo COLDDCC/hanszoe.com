@@ -1,7 +1,7 @@
 ---
 id: news-resee-hange-eyewear
 slug: resee-hange-eyewear
-title: Re:See 联名眼镜「韩吉·佐耶模型」：无框、杏仁眼镜片
+title: Re:See 联名眼镜：韩吉·佐耶模型
 summary: 官方门户 2025 年 11 月 17 日公布与眼镜品牌 Re:See 的联名，共艾伦、韩吉、利威尔三款镜架；韩吉·佐耶模型 39,600 円，全型号受注生产，官方标注发货窗口 2026 年 2 月至 4 月。
 category: 新品
 publishedAt: '2025-11-17'

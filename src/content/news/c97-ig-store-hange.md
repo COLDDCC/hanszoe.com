@@ -1,7 +1,7 @@
 ---
 id: news-c97-ig-store-hange
 slug: c97-ig-store-hange
-title: C97 I.G -store 出差店（No.2232）：韩吉原画钥匙扣印着「HANS ZOE」，8 种套装 5,250 円比单买 8 只贵 50 円
+title: C97 I.G 出差店：韩吉钥匙扣印着 HANS ZOE
 summary: C97（2019 年 12 月 28 日〜31 日，青海展示棟企业ブース No.2232）设「I.Gストア出張店」。原画钥匙扣第 4 弹 650 円／全 8 种，图上逐只印名，其中一只是「HANS ZOE」；8 种套装 5,250 円，比单买贵 50 円。
 category: 新品
 publishedAt: '2019-12-11'

@@ -1,7 +1,7 @@
 ---
 id: news-graffart-yukata-hange
 slug: graffart-yukata-hange
-title: GraffArt 浴衣版 12 人：徽章上印着「Hans Zoe」，780×6=4,680 与官方 1 BOX 定价一致
+title: GraffArt 浴衣版 12 人：徽章印 Hans Zoe
 summary: 官方门户 2020 年 7 月 2 日公布，2020 年 7 月 4 日起在 GraffArt Shop 四家门店与 EC 发售浴衣版グラフアート新品，正文点名 12 人（含ハンジ）在夏祭游玩；官方配图把 12 只徽章逐只印上英文名，其中紫色那只印「Hans Zoe」，与正文 12 名一一对得上；钥匙扣单抽 780 円、1 BOX 4,680 円（780×6=4,680），徽章 480×6=2,880 同样吻合。
 category: 新品
 publishedAt: '2020-07-02'

@@ -1,7 +1,7 @@
 ---
 id: news-cospa-tsumamare
 slug: cospa-tsumamare-2024
-title: COSPA 亚克力抓挂：The Final Season 绘柄发行档案
+title: COSPA 亚克力抓挂：Final Season 绘柄
 summary: 官方公告中的韩吉款、一般发售窗口与日田先行销售计划。
 category: 新品
 publishedAt: '2024-05-17'

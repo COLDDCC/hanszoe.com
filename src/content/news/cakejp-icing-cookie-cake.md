@@ -1,7 +1,7 @@
 ---
 id: news-cakejp-icing-cookie-cake
 slug: cakejp-icing-cookie-cake
-title: 韩吉与利威尔同组：Cake.jp 糖霜饼干蛋糕 4 号，附韩吉图案饼干与 2 枚立起来缶バッジ
+title: Cake.jp 蛋糕：韩吉与利威尔同组两款
 summary: 2022 年 6 月 27 日官方门户公布 Cake.jp 联名蛋糕：用エレン、ミカサ、リヴァイ、ハンジ四人的糖霜饼干装饰，4 号 12cm、6,000 円（税込），分「エレン・ミカサ」与「リヴァイ・ハンジ」两种组合；韩吉款另附两人图案的立起来缶バッジ 2 枚。
 category: 新品
 publishedAt: '2022-06-27'

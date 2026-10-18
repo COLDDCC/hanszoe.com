@@ -1,7 +1,7 @@
 ---
 id: news-musical-dmm-stream-hange-comment
 slug: musical-dmm-stream-hange-comment
-title: 音乐剧凯旋公演线上配信：想看韩吉役立道梨绪奈的演后评论，只有 1 月 13 日 13:00 的「全景映像版」2,800 円
+title: 凯旋配信：韩吉役评论只有全景版那一场
 summary: 凯旋公演的线上配信只选 2025 年 1 月 13 日两场：13:00 全景映像版 2,800 円（税込）、18:00 开关映像版 3,800 円。韩吉役立道梨緒奈只出现在 13:00 那一组的演后评论名单里，也就是价格较低的那档；两组各 5 人、无重叠。
 category: 活动
 publishedAt: '2025-01-13'

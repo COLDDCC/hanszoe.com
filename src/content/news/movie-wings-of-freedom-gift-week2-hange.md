@@ -1,7 +1,7 @@
 ---
 id: news-movie-wings-of-freedom-gift-week2-hange
 slug: movie-wings-of-freedom-gift-week2-hange
-title: 剧场版后编「自由之翼」第二周入场者特典：浅野恭司新绘韩吉迷你色纸
+title: 自由之翼后编第2周特典：浅野恭司新绘韩吉
 summary: 官方门户 2015 年 6 月 29 日公布，剧场版「進撃の巨人」后编～自由の翼～的周替入场者特典第二周为角色设计浅野恭司新绘的韩吉特製ミニ色紙，2015 年 7 月 4 日至 10 日先着配布。
 category: 活动
 publishedAt: '2015-06-29'
