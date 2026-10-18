@@ -2,5 +2,85 @@
 import Base from '../../layouts/Base.astro';import Sources from '../../components/Sources.astro';import Card from '../../components/ProductCard.astro';import {getCollection,render} from 'astro:content';import {products,series} from '../../lib/data';
 export async function getStaticPaths(){return (await getCollection('news',e=>!e.data.isDemo)).map(entry=>({params:{slug:entry.data.slug},props:{entry}}));}const {entry}=Astro.props;const {Content}=await render(entry);const d=entry.data;const s=series.find(s=>s.id===d.seriesId);
 ---
-<Base title={d.title} description={d.summary}><div class="breadcrumbs"><a href="/news/">活动资讯</a><span>/</span><span>{d.category}</span></div><article class="article"><span class="eyebrow">{d.category} / {d.publishedAt}</span><h1>{d.title}</h1><p class="lead">{d.summary}</p>{d.cover&&<figure class="article-cover"><img src={d.cover.path} alt={d.cover.alt}/>{d.cover.credit&&<figcaption>{d.cover.credit}</figcaption>}</figure>}<div class="notice">发行档案 · 不代表当前库存或销售状态</div>{(()=>{const rows=d.dates.map(x=><div><dt>{x.label}</dt><dd>{x.value}（{x.precision==='month'?'精确到月份 · ':''}{x.timezone}）</dd></div>);if(d.salesMethod||d.region)rows.push(<div><dt>{d.dates.length?'销售方式':'参与方式'}</dt><dd>{[d.salesMethod,d.region].filter(Boolean).join(' · ')}</dd></div>);return rows.length>0&&(<><h2>关键日期</h2><dl>{rows}</dl></>)})()}<Content/>{s&&<p>系列：<a href={'/series/'+s.slug+'/'}>{s.name}</a></p>}</article>{d.productIds.length>0&&<section><h2>关联周边</h2><div class="product-grid">{products.filter(p=>d.productIds.includes(p.id)).map(p=><Card product={p}/>)}</div></section>}<Sources sources={d.sources}/></Base>
+<Base title={d.title} description={d.summary}><div class="breadcrumbs"><a href="/news/">活动资讯</a><span>/</span><span>{d.category}</span></div><article class="article"><span class="eyebrow">{d.category} / {d.publishedAt}</span><h1>{d.title}</h1><p class="lead" id="lead">{d.summary}</p>{d.cover&&<figure class="article-cover"><img src={d.cover.path} alt={d.cover.alt}/>{d.cover.credit&&<figcaption>{d.cover.credit}</figcaption>}</figure>}<div class="notice">发行档案 · 不代表当前库存或销售状态</div>{(()=>{const rows=d.dates.map(x=><div><dt>{x.label}</dt><dd>{x.value}（{x.precision==='month'?'精确到月份 · ':''}{x.timezone}）</dd></div>);if(d.salesMethod||d.region)rows.push(<div><dt>{d.dates.length?'销售方式':'参与方式'}</dt><dd>{[d.salesMethod,d.region].filter(Boolean).join(' · ')}</dd></div>);return rows.length>0&&(<><h2>关键日期</h2><dl>{rows}</dl></>)})()}<Content/>{s&&<p>系列：<a href={'/series/'+s.slug+'/'}>{s.name}</a></p>}</article>{d.productIds.length>0&&<section><h2>关联周边</h2><div class="product-grid">{products.filter(p=>d.productIds.includes(p.id)).map(p=><Card product={p}/>)}</div></section>}<Sources sources={d.sources}/></Base>
+<style is:global>
+.lead.is-clamped{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
+.lead-more{margin:6px 0 14px;padding:5px 12px;border:1px solid #ddcfe9;border-radius:999px;background:#faf7fd;color:#5b4a72;font-size:.78rem;letter-spacing:.04em;cursor:pointer}
+.lead-more:hover{background:#f1e9f8}
+details.evidence,details.caveats{margin:16px 0;border:1px solid #e7dff1;border-radius:12px;background:#fbf9fd}
+details.caveats{border-color:#e8e4dd;background:#fbfaf7}
+details.evidence>summary,details.caveats>summary{display:flex;align-items:center;gap:9px;padding:10px 14px;cursor:pointer;list-style:none;font-size:.84rem;color:#5b4a72}
+details.caveats>summary{color:#7a7264}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";width:6px;height:6px;border-right:1.6px solid currentColor;border-bottom:1.6px solid currentColor;transform:rotate(-45deg);opacity:.65;transition:transform .15s}
+details[open]>summary::before{transform:rotate(45deg)}
+details>summary::after{content:"点开";margin-left:auto;font-size:.72rem;letter-spacing:.08em;opacity:.6}
+details[open]>summary::after{content:"收起"}
+details[open]>summary{border-bottom:1px dashed #e7dff1}
+.fold-body{padding:4px 14px 14px}
+.fold-body table{margin:8px 0;font-size:.86rem}
+.fold-body p:first-child{margin-top:8px}
+</style>
+<script is:inline>
+  const lead = document.querySelector("#lead");
+  if (lead) {
+    lead.classList.add("is-clamped");
+    if (lead.scrollHeight - lead.clientHeight > 8) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "lead-more";
+      btn.textContent = "展开全文";
+      btn.onclick = () => {
+        const open = lead.classList.toggle("is-clamped") === false;
+        btn.textContent = open ? "收起" : "展开全文";
+      };
+      lead.after(btn);
+    } else {
+      lead.classList.remove("is-clamped");
+    }
+  }
+  const art = document.querySelector("article.article");
+  if (art) {
+    const fold = (cls, label, nodes) => {
+      const box = document.createElement("details");
+      box.className = cls;
+      const sum = document.createElement("summary");
+      sum.textContent = label;
+      const body = document.createElement("div");
+      body.className = "fold-body";
+      box.append(sum, body);
+      nodes[0].before(box);
+      nodes.forEach((n) => body.appendChild(n));
+      return box;
+    };
+    [...art.querySelectorAll(":scope > table")].forEach((t) => fold("evidence", "核对表 · 页面原文与数字", [t]));
+    const isH = (n) => /^H[23]$/.test(n.tagName);
+    const caveatLead = (n) => n.textContent.trim().startsWith("待核实");
+    const kids = [...art.children];
+    let start = kids.findIndex((n) => n.tagName === "P" && caveatLead(n));
+    if (start < 0) start = kids.findIndex((n) => isH(n) && caveatLead(n));
+    if (start >= 0) {
+      const marker = kids[start];
+      let end = start + 1;
+      while (
+        end < kids.length &&
+        !isH(kids[end]) &&
+        !(kids[end].tagName === "P" && kids[end].textContent.trim().startsWith("系列："))
+      ) end++;
+      if (marker.tagName === "P") {
+        const strong = marker.firstElementChild;
+        if (strong && strong.textContent.trim() === "待核实") {
+          strong.remove();
+          const t = marker.firstChild;
+          if (t && t.nodeType === 3) t.textContent = t.textContent.replace(/^[：:]\s*/, "");
+          if (!marker.textContent.trim()) marker.remove();
+        }
+      }
+      const group = kids.slice(start, end).filter((n) => n.parentNode === art && n.tagName !== "DETAILS");
+      const bodies = group.filter((n) => !isH(n));
+      const items = group.reduce((s, n) => s + (n.tagName === "UL" || n.tagName === "OL" ? n.querySelectorAll(":scope > li").length : 0), 0) || bodies.length;
+      if (group.length) fold("caveats", items ? `存疑与未核实 ${items} 条` : "存疑与未核实", group);
+    }
+  }
+</script>
 
