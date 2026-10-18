@@ -2,7 +2,7 @@
 id: game-finalbattle-hange-store-bonuses
 slug: game-finalbattle-hange-store-bonuses
 title: 游戏《进击的巨人２ -Final Battle-》10 家预约特典店里，只有 2 家的赠品画着韩吉
-summary: コーエーテクモゲームス《進撃の巨人２ -Final Battle-》官网「特典情報／店舗別特典」页把特典分成两组：「ダウンロードコンテンツ特典」3 家与「オリジナルグッズ特典」10 家，每家下面都有一行「chara-name」列出赠品上的角色。10 家原创周边特典里，角色名单含ハンジ的只有 2 家——キャラアニ.com 的「ブロマイド4枚セット A/B」中 A 柄为「ハンジ / エルヴィン / エレン / キース」，以及 WonderGOO 的「マグカップ」为「ハンジ / エルヴィン / エレン / リヴァイ」。而キャラアニ是购买时 A、B 二选一，所以「不用挑就一定拿到韩吉」的只剩 WonderGOO 一家。
+summary: 《進撃の巨人２ -Final Battle-》官网把预约特典分成 DLC 3 家与原创周边 10 家，每家列一行赠品角色名单。10 家里含ハンジ的只有 2 家，而キャラアニ是 A、B 二选一，所以「不用挑就一定拿到韩吉」的只剩 WonderGOO 一家。
 category: 预订
 publishedAt: '2019-07-04'
 updatedAt: '2026-10-17'

@@ -2,7 +2,7 @@
 id: news-penguinparade-final-season-levi-hange
 slug: penguinparade-final-season-levi-hange
 title: Penguin Parade 利威尔＆韩吉野炊新绘 7 件：钥匙扣上印着「Hans」，挂毯标 B2 而尺寸正是 515×728mm
-summary: 官方门户 2025 年 4 月 18 日公布，Penguin Parade 用 TVアニメ『進撃の巨人』The Final Season 的新绘「利威尔与韩吉野炊」插画做了 7 件周边，全部标注 2025 年 6 月下旬頃发售且价格含税：亚克力钥匙扣各 990 円（全长约 90mm）、亚克力立牌各 1,650 円（约 140mm）、亚克力面板 4,400 円（约 210×297mm）、徽章各 440 円（约 56mm）、透明文件夹各 440 円（220×310mm）、SNS 风透明卡片各 550 円（65×92mm）、B2 挂毯 3,300 円（约 W515×H728mm，与 B2 纸标准 515×728mm 吻合）；挂毯图上印着「Levi & Hans」，钥匙扣两款分别印「Levi」「Hans」。
+summary: 2025 年 4 月 18 日官方门户公布，Penguin Parade 用「利威尔与韩吉野炊」新绘做了 7 件周边，全部标注 2025 年 6 月下旬頃发售、价格含税。挂毯标 B2，而尺寸 W515×H728mm 正是 B2 纸的标准，图上印着「Levi & Hans」。
 category: 新品
 publishedAt: '2025-04-18'
 updatedAt: '2026-10-17'

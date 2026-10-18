@@ -2,7 +2,7 @@
 id: musical-worldtour-singapore-hange-tatemichi
 slug: musical-worldtour-singapore-hange-tatemichi
 title: 音乐剧首次世界巡演发表（2026-10-13）：新加坡站的韩吉仍由立道梨绪奈饰演，卡司表列 27 个有名角色
-summary: 音乐剧官网新闻栏 2026 年 10 月 13 日（火）发表「進撃の巨人」-the Musical- 首次世界巡演，首站新加坡 Sands Theatre, Marina Bay Sands，档期 2027 年 4 月 15 日（木）〜5 月 2 日（日），含首尾 18 天。新加坡站 CAST 页列出 27 个有名角色，「ハンジ・ゾエ役 立道梨緒奈」排在第 25 位，与 2024 日本凯旋公演是同一位演员。与凯旋的 15 个角色逐条对照：5 人留任（含韩吉）、10 个换人，另有 12 个凯旋时未列名的角色进了这张表；27 人里有 9 人原本在凯旋页的 Blade Attackers 群演名单上。
+summary: 音乐剧官网 2026 年 10 月 13 日发表首次世界巡演，首站新加坡 Sands Theatre，档期 2027 年 4 月 15 日〜5 月 2 日、含首尾 18 天。新加坡站 CAST 页列出 27 个有名角色，「ハンジ・ゾエ役 立道梨緒奈」排在第 25 位。
 category: 活动
 publishedAt: '2026-10-13'
 updatedAt: '2026-10-17'

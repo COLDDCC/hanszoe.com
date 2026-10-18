@@ -2,7 +2,7 @@
 id: musical-bluray-animate-hange-bromide
 slug: musical-bluray-animate-hange-bromide
 title: 凯旋公演 Blu-ray 的 4 家法人特典里，只有 animate 的 7 枚写真套装画着韩吉
-summary: 音乐剧官网 goods 页写明日本凯旋公演 Blu-ray（PCXG-50834，11,880 円税込，2025 年 6 月 25 日发售，收录 2025 年 1 月 13 日大阪大千秋楽）的「法人別オリジナル特典」共 4 家：きゃにめ是全景映像DVD，ネルケオンラインショップ与 Amazon.co.jp 都是 L 判ブロマイド 5 枚套装（絵柄同为エレン・ミカサ・アルミン・リヴァイ・エルヴィン），只有 animate 的 7 枚套装把ハンジ列入絵柄（エレン・ジャン・マルコ・コニー・サシャ・ハンジ・リヴァイ）。也就是说 4 家里只有 1 家能拿到韩吉的官方舞台写真。
+summary: 凯旋公演 Blu-ray（PCXG-50834，11,880 円税込，2025 年 6 月 25 日发售）的法人别特典共 4 家，其中两家的 5 枚套装絵柄都不含韩吉，只有 animate 的 7 枚套装把ハンジ列入。也就是说 4 家里只有 1 家能拿到她的官方舞台写真。
 category: 新品
 publishedAt: '2025-06-25'
 updatedAt: '2026-10-17'

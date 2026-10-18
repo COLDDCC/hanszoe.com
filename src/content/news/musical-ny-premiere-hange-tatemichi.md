@@ -2,7 +2,7 @@
 id: musical-ny-premiere-hange-tatemichi
 slug: musical-ny-premiere-hange-tatemichi
 title: 音乐剧纽约首演（2024-10-11〜13，共 4 场）：15 个有名角色里韩吉仍是立道梨绪奈，与日本版只差 2 人
-summary: 音乐剧纽约公演官网 attackontitan-themusical.com 列明 2024 年 10 月 11 日（金）／12 日（土）／13 日（日）在 New York City Center（131 W 55th St）演出，排期表合计 4 场（11 日 19:30、12 日 14:00 与 19:30、13 日 14:00）；cast & creative 页的 15 个有名角色中「Hange Zoë／ハンジ・ゾエ 立道梨緒奈」列第 13 位，与日本凯旋公演同一人。与凯旋版逐条对照只有ミカサ、ジャン两个角色换人，其余 13 人相同。该页另写明全剧为 35 名演员、日语演出配英文字幕。
+summary: 纽约公演官网列明 2024 年 10 月 11 日〜13 日在 New York City Center 演出，排期表合计 4 场；cast 页 15 个有名角色里「ハンジ・ゾエ 立道梨緒奈」列第 13 位，与日本凯旋同一人。两版逐条对照只有ミカサ、ジャン换人。
 category: 活动
 publishedAt: '2024-10-11'
 updatedAt: '2026-10-17'

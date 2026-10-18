@@ -2,7 +2,7 @@
 id: news-shingeki-sai-event-report-hange
 slug: shingeki-sai-event-report-hange
 title: 进击祭 Reading & Live Event 官方报道（2016）：15 人 cast 表里韩吉＝朴璐美，但出演栏 7 人没有她
-summary: 官方门户 2016 年 7 月 4 日刊出 7 月 3 日（日）东京国际论坛 Hall A「進撃祭」Reading & Live Event 的官方报道，昼夜合计 10,000 名观众，出演栏只列梶裕貴、石川由依、井上麻里奈、下野紘、小林ゆう、橋詰知久、神谷浩史 7 位声优加 LinkedHorizon；同篇作品信息里的 15 人 cast 表明确写着「ハンジ：朴 璐美」，15 减 7 等于 8，韩吉的声优就在这 8 位未列出演的人里。该场活动上初解禁的 Season 2 新主视觉是 3 名背影加 2 名巨人，画面里没有韩吉。
+summary: 官方门户 2016 年 7 月 4 日刊出前一天「進撃祭」Reading & Live Event 报道，昼夜合计 10,000 名观众。出演栏只列 7 位声优，而同篇作品信息的 15 人 cast 表写着「ハンジ：朴璐美」——15 减 7 的 8 位里就有韩吉的声优。
 category: 活动
 publishedAt: '2016-07-04'
 updatedAt: '2026-10-17'

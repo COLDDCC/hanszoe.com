@@ -2,7 +2,7 @@
 id: news-tfs-special-event-2022-hange-cv
 slug: tfs-special-event-2022-hange-cv
 title: The Final Season SPECIAL EVENT 2022（立川，两场制）：第 2 部トーク出演 8 人，朴璐美列第 6 位
-summary: 官方门户 2022 年 6 月 17 日刊文，发表「進撃の巨人 The Final Season SPECIAL EVENT 2022」于 2022 年 11 月 13 日（日）在 TACHIKAWA STAGE GARDEN（立川ステージガーデン）举办。第 1 部为 The Final Season 管弦乐音乐会（開演 13:00，出演 KOHTA YAMAMOTO＋7 名嘉宾主唱），第 2 部为特别座谈（開演 18:30），「出演 梶裕貴、石川由依、井上麻里奈、下野紘、谷山紀章、朴璐美、佐倉綾音、松澤千晶(MC)」共 8 人（7 名声优＋1 名 MC），韩吉的声优朴璐美列第 6 位；两部相隔 5.5 小时，安藤裕子与ヒグチアイ同时出现在两部名单里。
+summary: FINAL SEASON SPECIAL EVENT 2022 于 2022 年 11 月 13 日在 TACHIKAWA STAGE GARDEN 办两部：第 1 部音乐会 13:00、第 2 部座谈 18:30。第 2 部出演 8 人（7 名声优＋1 名 MC），韩吉的声优朴璐美列第 6 位。
 category: 活动
 publishedAt: '2022-06-17'
 updatedAt: '2026-10-17'
