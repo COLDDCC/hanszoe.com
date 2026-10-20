@@ -1,0 +1,268 @@
+---
+import Base from '../../../layouts/ja/JaBase.astro';
+import Card from '../../../components/JaProductCard.astro';
+import { products, series } from '../../../lib/data';
+import {
+  jaUi,
+  jaName,
+  jaType,
+  jaRegion,
+  jaKind,
+  jaSalesMethod,
+  jaKey,
+  jaValue,
+  jaPrice,
+  jaDate,
+  jaBrand,
+  jaSeriesName,
+  jaSummary,
+  productJa,
+  jaField,
+} from '../../../lib/ja';
+
+export function getStaticPaths() {
+  return products.map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+const { p } = Astro.props;
+const s = series.find((x) => x.id === p.seriesId);
+const related = products.filter(
+  (x) => x.id !== p.id && (x.seriesId === p.seriesId || p.relatedProductIds.includes(x.id)),
+);
+const first = p.releases.find((r) => r.kind === '初版')!;
+const buy = [
+  ...new Map(
+    p.sources
+      .filter((x) => !/prtimes\.jp|aot-portal\.com/.test(x.url))
+      .map((x) => [x.url.replace(/\/+$/, '').split('#')[0].toLowerCase(), x]),
+  ).values(),
+];
+const doc = productJa(p);
+const descJa = doc.description;
+const sizeValue = p.specifications['尺寸']
+  ? jaValue(p.specifications['尺寸'])
+  : null;
+const needTranslation =
+  Object.entries(p.specifications).filter(([k, v]) => !(doc.specs?.[k] || jaValue(v).translated))
+    .length +
+  p.missingFields.filter((x, i) => !(doc.missing?.[i] || jaValue(x).translated)).length +
+  (descJa ? 0 : 1);
+---
+
+<Base
+  title={jaName(p)}
+  description={descJa || jaSummary(p, s)}
+>
+  <div class="breadcrumbs">
+    <a href="/ja/merch/">{jaUi.breadcrumbMerch}</a><span>/</span>
+    <a href={`/ja/series/${s?.slug}/`}>{jaSeriesName(s) || s?.slug}</a>
+  </div>
+
+  <section class="product-detail">
+    <div class="detail-gallery">
+      {p.images.length ? (
+        p.images.map((img) => (
+          <figure>
+            <img src={img.path} alt={`${jaName(p)}｜公式商品画像`} />
+            <figcaption>
+              {img.credit} · 公式画像（権利は各権利者に帰属）
+              <a href={img.sourceUrl} target="_blank" rel="noopener noreferrer">{jaUi.imageSource}</a>
+              {img.originalUrl && <> · <a href={img.originalUrl} target="_blank" rel="noopener noreferrer">{jaUi.imageOriginal}</a></>}
+            </figcaption>
+          </figure>
+        ))
+      ) : (
+        <div class="placeholder large">
+          <span class="frame-icon">▧</span><span>{jaUi.noImage}</span><small>{jaUi.noImageSub}</small>
+        </div>
+      )}
+    </div>
+
+    <div class="detail-info">
+      <span class="eyebrow">{jaType[p.type] ?? p.type} / {jaRegion[p.region] ?? p.region}</span>
+      <h1>{jaName(p)}</h1>
+      <p class="ja"><span class="zh-tag">中国語アーカイブ名</span> <span lang="zh-Hans">{p.names.zh}</span></p>
+
+      <p>{descJa || jaSummary(p, s)}</p>
+      {!descJa && (
+        <details class="zh-original">
+          <summary>{jaUi.zhOriginal}</summary>
+          <p lang="zh-Hans">{p.description}</p>
+        </details>
+      )}
+
+      {buy.length > 0 && (
+        <div class="buy-box">
+          <span class="buy-kicker">{jaUi.buyTitle}</span>
+          <div class="buy-links">
+            {buy.map((source) => (
+              <a class="buy-btn" href={source.url} target="_blank" rel="noopener noreferrer">
+                <span class="buy-shop">{source.organization}</span>
+                <span class="buy-host">{new URL(source.url).host}</span>
+                <span class="buy-go">{jaUi.buyGo}</span>
+              </a>
+            ))}
+          </div>
+          <small class="buy-note">上のボタンはそのショップの公式商品ページへ移動します。当サイトは記録のみを行い、販売・購入代行は行っていません。</small>
+        </div>
+      )}
+
+      <dl>
+        <div><dt>{jaUi.officialPrice}</dt><dd>{jaPrice(first)}{p.releases.length > 1 && `（他${p.releases.length - 1}回の発売あり。下の発売記録参照）`}</dd></div>
+        <div><dt>{jaUi.releaseDate}</dt><dd>{first.releaseDate ? jaDate(first.releaseDate) : (p.specifications['发售窗口'] ? '未公表（仕様の発売時期欄参照）' : jaUi.toConfirm)}</dd></div>
+        <div><dt>{jaUi.seriesLabel}</dt><dd><a href={`/ja/series/${s?.slug}/`}>{jaSeriesName(s) || s?.name}</a></dd></div>
+        <div><dt>{jaUi.manufacturer}</dt><dd>{jaBrand(p.manufacturer) ? <a href={`/ja/merch/?q=${encodeURIComponent(p.manufacturer!)}`}>{p.manufacturer}</a> : jaUi.toConfirm}</dd></div>
+        <div><dt>{jaUi.publisher}</dt><dd>{jaBrand(p.publisher) ? <a href={`/ja/merch/?q=${encodeURIComponent(p.publisher!)}`}>{p.publisher}</a> : jaUi.toConfirm}</dd></div>
+        {Object.entries(p.specifications).map(([k, v]) => {
+          const entry = doc.specs?.[k];
+          const value = entry ? { text: entry, translated: true } : jaValue(v);
+          return (
+            <div>
+              <dt>{jaKey(k)}</dt>
+              <dd>
+                {value.translated ? value.text : <span lang="zh-Hans">{v}</span>}
+                {!value.translated && <span class="need-ja">{jaUi.zhValueNote}</span>}
+                {!value.translated && <span class="sr-only">（原文：中国語）</span>}
+              </dd>
+            </div>
+          );
+        })}
+      </dl>
+
+      {p.isDemo && <p class="notice">{jaUi.demoNotice}</p>}
+      {p.missingFields.length > 0 && (
+        <div class="notice">
+          <strong>{jaUi.unconfirmed}</strong>
+          <ul>
+            {p.missingFields.map((x, i) => {
+              const entry = doc.missing?.[i];
+              const value = entry ? { text: entry, translated: true } : jaValue(x);
+              return (
+                <li>
+                  {value.translated ? value.text : <span lang="zh-Hans">{x}</span>}
+                  {!value.translated && <span class="need-ja">{jaUi.zhValueNote}</span>}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
+      <p class="progress-note">
+        {jaUi.translationProgress}：この商品の未翻訳項目 {needTranslation} 件
+        {sizeValue?.translated ? `／サイズ表記は日本語化済み（${sizeValue.text}）` : ''}
+      </p>
+    </div>
+  </section>
+
+  <section class="release-section">
+    <div class="section-heading">
+      <div><span class="eyebrow">RELEASE HISTORY</span><h2>{jaUi.releaseHistory}</h2></div>
+      <span>{p.releases.length} {jaUi.releaseCount}</span>
+    </div>
+    <p>発売回ごとの公式価格を、単位と税表記のまま記録しています。</p>
+    {p.releases.map((r) => (
+      <article class="release-card">
+        <div class="release-date">
+          <span class="tag">{jaKind[r.kind] ?? r.kind}</span>
+          <h3>{jaDate(r.releaseDate)}</h3>
+          <small>{jaRegion[r.region] ?? r.region} · {jaSalesMethod[r.salesMethod] ?? r.salesMethod}</small>
+        </div>
+        <div>
+          <strong class="price">{jaPrice(r)}</strong>
+          <dl>
+            <div><dt>{jaUi.announcement}</dt><dd>{jaDate(r.announcement)}</dd></div>
+            <div><dt>{jaUi.preorderRange}</dt><dd>{jaDate(r.preorderStart)} — {jaDate(r.preorderEnd)}{jaUi.preorderNote}</dd></div>
+            <div>
+              <dt>{jaUi.limitedScope}</dt>
+              <dd>
+                {r.limitedScope
+                  ? (() => {
+                      const v = jaValue(r.limitedScope);
+                      return v.translated ? v.text : <span lang="zh-Hans">{r.limitedScope}</span>;
+                    })()
+                  : jaUi.limitedNone}
+              </dd>
+            </div>
+            {r.condition && (
+              <div>
+                <dt>{jaUi.condition}</dt>
+                <dd>{(() => {
+                  const v = jaValue(r.condition);
+                  return v.translated ? v.text : <span lang="zh-Hans">{r.condition}</span>;
+                })()}</dd>
+              </div>
+            )}
+          </dl>
+          <div class="release-sources">
+            {r.sourceIds.map((id) => {
+              const source = p.sources.find((x) => x.id === id)!;
+              return <a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a>;
+            })}
+          </div>
+        </div>
+      </article>
+    ))}
+  </section>
+
+  <section class="article">
+    <h2>{jaUi.aboutTitle}</h2>
+    <p>{jaUi.versionNote}</p>
+    <p>{jaUi.recordedOn} {p.createdAt} · {jaUi.updatedAt} {p.updatedAt}</p>
+  </section>
+
+  <section>
+    <h2>{jaUi.sameSeries}</h2>
+    {related.length ? (
+      <div class="product-grid">{related.map((x) => <Card product={x} seriesList={series} />)}</div>
+    ) : (
+      <p class="muted">{jaUi.noSameSeries}</p>
+    )}
+  </section>
+
+  <section class="sources">
+    <h2>{jaUi.sources}</h2>
+    {p.sources.length ? (
+      p.sources.map((src) => (
+        <div>
+          <a href={src.url} target="_blank" rel="noopener noreferrer">{src.title} ↗</a>
+          <p>
+            {src.organization} · {jaUi.checkedAt} {src.checkedAt}
+            {src.fields
+              ? ' · ' +
+                jaUi.supports + '：' +
+                src.fields
+                  .map((f: string) => {
+                    const v = jaField(f);
+                    return v.translated ? v.text : `${f}（未翻訳）`;
+                  })
+                  .join('、')
+              : ''}
+          </p>
+        </div>
+      ))
+    ) : (
+      <p>{jaUi.sourceNone}</p>
+    )}
+  </section>
+</Base>
+
+<style>
+  .buy-box { border: 1px solid var(--accent); background: var(--soft); padding: 14px 16px 13px; margin: 22px 0 4px; }
+  .buy-kicker { display: inline-block; background: var(--accent); color: #fff; font: 700 .78rem/1 var(--ui); letter-spacing: .14em; padding: 6px 11px; margin-bottom: 11px; }
+  .buy-links { display: flex; flex-wrap: wrap; gap: 10px; }
+  .buy-btn { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 100%; background: #fff; border: 1.5px solid var(--accent); padding: 9px 13px; text-decoration: none; color: var(--ink); transition: background .15s, transform .15s, box-shadow .15s; }
+  .buy-btn:hover { background: var(--accent); color: #fff; transform: translateY(-1px); box-shadow: 0 3px 10px rgba(105,80,131,.24); }
+  .buy-btn:hover .buy-host { color: #e6dcf0; }
+  .buy-btn:hover .buy-go { border-color: #fff; color: #fff; }
+  .buy-shop { min-width: 0; overflow-wrap: anywhere; font-weight: 700; font-size: .95rem; }
+  .buy-host { min-width: 0; overflow-wrap: anywhere; font-size: .72rem; color: var(--muted); }
+  .buy-go { margin-left: 2px; font-size: .72rem; font-weight: 700; border: 1px solid var(--accent); border-radius: 999px; padding: 2px 8px; color: var(--accent); }
+  .buy-note { display: block; margin-top: 10px; font-size: .75rem; color: #6b5f75; line-height: 1.6; }
+  .need-ja { display: inline-block; margin-left: 6px; border: 1px solid var(--line); border-radius: 999px; padding: 1px 7px; font-size: .68rem; color: var(--muted); white-space: nowrap; }
+  .zh-tag { display: inline-block; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; font-size: .7rem; color: var(--muted); }
+  .zh-original { margin: 12px 0; border: 1px dashed var(--line); border-radius: 10px; background: var(--soft); padding: 0; }
+  .zh-original summary { cursor: pointer; padding: 9px 13px; font-size: .82rem; color: var(--muted); list-style: none; }
+  .zh-original summary::-webkit-details-marker { display: none; }
+  .zh-original[open] summary { border-bottom: 1px dashed var(--line); }
+  .zh-original p { padding: 4px 13px 12px; margin: 0; font-size: .9rem; }
+  .progress-note { margin-top: 14px; font-size: .78rem; color: var(--muted); }
+</style>

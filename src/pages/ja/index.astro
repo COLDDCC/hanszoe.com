@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/ja/JaBase.astro';
+import Card from '../../components/JaProductCard.astro';
+import { products, series } from '../../lib/data';
+import { jaProgress } from '../../lib/ja';
+
+const releases = products.flatMap((p) => p.releases);
+const sources = products.flatMap((p) => p.sources);
+const years = [...new Set(products.map((p) => p.releases.find((r) => r.kind === '初版')?.releaseDate?.value.slice(0, 4)).filter(Boolean))].sort();
+const priced = releases.filter((r) => r.priceStatus === 'known').length;
+const progress = jaProgress();
+const latest = [...products].sort((a, b) => b.createdAt.localeCompare(a.createdAt)).slice(0, 8);
+---
+
+<Base title="ハンジ・ゾエ アーカイブ｜日本語版">
+  <div class="page-heading">
+    <span class="eyebrow">HANGE ZOE ARCHIVE · 日本語版</span>
+    <h1>グッズ図録（日本語版）</h1>
+    <p>
+      『進撃の巨人』ハンジ・ゾエの公式グッズを、発売回・公式価格・出典つきで記録するアーカイブの日本語版です。
+      現在はグッズとシリーズのページのみ日本語に対応しています。イベント告知と原作資料は<a href="/news/">中国語版</a>にありますが、こちらも日本語訳は未作成です。
+    </p>
+    <nav class="section-nav" aria-label="日本語版のセクション">
+      <a href="/ja/merch/">グッズ図録</a>
+      <a href="/ja/series/">シリーズ一覧</a>
+    </nav>
+  </div>
+
+  <section>
+    <div class="section-heading">
+      <div><span class="eyebrow">RECORDS</span><h2>収録状況</h2></div>
+      <span>{products.length} 件</span>
+    </div>
+    <dl>
+      <div><dt>商品アーカイブ</dt><dd>{products.length} 件</dd></div>
+      <div><dt>シリーズ</dt><dd>{series.length} 件</dd></div>
+      <div><dt>発売の記録</dt><dd>{releases.length} 回（うち公式価格を確認済み {priced} 回）</dd></div>
+      <div><dt>出典</dt><dd>{sources.length} 件（確認日は各記録に記載）</dd></div>
+      <div><dt>初発売年</dt><dd>{years[0]}年 〜 {years[years.length - 1]}年</dd></div>
+      <div><dt>日本語訳の進み</dt><dd>商品の説明 {progress.products}／{products.length}、シリーズ {progress.series}／{series.length}（未登録の項目はページで翻訳待ちと表示します）</dd></div>
+    </dl>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div><span class="eyebrow">NEW ARRIVALS</span><h2>最近更新したアーカイブ</h2></div>
+      <span>{latest.length} 件</span>
+    </div>
+    <div class="product-grid">{latest.map((p) => <Card product={p} seriesList={series} />)}</div>
+  </section>
+
+  <section class="article">
+    <h2>この日本語版について</h2>
+    <p>
+      商品名・メーカー・価格・発売日・仕様はすべて各公式ページから写したもので、出典リンクを付けています。
+      中国語で記録されていた本文のうち、公式情報だけで組み立てられる概要は日本語で表示し、それ以外は原文を折りたたんだ上で「翻訳待ち」の札を付けています。
+      機械翻訳で意味を捻じ曲げることはしていません。
+    </p>
+  </section>
+</Base>

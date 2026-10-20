@@ -1,0 +1,162 @@
+---
+import Base from '../../../layouts/ja/JaBase.astro';
+import Card from '../../../components/JaProductCard.astro';
+import { products, series } from '../../../lib/data';
+import { jaUi, jaType, jaSalesMethod, jaYear } from '../../../lib/ja';
+
+const groups = [
+  {
+    key: 'year',
+    label: '発売年',
+    values: [...new Set(products.map(jaYear).filter(Boolean))].sort().reverse().map((v) => [v, `${v}年`]),
+  },
+  {
+    key: 'type',
+    label: '商品カテゴリ',
+    values: [...new Set(products.map((p) => p.type))].map((v) => [v, jaType[v] ?? v]),
+  },
+  {
+    key: 'method',
+    label: '販売形態',
+    values: [...new Set(products.flatMap((p) => p.releases.map((r) => r.salesMethod)))].map(
+      (v) => [v, jaSalesMethod[v] ?? v],
+    ),
+  },
+];
+const makers = new Map<string, number>();
+for (const p of products) {
+  const v = p.manufacturer || p.publisher;
+  if (v && !/^(未注明|待核实|未知)$/.test(v)) makers.set(v, (makers.get(v) || 0) + 1);
+}
+const topMakers = [...makers].sort((a, b) => b[1] - a[1]).slice(0, 2).map(([v]) => v);
+---
+
+<Base title={jaUi.navMerch}>
+  <div class="page-heading">
+    <span class="eyebrow">THE COLLECTION · 日本語版</span>
+    <h1>グッズ図録</h1>
+    <p>発売年・カテゴリ・販売形態で絞り込めます。シリーズとメーカーはカードのタグになっているので、タップすると同種の商品まとめて表示されます。</p>
+    <nav class="section-nav" aria-label="グッズ図録のセクション">
+      <a href="/ja/merch/" aria-current="page">すべてのグッズ</a>
+      <a href="/ja/series/">シリーズ一覧</a>
+    </nav>
+  </div>
+
+  <form id="catalog-form">
+    <div class="catalog-search">
+      <label class="sr-only" for="q">{jaUi.searchLabel}</label>
+      <input type="search" name="q" id="q" placeholder={jaUi.searchLabel} />
+      <button class="button" type="submit">{jaUi.search}</button>
+    </div>
+    <div class="search-hints">
+      <span>例：</span>
+      <a href="/ja/merch/?q=%E3%83%8F%E3%83%B3%E3%82%B8">ハンジ</a>
+      {topMakers.map((v) => <a href={`/ja/merch/?q=${encodeURIComponent(v)}`}>メーカー · {v}</a>)}
+    </div>
+
+    <div class="catalog-layout">
+      <aside class="filters">
+        <details open id="filter-details">
+          <summary>{jaUi.filterTitle}</summary>
+          {groups.map((g) => (
+            <fieldset>
+              <legend>{g.label}</legend>
+              {g.values.map(([v, label]) => (
+                <label>
+                  <input type="checkbox" name={g.key} value={v} />
+                  <span>{label}</span>
+                </label>
+              ))}
+            </fieldset>
+          ))}
+          <button type="reset" class="clear-button">{jaUi.filterClear}</button>
+        </details>
+      </aside>
+
+      <div class="results">
+        <div class="result-toolbar">
+          <p aria-live="polite">
+            {jaUi.foundPrefix} <strong id="result-count">{products.length}</strong> {jaUi.foundUnit}
+          </p>
+          <label for="sort">
+            {jaUi.sortLabel}
+            <select id="sort" name="sort">
+              <option value="added">{jaUi.sortAdded}</option>
+              <option value="date">{jaUi.sortDate}</option>
+              <option value="name">{jaUi.sortName}</option>
+            </select>
+          </label>
+        </div>
+        <div class="product-grid" id="product-grid">
+          {products.map((p) => <Card product={p} seriesList={series} />)}
+        </div>
+        <div class="empty" id="no-results" hidden>
+          <h2>{jaUi.noResultTitle}</h2>
+          <p>{jaUi.noResultBody}</p>
+          <button type="reset" class="button">{jaUi.filterClear}</button>
+        </div>
+        <p class="list-footnote">発売年は初回の発売年。販売形態は収録済みのいずれかの発売に一致すれば表示されます。</p>
+      </div>
+    </div>
+  </form>
+
+  <script type="application/json" id="catalog-data" set:html={JSON.stringify({ products, series }).replace(/</g, '\\u003c')} />
+  <script>
+    import { filterProductsJa } from '../../../lib/ja';
+    import type { Product, Series } from '../../../lib/schema';
+    const data: { products: Product[]; series: Series[] } = JSON.parse(
+      document.getElementById('catalog-data')!.textContent!,
+    );
+    const form = document.getElementById('catalog-form') as HTMLFormElement;
+    const grid = document.getElementById('product-grid')!;
+    const cards = Array.from(grid.children) as HTMLElement[];
+    let restoring = false;
+    function render(params: URLSearchParams) {
+      const matches = filterProductsJa(data.products, data.series, params);
+      cards.forEach((card) => (card.hidden = true));
+      for (const product of matches) {
+        const card = cards.find((c) => c.dataset.productId === product.id)!;
+        card.hidden = false;
+        grid.appendChild(card);
+      }
+      document.getElementById('result-count')!.textContent = String(matches.length);
+      document.getElementById('no-results')!.hidden = matches.length > 0;
+    }
+    function restore() {
+      restoring = true;
+      form.reset();
+      const params = new URLSearchParams(location.search);
+      for (const control of Array.from(form.elements)) {
+        if (control instanceof HTMLInputElement) {
+          if (control.type === 'checkbox') control.checked = params.getAll(control.name).includes(control.value);
+          else control.value = params.get(control.name) || '';
+        }
+        if (control instanceof HTMLSelectElement) {
+          const value = params.get(control.name) || 'added';
+          control.value = Array.from(control.options).some((o) => o.value === value) ? value : 'added';
+        }
+      }
+      restoring = false;
+      render(params);
+    }
+    function update() {
+      const params = new URLSearchParams();
+      for (const [key, value] of new FormData(form)) {
+        if (typeof value === 'string' && value && !(key === 'sort' && value === 'added')) params.append(key, value);
+      }
+      const next = location.pathname + (params.size ? '?' + params.toString() : '');
+      if (next !== location.pathname + location.search) history.pushState({}, '', next);
+      render(params);
+    }
+    form.addEventListener('submit', (e) => { e.preventDefault(); update(); });
+    form.addEventListener('change', (e) => {
+      const c = e.target;
+      if (c instanceof HTMLSelectElement || (c instanceof HTMLInputElement && c.type === 'checkbox')) update();
+    });
+    form.addEventListener('reset', () => { if (!restoring) setTimeout(update, 0); });
+    window.addEventListener('popstate', restore);
+    restore();
+    if (matchMedia('(max-width: 700px)').matches)
+      (document.getElementById('filter-details') as HTMLDetailsElement).open = false;
+  </script>
+</Base>

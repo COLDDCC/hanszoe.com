@@ -1,0 +1,31 @@
+---
+import type { Product, Series } from '../lib/schema';
+import { jaName, jaType, jaYear, jaUi, jaSeriesName } from '../lib/ja';
+
+const { product: p, seriesList } = Astro.props as {
+  product: Product;
+  seriesList: Series[];
+};
+const s = seriesList.find((x) => x.id === p.seriesId);
+const y = jaYear(p);
+const maker = p.manufacturer || p.publisher || '';
+---
+
+<article class="product-card" data-product-id={p.id} data-year={y} data-type={p.type} data-method={p.releases.map((r) => r.salesMethod).join(' ')}>
+  <div class="product-image">
+    {p.images[0] ? <img src={p.images[0].path} alt={`${jaName(p)}｜公式商品画像`} loading="lazy" /> : <div class="placeholder"><span class="frame-icon">▧</span><span>{jaUi.noImage}</span><small>NO IMAGE YET</small></div>}
+    <span class="image-label">{jaType[p.type] ?? p.type}</span>
+  </div>
+  <div class="card-body">
+    {s && <a class="eyebrow card-series" href={`/ja/series/${s.slug}/`} title={jaSeriesName(s) || s.name}>シリーズ · {jaSeriesName(s) || s.slug}</a>}
+    <h3><a class="card-link" href={`/ja/merch/${p.slug}/`}>{jaName(p)}</a></h3>
+    <p class="ja">{(p.sources[0]?.organization || '') + (p.updatedAt ? ` · ${p.updatedAt} 確認` : '')}</p>
+    <div class="card-tags">
+      {maker && <a class="tag" href={`/ja/merch/?q=${encodeURIComponent(maker)}`} title={maker}>メーカー · {maker}</a>}
+    </div>
+    <div class="card-meta">
+      <span>{y === '' ? jaUi.yearUnknown : `${y}年 · ${jaUi.firstSale}`}</span>
+      <span>{p.isDemo ? 'デモデータ' : p.evidenceStatus === 'partial' ? jaUi.partial : jaUi.confirmed}</span>
+    </div>
+  </div>
+</article>

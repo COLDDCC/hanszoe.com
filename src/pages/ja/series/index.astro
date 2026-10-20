@@ -1,0 +1,38 @@
+---
+import Base from '../../../layouts/ja/JaBase.astro';
+import { products, series } from '../../../lib/data';
+import { jaUi, jaSeriesName, jaSeriesType, seriesJa } from '../../../lib/ja';
+---
+
+<Base title={jaUi.seriesIndexTitle}>
+  <div class="breadcrumbs">
+    <a href="/ja/merch/">{jaUi.breadcrumbMerch}</a><span>/</span><span>{jaUi.seriesIndexTitle}</span>
+  </div>
+  <div class="page-heading">
+    <span class="eyebrow">SERIES FILES · 日本語版</span>
+    <h1>{jaUi.seriesIndexTitle}</h1>
+    <p>同じシリーズ単位で商品をたどるページです。日本語のシリーズ名がないアーカイブには、スラグを添えています。</p>
+    <nav class="section-nav" aria-label="グッズ図録のセクション">
+      <a href="/ja/merch/">{jaUi.navMerch}</a>
+      <a href="/ja/series/" aria-current="page">{jaUi.seriesIndexTitle}</a>
+    </nav>
+  </div>
+
+  <div class="series-grid">
+    {series.map((s, i) => {
+      const nameJa = jaSeriesName(s);
+      const doc = seriesJa(s);
+      return (
+        <a class="series-tile" href={`/ja/series/${s.slug}/`}>
+          <span class="row-number">FILE {String(i + 1).padStart(2, '0')}</span>
+          <h2>{nameJa || s.slug}</h2>
+          <p>{doc.description || '日本語のシリーズ説明は作成中。商品一覧と出典はページで確認できます。'}</p>
+          <div class="card-meta">
+            <span>日本 · {jaSeriesType[s.type] ?? s.type}</span>
+            <span>{products.filter((p) => p.seriesId === s.id).length} 件収録</span>
+          </div>
+        </a>
+      );
+    })}
+  </div>
+</Base>
