@@ -362,6 +362,7 @@ export const looksJapanese = (s: string) => {
   }
   return true;
 };
+export type JaText = { text: string; translated: boolean };
 export const jaValue = (raw: unknown): JaText => {
   const s = String(raw ?? "");
   const exact = jaSpecValue[s] || jaPhrase[s];
