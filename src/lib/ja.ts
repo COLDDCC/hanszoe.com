@@ -1,5 +1,6 @@
 import type { Product, Release, Series } from "./schema";
 import { jaPhrase, jaRules } from "./jaPhrases";
+import { normalize } from "./catalog";
 
 /** 日本語ロケール層。周辺商品（グッズ）ページのみで使用する。
  *  中国語本文の翻訳は src/data/jaText.json に別途持つ。 */
@@ -494,7 +495,7 @@ export const jaProgress = () => {
 };
 
 /** 日本語版カタログの絞り込み。値はデータ本体の中国語表記のままで突き合わせ、表示だけ日本語にする。 */
-const norm = (s: string) => s.normalize("NFKC").toLowerCase().replace(/\s+/g, " ").trim();
+const norm = normalize;
 export function filterProductsJa(
   products: Product[],
   series: Series[],

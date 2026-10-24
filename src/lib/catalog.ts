@@ -1,6 +1,16 @@
 import type { Product, Series, Release } from "./schema";
+// 搜索归一化：全半角、大小写、空格之外，再去掉名字里的间隔号（ハンジ・ゾエ／韩吉·佐耶 → ハンジゾエ／韩吉佐耶）
+// 和拉丁字母的附加符号（Zoë → zoe）。日文浊音点（U+3099）不在去除范围内，ジ不会被当成シ。
 export const normalize = (s: string) =>
-  s.normalize("NFKC").toLocaleLowerCase().replace(/\s+/g, " ").trim();
+  s
+    .normalize("NFKC")
+    .toLocaleLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .normalize("NFC")
+    .replace(/[・·‧•]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
 export const displayName = (p: Product) =>
   p.names.zh || p.names.ja || p.names.en;
 export const firstDate = (p: Product) =>
@@ -22,6 +32,22 @@ export const priceText = (r: Release) =>
               `${new Intl.NumberFormat("zh-CN", { style: "currency", currency: p.currency, maximumFractionDigits: p.currency === "JPY" || p.currency === "KRW" ? 0 : 2 }).format(p.amount / (p.currency === "JPY" || p.currency === "KRW" ? 1 : 100))} / ${p.unit}（${p.taxStatus}${p.quantity ? ` · ${p.quantity}件` : ""}）`,
           )
           .join("；");
+const clip = (s: string, max: number) =>
+  s.length <= max ? s : s.slice(0, max - 1).replace(/[，、。；\s]+$/, "") + "…";
+/** Short search-result description (meta description), built from structured fields. */
+export const seoDescription = (p: Product, seriesName?: string) => {
+  const first = p.releases.find((r) => r.kind === "初版");
+  const maker = brand(p);
+  const y = year(p);
+  const parts = [
+    `${displayName(p)}${p.names.ja ? `（${p.names.ja}）` : ""}`,
+    [maker, seriesName && `「${seriesName}」系列`, p.type].filter(Boolean).join(" · "),
+    y !== "unknown" ? `${y} 年首次发售` : "",
+    first && first.priceStatus === "known" ? `官方原价 ${priceText(first)}` : "",
+    p.releases.length > 1 ? `共 ${p.releases.length} 次发行记录` : "",
+  ].filter(Boolean);
+  return clip(parts.join("，") + "。附官方出处。", 150);
+};
 export const dateText = (d: Release["releaseDate"]) =>
   d ? d.value.replace(/-/g, ".") : "日期待确认";
 export function filterProducts(

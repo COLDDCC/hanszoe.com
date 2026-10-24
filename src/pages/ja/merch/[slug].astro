@@ -49,6 +49,18 @@ const structuredData = {
   url: new URL(`/ja/merch/${p.slug}/`, Astro.site || Astro.url).href,
   ...(p.images.length ? { image: p.images.map((img) => new URL(img.path, Astro.site || Astro.url).href) } : {}),
   ...(jaBrand(p.manufacturer) ? { brand: { '@type': 'Brand', name: p.manufacturer } } : {}),
+  ...(p.names.zh ? { alternateName: p.names.zh } : {}),
+};
+const abs = (u: string) => new URL(u, Astro.site || Astro.url).href;
+const breadcrumbData = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: jaUi.siteTitle, item: abs('/ja/') },
+    { '@type': 'ListItem', position: 2, name: jaUi.breadcrumbMerch, item: abs('/ja/merch/') },
+    ...(s ? [{ '@type': 'ListItem', position: 3, name: jaSeriesName(s) || s.name, item: abs(`/ja/series/${s.slug}/`) }] : []),
+    { '@type': 'ListItem', position: s ? 4 : 3, name: jaName(p) },
+  ],
 };
 const needTranslation =
   Object.entries(p.specifications).filter(([k, v]) => !(doc.specs?.[k] || jaValue(v).translated))
@@ -60,7 +72,9 @@ const needTranslation =
 <Base
   title={jaName(p)}
   description={descJa || jaSummary(p, s)}
-  structuredData={structuredData}
+  structuredData={[structuredData, breadcrumbData]}
+  image={p.images[0]?.path}
+  ogType="product"
 >
   <div class="breadcrumbs">
     <a href="/ja/merch/">{jaUi.breadcrumbMerch}</a><span>/</span>
