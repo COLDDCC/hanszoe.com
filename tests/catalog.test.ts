@@ -9,7 +9,8 @@ import {
   releaseSchema,
   dateSchema,
 } from "../src/lib/schema";
-import { brand, filterProducts, priceText, usableBrand } from "../src/lib/catalog";
+import { brand, filterProducts, normalize, priceText, usableBrand } from "../src/lib/catalog";
+import { filterProductsJa } from "../src/lib/ja";
 const products = raw.map((x) => productSchema.parse(x));
 const series = rawSeries.map((x) => seriesSchema.parse(x));
 test("全半角、英文大小写、空格与别名兼容", () => {
@@ -19,6 +20,21 @@ test("全半角、英文大小写、空格与别名兼容", () => {
       filterProducts(p, series, new URLSearchParams({ q })).length,
       q === "汉吉" ? 0 : 1,
     );
+});
+test("省略或替换间隔号、带附加符号的名字也能搜到", () => {
+  const p = [productSchema.parse(real[0])];
+  for (const q of ["ハンジゾエ", "ハンジ・ゾエ", "ﾊﾝｼﾞ･ｿﾞｴ", "hange zoë", "HANGE ZOË"])
+    assert.equal(
+      filterProducts(p, series, new URLSearchParams({ q })).length,
+      1,
+      q,
+    );
+  assert.equal(normalize("ハンジ"), "ハンジ");
+  assert.notEqual(normalize("ハンジ"), normalize("ハンシ"));
+  assert.equal(
+    filterProductsJa(p, series, new URLSearchParams({ q: "ハンジゾエ" })).length,
+    1,
+  );
 });
 test("同组 OR、不同组 AND；任一发行匹配销售方式", () => {
   const params = new URLSearchParams("method=单售&method=盲抽&type=手办");

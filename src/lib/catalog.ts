@@ -1,6 +1,16 @@
 import type { Product, Series, Release } from "./schema";
+// 搜索归一化：全半角、大小写、空格之外，再去掉名字里的间隔号（ハンジ・ゾエ／韩吉·佐耶 → ハンジゾエ／韩吉佐耶）
+// 和拉丁字母的附加符号（Zoë → zoe）。日文浊音点（U+3099）不在去除范围内，ジ不会被当成シ。
 export const normalize = (s: string) =>
-  s.normalize("NFKC").toLocaleLowerCase().replace(/\s+/g, " ").trim();
+  s
+    .normalize("NFKC")
+    .toLocaleLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .normalize("NFC")
+    .replace(/[・·‧•]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
 export const displayName = (p: Product) =>
   p.names.zh || p.names.ja || p.names.en;
 export const firstDate = (p: Product) =>
