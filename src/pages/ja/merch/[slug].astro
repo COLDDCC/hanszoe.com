@@ -41,14 +41,20 @@ const descJa = doc.description;
 const sizeValue = p.specifications['尺寸']
   ? jaValue(p.specifications['尺寸'])
   : null;
+// Historical merchandise records are archive pages, not current offers or reviews.
 const structuredData = {
   '@context': 'https://schema.org',
-  '@type': 'Product',
+  '@type': 'WebPage',
   name: jaName(p),
   description: descJa || jaSummary(p, s),
   url: new URL(`/ja/merch/${p.slug}/`, Astro.site || Astro.url).href,
   ...(p.images.length ? { image: p.images.map((img) => new URL(img.path, Astro.site || Astro.url).href) } : {}),
-  ...(jaBrand(p.manufacturer) ? { brand: { '@type': 'Brand', name: p.manufacturer } } : {}),
+  inLanguage: 'ja',
+  about: {
+    '@type': 'Thing',
+    name: jaName(p),
+    ...(p.names.zh ? { alternateName: p.names.zh } : {}),
+  },
   ...(p.names.zh ? { alternateName: p.names.zh } : {}),
 };
 const abs = (u: string) => new URL(u, Astro.site || Astro.url).href;
