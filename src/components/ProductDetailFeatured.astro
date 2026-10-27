@@ -1,0 +1,422 @@
+---
+// 新版商品详情（先只用于黏土人系列）：首屏给物件，中段讲发行，底部放证据。
+// 数据结构与旧版完全相同，不需要为新版另填字段。
+import Card from './ProductCard.astro';
+import type { Product, Series, Release } from '../lib/schema';
+import { products } from '../lib/data';
+import { dateText, displayName, usableBrand } from '../lib/catalog';
+
+interface Props { p: Product; s: Series }
+const { p, s } = Astro.props;
+
+const noMinor = (c: string) => c === 'JPY' || c === 'KRW';
+const money = (amount: number, currency: string) =>
+  new Intl.NumberFormat('zh-CN', { style: 'currency', currency, maximumFractionDigits: noMinor(currency) ? 0 : 2 })
+    .format(amount / (noMinor(currency) ? 1 : 100));
+const taxLabel = (t: string) => (t === '未注明' ? '税务未注明' : t);
+const unitLabel = (pr: Release['prices'][number]) =>
+  pr.unit === '单个' && (pr.quantity ?? 1) === 1 ? '' : ` / ${pr.unit}${pr.quantity && pr.quantity > 1 ? ` × ${pr.quantity}` : ''}`;
+
+// 按发售日排序；没有日期的发行保持原顺序排在最后。
+const releases = p.releases
+  .map((r, i) => ({ r, i }))
+  .sort((a, b) => {
+    const av = a.r.releaseDate?.value, bv = b.r.releaseDate?.value;
+    if (av && bv) return av.localeCompare(bv) || a.i - b.i;
+    if (av) return -1;
+    if (bv) return 1;
+    return a.i - b.i;
+  })
+  .map(({ r }) => r);
+const first = p.releases.find((r) => r.kind === '初版') ?? releases[0];
+const dated = releases.filter((r) => r.releaseDate);
+const latest = dated[dated.length - 1] ?? releases[releases.length - 1];
+const mainPrice = (r: Release) => (r.priceStatus === 'known' ? r.prices[0] : undefined);
+const firstPrice = mainPrice(first);
+const latestPrice = mainPrice(latest);
+const pct = (from: number, to: number) => Math.round(((to - from) / from) * 100);
+const sameBase = (a?: Release['prices'][number], b?: Release['prices'][number]) =>
+  !!a && !!b && a.currency === b.currency && a.unit === b.unit;
+const kindLabel = (r: Release) => {
+  if (r.kind === '初版') return '初版';
+  const n = releases.filter((x) => x.kind === '再贩').indexOf(r) + 1;
+  const total = releases.filter((x) => x.kind === '再贩').length;
+  return total > 1 ? `再贩 ${'①②③④⑤⑥⑦⑧⑨'[n - 1] ?? n}` : '再贩';
+};
+
+// 价格走势：同币种、同单位且至少两次已知价格时才画。
+const chartPoints = dated
+  .filter((r) => sameBase(mainPrice(r), firstPrice))
+  .map((r) => {
+    const [y, m = '6'] = r.releaseDate!.value.split('-');
+    return { r, t: Number(y) + (Number(m) - 1) / 12, v: mainPrice(r)!.amount };
+  });
+const chart = (() => {
+  if (chartPoints.length < 2) return null;
+  const W = 520, H = 176, padX = 56, top = 34, bottom = 140;
+  const t0 = chartPoints[0].t, t1 = chartPoints[chartPoints.length - 1].t;
+  const vals = chartPoints.map((c) => c.v);
+  const lo = Math.min(...vals) * 0.85, hi = Math.max(...vals);
+  const x = (t: number) => (t1 === t0 ? W / 2 : padX + ((t - t0) / (t1 - t0)) * (W - padX * 2));
+  const y = (v: number) => (hi === lo ? (top + bottom) / 2 : bottom - ((v - lo) / (hi - lo)) * (bottom - top));
+  const pts = chartPoints.map((c, i) => ({
+    x: x(c.t), y: y(c.v), label: money(c.v, firstPrice!.currency), date: dateText(c.r.releaseDate), last: i === chartPoints.length - 1,
+  }));
+  return { W, H, base: bottom + 4, pts, line: pts.map((q) => `${q.x.toFixed(1)},${q.y.toFixed(1)}`).join(' ') };
+})();
+const chartLabel = chartPoints.map((c) => `${dateText(c.r.releaseDate)} ${money(c.v, firstPrice!.currency)}`).join('，');
+const firstYear = first.releaseDate?.value.slice(0, 4);
+const latestYear = latest.releaseDate?.value.slice(0, 4);
+const spanYears = firstYear && latestYear ? Number(latestYear) - Number(firstYear) : 0;
+const zhCount = ['零', '一', '两', '三', '四', '五', '六', '七', '八', '九', '十'];
+const totalPct = sameBase(firstPrice, latestPrice) && latest !== first ? pct(firstPrice!.amount, latestPrice!.amount) : null;
+
+// 各贩次 JAN：从规格中「2023-01：4580…」这类写法取出，按发售年月对应到发行。
+const janText = Object.entries(p.specifications).filter(([k]) => /JAN/.test(k) && !/来源/.test(k)).map(([, v]) => v).join('；');
+const janByMonth = new Map<string, string>();
+for (const m of janText.matchAll(/(\d{4}-\d{2})\s*[：:]\s*(\d{8,13})/g)) janByMonth.set(m[1], m[2]);
+const janOf = (r: Release) => {
+  const key = r.releaseDate?.value.slice(0, 7);
+  if (key && janByMonth.has(key)) return janByMonth.get(key);
+  if (releases.length === 1 && /^\d{8,13}$/.test(p.specifications['JAN'] ?? '')) return p.specifications['JAN'];
+  return undefined;
+};
+
+// 关键规格：JAN 类已经放进各次发行，编号放在标题上方，其他照常显示。
+const officialNo = p.specifications['官方编号'];
+const hiddenSpec = (k: string) => /JAN/.test(k) || k === '官方编号';
+const maker = usableBrand(p.manufacturer), pub = usableBrand(p.publisher);
+const facts: { k: string; v: string; href?: string }[] = [];
+for (const [k, v] of Object.entries(p.specifications)) if (!hiddenSpec(k) && k === '全高') facts.push({ k, v });
+if (first.releaseDate) facts.push({ k: '首发', v: dateText(first.releaseDate) });
+if (maker && pub && maker === pub) facts.push({ k: '制造 / 发行', v: maker, href: '/merch/?q=' + encodeURIComponent(maker) });
+else {
+  if (maker) facts.push({ k: '制造商', v: maker, href: '/merch/?q=' + encodeURIComponent(maker) });
+  if (pub) facts.push({ k: '发行方', v: pub, href: '/merch/?q=' + encodeURIComponent(pub) });
+}
+facts.push({ k: '系列', v: s.name, href: '/series/' + s.slug + '/' });
+for (const [k, v] of Object.entries(p.specifications)) if (!hiddenSpec(k) && k !== '全高') facts.push({ k, v });
+
+// 发行卡片里放该次发行的官方页面；其余商城页面统一放在下面，同一商城多个页面用商品编号区分。
+const releaseSourceIds = new Set(p.releases.flatMap((r) => r.sourceIds));
+const shopSources = [...new Map(
+  p.sources
+    .filter((x) => !releaseSourceIds.has(x.id) && !/prtimes\.jp|aot-portal\.com/.test(x.url))
+    .map((x) => [x.url.replace(/\/+$/, '').split('#')[0].toLowerCase(), x]),
+).values()];
+const shopCode = (url: string) => {
+  const u = new URL(url);
+  return u.searchParams.get('gcode') || u.pathname.split('/').filter(Boolean).pop() || u.host;
+};
+const shopGroups = [...shopSources.reduce((m, x) => m.set(x.organization, [...(m.get(x.organization) ?? []), x]), new Map<string, typeof shopSources>()).entries()];
+
+// 同角色的其他商品：先取同系列和手动关联，再补同类型。
+const others = products.filter((x) => x.id !== p.id && !x.isDemo);
+const picked = [
+  ...others.filter((x) => x.seriesId === p.seriesId || p.relatedProductIds.includes(x.id)),
+  ...others.filter((x) => x.type === p.type),
+].filter((x, i, a) => a.findIndex((y) => y.id === x.id) === i).slice(0, 4);
+const moreHref = '/merch/?type=' + encodeURIComponent(p.type);
+
+const lastChecked = p.sources.map((x) => x.checkedAt).sort().pop();
+const janSource = p.specifications['JAN 来源'];
+const unstated = [
+  releases.some((r) => !r.announcement) && '部分发行的公告日期',
+  releases.some((r) => !r.limitedScope) && '限定范围',
+].filter(Boolean) as string[];
+const image = p.images[0];
+---
+<section class="pd-hero">
+  <div class="pd-gallery">
+    {image ? (
+      <figure>
+        <div class="pd-frame"><img src={image.path} alt={image.alt} width="600" height="800" /></div>
+        <figcaption>
+          图：{image.credit} 官方样品图，非本站实拍 ·
+          <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer">出处 ↗</a>
+          {image.originalUrl && <> · <a href={image.originalUrl} target="_blank" rel="noopener noreferrer">原图 ↗</a></>}
+        </figcaption>
+      </figure>
+    ) : (
+      <div class="placeholder large"><span class="frame-icon">▧</span><span>商品图片待补充</span><small>等待可使用的官方图片或自有实拍</small></div>
+    )}
+    {p.images.length > 1 && (
+      <div class="pd-thumbs">
+        {p.images.slice(1).map((img) => <a href={img.path} target="_blank" rel="noopener noreferrer"><img src={img.path} alt={img.alt} loading="lazy" /></a>)}
+      </div>
+    )}
+  </div>
+
+  <div class="pd-info">
+    <span class="eyebrow pd-kicker">{s.name}{officialNo && <> · No.{officialNo}</>}</span>
+    <h1>{displayName(p)}</h1>
+    {p.names.ja && <p class="pd-ja" lang="ja">{p.names.ja}</p>}
+    <p class="pd-lead">{p.description}</p>
+
+    <div class="pd-now">
+      <div class="pd-now-main">
+        <span class="pd-now-label">{latest === first ? '首次发行' : '最近一次发行'} · {dateText(latest.releaseDate)} {kindLabel(latest)}</span>
+        {latestPrice ? (
+          <span class="pd-now-price">{money(latestPrice.amount, latestPrice.currency)}<small>{unitLabel(latestPrice)}</small></span>
+        ) : (
+          <span class="pd-now-price pd-now-unknown">{latest.priceStatus === 'notSoldSeparately' ? '非单独销售' : '官方原价待核实'}</span>
+        )}
+        <span class="pd-now-sub">
+          官方标价{latestPrice && <> · {taxLabel(latestPrice.taxStatus)}</>}
+          {latest !== first && firstPrice && <> · 首发价 {money(firstPrice.amount, firstPrice.currency)}{totalPct !== null && totalPct !== 0 && `（${totalPct > 0 ? '+' : ''}${totalPct}%）`}</>}
+        </span>
+      </div>
+      <a class="pd-cta" href="#releases">{releases.length > 1 ? `查看 ${releases.length} 次发行与购买渠道` : '查看发行与购买渠道'}</a>
+    </div>
+
+    <dl class="pd-facts">
+      {facts.map((f) => <div><dt>{f.k}</dt><dd>{f.href ? <a href={f.href}>{f.v}</a> : f.v}</dd></div>)}
+    </dl>
+    {p.isDemo && <p class="notice">示例数据，不是真实商品。</p>}
+  </div>
+</section>
+
+<section class="pd-releases" id="releases">
+  <div class="pd-rel-head">
+    <div class="pd-rel-intro">
+      <span class="eyebrow">RELEASE HISTORY</span>
+      <h2>{releases.length > 1 && spanYears > 0 ? `${zhCount[spanYears] ?? spanYears} 年、${zhCount[releases.length] ?? releases.length} 次发行` : '发行记录'}</h2>
+      <p>
+        {totalPct !== null && totalPct !== 0
+          ? <>官方价从首发的 {money(firstPrice!.amount, firstPrice!.currency)} 到 {latestYear} 年的 {money(latestPrice!.amount, latestPrice!.currency)}，累计 <strong>{totalPct > 0 ? '+' : ''}{totalPct}%</strong>。</>
+          : '每次发行的官方标价分别保留。'}
+        每次发行的官方页面和 JAN 码放在对应的卡片里。
+      </p>
+    </div>
+    {chart && (
+      <figure class="pd-chart">
+        <svg viewBox={`0 0 ${chart.W} ${chart.H}`} role="img" aria-label={'官方价走势：' + chartLabel}>
+          <line class="pd-axis" x1="24" y1={chart.base} x2={chart.W - 24} y2={chart.base} />
+          <polyline class="pd-line" points={chart.line} />
+          {chart.pts.map((q) => (
+            <g>
+              <circle class={q.last ? 'pd-dot pd-dot-last' : 'pd-dot'} cx={q.x} cy={q.y} r={q.last ? 6 : 5} />
+              <text class={q.last ? 'pd-val pd-val-last' : 'pd-val'} x={q.x} y={q.y - 14} text-anchor="middle">{q.label}</text>
+              <text class="pd-date" x={q.x} y={chart.H - 8} text-anchor="middle">{q.date}</text>
+            </g>
+          ))}
+        </svg>
+      </figure>
+    )}
+  </div>
+
+  <div class="pd-cards">
+    {releases.map((r) => {
+      const pr = mainPrice(r);
+      const diff = r !== first && sameBase(pr, firstPrice) ? pct(firstPrice!.amount, pr!.amount) : null;
+      const jan = janOf(r);
+      const isLatest = r === latest && releases.length > 1;
+      return (
+        <article class={isLatest ? 'pd-card is-latest' : 'pd-card'}>
+          <div class="pd-card-top">
+            <span class="pd-kind">{kindLabel(r)}{isLatest && <span class="pd-badge">最新</span>}</span>
+            <span class="pd-where">{r.region} · {r.salesMethod}</span>
+          </div>
+          <h3>{dateText(r.releaseDate)}</h3>
+          <p class="pd-card-price">
+            {pr ? <>{money(pr.amount, pr.currency)}<small>{unitLabel(pr)} {taxLabel(pr.taxStatus)}{diff !== null && diff !== 0 && ` · 较首发 ${diff > 0 ? '+' : ''}${diff}%`}</small></>
+              : <span class="pd-muted">{r.priceStatus === 'notSoldSeparately' ? '购买特典，非单独销售' : '官方原价待核实'}</span>}
+          </p>
+          {(r.announcement || r.preorderStart || r.preorderEnd || r.limitedScope || r.condition || jan) && (
+            <dl class="pd-card-facts">
+              {r.announcement && <div><dt>公告</dt><dd>{dateText(r.announcement)}</dd></div>}
+              {(r.preorderStart || r.preorderEnd) && <div><dt>预订</dt><dd>{r.preorderStart ? dateText(r.preorderStart) : '?'} – {r.preorderEnd ? dateText(r.preorderEnd) : '?'}</dd></div>}
+              {r.limitedScope && <div><dt>限定</dt><dd>{r.limitedScope}</dd></div>}
+              {r.condition && <div><dt>获取条件</dt><dd>{r.condition}</dd></div>}
+              {jan && <div><dt>JAN</dt><dd class="pd-mono">{jan}</dd></div>}
+            </dl>
+          )}
+          <div class="pd-card-links">
+            {r.sourceIds.map((id) => {
+              const src = p.sources.find((x) => x.id === id);
+              return src && (
+                <a class={isLatest ? 'pd-link is-primary' : 'pd-link'} href={src.url} target="_blank" rel="noopener noreferrer">
+                  <span>{/旧/.test(src.title) ? `${src.organization} 旧官网档案` : `${src.organization} 官方商品页`}</span><span aria-hidden="true">↗</span>
+                </a>
+              );
+            })}
+          </div>
+        </article>
+      );
+    })}
+  </div>
+
+  {shopGroups.length > 0 && (
+    <div class="pd-shops">
+      <div class="pd-shops-head">
+        <h3>商城页面</h3>
+        <p>各商城的实际售价、库存和贩次以商城页面为准。本站只做档案，不出售、不代收、不代查二手价。</p>
+      </div>
+      <div class="pd-shop-list">
+        {shopGroups.map(([org, list]) => list.map((x) => (
+          <a class="pd-link" href={x.url} target="_blank" rel="noopener noreferrer">
+            <span>{org}{list.length > 1 && <small class="pd-mono">{shopCode(x.url)}</small>}</span><span aria-hidden="true">↗</span>
+          </a>
+        )))}
+      </div>
+    </div>
+  )}
+</section>
+
+{picked.length > 0 && (
+  <section class="pd-more">
+    <div class="section-heading">
+      <div><span class="eyebrow">MORE HANGE</span><h2>韩吉的其他{p.type}</h2></div>
+      <a href={moreHref}>全部{p.type} →</a>
+    </div>
+    <div class="product-grid">{picked.map((x) => <Card product={x} />)}</div>
+  </section>
+)}
+
+<section class="pd-data">
+  <details>
+    <summary>
+      <span class="pd-data-title">参考来源与数据说明</span>
+      <span class="pd-data-meta">{p.sources.length} 条来源{p.missingFields.length > 0 && ` · ${p.missingFields.length} 项待核实`}{lastChecked && ` · 最后核对 ${lastChecked}`}</span>
+    </summary>
+    <div class="pd-data-body">
+      <div>
+        <h3>参考来源</h3>
+        <ul class="pd-src">
+          {p.sources.map((x) => (
+            <li>
+              <a href={x.url} target="_blank" rel="noopener noreferrer">{x.title} ↗</a>
+              <small>{x.organization} · 核对于 {x.checkedAt} · 支撑：{x.fields.join('、')}</small>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        {p.missingFields.length > 0 && (
+          <>
+            <h3>待核实</h3>
+            <ul class="pd-todo">{p.missingFields.map((x) => <li>{x}</li>)}</ul>
+          </>
+        )}
+        {unstated.length > 0 && <p class="pd-note">官方来源未注明：{unstated.join('、')}。页面上不显示空白项。</p>}
+        {janSource && <p class="pd-note">JAN 来源：{janSource}</p>}
+        <p class="pd-note">本条目按同一商品保留发行记录。不同年份的官方价格分别展示；设计或规格发生实质变化时，将另建条目并关联。</p>
+      </div>
+    </div>
+  </details>
+  <p class="pd-stamp">收录于 {p.createdAt} · 更新于 {p.updatedAt} · <a href="/about/">发现错误？纠错 →</a></p>
+</section>
+
+<style>
+.pd-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;margin:28px 0 64px;align-items:start}
+.pd-gallery{min-width:0}
+.pd-gallery figure{margin:0}
+.pd-frame{background:var(--white);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;padding:24px}
+.pd-frame img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain}
+.pd-gallery figcaption{margin-top:10px;font-size:.75rem;color:var(--muted)}
+.pd-gallery figcaption a{text-decoration:underline;text-underline-offset:3px}
+.pd-thumbs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:12px}
+.pd-thumbs a{display:block;border:1px solid var(--line);background:var(--white);aspect-ratio:1}
+.pd-thumbs img{width:100%;height:100%;object-fit:contain}
+.pd-info{min-width:0;display:flex;flex-direction:column}
+.pd-kicker{font-family:var(--latin-serif);font-size:.82rem}
+.pd-info h1{margin:10px 0 4px;font-size:2.6rem;line-height:1.3}
+.pd-ja{margin:0 0 18px;font-size:.92rem}
+.pd-lead{margin:0 0 26px;font-size:1rem;color:#4f4656}
+.pd-now{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:18px;background:var(--white);border:1px solid var(--line);border-top:3px solid var(--accent);padding:20px 22px}
+.pd-now-main{display:flex;flex-direction:column;gap:2px;min-width:0}
+.pd-now-label{font-size:.82rem;color:var(--muted)}
+.pd-now-price{font:600 2.1rem/1.25 var(--latin-serif);color:var(--ink);letter-spacing:.01em}
+.pd-now-price small{font:400 .8rem var(--ui);color:var(--muted)}
+.pd-now-unknown{font-size:1.3rem}
+.pd-now-sub{font-size:.78rem;color:var(--muted)}
+.pd-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;background:var(--accent-muted);color:#fff;font-size:.88rem;font-weight:600;transition:background .15s}
+.pd-cta:hover{background:#56406a;color:#fff}
+.pd-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px;margin:22px 0 0}
+.pd-facts>div{display:flex;flex-direction:column;gap:0;grid-template-columns:none;padding:11px 0}
+.pd-facts dt{font-size:.75rem}
+.pd-facts dd{font-size:.92rem;color:var(--ink)}
+.pd-facts dd a{text-decoration:underline;text-decoration-color:#cbbbd8;text-underline-offset:4px}
+
+.pd-releases{border-top:1px solid var(--line);padding-top:48px}
+.pd-rel-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:28px 48px;margin-bottom:28px}
+.pd-rel-intro{flex:1 1 340px;min-width:0}
+.pd-rel-intro h2{margin:4px 0 8px;font-size:1.9rem}
+.pd-rel-intro p{margin:0;font-size:.95rem}
+.pd-rel-intro strong{color:var(--ink)}
+.pd-chart{margin:0;flex:0 1 520px;min-width:0}
+.pd-chart svg{display:block;width:100%;height:auto;overflow:visible}
+.pd-axis{stroke:var(--line);stroke-width:1}
+.pd-line{fill:none;stroke:var(--accent);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.pd-dot{fill:var(--white);stroke:var(--accent);stroke-width:2.5}
+.pd-dot-last{fill:var(--accent)}
+.pd-val{font:500 14px var(--latin-serif);fill:var(--ink)}
+.pd-val-last{font-weight:700}
+.pd-date{font:12px var(--ui);fill:var(--muted)}
+
+.pd-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.pd-card{display:flex;flex-direction:column;gap:6px;background:var(--white);border:1px solid var(--line);padding:22px;min-width:0}
+.pd-card.is-latest{border:2px solid var(--accent);padding:21px}
+.pd-card-top{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:.8rem}
+.pd-kind{font-weight:600;color:#4f4656;display:inline-flex;align-items:center;gap:8px}
+.pd-badge{font-size:.7rem;font-weight:600;color:var(--accent-muted);background:var(--soft);border-radius:999px;padding:1px 9px}
+.pd-where{color:var(--muted)}
+.pd-card h3{margin:6px 0 0;font:600 1.5rem/1.3 var(--latin-serif)}
+.pd-card-price{margin:0;font:500 1.2rem/1.5 var(--latin-serif);color:var(--ink)}
+.pd-card-price small{margin-left:6px;font:400 .76rem var(--ui);color:var(--muted)}
+.pd-muted{font:400 .9rem var(--ui);color:var(--muted)}
+.pd-card-facts{margin:8px 0 4px}
+.pd-card-facts>div{grid-template-columns:72px minmax(0,1fr);padding:6px 0;font-size:.82rem}
+.pd-card-facts>div:last-child{border-bottom:0}
+.pd-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.8rem;letter-spacing:.02em}
+.pd-card-links{display:flex;flex-direction:column;gap:8px;margin-top:auto;padding-top:10px}
+.pd-link{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:44px;padding:6px 14px;border:1px solid var(--line);background:var(--white);font-size:.86rem;color:var(--ink);transition:border-color .15s,background .15s}
+.pd-link:hover{border-color:var(--accent);background:var(--soft);color:var(--ink)}
+.pd-link small{display:block;color:var(--muted)}
+.pd-link.is-primary{background:var(--accent-muted);border-color:var(--accent-muted);color:#fff;font-weight:600}
+.pd-link.is-primary:hover{background:#56406a;color:#fff}
+
+.pd-shops{display:grid;grid-template-columns:minmax(0,280px) minmax(0,1fr);gap:16px 40px;margin-top:28px;padding:22px;background:var(--soft);border:1px solid var(--line)}
+.pd-shops-head h3{margin:0 0 4px;font-size:1rem}
+.pd-shops-head p{margin:0;font-size:.78rem;line-height:1.7}
+.pd-shop-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+
+.pd-more{border-top:1px solid var(--line);padding-top:48px}
+
+.pd-data{border-top:1px solid var(--line);padding-top:36px}
+.pd-data details{background:var(--white);border:1px solid var(--line)}
+.pd-data summary{display:flex;flex-wrap:wrap;align-items:center;gap:4px 18px;min-height:56px;padding:10px 22px;cursor:pointer;list-style-position:inside}
+.pd-data-title{font-weight:600;font-size:.95rem}
+.pd-data-meta{font-size:.8rem;color:var(--muted)}
+.pd-data-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px 40px;padding:8px 22px 24px;border-top:1px solid var(--line)}
+.pd-data-body h3{font-size:.85rem;color:var(--muted);margin:16px 0 8px}
+.pd-src,.pd-todo{margin:0;padding-left:18px;font-size:.84rem;display:flex;flex-direction:column;gap:10px}
+.pd-src a{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.pd-src small{display:block;color:var(--muted);font-size:.74rem;overflow-wrap:anywhere}
+.pd-todo li{color:#5f5467;overflow-wrap:anywhere}
+.pd-note{font-size:.78rem;margin:14px 0 0;overflow-wrap:anywhere}
+.pd-stamp{margin:14px 0 0;font-size:.78rem}
+.pd-stamp a{text-decoration:underline;text-underline-offset:3px}
+
+@media (max-width:1000px){
+  .pd-hero{grid-template-columns:1fr;gap:28px}
+  .pd-frame img{max-height:520px}
+  .pd-chart{flex-basis:100%}
+  .pd-shops{grid-template-columns:1fr}
+}
+@media (max-width:700px){
+  .pd-hero{margin:18px 0 44px}
+  .pd-frame{padding:12px}
+  .pd-frame img{max-height:420px}
+  .pd-info h1{font-size:1.85rem}
+  .pd-now{padding:16px}
+  .pd-now-price{font-size:1.8rem}
+  .pd-cta{width:100%;justify-content:center}
+  .pd-facts{column-gap:16px}
+  .pd-rel-intro h2{font-size:1.5rem}
+  .pd-releases,.pd-more{padding-top:36px}
+  .pd-cards{grid-template-columns:1fr}
+  .pd-data summary{padding:10px 16px}
+  .pd-data-body{grid-template-columns:1fr;gap:0;padding:4px 16px 20px}
+}
+</style>
