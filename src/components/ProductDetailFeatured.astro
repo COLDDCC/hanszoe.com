@@ -180,7 +180,7 @@ const image = p.images[0];
   <div class="pd-rel-head">
     <div class="pd-rel-intro">
       <span class="eyebrow">RELEASE HISTORY</span>
-      <h2>{releases.length > 1 && spanYears > 0 ? `${zhCount[spanYears] ?? spanYears} 年、${zhCount[releases.length] ?? releases.length} 次发行` : '发行记录'}</h2>
+      <h2>{releases.length > 1 && spanYears > 0 ? `${zhCount[spanYears] ?? spanYears}年、${zhCount[releases.length] ?? releases.length}次发行` : '发行记录'}</h2>
       <p>
         {totalPct !== null && totalPct !== 0
           ? <>官方价从首发的 {money(firstPrice!.amount, firstPrice!.currency)} 到 {latestYear} 年的 {money(latestPrice!.amount, latestPrice!.currency)}，累计 <strong>{totalPct > 0 ? '+' : ''}{totalPct}%</strong>。</>
@@ -265,7 +265,7 @@ const image = p.images[0];
 
 {picked.length > 0 && (
   <section class="pd-more">
-    <div class="section-heading">
+    <div class="pd-more-head">
       <div><span class="eyebrow">MORE HANGE</span><h2>韩吉的其他{p.type}</h2></div>
       <a href={moreHref}>全部{p.type} →</a>
     </div>
@@ -308,7 +308,7 @@ const image = p.images[0];
 </section>
 
 <style>
-.pd-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;margin:28px 0 64px;align-items:start}
+.pd-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;margin:28px 0 40px;align-items:start}
 .pd-gallery{min-width:0}
 .pd-gallery figure{margin:0}
 .pd-frame{background:var(--white);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;padding:24px}
@@ -338,7 +338,7 @@ const image = p.images[0];
 .pd-facts dd{font-size:.92rem;color:var(--ink)}
 .pd-facts dd a{text-decoration:underline;text-decoration-color:#cbbbd8;text-underline-offset:4px}
 
-.pd-releases{border-top:1px solid var(--line);padding-top:48px}
+.pd-releases{border-top:1px solid var(--line);padding-top:40px}
 .pd-rel-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:28px 48px;margin-bottom:28px}
 .pd-rel-intro{flex:1 1 340px;min-width:0}
 .pd-rel-intro h2{margin:4px 0 8px;font-size:1.9rem}
@@ -381,7 +381,10 @@ const image = p.images[0];
 .pd-shops-head p{margin:0;font-size:.78rem;line-height:1.7}
 .pd-shop-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
 
-.pd-more{border-top:1px solid var(--line);padding-top:48px}
+.pd-more{border-top:1px solid var(--line);padding-top:40px}
+.pd-more-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:22px}
+.pd-more-head h2{margin:4px 0 0;font-size:1.9rem}
+.pd-more-head>a{font-size:.85rem;color:var(--muted)}
 
 .pd-data{border-top:1px solid var(--line);padding-top:36px}
 .pd-data details{background:var(--white);border:1px solid var(--line)}
@@ -416,6 +419,9 @@ const image = p.images[0];
   .pd-rel-intro h2{font-size:1.5rem}
   .pd-releases,.pd-more{padding-top:36px}
   .pd-cards{grid-template-columns:1fr}
+  .pd-val{font-size:20px}
+  .pd-date{font-size:17px}
+  .pd-more-head h2{font-size:1.5rem}
   .pd-data summary{padding:10px 16px}
   .pd-data-body{grid-template-columns:1fr;gap:0;padding:4px 16px 20px}
 }
