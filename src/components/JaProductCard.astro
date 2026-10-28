@@ -1,19 +1,21 @@
 ---
 import type { Product, Series } from '../lib/schema';
 import { jaName, jaType, jaYear, jaUi, jaSeriesName } from '../lib/ja';
+import { cardSrc, cardSrcset, cardSizes } from '../lib/images';
 
-const { product: p, seriesList } = Astro.props as {
+const { product: p, seriesList, hidden = false } = Astro.props as {
   product: Product;
   seriesList: Series[];
+  hidden?: boolean;
 };
 const s = seriesList.find((x) => x.id === p.seriesId);
 const y = jaYear(p);
 const maker = p.manufacturer || p.publisher || '';
 ---
 
-<article class="product-card" data-product-id={p.id} data-year={y} data-type={p.type} data-method={p.releases.map((r) => r.salesMethod).join(' ')}>
+<article class="product-card" data-product-id={p.id} data-year={y} data-type={p.type} data-method={p.releases.map((r) => r.salesMethod).join(' ')} hidden={hidden}>
   <div class="product-image">
-    {p.images[0] ? <img src={p.images[0].path} alt={`${jaName(p)}｜公式商品画像`} loading="lazy" /> : <div class="placeholder"><span class="frame-icon">▧</span><span>{jaUi.noImage}</span><small>NO IMAGE YET</small></div>}
+    {p.images[0] ? <img src={cardSrc(p.images[0])} srcset={cardSrcset(p.images[0])} sizes={cardSrcset(p.images[0]) ? cardSizes : undefined} alt={`${jaName(p)}｜公式商品画像`} loading="lazy" decoding="async" width={p.images[0].width} height={p.images[0].height} /> : <div class="placeholder"><span class="frame-icon">▧</span><span>{jaUi.noImage}</span><small>NO IMAGE YET</small></div>}
     <span class="image-label">{jaType[p.type] ?? p.type}</span>
   </div>
   <div class="card-body">

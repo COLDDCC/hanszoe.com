@@ -2,7 +2,13 @@
 import Base from '../../../layouts/ja/JaBase.astro';
 import Card from '../../../components/JaProductCard.astro';
 import { products, series } from '../../../lib/data';
-import { jaUi, jaType, jaSalesMethod, jaYear } from '../../../lib/ja';
+import { jaUi, jaType, jaSalesMethod, jaYear, jaName } from '../../../lib/ja';
+import { firstDate } from '../../../lib/catalog';
+import { buildIndex, filterIndex, PAGE_SIZE } from '../../../lib/catalogIndex';
+
+const index = buildIndex(products, series, { year: jaYear, date: firstDate, name: jaName });
+const order = new Map(filterIndex(index, new URLSearchParams(), 'ja').map((e, i) => [e.id, i]));
+const ordered = [...products].sort((a, b) => order.get(a.id)! - order.get(b.id)!);
 
 const groups = [
   {
@@ -88,8 +94,12 @@ const topMakers = [...makers].sort((a, b) => b[1] - a[1]).slice(0, 2).map(([v]) 
           </label>
         </div>
         <div class="product-grid" id="product-grid">
-          {products.map((p) => <Card product={p} seriesList={series} />)}
+          {ordered.map((p, i) => <Card product={p} seriesList={series} hidden={i >= PAGE_SIZE} />)}
         </div>
+        <div class="load-more" id="load-more" hidden>
+          <button type="button" class="button secondary" id="load-more-button">さらに表示</button>
+        </div>
+        <noscript><style is:inline>.product-card[hidden]{display:block}</style></noscript>
         <div class="empty" id="no-results" hidden>
           <h2>{jaUi.noResultTitle}</h2>
           <p>{jaUi.noResultBody}</p>
@@ -100,63 +110,9 @@ const topMakers = [...makers].sort((a, b) => b[1] - a[1]).slice(0, 2).map(([v]) 
     </div>
   </form>
 
-  <script type="application/json" id="catalog-data" set:html={JSON.stringify({ products, series }).replace(/</g, '\\u003c')} />
+  <script type="application/json" id="catalog-data" set:html={JSON.stringify({ products: index }).replace(/</g, '\\u003c')} />
   <script>
-    import { filterProductsJa } from '../../../lib/ja';
-    import type { Product, Series } from '../../../lib/schema';
-    const data: { products: Product[]; series: Series[] } = JSON.parse(
-      document.getElementById('catalog-data')!.textContent!,
-    );
-    const form = document.getElementById('catalog-form') as HTMLFormElement;
-    const grid = document.getElementById('product-grid')!;
-    const cards = Array.from(grid.children) as HTMLElement[];
-    let restoring = false;
-    function render(params: URLSearchParams) {
-      const matches = filterProductsJa(data.products, data.series, params);
-      cards.forEach((card) => (card.hidden = true));
-      for (const product of matches) {
-        const card = cards.find((c) => c.dataset.productId === product.id)!;
-        card.hidden = false;
-        grid.appendChild(card);
-      }
-      document.getElementById('result-count')!.textContent = String(matches.length);
-      document.getElementById('no-results')!.hidden = matches.length > 0;
-    }
-    function restore() {
-      restoring = true;
-      form.reset();
-      const params = new URLSearchParams(location.search);
-      for (const control of Array.from(form.elements)) {
-        if (control instanceof HTMLInputElement) {
-          if (control.type === 'checkbox') control.checked = params.getAll(control.name).includes(control.value);
-          else control.value = params.get(control.name) || '';
-        }
-        if (control instanceof HTMLSelectElement) {
-          const value = params.get(control.name) || 'added';
-          control.value = Array.from(control.options).some((o) => o.value === value) ? value : 'added';
-        }
-      }
-      restoring = false;
-      render(params);
-    }
-    function update() {
-      const params = new URLSearchParams();
-      for (const [key, value] of new FormData(form)) {
-        if (typeof value === 'string' && value && !(key === 'sort' && value === 'added')) params.append(key, value);
-      }
-      const next = location.pathname + (params.size ? '?' + params.toString() : '');
-      if (next !== location.pathname + location.search) history.pushState({}, '', next);
-      render(params);
-    }
-    form.addEventListener('submit', (e) => { e.preventDefault(); update(); });
-    form.addEventListener('change', (e) => {
-      const c = e.target;
-      if (c instanceof HTMLSelectElement || (c instanceof HTMLInputElement && c.type === 'checkbox')) update();
-    });
-    form.addEventListener('reset', () => { if (!restoring) setTimeout(update, 0); });
-    window.addEventListener('popstate', restore);
-    restore();
-    if (matchMedia('(max-width: 700px)').matches)
-      (document.getElementById('filter-details') as HTMLDetailsElement).open = false;
+    import { initCatalog } from '../../../lib/catalogPage';
+    initCatalog({ locale: 'ja', moreLabel: (n) => `さらに表示（残り ${n} 件）` });
   </script>
 </Base>

@@ -705,6 +705,17 @@ footer a {
   font-size: 0.8rem;
   margin-top: 24px;
 }
+.load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+.load-more[hidden] {
+  display: none;
+}
+.load-more .button {
+  min-width: min(100%, 280px);
+}
 .empty {
   padding: 50px 24px;
   text-align: center;
