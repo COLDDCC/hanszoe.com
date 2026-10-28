@@ -23,7 +23,7 @@ dates:
 salesMethod: 线上抽赏
 region: 日本
 cover:
-  path: /images/news/marukuji-chapon-hange.svg
+  path: /images/news/marukuji-chapon-hange.webp
   alt: 官方主视觉横幅：八名 Q 版角色坐在盛着彩色汽水的玻璃杯里，杯口有柠檬片与樱桃，右下为「まるくじ ちゃぽんっ!」标识
   sourceUrl: https://marukuji.jp/images/titles/top_images/225/c87fb52d-9152-48ef-b059-44511db05cd3-aot_chapon_SD_web_top.webp
   credit: 株式会社エディア / まるくじ

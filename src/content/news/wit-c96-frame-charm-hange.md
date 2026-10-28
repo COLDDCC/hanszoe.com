@@ -20,7 +20,7 @@ dates:
 salesMethod: Comic Market 96 I.Gストア出張店先行贩卖（摊位 No.1331）
 region: 日本
 cover:
-  path: /images/news/wit-c96-frame-charm-hange.svg
+  path: /images/news/wit-c96-frame-charm-hange.webp
   alt: '8 枚额框风亚克力挂件样品图：仿旧金色画框内是白色人物区，框上印「Attack on Titan」、框下印场面标注，左上是艾伦「Season 3 Opening」，左下是戴眼镜、张口喊话的韩吉「Episode 41: Trust」，其余为三笠、阿尔敏、利威尔、埃尔文、让与一名金发双刀角色；每枚右下角印 ©HK/AOT'
   sourceUrl: https://shingeki.tv/news/archives/4953
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/4953）額縁アクリルチャームコレクション / ©諫山創・講談社／「進撃の巨人」製作委員会

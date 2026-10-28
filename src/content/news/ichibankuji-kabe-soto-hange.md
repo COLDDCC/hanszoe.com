@@ -23,7 +23,7 @@ dates:
 salesMethod: 一番くじ（一番くじ公式ショップ、一番くじONLINE）
 region: 日本
 cover:
-  path: /images/news/ichibankuji-kabe-soto-hange.svg
+  path: /images/news/ichibankuji-kabe-soto-hange.webp
   alt: 官方 C 赏商品图：B5 亚克力板上是水彩风三人——左侧戴护目镜、挥臂指向前方的韩吉，中间站立的埃尔文，右侧坐着的利瓦伊，画面上方印着 ATTACK ON TITAN 与 Hans Zoe、Erwin Smith、Levi 三个英文名
   sourceUrl: https://assets.1kuji.com/uploads/product_item/image/104180/616f7ab1-5eca-40e0-a1ce-8801f0f784a5.jpg
   credit: 一番くじ倶楽部（BANDAI SPIRITS 公式）C 赏商品图 / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

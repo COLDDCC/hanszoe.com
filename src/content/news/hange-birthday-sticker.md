@@ -19,7 +19,7 @@ dates:
 salesMethod: 现地数量限定赠品
 region: 日本（兵库县淡路岛）
 cover:
-  path: /images/news/hange-birthday-sticker.svg
+  path: /images/news/hange-birthday-sticker.webp
   alt: 韩吉生日纪念原创贴纸官方新闻配图
   sourceUrl: https://prtimes.jp/main/html/rd/p/000000758.000128966.html
   credit: 株式会社ニジゲンノモリ / PR TIMES

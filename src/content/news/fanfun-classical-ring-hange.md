@@ -24,7 +24,7 @@ dates:
 salesMethod: 受注（FanFun MARKET 官网）
 region: 日本
 cover:
-  path: /images/news/fanfun-classical-ring-hange.svg
+  path: /images/news/fanfun-classical-ring-hange.webp
   alt: 官方一览图：左侧动画主视觉，右侧 6 枚方切石戒指按角色标注 EREN YEAGER／MIKASA ACKERMAN／ARMIN ARLEERT／LEVI／ERWIN SMITH／HANS ZOE，HANS ZOE 位于右下，主石呈紫色
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2023/10/23_Shingeki_CR_640_480.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/7998）掲載画像

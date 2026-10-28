@@ -28,7 +28,7 @@ dates:
 salesMethod: 手游内活动（iOS／Android，チェインパズルフィーバー）；韩吉角色为活动 map 通关报酬，非扭蛋
 region: 日本
 cover:
-  path: /images/news/chainpuzzle-christmas-hange.svg
+  path: /images/news/chainpuzzle-christmas-hange.webp
   alt: 官方活动横幅「暴走！サンタさんＸｍａｓの大進撃」，左侧是戴圆眼镜、穿圣诞装的 Q 版韩吉，右侧是驯鹿装扮的 Q 版莫布里特
   sourceUrl: http://shingeki.tv/news/wp-content/uploads/2017/12/aca23f99a62f01872a21d50aeea4384e.png
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/3689）イベントバナー / ©諫山創・講談社／「進撃の巨人」製作委員会 ©COPRO

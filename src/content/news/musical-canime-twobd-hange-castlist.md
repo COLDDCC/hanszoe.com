@@ -36,7 +36,7 @@ dates:
 salesMethod: 影像软件（発売元自营通信贩卖「きゃにめ」的在售 BD 商品页）
 region: 日本
 cover:
-  path: /images/news/musical-canime-twobd-hange-castlist.svg
+  path: /images/news/musical-canime-twobd-hange-castlist.webp
   alt: きゃにめ商品页的两张 Blu-ray 封面并排（左为初演 PCXG.50805 的动作版主视觉，右为日本凯旋公演 PCXG.50834 的九人列队主视觉），两图均为披绿色斗篷、持刀刃的调查兵团演员群像，画面上没有任何角色姓名标注
   sourceUrl: https://canime.jp/product/PCXG000050805/
   credit: きゃにめ（ポニーキャニオン直販）商品ページ / ©諫山創・講談社／「進撃の巨人」-the Musical-製作委員会・製作委員会2024

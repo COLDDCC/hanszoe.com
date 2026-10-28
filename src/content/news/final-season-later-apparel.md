@@ -24,7 +24,7 @@ dates:
 salesMethod: 通信贩卖受注生产（airtwokyo／animite aniwear 页面）
 region: 日本
 cover:
-  path: /images/news/final-season-later-apparel.svg
+  path: /images/news/final-season-later-apparel.webp
   alt: 官方主视觉：五张模特实拍拼贴，含白色、绿色、黑色连帽衫与两件短袖上衣，下方为「進撃の巨人」logo 与「AIR TV TOKYO／animite aniwear」标识
   sourceUrl: https://shingeki.tv/news/archives/8323
   credit: ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

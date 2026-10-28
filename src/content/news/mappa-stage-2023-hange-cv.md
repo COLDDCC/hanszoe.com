@@ -28,7 +28,7 @@ dates:
 salesMethod: 舞台活动（抽选售票）
 region: 日本
 cover:
-  path: /images/news/mappa-stage-2023-hange-cv.svg
+  path: /images/news/mappa-stage-2023-hange-cv.webp
   alt: 『MAPPA STAGE 2023』进击的巨人出演者发表图：左侧为 MAPPA STAGE 2023 标识与「2023.5.21 SUN」，右侧「出演者決定！」下方分 ARTIST／CAST／STAFF 三栏，CAST 栏三张肖像下分别标注梶裕貴（エレン・イェーガー役）、石川由依（ミカサ・アッカーマン役）、朴璐美（ハンジ・ゾエ役）
   sourceUrl: https://shingeki.tv/news/archives/7761
   credit: TVアニメ「進撃の巨人」公式サイト 掲載画像 / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

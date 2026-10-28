@@ -20,7 +20,7 @@ dates:
 salesMethod: 详情链接指向 WIT STUDIO 周边站 gift-gift.jp 商品页（本篇所列 5 条链接现已 404）
 region: 日本
 cover:
-  path: /images/news/wit-studio-sketch-hange.svg
+  path: /images/news/wit-studio-sketch-hange.webp
   alt: 官方配图：8 只 WIT STUDIO 新绘素描风亚克力钥匙扣，每只衬一块彩色卡纸并手写角色名，紫色一只为 Hange
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2019/02/A.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/4746）商品画像 / 图上带 SAMPLE 水印，©諫山創・講談社／「進撃の巨人」製作委員会

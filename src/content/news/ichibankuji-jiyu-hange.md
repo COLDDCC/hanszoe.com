@@ -20,7 +20,7 @@ dates:
 salesMethod: 一番くじ（便利店・书店・TSUTAYA・Hobby 店・游戏中心等，顺次发售）
 region: 日本
 cover:
-  path: /images/news/ichibankuji-jiyu-hange.svg
+  path: /images/news/ichibankuji-jiyu-hange.webp
   alt: 官方等级图裁出的 A〜D 赏：艾伦站立、利威尔坐沙发、韩吉坐高脚凳读书、米克持书站立，下方印着各赏全高
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2014/12/a29824fd58bd965ec5b934c02db14084.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/1574）一番くじ等級表 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」製作委員会

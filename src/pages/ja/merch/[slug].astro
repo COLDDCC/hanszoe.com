@@ -92,7 +92,7 @@ const needTranslation =
       {p.images.length ? (
         p.images.map((img) => (
           <figure>
-            <img src={img.path} alt={`${jaName(p)}｜公式商品画像`} />
+            <img src={img.path} alt={`${jaName(p)}｜公式商品画像`} width={img.width} height={img.height} />
             <figcaption>
               {img.credit} · 公式画像（権利は各権利者に帰属）
               <a href={img.sourceUrl} target="_blank" rel="noopener noreferrer">{jaUi.imageSource}</a>

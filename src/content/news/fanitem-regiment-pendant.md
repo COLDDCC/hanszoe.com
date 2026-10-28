@@ -24,7 +24,7 @@ dates:
 salesMethod: 完全受注生产（FANITEM 官方网店）
 region: 日本
 cover:
-  path: /images/news/fanitem-regiment-pendant.svg
+  path: /images/news/fanitem-regiment-pendant.webp
   alt: 官方商品图：黑底上并置两只吊坠，左为金色、右为银色，双翼向下拼成心形轮廓、心形中央镶一颗浅色天然石，下方印「Attack on Titan Official Jewelry FANITEM」
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2023/08/ohn_main_.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/7868）商品画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

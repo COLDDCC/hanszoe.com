@@ -23,7 +23,7 @@ dates:
 salesMethod: 线上抽赏
 region: 日本
 cover:
-  path: /images/news/marukuji-standolche.svg
+  path: /images/news/marukuji-standolche.webp
   alt: まるくじ进击的巨人 standolce 主题官方新闻配图
   sourceUrl: https://prtimes.jp/main/html/rd/p/000001136.000021592.html
   credit: 株式会社エディア / PR TIMES

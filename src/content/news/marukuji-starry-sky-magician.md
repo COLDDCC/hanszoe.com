@@ -30,7 +30,7 @@ dates:
 salesMethod: オンラインくじ（まるくじ）
 region: 日本
 cover:
-  path: /images/news/marukuji-starry-sky-magician.svg
+  path: /images/news/marukuji-starry-sky-magician.webp
   alt: 官方主视觉「星空の魔法使い」：埃尔文、韩吉、艾伦、利威尔四人魔法使装束
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2026/01/db253c705dfc9aa2853728e4c66a003b.png
   credit: TVアニメ「進撃の巨人」公式サイト / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

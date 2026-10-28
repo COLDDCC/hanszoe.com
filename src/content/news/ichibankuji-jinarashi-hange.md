@@ -23,7 +23,7 @@ dates:
 salesMethod: 一番くじ（ローソン、ホビーショップ、一番くじ公式ショップ、一番くじONLINE 等）
 region: 日本
 cover:
-  path: /images/news/ichibankuji-jinarashi-hange.svg
+  path: /images/news/ichibankuji-jinarashi-hange.webp
   alt: 官方 C 赏商品图：韩吉身穿绿色斗篷、戴护目镜，左右各持一把刀刃、腰挂立体机动装置，从一团沙尘底座上腾空跃出
   sourceUrl: https://assets.1kuji.com/uploads/product_item/image/103255/d55f6931-9272-4a12-ad60-4a5e96dd6a25.jpg
   credit: 一番くじ倶楽部（BANDAI SPIRITS 公式）C 赏商品图 / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

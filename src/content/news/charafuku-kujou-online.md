@@ -23,7 +23,7 @@ dates:
 salesMethod: オンラインくじ（キャラ福くじONLINE）
 region: 日本
 cover:
-  path: /images/news/charafuku-kujou-online.svg
+  path: /images/news/charafuku-kujou-online.webp
   alt: 官方主视觉：利威尔、艾伦、让、韩吉四格立体机动姿态插画
   sourceUrl: https://shingeki.tv/news/archives/9200
   credit: TVアニメ「進撃の巨人」公式サイト / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

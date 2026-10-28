@@ -24,7 +24,7 @@ dates:
 salesMethod: 手机游戏内活动（iOS／Android，基本免费＋道具收费）
 region: 日本
 cover:
-  path: /images/news/chainpuzzle-hange-1st-anniversary.svg
+  path: /images/news/chainpuzzle-hange-1st-anniversary.webp
   alt: 官方立绘：Q 版韩吉穿酒红礼服、戴圆眼镜，周围白鸽与红玫瑰，下方版权标记 ©HK/AOT ©COPRO
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2018/08/05ad6d58a1c59b4efbebd1cd40cd00d9.png
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/4346）1stアニバーサリー角色立绘 / 图上版权标记 ©HK/AOT ©COPRO

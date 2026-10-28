@@ -32,7 +32,7 @@ dates:
 salesMethod: 便利店门店集点／抽选（全国罗森，対象商品购买＋ポイント・スタンプ）
 region: 日本
 cover:
-  path: /images/news/lawson-campaign-2014-hange-strap.svg
+  path: /images/news/lawson-campaign-2014-hange-strap.webp
   alt: 官方奖品配图：三组ちみキャララバーストラップ各三只，右上那组红字标注「リヴァイ・エルヴィン・ハンジセット」，最右挂件是扎马尾、戴圆眼镜、张嘴笑的角色
   sourceUrl: https://shingeki.tv/news/archives/1321
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/1321）景品画像 / ©諫山創・講談社／「進撃の巨人」製作委員会

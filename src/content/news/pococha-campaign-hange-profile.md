@@ -28,7 +28,7 @@ dates:
 salesMethod: 直播应用内联动（Pococha，任务／抽选／虚拟道具）
 region: 日本
 cover:
-  path: /images/news/pococha-campaign-hange-profile.svg
+  path: /images/news/pococha-campaign-hange-profile.webp
   alt: 官方主视觉：黑底上印着「進撃の巨人でつながろう！」与 Pococha×進撃の巨人 联名标识，下方并排五位角色，最左是扎马尾、右眼戴眼罩的韩吉，其后依次为利威尔、艾伦、三笠、阿尔敏
   sourceUrl: https://shingeki.tv/news/archives/8589
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/8589）コラボキャンペーン主視覚 / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

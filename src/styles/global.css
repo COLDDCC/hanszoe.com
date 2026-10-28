@@ -759,6 +759,7 @@ footer a {
 }
 .detail-gallery img {
   width: 100%;
+  height: auto;
   max-height: 550px;
   object-fit: contain;
 }

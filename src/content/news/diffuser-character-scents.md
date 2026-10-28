@@ -27,7 +27,7 @@ dates:
 salesMethod: 官网预约（fav's room TOKYO 直贩、Amazon 等）与门店销售
 region: 日本
 cover:
-  path: /images/news/diffuser-character-scents.svg
+  path: /images/news/diffuser-character-scents.webp
   alt: 官方主视觉：艾伦、三笠、阿尔敏、利威尔、韩吉与城墙巨人六款瓶身并列，标注 2026 年 2 月 2 日发售预定
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2025/10/9b7bef77091b3424d2d728a6d845ac7a-1-600x450.jpg
   credit: TVアニメ「進撃の巨人」公式サイト / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会（图上版权标记为 ©HK/AOTF）

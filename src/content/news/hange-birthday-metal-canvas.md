@@ -21,7 +21,7 @@ dates:
 salesMethod: 厂商在线商店，数量限定
 region: 日本
 cover:
-  path: /images/news/hange-birthday-metal-canvas.svg
+  path: /images/news/hange-birthday-metal-canvas.webp
   alt: 韩吉生日纪念金属画布官方主视觉
   sourceUrl: https://aot-portal.com/news/%e3%83%8f%e3%83%b3%e3%82%b8%e3%81%ae%e3%83%90%e3%83%bc%e3%82%b9%e3%83%87%e3%83%bc%e3%82%a2%e3%83%bc%e3%83%88%e3%81%8c%e7%99%bb%e5%a0%b4%ef%bc%81/
   credit: 「進撃の巨人」公式ポータルサイト / ART MERCH JAPAN

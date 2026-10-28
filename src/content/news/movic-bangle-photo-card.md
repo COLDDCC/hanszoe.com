@@ -24,7 +24,7 @@ dates:
 salesMethod: 受注生产商品（ムービック）；ACOS 同期上架其他题材商品
 region: 日本
 cover:
-  path: /images/news/movic-bangle-photo-card.svg
+  path: /images/news/movic-bangle-photo-card.webp
   alt: 官方商品图「ブロマイド付きバングル」：艾伦、让、利威尔、韩吉 4 人穿白衬衫并排、各自抬手展示手镯，下方对应 4 只镶色手镯与一张自由之翼纹章相卡，左上标注「受注生産商品」、右上标注「全4種 エレン・ジャン・リヴァイ・ハンジ」，底部标注受注期间 2021 年 1 月 8 日（金）～2 月 3 日（水）
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2021/01/bangle_tw-600x338.png
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/5932）商品画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

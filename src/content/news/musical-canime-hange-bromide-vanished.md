@@ -32,7 +32,7 @@ dates:
 salesMethod: 剧场周边（発売元自营通信贩卖；本条核查的是商品页的存活状态，未下单）
 region: 日本
 cover:
-  path: /images/news/musical-canime-hange-bromide-vanished.svg
+  path: /images/news/musical-canime-hange-bromide-vanished.webp
   alt: 左右两格并排，均取自 Internet Archive 对きゃにめ商品页的存档图。左格黑底，是初演ブロマイド ハンジ・ゾエ（立道梨緒奈）的 3 张写真扇形展开样张，人物戴眼镜、束发、穿调查兵团外套与绿色斗篷；右格白底，是日本凯旋公演個別ブロマイド ハンジ・ゾエ（立道梨緒奈）的 3 张写真并列样张，含一张持刀动作照与一张眼镜特写。两格均带 SAMPLE 水印，右格图角标有版权表记
   sourceUrl: https://web.archive.org/web/20221221114641/https://canime.jp/product/BRZJ000001286/
   credit: Internet Archive 存档之きゃにめ（ポニーキャニオン直販）商品画像 / ©諫山創・講談社／「進撃の巨人」-the Musical-製作委員会・製作委員会2024

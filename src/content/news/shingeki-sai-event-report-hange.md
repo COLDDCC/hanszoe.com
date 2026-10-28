@@ -24,7 +24,7 @@ dates:
 salesMethod: 线下活动（东京国际フォーラム ホールA，昼夜两场）
 region: 日本
 cover:
-  path: /images/news/shingeki-sai-event-report-hange.svg
+  path: /images/news/shingeki-sai-event-report-hange.webp
   alt: 官方现场照：舞台上七名声优一字排开、各自手持麦克风，身后大屏幕上同步播放台上画面，左侧可见架子鼓与铜钹，舞台两侧垂挂调查兵团旗帜
   sourceUrl: https://shingeki.tv/news/archives/2394
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/2394）進撃祭 Reading & Live Event イベントレポート / ©諫山創・講談社／「進撃の巨人」製作委員会

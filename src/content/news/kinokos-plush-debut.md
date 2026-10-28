@@ -35,7 +35,7 @@ dates:
 salesMethod: 通信贩卖受注（予約サイト「Aniqueショップ」shop.anique.jp）
 region: 日本
 cover:
-  path: /images/news/kinokos-plush-debut.svg
+  path: /images/news/kinokos-plush-debut.webp
   alt: 官方主视觉：草地上六只 KINOKOS Q 版头像，中央为『進撃の巨人』logo 与「kinokos」字样，上方中间戴眼镜的棕色头发头像为韩吉
   sourceUrl: https://shingeki.tv/news/archives/8441
   credit: ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会（图上另有 ANIQUE 标识与「※実際の商品とは色味などが異なる場合がございます」注记）

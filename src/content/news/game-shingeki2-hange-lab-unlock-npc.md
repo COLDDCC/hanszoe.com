@@ -32,7 +32,7 @@ dates:
 salesMethod: 游戏官网系统情报与免费更新（数字内容，无实物）
 region: 日本
 cover:
-  path: /images/news/game-shingeki2-hange-lab-unlock-npc.svg
+  path: /images/news/game-shingeki2-hange-lab-unlock-npc.webp
   alt: 官方立绘靠左放置、右侧沿用该图自身的白到深灰竖向渐变铺满成横幅；画中韩吉穿白大褂内搭蓝衬衫系黑领带、戴眼镜、额头贴纱布、胸前挂身份牌，为《进击的巨人２》官网 DLC 页标注的「ハンジ追加コスチューム“「科学者」衣装”」渲染图
   sourceUrl: https://www.gamecity.ne.jp/shingeki2/dlc.html
   credit: ゲーム『進撃の巨人２』公式サイト（コーエーテクモゲームス）DLC ページ images/dlc/img013.jpg

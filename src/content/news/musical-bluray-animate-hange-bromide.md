@@ -24,7 +24,7 @@ dates:
 salesMethod: 影像软件＋法人别特典（剧场／通販／店舗）
 region: 日本
 cover:
-  path: /images/news/musical-bluray-animate-hange-bromide.svg
+  path: /images/news/musical-bluray-animate-hange-bromide.webp
   alt: animate 法人特典「L判ブロマイド7枚セット」官方样品图：7 张带 SAMPLE 水印的剧照排成两行（上 4 张、下 3 张），均为穿调查兵团棕色夹克、持刀刃的角色造型照，其中一张戴眼镜、披深绿色斗篷
   sourceUrl: https://shingeki-musical.com/2024/goods.html
   credit: 「進撃の巨人」-the Musical- 公式サイト goods ページ / ©諫山創・講談社／「進撃の巨人」-the Musical-製作委員会2024

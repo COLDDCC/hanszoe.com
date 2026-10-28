@@ -35,7 +35,7 @@ dates:
 salesMethod: 官网与门店受注预约
 region: 日本
 cover:
-  path: /images/news/zoff-hange-eyewear.svg
+  path: /images/news/zoff-hange-eyewear.webp
   alt: Zoff 进击的巨人联名眼镜官方新闻配图
   sourceUrl: https://prtimes.jp/main/html/rd/p/000000941.000002864.html
   credit: 株式会社インターメスティック（Zoff）/ PR TIMES

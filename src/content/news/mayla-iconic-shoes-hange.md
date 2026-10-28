@@ -24,7 +24,7 @@ dates:
 salesMethod: 受注生产（mayla classic 官方 EC 网站）
 region: 日本
 cover:
-  path: /images/news/mayla-iconic-shoes-hange.svg
+  path: /images/news/mayla-iconic-shoes-hange.webp
   alt: 官方主视觉：上排三格动画角色特写、下排三格联名高跟鞋实拍，鞋上带金色自由之翼形饰件
   sourceUrl: https://shingeki.tv/news/archives/7225
   credit: ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

@@ -39,7 +39,7 @@ dates:
 salesMethod: 地方自治体竞马场联动（WebCM・场内装饰・X 抽选）
 region: 日本（神奈川川崎）
 cover:
-  path: /images/news/kawasaki-keiba-mainvisual.svg
+  path: /images/news/kawasaki-keiba-mainvisual.webp
   alt: 联动官方主视觉：四名调查兵团成员骑乘赛马自栅栏冲出，背景为超大型巨人立于破损墙体之上，文案「人類よ、競馬の壁は壊された。」与「川崎競馬 × 進撃の巨人」标识
   sourceUrl: https://pbs.twimg.com/media/GfqJx-zbEAAQ5qp.jpg?name=orig
   credit: 川崎競馬公式X（@Keiba_Kawasaki）2024-12-26 解禁投稿 / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

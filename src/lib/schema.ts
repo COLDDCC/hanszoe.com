@@ -31,6 +31,11 @@ export const sourceSchema = z.object({
 });
 const imageSchema = z.object({
   path: z.string().startsWith("/"),
+  /** 卡片用缩略图（scripts/convert-images.py 生成），缺省时卡片用 path */
+  thumbPath: z.string().startsWith("/").optional(),
+  /** 完整图像素尺寸，用于 srcset 与防止布局跳动 */
+  width: z.number().int().positive().optional(),
+  height: z.number().int().positive().optional(),
   alt: z.string().min(1),
   sourceUrl: z.url(),
   originalUrl: z.url().optional(),

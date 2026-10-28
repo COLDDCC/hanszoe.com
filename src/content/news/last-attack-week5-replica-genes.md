@@ -23,7 +23,7 @@ dates:
 salesMethod: 影院入场者先着特典
 region: 日本
 cover:
-  path: /images/news/last-attack-week5-replica-genes.svg
+  path: /images/news/last-attack-week5-replica-genes.webp
   alt: 官方第5周入场特典横幅：六张复制原画缩略图与「複製原画ポストカード〈2枚セット〉全3種ランダム」字样
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2024/12/aotLA_tokuten5_banner-600x338.jpg
   credit: TVアニメ「進撃の巨人」公式サイト / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

@@ -23,7 +23,7 @@ dates:
 salesMethod: 线上抽赏
 region: 日本
 cover:
-  path: /images/news/marukuji-travel-hange.svg
+  path: /images/news/marukuji-travel-hange.webp
   alt: 官方主视觉横幅：航空信封红蓝斜纹边框内，八名 Q 版角色提着行李箱与背包出行，左下有「トラベル TRAVEL Style」邮戳
   sourceUrl: https://marukuji.jp/images/titles/top_images/166/a75cd501-b93e-49b5-baa0-17056a7e7822-top_banner.webp
   credit: 株式会社エディア / まるくじ

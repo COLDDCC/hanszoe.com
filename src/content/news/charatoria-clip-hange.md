@@ -20,7 +20,7 @@ dates:
 salesMethod: 随机贩售（トレーディング・ランダム）
 region: 日本
 cover:
-  path: /images/news/charatoria-clip-hange.svg
+  path: /images/news/charatoria-clip-hange.webp
   alt: 官方图：六只瓶形橡胶夹并排，右下橙色瓶内是戴圆眼镜、棕色翘发的角色，即 06 号韩吉・ゾエ
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2017/03/20a310cb3f79ba66b43c11aef7b41ada.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/2631）商品画像 / 图上版权标记 ©HK/AOT

@@ -20,7 +20,7 @@ dates:
 salesMethod: 便利店等渠道的期间限定包装（饮料）
 region: 日本
 cover:
-  path: /images/news/kochakaden-hange-bottle.svg
+  path: /images/news/kochakaden-hange-bottle.webp
   alt: 联名瓶标签特写：深蓝底金色皇冠与「紅茶花伝 ロイヤルミルクティー」字样，下方为扎马尾、戴圆眼镜、穿调查兵外套的韩吉，一手端茶杯一手指向上方，标签底部有「進撃の巨人」logo
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2015/07/47603eb05264c274ab82d03069eed35d.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/2235）パッケージ画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」製作委員会

@@ -24,7 +24,7 @@ dates:
 salesMethod: 舞台公演（海外巡演首站）
 region: 新加坡
 cover:
-  path: /images/news/musical-worldtour-singapore-hange-tatemichi.svg
+  path: /images/news/musical-worldtour-singapore-hange-tatemichi.webp
   alt: 世界巡演主视觉：一名穿调查兵团棕色夹克的演员以拳抵胸，头部被裁切在画面上缘之外，四周是火星与暗红色背景，下方为「進撃の巨人 ATTACK on TITAN The Musical World Tour」标识
   sourceUrl: https://shingeki-musical.com/worldtour/
   credit: 「進撃の巨人」-the Musical- ワールドツアー 公式サイト / ©諫山創・講談社／「進撃の巨人」-the Musical- Project

@@ -40,7 +40,7 @@ dates:
 salesMethod: 手游内联动活动（App Store／Google Play，基本免费＋道具收费）
 region: 日本
 cover:
-  path: /images/news/pocodun-shingeki-collab-hange.svg
+  path: /images/news/pocodun-shingeki-collab-hange.webp
   alt: 官方联动配图「进击的巨人 联动扭蛋 第 1 弹」横幅：上方三只 ★6 新绘角色エレン×ラグナロク、ミカサ×ムラサメ、リヴァイ×モルドレッド，中间一排四只 ★4 头像（最左为戴圆眼镜的茶色头发角色），下方一排四只 ★5 角色ミカサ・エレン・リヴァイ・エルヴィン
   sourceUrl: https://shingeki.tv/news/archives/3316
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/3316）コラボガチャ第1弾バナー / ©諫山創・講談社／「進撃の巨人」製作委員会 (C)Grenge,Inc

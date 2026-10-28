@@ -28,7 +28,7 @@ dates:
 salesMethod: 网络预约（eStream Store，株式会社 eStream 发行）；预约后预定 2021 年 9 月下旬通常发售，但通常版 lineup 未定
 region: 日本
 cover:
-  path: /images/news/pasukara-estream-hange.svg
+  path: /images/news/pasukara-estream-hange.webp
   alt: 官方配图：6 只 SD 版亚克力钥匙扣，砖墙底纹上印角色名，紫色底戴圆眼镜的一只印「Hans」，右侧是艾伦巨人造型
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2021/07/5269ed27025bc386fcdfa0a5b5ac7147.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/6340）商品画像 / 图上带 SAMPLE 水印，©諫山創・講談社／「進撃の巨人」The Final Season 製作委員会

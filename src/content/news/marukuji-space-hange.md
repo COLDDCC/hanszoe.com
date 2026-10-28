@@ -23,7 +23,7 @@ dates:
 salesMethod: 线上抽赏
 region: 日本
 cover:
-  path: /images/news/marukuji-space-hange.svg
+  path: /images/news/marukuji-space-hange.webp
   alt: 官方主视觉横幅：深蓝星空背景上八名 Q 版角色身穿白橙配色宇宙服漂浮，中间为「進撃の巨人 スペースStyle」标识
   sourceUrl: https://marukuji.jp/images/titles/top_images/238/d1f2cee7-4c12-4993-bbbb-ec174e25e7dd-WEBP.webp
   credit: 株式会社エディア / まるくじ

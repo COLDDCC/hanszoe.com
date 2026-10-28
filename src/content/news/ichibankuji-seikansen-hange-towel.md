@@ -20,7 +20,7 @@ dates:
 salesMethod: 一番くじ（便利店、书店、 Hobby 店、游戏中心、animate 等顺次发售）
 region: 日本
 cover:
-  path: /images/news/ichibankuji-seikansen-hange-towel.svg
+  path: /images/news/ichibankuji-seikansen-hange-towel.webp
   alt: 官方主视觉下方 A～E 赏毛巾一排：A エレン・イェーガー、B ミカサ・アッカーマン、C リヴァイ、D エルヴィン・スミス、E ハンジ・ゾエ，每只毛巾为单色线描角色立绘，韩吉款为紫色调
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2017/05/SHINGEKI_A2-1.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/2902）主视觉画像の賞品列をトリミング

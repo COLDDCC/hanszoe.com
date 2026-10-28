@@ -36,7 +36,7 @@ dates:
 salesMethod: 事前注文・当日受取（NOLETS）／きゃにめ通販受注
 region: 日本
 cover:
-  path: /images/news/orchestra-concert-2021-merch.svg
+  path: /images/news/orchestra-concert-2021-merch.webp
   alt: 罐徽章 B 组官方图：6 枚 φ56mm 徽章，穿礼服持指挥棒的 Q 版角色，上排中间那枚为紫色底、戴方框眼镜、扎侧马尾，下方印「Hans Zoe」
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2021/08/a3e50032e38ba653936ee49c9997c629.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/6360）缶バッジ B セット画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

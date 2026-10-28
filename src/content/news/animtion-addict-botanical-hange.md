@@ -28,7 +28,7 @@ dates:
 salesMethod: 完全受注生产（ANIMTION ADDICT STORE）
 region: 日本
 cover:
-  path: /images/news/animtion-addict-botanical-hange.svg
+  path: /images/news/animtion-addict-botanical-hange.webp
   alt: 龟井英里绘制的图案布面：深棕底上交错枝叶与红白花朵，其间散布书本、钥匙、茶杯、马、调查兵团旗、护目镜等小图案，即官方所说把角色意象藏进花纹的那张图
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2019/06/0bfd04d4fd1c561a9363e07c0302c06c.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/4917）テキスタイル画像 / 本篇其他商品图上的版权标记为 ©諫山創・講談社／「進撃の巨人」製作委員会 ©Eri Kamei（本图无叠加文字）

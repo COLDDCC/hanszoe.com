@@ -20,7 +20,7 @@ dates:
 salesMethod: 实体店（GraffArt Shop 池袋P'パルコ店・池袋本店・秋葉原店・新宿店・渋谷店・名古屋店・なんば店・福岡天神店）＋ EC；马克杯仅店铺与 EC 限定
 region: 日本
 cover:
-  path: /images/news/graffart-yuki-asobi-hange.svg
+  path: /images/news/graffart-yuki-asobi-hange.webp
   alt: 官方配图：左侧雪景插画与 9 只雪遊び版亚克力钥匙扣，右上 3×3 共 9 只徽章，下方印着单抽 480 円、BOX 4,320 円
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2020/01/3406cbcb68d3fce59b99f6ee8056c9e5.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/5371）商品画像 / 图上带 SAMPLE 水印

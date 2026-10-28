@@ -16,7 +16,7 @@ dates:
 salesMethod: 官网预约（mayla 短链接引流至品牌特设页；官方注明非完全受注生产）
 region: 日本
 cover:
-  path: /images/news/mayla-ear-objet-plus-hange.svg
+  path: /images/news/mayla-ear-objet-plus-hange.webp
   alt: 官方一览图「Attack on Titan ICONIQUE EAR OBJET」：9 款按角色英文名分三行排列，EREN YEAGER／MIKASA ACKERMAN／ARMIN ARLEERT／LEVI／ERWIN SMITH／HANS ZOE／ANNIE LEONHART／SASHA BLOUSE／HISTORIA REISS，韩吉款位于第二行最右，为翅膀加紫色主石的单只耳饰
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2023/07/bcdcd330ca8e3f34973edc8133b6b2c5.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/7831）掲載画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

@@ -24,7 +24,7 @@ dates:
 salesMethod: 特設サイト先行予約（BABY FAZE SHOP）
 region: 日本
 cover:
-  path: /images/news/aurora-reflection-badge-hange.svg
+  path: /images/news/aurora-reflection-badge-hange.webp
   alt: 官方一览图「オーロラリフレクション缶バッジ Produced by BABY FAZE」：上排为通常时的 10 枚黑白金属徽章、下排为反射时的极光色效果，两排各 5 枚且顺序一致（EREN、MIKASA、ARMIN、CONNY、SASHA／JEAN、LAINER、HANS、LEVI、ZEKE），标有「HANS」的韩吉款在每排自左第 3 枚，图右下角标注サイズ 75mmφ
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2021/11/AoT-kan-key-visual01.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/6549）掲載画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

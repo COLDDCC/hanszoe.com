@@ -23,7 +23,7 @@ dates:
 salesMethod: 线上抽赏
 region: 日本
 cover:
-  path: /images/news/marukuji-circus-hange.svg
+  path: /images/news/marukuji-circus-hange.webp
   alt: 官方主视觉横幅：八名 Q 版角色身穿马戏团服装，手持气球与道具，背景为红色条纹帐篷，左侧为「進撃の巨人」logo
   sourceUrl: https://marukuji.jp/images/titles/top_images/108/dceee90b-367e-44a4-aa99-27563f754643-AOTF2_top_banner.webp
   credit: 株式会社エディア / まるくじ

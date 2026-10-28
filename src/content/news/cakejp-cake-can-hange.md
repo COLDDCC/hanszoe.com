@@ -20,7 +20,7 @@ dates:
 salesMethod: 通信贩卖（Cake.jp 网站，按组下单；现标示贩売終了）
 region: 日本
 cover:
-  path: /images/news/cakejp-cake-can-hange.svg
+  path: /images/news/cakejp-cake-can-hange.webp
   alt: 官方主视觉：八只印有动画场面写图案的蛋糕罐分两排陈列，右侧为「オリジナルケーキ缶 7月21日販売開始」「限定 スタンド缶バッジ付」字样
   sourceUrl: https://shingeki.tv/news/archives/7350
   credit: ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

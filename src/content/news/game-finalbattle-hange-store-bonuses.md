@@ -16,7 +16,7 @@ dates:
 salesMethod: 店铺预约特典（店舗別オリジナル特典，随预约购买赠送）
 region: 日本
 cover:
-  path: /images/news/game-finalbattle-hange-store-bonuses.svg
+  path: /images/news/game-finalbattle-hange-store-bonuses.webp
   alt: 官方两张带 Sample 水印的预约特典示意图并排，左为キャラアニ.com「ブロマイド4枚セット A/B」，上排 A 四张、下排 B 四张剧照，A 排第一张是戴眼镜、扎马尾、披绿色斗篷、持刀下蹲的角色；右为 WonderGOO「マグカップ」，三只印着角色插画的马克杯，中间一只同样有戴眼镜、披绿色斗篷下蹲的角色
   sourceUrl: https://www.gamecity.ne.jp/shingeki2/finalbattle/privileges.html
   credit: ゲーム『進撃の巨人２ -Final Battle-』公式サイト 特典情報ページ img/storebenefits/08z.jpg・10z.jpg / ©諫山創・講談社／「進撃の巨人」製作委員会 ©2018-2019コーエーテクモゲームス
