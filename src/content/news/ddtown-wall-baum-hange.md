@@ -24,7 +24,7 @@ dates:
 salesMethod: 期间限定通信贩卖（DDtownオンラインショップ）
 region: 日本
 cover:
-  path: /images/news/ddtown-wall-baum-hange.svg
+  path: /images/news/ddtown-wall-baum-hange.webp
   alt: 官方图：ウォールバウム礼盒与右侧三支立体机动姿势角色插牌，第三支为戴圆眼镜的韩吉
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2022/01/a_baum_les.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/6890）商品画像 / 图上版权标记 ©HK/AOT

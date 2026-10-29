@@ -27,7 +27,7 @@ dates:
 salesMethod: 园内餐饮售卖
 region: 日本（兵库县淡路岛）
 cover:
-  path: /images/news/nijigen-hange-experiment-drink.svg
+  path: /images/news/nijigen-hange-experiment-drink.webp
   alt: 韩吉实验主题饮品官方新闻配图
   sourceUrl: https://prtimes.jp/main/html/rd/p/000000816.000128966.html
   credit: 株式会社ニジゲンノモリ / PR TIMES

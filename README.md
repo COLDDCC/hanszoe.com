@@ -27,9 +27,9 @@ npm run preview    # 查看生产构建
 
 实现首页、图录、商品详情、系列列表与详情、资讯列表与详情、Wiki 目录与文章、作者补充与读者问答、关于和 404。图录支持中日英名称与别名、品牌及系列搜索，全半角归一化，六组多选筛选，三个排序方式，URL 恢复和清空状态。
 
-已收录 956 件商品与 265 个系列，资讯与 Wiki 各 4 篇，另有 12 条作者补充（其中 2 条核对到作者本人博客原文）。商品的官方来源均已登记，但 `evidenceStatus` 全部为 `partial`，缺项逐条写在详情页；其中黏土人保留 2019 初版、2023 与 2026 再贩的独立原价，并逐批记下各次的 JAN 码。缺项汇总见 [STATUS.md](STATUS.md)。商品图片均来自官方商品页样品图，逐条登记来源页与原图网址；无标价的商品页面显示「官方原价待核实」。
+已收录 1081 件商品与 283 个系列，资讯 125 篇、Wiki 4 篇，另有 12 条作者补充（其中 2 条核对到作者本人博客原文）。商品的官方来源均已登记，但 `evidenceStatus` 全部为 `partial`，缺项逐条写在详情页；其中黏土人保留 2019 初版、2023 与 2026 再贩的独立原价，并逐批记下各次的 JAN 码。缺项汇总见 [STATUS.md](STATUS.md)。商品图片均来自官方商品页样品图，逐条登记来源页与原图网址；无标价的商品页面显示「官方原价待核实」。
 
-未做账号、交易、后台、自动爬虫、实时库存、本机收藏和多语言。未公开部署。
+未做账号、交易、后台、自动爬虫、实时库存和本机收藏；日文版目前覆盖首页、图录与系列。推送到 `main` 后由 `.github/workflows` 中的 GitHub Pages 工作流构建并部署到 hanszoe.com。
 
 ## 增加商品
 
@@ -64,11 +64,13 @@ npm run preview    # 查看生产构建
 
 ## 图片配置
 
-图片放在 `public/images/`，条目 `images` 填写根路径、替代文字、原始来源链接、署名与使用说明，例如：
+商品图放在 `public/images/products/`，资讯配图放在 `public/images/news/`，统一使用 WebP。新增商品图时先放原始 `.jpg` / `.png`，在 `images` 中按原文件名填写根路径、替代文字、原始来源链接、署名与使用说明，例如：
 
 ```json
-{"path":"/images/hange-1123.jpg","alt":"韩吉黏土人完整正面与底座","sourceUrl":"https://example.org/source","credit":"摄影者姓名","usage":"摄影者授权用于本站"}
+{"path":"/images/products/hange-1123.jpg","alt":"韩吉黏土人完整正面与底座","sourceUrl":"https://example.org/source","credit":"摄影者姓名","usage":"摄影者授权用于本站"}
 ```
+
+然后运行 `python3 scripts/convert-images.py`（需要 Python 3.10+ 与 Pillow）。脚本生成完整图 `<name>.webp`（最长边 ≤1000px）与卡片缩略图 `<name>-480.webp`，把 `path` 改为 WebP 并写入 `thumbPath`、`width`、`height`，最后删除原始文件。不要再把位图包进 SVG：体积更大、无法按屏幕选尺寸，也不能做分享图，`npm run validate` 会拒绝 `.svg` 商品图。分享卡片想用 JPEG 时，可另放 `public/images/products/<商品 id>-og.jpg`。
 
 请替换示意来源，确认可以使用再添加。图片用 contain 展示，不裁掉包装或底座；不配置时显示待补充占位。
 

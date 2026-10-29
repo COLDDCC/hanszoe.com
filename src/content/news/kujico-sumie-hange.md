@@ -23,7 +23,7 @@ dates:
 salesMethod: 线上抽赏
 region: 日本
 cover:
-  path: /images/news/kujico-sumie-hange.svg
+  path: /images/news/kujico-sumie-hange.webp
   alt: 官方主视觉：五幅墨绘竖条各绘一名角色，左侧くじコレ标志与「墨絵描き下ろしオリジナルグッズがくじコレに登場！」字样，右下角 ©HK/AOTF
   sourceUrl: https://edia.co.jp/wp-content/uploads/2022/06/AOTF_top_banner1.jpg
   credit: 株式会社エディア / くじコレ

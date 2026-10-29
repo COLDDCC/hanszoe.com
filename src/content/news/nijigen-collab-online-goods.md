@@ -19,7 +19,7 @@ dates:
 salesMethod: 官方在线商店
 region: 日本
 cover:
-  path: /images/news/nijigen-collab-online-goods.svg
+  path: /images/news/nijigen-collab-online-goods.webp
   alt: 尼吉根之森联动原创周边官方新闻配图
   sourceUrl: https://prtimes.jp/main/html/rd/p/000000690.000128966.html
   credit: 株式会社ニジゲンノモリ / PR TIMES

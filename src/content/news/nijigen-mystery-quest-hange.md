@@ -19,7 +19,7 @@ dates:
 salesMethod: 官方票务网站预约
 region: 日本（兵库县淡路岛）
 cover:
-  path: /images/news/nijigen-mystery-quest-hange.svg
+  path: /images/news/nijigen-mystery-quest-hange.webp
   alt: 解谜活动「失踪韩吉的搜寻」官方主视觉
   sourceUrl: https://prtimes.jp/main/html/rd/p/000000665.000128966.html
   credit: 株式会社ニジゲンノモリ / PR TIMES

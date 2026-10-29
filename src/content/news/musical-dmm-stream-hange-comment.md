@@ -16,7 +16,7 @@ dates:
 salesMethod: 线上配信（DMM TV，含延后配信）
 region: 日本
 cover:
-  path: /images/news/musical-dmm-stream-hange-comment.svg
+  path: /images/news/musical-dmm-stream-hange-comment.webp
   alt: 音乐剧日本凯旋公演主视觉：多名穿调查兵团棕色夹克、持刀的演员立于崩毁的城墙之间，上方是火光与烟雾，画面下方印「進撃の巨人 the Musical」标识
   sourceUrl: https://shingeki-musical.com/2024/
   credit: 「進撃の巨人」-the Musical- 公式サイト 日本凱旋公演 2024 メインビジュアル / ©諫山創・講談社／「進撃の巨人」-the Musical-製作委員会

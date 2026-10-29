@@ -24,7 +24,7 @@ dates:
 salesMethod: 展会现场（コミックマーケット 97 企业ブース No.2232「I.Gストア出張店」）先行・限定发售
 region: 日本
 cover:
-  path: /images/news/c97-ig-store-hange.svg
+  path: /images/news/c97-ig-store-hange.webp
   alt: 官方配图：WIT STUDIO 原画风亚克力钥匙扣 8 只，上下两排，每只下方印英文名，下排第二只为戴眼镜的 HANS ZOE
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2019/12/afbec5d40bf9f4de76d8e979f9c04fda.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/5326）商品画像 / 图上带 SAMPLE 水印，©HK/AOT

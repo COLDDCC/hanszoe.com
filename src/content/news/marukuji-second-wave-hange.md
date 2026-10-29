@@ -23,7 +23,7 @@ dates:
 salesMethod: 线上抽赏
 region: 日本
 cover:
-  path: /images/news/marukuji-second-wave-hange.svg
+  path: /images/news/marukuji-second-wave-hange.webp
   alt: 官方主视觉：艾伦、利威尔、埃尔文、韩吉四人身披调查兵团斗篷以立体机动姿态跃出，韩吉在画面右侧戴眼镜握刀柄，左下まるくじ与进击的巨人标志
   sourceUrl: https://edia.co.jp/wp-content/uploads/2023/09/banner_lineup.jpg
   credit: 株式会社エディア / まるくじ

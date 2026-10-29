@@ -28,7 +28,7 @@ dates:
 salesMethod: 联名门店（菜单 5 店／周边 3 店）＋ 各种通販（2020-07-17 11:00〜09-07 23:59）
 region: 日本
 cover:
-  path: /images/news/karaoketetsu-chronicle-hange.svg
+  path: /images/news/karaoketetsu-chronicle-hange.webp
   alt: 官方周边传单：上半 9 只吃播主题 Q 版亚克力钥匙扣（第二排左起第一只是戴圆眼镜的韩吉），标价 650 円与套装 5,850 円；下半 9 只徽章与套装 4,050 円
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2020/07/135a24730e5e09c5e9bfc697b6ad0e51.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/5499）SPECIAL COLLABORATION GOODS 传单 / ©諫山創・講談社／「進撃の巨人」製作委員会

@@ -23,7 +23,7 @@ dates:
 salesMethod: 线上抽赏
 region: 日本
 cover:
-  path: /images/news/marukuji-chess-chibi-hange.svg
+  path: /images/news/marukuji-chess-chibi-hange.webp
   alt: 官方主视觉横幅：八名 Q 版角色身穿黑白棋子风礼服、手持棋子分两排站立，右侧标注「チェスStyle ちびキャラver.」
   sourceUrl: https://marukuji.jp/images/titles/top_images/211/d25b4571-2ed6-421d-91b1-2ff32237c926-aot_chess_SD_web_top.webp
   credit: 株式会社エディア / まるくじ

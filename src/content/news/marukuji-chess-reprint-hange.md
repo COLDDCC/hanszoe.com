@@ -19,7 +19,7 @@ dates:
 salesMethod: 线上抽赏
 region: 日本
 cover:
-  path: /images/news/marukuji-chess-reprint-hange.svg
+  path: /images/news/marukuji-chess-reprint-hange.webp
   alt: 官方主视觉：与 2024 年チェスStyle同一张四人绘柄，右下角加有「復刻版」红底白字印章
   sourceUrl: https://marukuji.jp/images/titles/top_images/243/2b029128-80f9-4231-89fa-2e0d15dae279-AonT-reprint_web_top_01.webp
   credit: まるくじ（株式会社エディア）主题页

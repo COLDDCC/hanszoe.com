@@ -20,7 +20,7 @@ dates:
 salesMethod: 通信贩卖（缶deボローニャ购物站，官方标注「売り切れ次第終了」）
 region: 日本
 cover:
-  path: /images/news/bologne-canned-bread-hange.svg
+  path: /images/news/bologne-canned-bread-hange.webp
   alt: 官方主视觉：六只角色图案面包罐头与外盒，左下为戴眼镜的韩吉罐，罐身印「やっぱり保存食って素晴らしいな」
   sourceUrl: https://shingeki.tv/news/archives/7771
   credit: ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

@@ -24,7 +24,7 @@ dates:
 salesMethod: 受注生产（mayla classic 官方 EC 网站，中国官网同步贩卖）
 region: 日本、中国
 cover:
-  path: /images/news/mayla-ear-objet-hange.svg
+  path: /images/news/mayla-ear-objet-hange.webp
   alt: 官方三行商品图中的韩吉一行裁出：左为韩吉款耳饰（紫色主石加翅膀造型，图上单只挂在耳廓上），右为对应动画截图，图下有版权标记
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2022/05/b88f08f0ace63d46a83b80b196746ad6.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/7265）商品画像のハンジ行をトリミング / 图上版权标记 ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

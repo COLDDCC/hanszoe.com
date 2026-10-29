@@ -23,7 +23,7 @@ dates:
 salesMethod: 商店街会场与特设 POP UP SHOP
 region: 日本（东京都台东区）
 cover:
-  path: /images/news/pop-up-street-senzokudori.svg
+  path: /images/news/pop-up-street-senzokudori.webp
   alt: 进击的巨人 POP UP STREET 千束通商店街官方新闻配图
   sourceUrl: https://prtimes.jp/main/html/rd/p/000009187.000016064.html
   credit: 株式会社arma bianca / PR TIMES

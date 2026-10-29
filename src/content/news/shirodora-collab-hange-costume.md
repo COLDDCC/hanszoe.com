@@ -24,7 +24,7 @@ dates:
 salesMethod: 手游内联动（《城とドラゴン》任务／活动／登录奖励）
 region: 日本
 cover:
-  path: /images/news/shirodora-collab-hange-costume.svg
+  path: /images/news/shirodora-collab-hange-costume.webp
   alt: 联动主视觉：左侧一个大头身比例的艾伦持双刀，右侧上下两排共 8 个 Q 版调查兵团角色各持刀，右上是戴眼镜的韩吉；红底上印着「城とドラゴン×進撃の巨人」「調査兵団のお着替えを Get しよう!!」「調査兵団登場」与调查兵团纹章
   sourceUrl: https://shingeki.tv/news/archives/5428
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/5428）コラボ KV / ©諫山創・講談社／「進撃の巨人」製作委員会 ©2015 Asobism Co., Ltd.

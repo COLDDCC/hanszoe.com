@@ -28,7 +28,7 @@ dates:
 salesMethod: 餐饮连锁联动（数量限定・先着順，赠品送完即止）
 region: 日本（全国のほっかほっか亭）
 cover:
-  path: /images/news/hokka-hobenten-hange-strap.svg
+  path: /images/news/hokka-hobenten-hange-strap.webp
   alt: 官方图：Q 版韩吉亚克力挂件，戴圆眼镜、白色ほっか帽与红色围裙，底部印着「Hans」
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2014/09/chimi_stand_8.png
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/1377）商品画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」製作委員会

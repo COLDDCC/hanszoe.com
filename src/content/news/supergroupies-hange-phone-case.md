@@ -32,7 +32,7 @@ dates:
 salesMethod: 预约贩卖（SuperGroupies 限定）
 region: 日本
 cover:
-  path: /images/news/supergroupies-hange-phone-case.svg
+  path: /images/news/supergroupies-hange-phone-case.webp
   alt: 官方商品图：5 只手帐型智能手机壳与 1 只地图纹样长钱包摆在旧书与钥匙旁，5 只壳分别为红、深蓝、墨绿、棕、酒红，官方正文按角色命名为艾伦、让、利威尔、埃尔文、韩吉款
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2016/11/SG_shingeki_photo_A-1.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/2470）商品画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」製作委員会

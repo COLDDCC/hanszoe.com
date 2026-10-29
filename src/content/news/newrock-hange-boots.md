@@ -19,7 +19,7 @@ dates:
 salesMethod: 完全受注生产（官网下单）
 region: 日本
 cover:
-  path: /images/news/newrock-hange-boots.svg
+  path: /images/news/newrock-hange-boots.webp
   alt: 官方新闻配图：NEW ROCK × Attack on Titan 五款角色配色靴与对应立绘，含戴眼镜、深色长外套的韩吉
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2025/10/25baf346089d1af9bc149e1b0794e114-480x600.png
   credit: TVアニメ「進撃の巨人」公式サイト / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

@@ -23,7 +23,7 @@ dates:
 salesMethod: 一番くじ（一番くじ公式ショップ、一番くじONLINE 等）
 region: 日本
 cover:
-  path: /images/news/ichibankuji-senkou-ketto-hange.svg
+  path: /images/news/ichibankuji-senkou-ketto-hange.webp
   alt: 官方 F 赏商品图：约 4.5cm 的 Q 版韩吉坐姿公仔，棕色短发、圆框眼镜其中一片为深色，肩披绿色斗篷、身穿立体机动装置
   sourceUrl: https://assets.1kuji.com/uploads/product_item/image/106157/8f85bfb6-5f39-4b6a-9c60-5ad59418d22f.webp
   credit: 一番くじ倶楽部（BANDAI SPIRITS 公式）F 赏商品图 / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

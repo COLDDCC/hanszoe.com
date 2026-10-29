@@ -24,7 +24,7 @@ dates:
 salesMethod: 预约受理（タカラトミーモール・动画周边店・网店），后正式发售
 region: 日本
 cover:
-  path: /images/news/koedarize25-hange.svg
+  path: /images/news/koedarize25-hange.webp
   alt: 官方横幅图：こえだらいず25 进击的巨人全 6 种并排，底部按顺序印着角色名，第五个是戴圆眼镜的ハンジ・ゾエ
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2017/06/3f6d19d178c2909629577bb93509cc1e.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/3006）商品画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」製作委員会 ©TOMY

@@ -19,7 +19,7 @@ dates:
 salesMethod: 便利店マルチコピー機「eプリントサービス」下载打印
 region: 日本
 cover:
-  path: /images/news/wit-hans-birthday-eprint.svg
+  path: /images/news/wit-hans-birthday-eprint.webp
   alt: 官方横幅：バースデーフォトシリーズ第2弾 Hans Birthday Photo，左侧印「選択式 全6種」与 6 张缩略图，下方印贩卖期间 2026/9/5(土)10:00～2027/9/5(日)23:59、L判200円・2L判300円及 4 个便利店标志
   sourceUrl: https://www.witstudio.co.jp/wordpress/wp-content/uploads/2026/08/進撃の巨人ハンジBD_eプリント_1200_640.jpg
   credit: WIT STUDIO 官方 NEWS 页横幅 / ©諫山創・講談社／「進撃の巨人」The Final Season 製作委員会

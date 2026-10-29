@@ -130,7 +130,7 @@ const image = p.images[0];
   <div class="pd-gallery">
     {image ? (
       <figure>
-        <div class="pd-frame"><img src={image.path} alt={image.alt} width="600" height="800" /></div>
+        <div class="pd-frame"><img src={image.path} alt={image.alt} width={image.width ?? 600} height={image.height ?? 800} /></div>
         <figcaption>
           图：{image.credit} 官方样品图，非本站实拍 ·
           <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer">出处 ↗</a>
@@ -142,7 +142,7 @@ const image = p.images[0];
     )}
     {p.images.length > 1 && (
       <div class="pd-thumbs">
-        {p.images.slice(1).map((img) => <a href={img.path} target="_blank" rel="noopener noreferrer"><img src={img.path} alt={img.alt} loading="lazy" /></a>)}
+        {p.images.slice(1).map((img) => <a href={img.path} target="_blank" rel="noopener noreferrer"><img src={img.thumbPath || img.path} alt={img.alt} loading="lazy" decoding="async" width={img.width} height={img.height} /></a>)}
       </div>
     )}
   </div>

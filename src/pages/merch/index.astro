@@ -1,5 +1,5 @@
 ---
-import Base from '../../layouts/Base.astro';import Card from '../../components/ProductCard.astro';import {products,series} from '../../lib/data';import {brand,year} from '../../lib/catalog';
+import Base from '../../layouts/Base.astro';import Card from '../../components/ProductCard.astro';import {products,series} from '../../lib/data';import {brand,year,firstDate,displayName} from '../../lib/catalog';import {buildIndex,filterIndex,PAGE_SIZE} from '../../lib/catalogIndex';
 const groups = [
   {key:'year',label:'发售年份',values:[...new Set(products.map(year))].sort().reverse().map(v=>[v,v==='unknown'?'年份待确认':v])},
   {key:'type',label:'商品类型',values:[...new Set(products.map(p=>p.type))].map(v=>[v,v])},
@@ -10,61 +10,13 @@ for (const p of products) {
   const v = brand(p);
   if (v) counts.set(v, (counts.get(v) || 0) + 1);
 }
+const index = buildIndex(products, series, {year, date: firstDate, name: displayName});
+const order = new Map(filterIndex(index, new URLSearchParams(), 'zh-CN').map((e, i) => [e.id, i]));
+const ordered = [...products].sort((a, b) => order.get(a.id)! - order.get(b.id)!);
 const topBrands = [...counts].sort((a, b) => b[1] - a[1]).slice(0, 2).map(([v]) => v);
 ---
-<Base title="周边图录"><div class="page-heading"><span class="eyebrow">THE COLLECTION</span><h1>周边图录</h1><p>按年份、类型与销售方式筛选；系列与品牌做成卡片标签，点标签即可检索全部同类周边。</p><nav class="section-nav" aria-label="周边图录分区"><a href="/merch/" aria-current="page">全部周边</a><a href="/series/">系列档案</a></nav></div><form id="catalog-form"><div class="catalog-search"><label class="sr-only" for="q">搜索商品、别名、品牌或系列</label><input type="search" name="q" id="q" placeholder="搜索商品、别名、品牌或系列"/><button class="button">搜索</button></div><div class="search-hints"><span>试试：</span><a href="/merch/?q=%E3%83%8F%E3%83%B3%E3%82%B8">ハンジ</a>{topBrands.map(v=><a href={'/merch/?q='+encodeURIComponent(v)}>品牌 · {v}</a>)}</div><div class="catalog-layout"><aside class="filters"><details open id="filter-details"><summary>筛选条件</summary>{groups.map(g=><fieldset><legend>{g.label}</legend>{g.values.map(([v,label])=><label><input type="checkbox" name={g.key} value={v}/><span>{label}</span></label>)}</fieldset>)}<button type="reset" class="clear-button">清空全部条件</button></details></aside><div class="results"><div class="result-toolbar"><p aria-live="polite">找到 <strong id="result-count">{products.length}</strong> 件周边</p><label for="sort">排序 <select id="sort" name="sort"><option value="added">最新收录</option><option value="date">首次发售从新到旧</option><option value="name">名称</option></select></label></div><div class="product-grid" id="product-grid">{products.map(p=><Card product={p}/>)}</div><div class="empty" id="no-results" hidden><h2>暂时没有找到这件周边</h2><p>试试日文原名，或减少筛选条件。档案还在持续收录。</p><button type="reset" class="button">清空条件</button></div><p class="list-footnote">年份指首次发售年份；销售方式匹配任一已收录发行。</p></div></div></form><script type="application/json" id="catalog-data" set:html={JSON.stringify({products,series}).replace(/</g,'\u003c')}/><script>
-import { filterProducts } from '../../lib/catalog';
-import type { Product, Series } from '../../lib/schema';
-const data: { products: Product[]; series: Series[] } = JSON.parse(document.getElementById('catalog-data')!.textContent!);
-const form = document.getElementById('catalog-form') as HTMLFormElement;
-const grid = document.getElementById('product-grid')!;
-const cards = Array.from(grid.children) as HTMLElement[];
-let restoring = false;
-function render(params: URLSearchParams) {
-  const matches = filterProducts(data.products, data.series, params);
-  cards.forEach(card => card.hidden = true);
-  for (const product of matches) {
-    const card = cards.find(card => card.dataset.productId === product.id)!;
-    card.hidden = false;
-    grid.appendChild(card);
-  }
-  document.getElementById('result-count')!.textContent = String(matches.length);
-  document.getElementById('no-results')!.hidden = matches.length > 0;
-}
-function restore() {
-  restoring = true;
-  form.reset();
-  const params = new URLSearchParams(location.search);
-  for (const control of Array.from(form.elements)) {
-    if (control instanceof HTMLInputElement) {
-      if (control.type === 'checkbox') control.checked = params.getAll(control.name).includes(control.value);
-      else control.value = params.get(control.name) || '';
-    }
-    if (control instanceof HTMLSelectElement) {
-      const value = params.get(control.name) || 'added';
-      control.value = Array.from(control.options).some(option => option.value === value) ? value : 'added';
-    }
-  }
-  restoring = false;
-  render(params);
-}
-function update() {
-  const params = new URLSearchParams();
-  for (const [key, value] of new FormData(form)) {
-    if (typeof value === 'string' && value && !(key === 'sort' && value === 'added')) params.append(key, value);
-  }
-  const next = location.pathname + (params.size ? '?' + params.toString() : '');
-  if (next !== location.pathname + location.search) history.pushState({}, '', next);
-  render(params);
-}
-form.addEventListener('submit', event => { event.preventDefault(); update(); });
-form.addEventListener('change', event => {
-  const control = event.target;
-  if (control instanceof HTMLSelectElement || (control instanceof HTMLInputElement && control.type === 'checkbox')) update();
-});
-form.addEventListener('reset', () => { if (!restoring) setTimeout(update, 0); });
-window.addEventListener('popstate', restore);
-restore();
-if (matchMedia('(max-width: 700px)').matches) (document.getElementById('filter-details') as HTMLDetailsElement).open = false;
+<Base title="周边图录"><div class="page-heading"><span class="eyebrow">THE COLLECTION</span><h1>周边图录</h1><p>按年份、类型与销售方式筛选；系列与品牌做成卡片标签，点标签即可检索全部同类周边。</p><nav class="section-nav" aria-label="周边图录分区"><a href="/merch/" aria-current="page">全部周边</a><a href="/series/">系列档案</a></nav></div><form id="catalog-form"><div class="catalog-search"><label class="sr-only" for="q">搜索商品、别名、品牌或系列</label><input type="search" name="q" id="q" placeholder="搜索商品、别名、品牌或系列"/><button class="button">搜索</button></div><div class="search-hints"><span>试试：</span><a href="/merch/?q=%E3%83%8F%E3%83%B3%E3%82%B8">ハンジ</a>{topBrands.map(v=><a href={'/merch/?q='+encodeURIComponent(v)}>品牌 · {v}</a>)}</div><div class="catalog-layout"><aside class="filters"><details open id="filter-details"><summary>筛选条件</summary>{groups.map(g=><fieldset><legend>{g.label}</legend>{g.values.map(([v,label])=><label><input type="checkbox" name={g.key} value={v}/><span>{label}</span></label>)}</fieldset>)}<button type="reset" class="clear-button">清空全部条件</button></details></aside><div class="results"><div class="result-toolbar"><p aria-live="polite">找到 <strong id="result-count">{products.length}</strong> 件周边</p><label for="sort">排序 <select id="sort" name="sort"><option value="added">最新收录</option><option value="date">首次发售从新到旧</option><option value="name">名称</option></select></label></div><div class="product-grid" id="product-grid">{ordered.map((p,i)=><Card product={p} hidden={i>=PAGE_SIZE}/>)}</div><div class="load-more" id="load-more" hidden><button type="button" class="button secondary" id="load-more-button">显示更多</button></div><noscript><style is:inline>.product-card[hidden]{display:block}</style></noscript><div class="empty" id="no-results" hidden><h2>暂时没有找到这件周边</h2><p>试试日文原名，或减少筛选条件。档案还在持续收录。</p><button type="reset" class="button">清空条件</button></div><p class="list-footnote">年份指首次发售年份；销售方式匹配任一已收录发行。</p></div></div></form><script type="application/json" id="catalog-data" set:html={JSON.stringify({products:index}).replace(/</g,'\\u003c')}/><script>
+import { initCatalog } from '../../lib/catalogPage';
+initCatalog({ locale: 'zh-CN', moreLabel: (n) => `显示更多（还有 ${n} 件）` });
 </script></Base>
 

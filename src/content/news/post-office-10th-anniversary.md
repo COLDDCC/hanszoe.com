@@ -16,7 +16,7 @@ dates:
 salesMethod: 通信贩卖（郵便局のネットショップ；库存售完即止，邮便局窗口不受理）
 region: 日本
 cover:
-  path: /images/news/post-office-10th-anniversary.svg
+  path: /images/news/post-office-10th-anniversary.webp
   alt: 官方主视觉：红底裂纹背景上五名 Q 版角色穿邮政制服，最右侧戴邮政帽、戴眼镜与眼罩的角色为韩吉
   sourceUrl: https://shingeki.tv/news/archives/8142
   credit: ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

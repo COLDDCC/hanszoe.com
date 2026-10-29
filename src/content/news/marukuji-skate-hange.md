@@ -23,7 +23,7 @@ dates:
 salesMethod: 线上抽赏
 region: 日本
 cover:
-  path: /images/news/marukuji-skate-hange.svg
+  path: /images/news/marukuji-skate-hange.webp
   alt: 官方主视觉横幅：八名 Q 版角色穿冬装在针织纹背景上滑冰，画面下方印有贩售期间 12/18(月)12:00～2024/1/14(日)23:59
   sourceUrl: https://marukuji.jp/images/titles/top_images/137/bb9fb2bb-3c65-4c31-ab9f-14bc537e2ebe-top_banner.webp
   credit: 株式会社エディア / まるくじ

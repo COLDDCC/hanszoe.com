@@ -20,7 +20,7 @@ dates:
 salesMethod: 预约受理（Penguin Parade 官方商店，正文只给出预约链接）
 region: 日本
 cover:
-  path: /images/news/penguinparade-final-season-levi-hange.svg
+  path: /images/news/penguinparade-final-season-levi-hange.webp
   alt: 官方配图的描き下ろし亚克力钥匙扣两款：左侧利威尔坐在木箱前、下方印 Levi，右侧扎马尾戴眼罩的韩吉手持木勺、下方印 Hans，两枚边框右侧都竖排印着 Attack on Titan
   sourceUrl: https://shingeki.tv/news/archives/8893
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/8893）商品画像 / 图上带 SAMPLE 水印 · ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

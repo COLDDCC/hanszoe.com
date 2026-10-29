@@ -20,7 +20,7 @@ dates:
 salesMethod: 数字内容（LINE 换装主题，应用内商店）
 region: 日本（LINE 商店可购买地区）
 cover:
-  path: /images/news/line-theme-hange.svg
+  path: /images/news/line-theme-hange.webp
   alt: 官方图：LINE 换装「進撃の巨人」三款预览并排，左为リヴァイver.、中为ハンジver.、右为エルヴィンver.，中间一张为戴圆眼镜的角色举着立体机动装置
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2018/09/c1b0e6458a15ddbbb4d17faab35bb6d8.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/4397）商品画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」製作委員会

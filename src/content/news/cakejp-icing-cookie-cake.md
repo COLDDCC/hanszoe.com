@@ -20,7 +20,7 @@ dates:
 salesMethod: 通信贩卖（Cake.jp 网站；现标示贩売終了）
 region: 日本
 cover:
-  path: /images/news/cakejp-icing-cookie-cake.svg
+  path: /images/news/cakejp-icing-cookie-cake.webp
   alt: 官方主视觉：左侧为四名角色的动画插画（含戴眼镜的韩吉），右侧为两只糖霜饼干装饰蛋糕与「アイシングクッキーケーキ 6月27日販売開始」「限定！スタンド缶バッジ付」字样
   sourceUrl: https://shingeki.tv/news/archives/7329
   credit: ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

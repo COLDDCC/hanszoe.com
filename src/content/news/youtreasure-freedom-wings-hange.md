@@ -24,7 +24,7 @@ dates:
 salesMethod: 预约受理（ユートレジャー新宿店・官方在线商店）
 region: 日本
 cover:
-  path: /images/news/youtreasure-freedom-wings-hange.svg
+  path: /images/news/youtreasure-freedom-wings-hange.webp
   alt: 官方主视觉「進撃の巨人 × U-TREASURE」：上排 7 枚自由之翼耳饰、下排 7 名角色并列，韩吉位于自左第 6 位，其上方耳饰的宝石呈紫色
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2020/07/main-1.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/5505）掲載画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会 ©U-TREASURE

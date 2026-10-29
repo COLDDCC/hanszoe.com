@@ -24,7 +24,7 @@ dates:
 salesMethod: 预约受理（2020 年 12 月 1 日〜12 月 25 日）
 region: 日本
 cover:
-  path: /images/news/youtreasure-double-ring-hange.svg
+  path: /images/news/youtreasure-double-ring-hange.webp
   alt: 联动主视觉：深色背景上七名调查兵团成员持刀冲锋，右上是戴眼镜、双手举刀的韩吉，下方为艾伦、阿尔敏、让等；右侧单独放出一枚银色双环吊坠与链条，右下印「進撃の巨人 × ut U-TREASURE」联名标识
   sourceUrl: https://shingeki.tv/news/archives/5749
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/5749）ダブルリングペンダント / ©諫山創・講談社／「進撃の巨人」製作委員会 ©U-TREASURE

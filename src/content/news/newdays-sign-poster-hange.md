@@ -28,7 +28,7 @@ dates:
 salesMethod: 便利店购物小票抽选（NewDays 対象店舗）
 region: 日本
 cover:
-  path: /images/news/newdays-sign-poster-hange.svg
+  path: /images/news/newdays-sign-poster-hange.webp
   alt: 官方抽选说明图：右侧「抽選で当たる！」栏列出 Aコース「キャストサイン入りポスター」3名様与 Bコース「NewDaysオリジナル描き下ろしブランケット」50名様，A 栏下方印有声优名单，含朴璐美さん（ハンジ役）
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2021/12/5490d546556f027b180d94ca0191a6df-1.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/6758）抽選案内画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

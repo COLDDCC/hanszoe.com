@@ -23,7 +23,7 @@ dates:
 salesMethod: 线上抽赏
 region: 日本
 cover:
-  path: /images/news/marukuji-chess-style-hange.svg
+  path: /images/news/marukuji-chess-style-hange.webp
   alt: 官方主视觉：韩吉、利威尔、艾伦、埃尔文四人身穿黑白棋子风礼服坐在棋盘格背景前，韩吉在最左侧手持白色棋子，右下标注「チェス Style」
   sourceUrl: https://edia.co.jp/wp-content/uploads/2024/12/AonT_web_main_ol.jpg
   credit: 株式会社エディア / まるくじ

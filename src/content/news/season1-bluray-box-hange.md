@@ -20,7 +20,7 @@ dates:
 salesMethod: 影碟零售（TV アニメ Season 1 全话合售 BOX）
 region: 日本
 cover:
-  path: /images/news/season1-bluray-box-hange.svg
+  path: /images/news/season1-bluray-box-hange.webp
   alt: 官方配图：第一季主视觉——艾伦背对镜头立于火海街道，墙上超大型巨人掀开蒸汽俯视
   sourceUrl: http://shingeki.tv/news/wp-content/uploads/2014/04/71cf1ebbd2339d97ae5534dcc86b32d8.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/2492）配图 / ©諫山創・講談社／「進撃の巨人」製作委員会

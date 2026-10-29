@@ -23,7 +23,7 @@ dates:
 salesMethod: 官网预约（parflette.com）
 region: 日本
 cover:
-  path: /images/news/parflette-beach-acrylic.svg
+  path: /images/news/parflette-beach-acrylic.webp
   alt: 官方主视觉：八款阿罗哈衬衫造型 Q 版亚克力立牌，含戴眼镜、抱紫色泳圈的韩吉
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2026/02/f3909332f34a7186d83c04f4f29d1b5e-600x450.jpg
   credit: TVアニメ「進撃の巨人」公式サイト / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

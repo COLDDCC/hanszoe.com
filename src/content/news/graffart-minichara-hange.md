@@ -28,7 +28,7 @@ dates:
 salesMethod: 实体店（GraffArt Shop 池袋本店・名古屋店・なんば店・福岡天神店）＋ EC（GraffArt Shop with A3MARKET ONLINE）
 region: 日本
 cover:
-  path: /images/news/graffart-minichara-hange.svg
+  path: /images/news/graffart-minichara-hange.webp
   alt: 官方配图：两排各 6 只的黑色调 Q 版徽章整版样张，右侧是徽章与角色收纳盒成品图，图上印有 ATTACK ON TITAN 字样与竖排角色名
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2020/08/29d3bc99193cb0b837fb8cc53f050ae5-4.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/5536）商品画像 / 图上带 SAMPLE 水印

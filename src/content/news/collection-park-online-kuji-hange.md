@@ -24,7 +24,7 @@ dates:
 salesMethod: オンラインくじ（ハズレ無し・通信贩売）
 region: 日本
 cover:
-  path: /images/news/collection-park-online-kuji-hange.svg
+  path: /images/news/collection-park-online-kuji-hange.webp
   alt: 官方 C 赏图：三块マイクロファイバークロス叠放，最前一块是戴圆眼镜的 Q 版角色大图加「Attack on Titan」字样
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2019/08/C-all.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/4986）商品画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」製作委員会

@@ -28,7 +28,7 @@ dates:
 salesMethod: 实体店（GraffArt Shop 池袋本店・名古屋店・なんば店・福岡天神店）＋ EC（GraffArt Shop with A3MARKET ONLINE，10 時より）
 region: 日本
 cover:
-  path: /images/news/graffart-yukata-hange.svg
+  path: /images/news/graffart-yukata-hange.webp
   alt: 官方配图：上半是 12 只浴衣版徽章，每只印着角色英文名，紫色一只印 Hans Zoe；下半是 12 只浴衣人物亚克力钥匙扣
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2020/07/b88f08f0ace63d46a83b80b196746ad6-2.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/5472）商品画像 / 图上带 SAMPLE 水印，©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

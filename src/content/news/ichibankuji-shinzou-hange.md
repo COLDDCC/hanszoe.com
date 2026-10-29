@@ -23,7 +23,7 @@ dates:
 salesMethod: 一番くじ（ローソン、一番くじ公式ショップ、一番くじONLINE 等）
 region: 日本
 cover:
-  path: /images/news/ichibankuji-shinzou-hange.svg
+  path: /images/news/ichibankuji-shinzou-hange.webp
   alt: 官方主视觉横幅：上方利瓦伊骑在黑马背上举刀，下方一排五尊手办从左到右为戴护目镜、右手按胸的韩吉、三笠、艾伦、阿尔敏、埃尔文，右上是「一番くじ 進撃の巨人 ～心臓を捧げよ～」标识
   sourceUrl: https://assets.1kuji.com/uploads/product/top_banner/10760/297cb29d-7678-4f2a-9f86-28bdf55d3a2b.webp
   credit: 一番くじ倶楽部（BANDAI SPIRITS 公式）商品主视觉 / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

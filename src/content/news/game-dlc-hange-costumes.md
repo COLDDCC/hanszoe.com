@@ -24,7 +24,7 @@ dates:
 salesMethod: 数字下载内容（追加コスチューム／追加エピソード 单卖＋套装）
 region: 日本
 cover:
-  path: /images/news/game-dlc-hange-costumes.svg
+  path: /images/news/game-dlc-hange-costumes.webp
   alt: 官网两张韩吉服装渲染图并排，左为白大褂＋蓝衬衫＋黑领带、戴眼镜、额头贴纱布、胸前挂身份牌的「科学者」衣装，右为戴猎鹿帽、披格纹短披风、穿驼色双排扣长风衣、戴白手套伸手指向前方的「探偵」衣装，两图均为灰色渐变背景全身立绘
   sourceUrl: https://www.gamecity.ne.jp/shingeki2/dlc.html
   credit: ゲーム『進撃の巨人２』公式サイト（コーエーテクモゲームス）DLC ページ images/dlc/img013.jpg・img020.jpg

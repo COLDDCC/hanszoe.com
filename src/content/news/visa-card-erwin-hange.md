@@ -20,7 +20,7 @@ dates:
 salesMethod: 网络入会（三井住友 VISA 卡特设页）
 region: 日本
 cover:
-  path: /images/news/visa-card-erwin-hange.svg
+  path: /images/news/visa-card-erwin-hange.webp
   alt: 官方卡面图「エルヴィン・ハンジ」款：银灰色调、金色芯片，上方为披风的埃尔文、右下方为戴眼镜的韩吉，卡面样例姓名栏印 TARO KOKUSAI、卡号 4980 0123 4567 8901
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2015/12/ervin_hans.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/2332）卡面画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」製作委員会

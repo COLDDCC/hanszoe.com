@@ -16,7 +16,7 @@ dates:
 salesMethod: 数字内容（LINE クリエイターズ着せかえ）
 region: 日本（LINE 商店可购买地区）
 cover:
-  path: /images/news/line-theme-survey-corps-hange.svg
+  path: /images/news/line-theme-survey-corps-hange.webp
   alt: 官方图：紫色砖墙背景上的 Q 版角色举立体机动装置，上方为「進撃の巨人 Attack on Titan」标志
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2017/04/49ef72b19c9b2addea8db508ca9b00b7.png
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/2882）主视觉 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」製作委員会

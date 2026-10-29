@@ -23,7 +23,7 @@ dates:
 salesMethod: 官方票务网站与在线商店
 region: 日本（居家体验）
 cover:
-  path: /images/news/nijigen-mystery-quest-home.svg
+  path: /images/news/nijigen-mystery-quest-home.webp
   alt: 解谜活动自宅篇官方主视觉
   sourceUrl: https://prtimes.jp/main/html/rd/p/000000679.000128966.html
   credit: 株式会社ニジゲンノモリ / PR TIMES

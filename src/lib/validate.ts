@@ -55,9 +55,15 @@ for (const p of [...products, ...demo]) {
     )
       throw Error("无效或示例商品引用 " + id);
   unique(p.sources, "id", "来源");
-  for (const img of p.images)
+  for (const img of p.images) {
     if (!existsSync(resolve(root, "../public" + img.path)))
       throw Error("缺少图片文件 " + img.path);
+    if (img.thumbPath && !existsSync(resolve(root, "../public" + img.thumbPath)))
+      throw Error("缺少缩略图文件 " + img.thumbPath);
+    // 位图包进 SVG 会让体积变大且无法用作分享图；请运行 scripts/convert-images.py 转为 WebP
+    if (!p.isDemo && img.path.endsWith(".svg"))
+      throw Error("商品图请使用 WebP（运行 python3 scripts/convert-images.py）：" + img.path);
+  }
 }
 for (const s of series)
   for (const img of s.images)

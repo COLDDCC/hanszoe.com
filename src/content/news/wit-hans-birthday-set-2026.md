@@ -19,7 +19,7 @@ dates:
 salesMethod: WIT STORE（IGポート オンラインストア）受注生产
 region: 日本
 cover:
-  path: /images/news/wit-hans-birthday-set-2026.svg
+  path: /images/news/wit-hans-birthday-set-2026.webp
   alt: 官方横幅：HANS Happy Birthday 主视觉，右侧印「受注生産」「予約期間 8/21(金)18:00～9/14(月)23:59」「販売価格 5,500 円(税込)」
   sourceUrl: https://www.witstudio.co.jp/wordpress/wp-content/uploads/2026/08/進撃の巨人_HBDBOX_ハンジ_販促_横型3200x1800_01.jpg
   credit: WIT STUDIO 官方 NEWS 页横幅 / ©諫山創・講談社／「進撃の巨人」The Final Season 製作委員会

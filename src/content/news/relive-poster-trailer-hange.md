@@ -19,7 +19,7 @@ dates:
 salesMethod: 日本影院上映
 region: 日本
 cover:
-  path: /images/news/last-attack-relive-poster.svg
+  path: /images/news/last-attack-relive-poster.webp
   alt: 复活上映官方主视觉海报：背向的艾伦前方集结三笠、阿尔敏等旧识，右侧文案「再び、心臓を捧げよ。」
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2025/12/358e942455a5f53f1c9d7a51e38972f0-425x600.jpg
   credit: TVアニメ「進撃の巨人」公式サイト / ©諫山創・講談社／「進撃の巨人」The Final Season製作委員会

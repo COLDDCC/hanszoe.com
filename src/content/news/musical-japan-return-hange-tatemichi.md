@@ -32,7 +32,7 @@ dates:
 salesMethod: 剧场公演（全席指定／サイドシート）＋来场特典
 region: 日本
 cover:
-  path: /images/news/musical-japan-return-hange-tatemichi.svg
+  path: /images/news/musical-japan-return-hange-tatemichi.webp
   alt: 官方角色定妆照：立道梨绪奈饰演的韩吉・佐耶，戴细框圆眼镜、棕色头发束在脑后并留两侧长发，穿调查兵团短款棕色夹克（右臂缝有自由之翼纹章）、浅黄衬衫，腰间皮带与大腿固定带，灰色背景前侧身站立
   sourceUrl: https://shingeki-musical.com/2024/
   credit: 「進撃の巨人」-the Musical- 公式サイト 日本凱旋公演 2024 キャスト / ©諫山創・講談社／「進撃の巨人」-the Musical-製作委員会

@@ -20,7 +20,7 @@ dates:
 salesMethod: 展会现场贩售（コミックマーケット92 企业摊位）＋ WEB 先行受注
 region: 日本
 cover:
-  path: /images/news/c92-animaru-hange.svg
+  path: /images/news/c92-animaru-hange.webp
   alt: 官方图：四体亚克力立牌合影，最右是抬手推眼镜、张嘴大笑的韩吉，其余为ミカサ、エレン、エルヴィン
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2017/07/9adf2811b6adceab67d136894c1148b0.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/3201）商品画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」製作委員会

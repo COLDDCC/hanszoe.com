@@ -20,7 +20,7 @@ dates:
 salesMethod: 全国动画商店、通信贩卖等依次开始预约（ムービック）
 region: 日本
 cover:
-  path: /images/news/mame-mait-hange-plush.svg
+  path: /images/news/mame-mait-hange-plush.webp
   alt: 官方样品图：5 只豆形玩偶分两行排列，下排左为韩吉·佐耶款，戴圆框眼镜、张嘴笑、穿米色衬衫与棕色披风外套
   sourceUrl: https://shingeki.tv/news/wp-content/uploads/2020/11/shingeki_mamemate-1.jpg
   credit: TVアニメ「進撃の巨人」公式サイト（shingeki.tv/news/archives/5755）掲載画像 / 图上版权标记 ©諫山創・講談社／「進撃の巨人」The Final Season 製作委員会
