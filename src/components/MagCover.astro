@@ -1,0 +1,32 @@
+---
+// 杂志封面式内容区：头条大图｜纯标题列表｜右栏图卡。
+// mark=true 时带 Hans 大字标与竖排日期（首页）；否则为分区页用的无字标版本。
+import HansMark from './HansMark.astro';
+import { pickCover, longDate, dotDate, type CoverItem, type CoverImage } from '../lib/cover';
+interface Props {
+  items: CoverItem[];
+  mark?: boolean;
+  /** 竖排日期（ISO），默认取头条日期 */
+  stamp?: string;
+  more?: { href: string; label: string };
+  label: string;
+}
+const { items, mark = false, stamp, more, label } = Astro.props;
+const { lead, rail, textList } = pickCover(items, (i) => !!i.image);
+const [pairA, pairB, feature] = rail;
+const pair = [pairA, pairB].filter((i): i is CoverItem => !!i);
+const stampValue = stamp || lead?.date;
+const cardImg = (i: CoverItem): CoverImage => i.thumb || i.image!;
+---
+<section class:list={['cover', { 'cover--plain': !mark }]} aria-label={label}>
+<div class="cover-lead">
+{mark && <p class="cover-date">{stampValue ? <time datetime={stampValue}>{longDate(stampValue)}</time> : 'HANGE ARCHIVE'}</p>}
+{mark && <div class="cover-mark" aria-hidden="true" data-mast-anchor><HansMark/></div>}
+{lead && <a class="cover-lead-story" href={lead.href}><figure class="cover-lead-media"><img src={lead.image!.src} alt={lead.image!.alt} width={lead.image!.width} height={lead.image!.height} loading="eager" fetchpriority="high" decoding="async"/></figure><span class="kicker">{lead.kicker}{!mark && <> · <time datetime={lead.date}>{dotDate(lead.date)}</time></>}</span><h2>{lead.title}</h2>{lead.summary && <p>{lead.summary}</p>}{lead.byline && <small class="byline">{lead.byline}</small>}</a>}
+</div>
+<ol class="cover-list">{textList.map(i => <li><a href={i.href}><time datetime={i.date}>{dotDate(i.date)}</time><h3>{i.title}</h3></a></li>)}{more && <li class="cover-list-more"><a href={more.href}>{more.label}</a></li>}</ol>
+<div class="cover-rail">
+{pair.length > 0 && <div class="cover-pair">{pair.map(i => { const im = cardImg(i); return <a class="cover-card" href={i.href}><span class="cover-card-media"><img src={im.src} srcset={im.srcset} sizes={im.srcset ? '(max-width: 760px) 45vw, 240px' : undefined} alt={im.alt} width={im.width} height={im.height} loading="lazy" decoding="async"/></span><span class="kicker">{i.kicker}</span><h3>{i.title}</h3></a>; })}</div>}
+{feature && (() => { const im = cardImg(feature); return <a class="cover-feature" href={feature.href}><span class="kicker">{feature.kicker}</span><h2>{feature.title}</h2><div class="cover-feature-body"><span class="cover-feature-media"><img src={im.src} srcset={im.srcset} sizes={im.srcset ? '(max-width: 760px) 45vw, 240px' : undefined} alt={im.alt} width={im.width} height={im.height} loading="lazy" decoding="async"/></span>{feature.summary && <p>{feature.summary}</p>}</div></a>; })()}
+</div>
+</section>

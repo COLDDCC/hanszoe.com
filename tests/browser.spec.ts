@@ -17,8 +17,9 @@ for (const route of allRoutes.filter((r) => detail.test(r))) {
   const key = route.split("/").slice(0, -2).join("/");
   groups.set(key, [...(groups.get(key) || []), route]);
 }
+// 根路径 / 只做语言跳转（默认 /ja/），由下方单独的测试覆盖。
 const routes = [
-  ...allRoutes.filter((r) => !detail.test(r)),
+  ...allRoutes.filter((r) => r !== "/" && !detail.test(r)),
   ...[...groups.values()].flatMap((list) => list.slice(0, samplePerGroup)),
   ...pinned.filter((r) => allRoutes.includes(r)),
 ].filter((r, i, list) => list.indexOf(r) === i);
@@ -34,7 +35,8 @@ test("所有路由有标题且没有横向溢出", async ({ page }, testInfo) =>
     ).toBe(true);
     if (
       [
-        "/",
+        "/zh/",
+        "/ja/",
         "/merch/",
         "/merch/nendoroid-hange-1123/",
         "/series/",
@@ -44,7 +46,7 @@ test("所有路由有标题且没有横向溢出", async ({ page }, testInfo) =>
     )
       await page.screenshot({
         path: testInfo.outputPath(
-          (route === "/"
+          (route === "/zh/"
             ? "home"
             : route.replaceAll("/", "-").replace(/^-|-$/g, "")) + ".png",
         ),
@@ -113,4 +115,26 @@ test("重复搜索不增加历史记录；前进后退恢复排序", async ({ pa
   await expect(page.locator("#sort")).toHaveValue("added");
   await page.goForward();
   await expect(page.locator("#sort")).toHaveValue("name");
+});
+
+test("根路径默认进入日文首页；选择中文后记住并进入中文首页", async ({ page }) => {
+  await page.goto("/");
+  await expect(page).toHaveURL(/\/ja\/$/);
+  await expect(page.locator("html")).toHaveAttribute("lang", "ja");
+  await page.locator(".masthead .lang-switch a[data-set-lang=zh]").click();
+  await expect(page).toHaveURL(/\/zh\/$/);
+  await page.goto("/");
+  await expect(page).toHaveURL(/\/zh\/$/);
+  await page.locator(".masthead .lang-switch a[data-set-lang=ja]").click();
+  await expect(page).toHaveURL(/\/ja\/$/);
+  await page.goto("/");
+  await expect(page).toHaveURL(/\/ja\/$/);
+});
+test("语言切换指向对应页面", async ({ page }) => {
+  await page.goto("/merch/nendoroid-hange-1123/");
+  await expect(page.locator(".masthead .lang-switch a[data-set-lang=ja]")).toHaveAttribute("href", "/ja/merch/nendoroid-hange-1123/");
+  await page.goto("/ja/series/");
+  await expect(page.locator(".masthead .lang-switch a[data-set-lang=zh]")).toHaveAttribute("href", "/series/");
+  await page.goto("/news/");
+  await expect(page.locator(".masthead .lang-switch a[data-set-lang=ja]")).toHaveAttribute("href", "/ja/");
 });

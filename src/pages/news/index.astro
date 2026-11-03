@@ -1,15 +1,15 @@
 ---
 import Base from '../../layouts/Base.astro';
-import NewsCover from '../../components/NewsCover.astro';
+import MagCover from '../../components/MagCover.astro';
 import NewsMark from '../../components/NewsMark.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { pickCover, dotDate } from '../../lib/newsCover';
+import { pickCover, dotDate, newsHasCover, newsItem } from '../../lib/cover';
 import { webpSize } from '../../lib/imageSize';
 type News = CollectionEntry<'news'>;
 const entries = (await getCollection('news', e => !e.data.isDemo)).sort((a, b) => b.data.publishedAt.localeCompare(a.data.publishedAt) || b.data.updatedAt.localeCompare(a.data.updatedAt));
 // 顶部杂志封面区用掉的条目，下方列表不再重复。
-const { used } = pickCover(entries);
-const feed = entries.filter(e => !used.has(e.data.slug));
+const { used } = pickCover(entries, newsHasCover);
+const feed = entries.filter(e => !used.has(e));
 const href = (n: News) => '/news/' + n.data.slug + '/';
 const sourceOf = (n: News) => n.data.sources[0]?.organization;
 const dim = (n: News) => (n.data.cover && webpSize(n.data.cover.path)) || {};
@@ -19,7 +19,7 @@ const dim = (n: News) => (n.data.cover && webpSize(n.data.cover.path)) || {};
 <div class="channel-copy"><span class="eyebrow">NEWS & RELEASES</span><h1>活动资讯</h1><p>新品、再贩与活动的档案，保留关键日期与官方出处。共 {entries.length} 条。</p></div>
 <div class="channel-mark"><NewsMark/></div>
 </div>
-{entries.length > 0 && <NewsCover news={entries} label="最新活动资讯"/>}
+{entries.length > 0 && <MagCover items={entries.map(newsItem)} label="最新活动资讯"/>}
 {feed.length > 0 && <section class="feed" aria-labelledby="feed-title"><h2 class="feed-title" id="feed-title">全部资讯 <span>{feed.length}</span></h2>
 {feed.map(n => <a class="feed-row" href={href(n)}>
 <div class="feed-thumb">{n.data.cover ? <img {...dim(n)} src={n.data.cover.path} alt={n.data.cover.alt} loading="lazy" decoding="async"/> : <span class="feed-thumb-empty" aria-hidden="true">{n.data.category}</span>}</div>
