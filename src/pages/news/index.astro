@@ -1,8 +1,31 @@
 ---
-import Base from '../../layouts/Base.astro';import {getCollection} from 'astro:content';const entries=(await getCollection('news',e=>!e.data.isDemo)).sort((a,b)=>b.data.publishedAt.localeCompare(a.data.publishedAt)||b.data.updatedAt.localeCompare(a.data.updatedAt));const cards=entries.flatMap(e=>{const c=e.data.cover;return c?[{e,c}]:[]});const featured=cards.slice(0,4);const [lead,...picks]=featured;const featuredIds=new Set(featured.map(x=>x.e.data.slug));const coverOf=new Map(cards.map(({e,c})=>[e.data.slug,c]));const rest=entries.filter(e=>!featuredIds.has(e.data.slug));
+import Base from '../../layouts/Base.astro';
+import NewsCover from '../../components/NewsCover.astro';
+import NewsMark from '../../components/NewsMark.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { pickCover, dotDate } from '../../lib/newsCover';
+import { webpSize } from '../../lib/imageSize';
+type News = CollectionEntry<'news'>;
+const entries = (await getCollection('news', e => !e.data.isDemo)).sort((a, b) => b.data.publishedAt.localeCompare(a.data.publishedAt) || b.data.updatedAt.localeCompare(a.data.updatedAt));
+// 顶部杂志封面区用掉的条目，下方列表不再重复。
+const { used } = pickCover(entries);
+const feed = entries.filter(e => !used.has(e.data.slug));
+const href = (n: News) => '/news/' + n.data.slug + '/';
+const sourceOf = (n: News) => n.data.sources[0]?.organization;
+const dim = (n: News) => (n.data.cover && webpSize(n.data.cover.path)) || {};
 ---
-<Base title="活动资讯"><div class="page-heading"><span class="eyebrow">NEWS & RELEASES</span><h1>活动资讯</h1><p>新品、再贩与活动的档案，保留关键日期与官方出处。</p></div>
-{lead&&<a class="news-lead" href={'/news/'+lead.e.data.slug+'/'}><div class="news-lead-media"><img src={lead.c.path} alt={lead.c.alt} loading="eager"/></div><div class="news-lead-copy"><span class="eyebrow">{lead.e.data.category} · {lead.e.data.publishedAt}</span><h2>{lead.e.data.title}</h2><p>{lead.e.data.summary}</p><span class="text-link">阅读档案</span></div></a>}
-{picks.length>0&&<div class="news-picks">{picks.map(({e,c})=><a class="news-pick" href={'/news/'+e.data.slug+'/'}><div class="news-pick-media"><img src={c.path} alt={c.alt} loading="lazy"/></div><span class="eyebrow">{e.data.category} · {e.data.publishedAt}</span><h2>{e.data.title}</h2><p>{e.data.summary}</p></a>)}</div>}
-{rest.length>0&&<div class="article-list">{rest.map(e=>{const cov=coverOf.get(e.data.slug);return <a class="news-row" class:list={[{'has-thumb':!!cov}]} href={'/news/'+e.data.slug+'/'}>{cov&&<span class="news-row-thumb"><img src={cov.path} alt={cov.alt} loading="lazy"/></span>}<span class="news-row-body"><small>{e.data.publishedAt} · { e.data.category }</small><h2>{e.data.title}</h2><p>{e.data.summary}</p><span class="text-link">阅读档案</span></span></a>})}</div>}
-{!entries.length&&<div class="empty">资料正在整理，核实后将收录在这里。</div>}</Base>
+<Base title="活动资讯" description="韩吉·佐耶相关的新品、预订、再贩与活动资讯，按发布日期整理，每条保留关键日期与官方出处。">
+<div class="channel-head">
+<div class="channel-copy"><span class="eyebrow">NEWS & RELEASES</span><h1>活动资讯</h1><p>新品、再贩与活动的档案，保留关键日期与官方出处。共 {entries.length} 条。</p></div>
+<div class="channel-mark"><NewsMark/></div>
+</div>
+{entries.length > 0 && <NewsCover news={entries} label="最新活动资讯"/>}
+{feed.length > 0 && <section class="feed" aria-labelledby="feed-title"><h2 class="feed-title" id="feed-title">全部资讯 <span>{feed.length}</span></h2>
+{feed.map(n => <a class="feed-row" href={href(n)}>
+<div class="feed-thumb">{n.data.cover ? <img {...dim(n)} src={n.data.cover.path} alt={n.data.cover.alt} loading="lazy" decoding="async"/> : <span class="feed-thumb-empty" aria-hidden="true">{n.data.category}</span>}</div>
+<div class="feed-main"><span class="kicker">{n.data.category}</span><h3>{n.data.title}</h3></div>
+<div class="feed-aside"><time datetime={n.data.publishedAt}>{dotDate(n.data.publishedAt)}</time>{sourceOf(n) && <small class="byline">出处 · {sourceOf(n)}</small>}<p>{n.data.summary}</p></div>
+</a>)}
+</section>}
+{!entries.length && <div class="empty">资料正在整理，核实后将收录在这里。</div>}
+</Base>
