@@ -20,7 +20,7 @@ const siteLd = Astro.site ? { '@context': 'https://schema.org', '@type': 'WebSit
 ---
 
 <Base home title="ハンジ・ゾエのグッズ図鑑｜公式・限定グッズと発売情報" structuredData={siteLd}>
-  <section class="search-hero"><div class="search-hero-inner">
+  <section class="search-hero"><div class="search-hero-inner"><img class="hero-logo" src="/favicon.svg" width="72" height="72" alt="" decoding="async"/>
     <h1 class="hero-title"><span class="hero-title-zh hero-title-ja"><span class="nb">ハンジ・ゾエの</span><span class="nb">グッズ図鑑</span></span><span class="hero-title-en" lang="en">HANGE ZOË ARCHIVE</span></h1>
     <p class="hero-sub">『進撃の巨人』ハンジ・ゾエの公式グッズを、発売回・公式価格・出典つきで記録</p>
     <form class="hero-search" action="/ja/merch/" role="search"><label class="sr-only" for="home-search">グッズを検索</label><svg class="hero-search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="home-search" name="q" type="search" placeholder="グッズを検索：商品名・シリーズ・メーカー" autocomplete="off" enterkeyhint="search"/><button aria-label="グッズ図録で検索"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></form>
