@@ -1900,3 +1900,16 @@ html.menu-lock { overflow: hidden; }
   .menu-toggle { font-size: 1rem; padding-left: 4px; }
   .hero-title-ja { letter-spacing: .03em; margin-right: -.03em; }
 }
+
+/* ===== Hero logo (site favicon above the title) ===== */
+.hero-logo {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 22px;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px #5e2c8233, 0 2px 6px #5e2c821f;
+}
+@media (max-width: 760px) {
+  .hero-logo { width: 60px; height: 60px; border-radius: 15px; margin-bottom: 18px; }
+}
