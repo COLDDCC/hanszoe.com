@@ -1491,7 +1491,7 @@ button, input, select, .filters, .result-toolbar,
 .mast-logo { display: block; color: var(--ink); line-height: 0; transition: opacity .2s ease, color .2s ease; }
 .mast-logo svg { height: 30px; width: auto; }
 .mast-logo:hover { color: var(--hans); }
-.js .masthead.is-home:not(.scrolled) .mast-logo { opacity: 0; visibility: hidden; }
+.js .masthead.is-home:not(.show-logo) .mast-logo { opacity: 0; visibility: hidden; }
 .menu-toggle, .menu-close {
   font: 500 1.1rem/1 var(--sans);
   letter-spacing: .04em;
@@ -1597,8 +1597,6 @@ html.menu-lock { overflow: hidden; }
   color: var(--hans);
   pointer-events: none;
 }
-.cover-mark a { pointer-events: auto; display: block; }
-.cover-mark a:hover { color: var(--hans-deep); }
 .cover-mark svg { display: block; width: 100%; height: auto; }
 .cover-lead-story { display: block; }
 .cover-lead-media { margin: 0 0 16px; background: var(--soft); }
@@ -1670,3 +1668,94 @@ html.menu-lock { overflow: hidden; }
   .cover-list { padding-top: 24px; }
 }
 @media (prefers-reduced-motion: reduce) { .site-menu:target, .site-menu.open { animation: none; } }
+
+/* ===== Homepage search hero (Scryfall-style): centered title, one big search box, quick links =====
+   Full-bleed lavender via border-image outset (paints edge to edge without creating horizontal overflow);
+   the top outset also runs under the transparent sticky header. */
+.search-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  place-items: center;
+  min-height: calc(min(80vh, 720px) - 64px);
+  margin: 0;
+  padding: 40px 0 64px;
+  text-align: center;
+  border-image: linear-gradient(180deg, #ede2f6 0%, #f1e8f8 62%, var(--paper) 100%) fill 0 / / 64px 100vw 0;
+}
+.search-hero-inner { width: min(760px, 100%); }
+.hero-title { margin: 0 0 14px; font-family: var(--serif); line-height: 1.1; }
+.hero-title-zh {
+  display: block;
+  font-size: clamp(2.6rem, 6.4vw, 4.6rem);
+  font-weight: 800;
+  letter-spacing: .14em;
+  margin-right: -.14em; /* optical centering for the trailing letter-spacing */
+  color: var(--ink);
+}
+.hero-title-en {
+  display: block;
+  margin-top: 16px;
+  font: 600 .78rem/1 var(--sans);
+  letter-spacing: .34em;
+  margin-right: -.34em;
+  color: var(--hans);
+}
+.hero-sub { margin: 0 0 30px; font: .98rem/1.7 var(--sans); color: var(--muted); }
+.hero-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background: #fff;
+  border: 1px solid #d8c6e6;
+  border-radius: 6px;
+  box-shadow: 0 14px 34px #5e2c8214, 0 2px 6px #5e2c820d;
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+.hero-search:focus-within { border-color: var(--hans); box-shadow: 0 0 0 4px #7b3fa626, 0 14px 34px #5e2c8214; }
+.hero-search svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.hero-search-icon { position: absolute; left: 20px; color: #9a86ab; pointer-events: none; }
+.hero-search input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  padding: 0 8px 0 56px;
+  font: 1.12rem var(--sans);
+  color: var(--ink);
+  outline: none;
+}
+.hero-search input::placeholder { color: #8f849a; }
+.hero-search input::-webkit-search-cancel-button { cursor: pointer; }
+.hero-search button {
+  flex: none;
+  width: 56px;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  color: var(--hans);
+  display: grid;
+  place-items: center;
+  border-radius: 0 6px 6px 0;
+}
+.hero-search button:hover { background: #7b3fa610; color: var(--hans-deep); }
+.hero-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px clamp(18px, 3vw, 34px); margin-top: 24px; }
+.hero-links a { display: inline-flex; align-items: center; gap: 7px; font: 600 .92rem var(--sans); color: var(--hans); }
+.hero-links a:hover { color: var(--hans-deep); text-decoration: underline; text-underline-offset: .25em; }
+.hero-links svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; stroke-linecap: round; }
+.hero-hints { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 14px; margin: 22px 0 0; font: .8rem var(--sans); color: var(--muted); }
+.hero-hints a { color: var(--ink); border-bottom: 1px solid #30283633; }
+.hero-hints a:hover { color: var(--hans); border-color: currentColor; }
+.hero-count { margin: 10px 0 0; font: .75rem var(--sans); color: #7d7387; letter-spacing: .04em; }
+.search-hero + .cover { margin-top: 24px; }
+@media (max-width: 760px) {
+  .search-hero { min-height: calc(78vh - 56px); padding: 28px 0 56px; border-image-outset: 56px 100vw 0; }
+  .hero-title-zh { letter-spacing: .1em; margin-right: -.1em; }
+  .hero-sub { font-size: .9rem; margin-bottom: 24px; }
+  .hero-search { height: 54px; }
+  .hero-search input { font-size: 1rem; padding-left: 48px; }
+  .hero-search-icon { left: 16px; }
+  .hero-links { display: grid; grid-template-columns: repeat(2, max-content); justify-content: center; justify-items: start; gap: 12px 40px; }
+}
