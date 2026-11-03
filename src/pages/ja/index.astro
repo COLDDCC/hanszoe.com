@@ -1,30 +1,35 @@
 ---
 import Base from '../../layouts/ja/JaBase.astro';
 import Card from '../../components/JaProductCard.astro';
+import MagCover from '../../components/MagCover.astro';
 import { products, series } from '../../lib/data';
 import { jaProgress } from '../../lib/ja';
+import { pickCover, productHasImage, productItemJa } from '../../lib/cover';
 
 const releases = products.flatMap((p) => p.releases);
 const sources = products.flatMap((p) => p.sources);
 const years = [...new Set(products.map((p) => p.releases.find((r) => r.kind === '初版')?.releaseDate?.value.slice(0, 4)).filter(Boolean))].sort();
 const priced = releases.filter((r) => r.priceStatus === 'known').length;
 const progress = jaProgress();
-const latest = [...products].sort((a, b) => b.createdAt.localeCompare(a.createdAt)).slice(0, 8);
+// 新着順（収録日）。上部の誌面ブロック（MagCover）で使った商品は、下の「その他の新着」から外す。
+const newest = [...products].sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+const { used } = pickCover(newest, productHasImage);
+const more = newest.filter((p) => !used.has(p)).slice(0, 8);
+// サイト名の構造化データ（ルート / はこのページへ移動する）
+const siteLd = Astro.site ? { '@context': 'https://schema.org', '@type': 'WebSite', name: 'ハンジ・ゾエ アーカイブ', alternateName: ['Hans', '韩吉档案馆', 'Hange Archive'], url: new URL('/ja/', Astro.site).href, inLanguage: 'ja' } : null;
 ---
 
-<Base title="ハンジ・ゾエのグッズ図鑑｜公式・限定グッズと発売情報">
-  <div class="page-heading">
-    <span class="eyebrow">HANGE ZOE ARCHIVE · 日本語版</span>
-    <h1>ハンジ・ゾエのグッズ図鑑</h1>
-    <p>
-      『進撃の巨人』ハンジ・ゾエの公式グッズを、発売回・公式価格・出典つきで記録するアーカイブの日本語版です。
-      発売年・商品カテゴリ・シリーズから探せます。過去の限定グッズも、確認できた公式情報と出典を残して整理しています。
-    </p>
-    <nav class="section-nav" aria-label="日本語版のセクション">
-      <a href="/ja/merch/">すべてのグッズを見る</a>
-      <a href="/ja/series/">シリーズ一覧</a>
-    </nav>
-  </div>
+<Base home title="ハンジ・ゾエのグッズ図鑑｜公式・限定グッズと発売情報" structuredData={siteLd}>
+  <section class="search-hero"><div class="search-hero-inner">
+    <h1 class="hero-title"><span class="hero-title-zh hero-title-ja"><span class="nb">ハンジ・ゾエの</span><span class="nb">グッズ図鑑</span></span><span class="hero-title-en" lang="en">HANGE ZOË ARCHIVE</span></h1>
+    <p class="hero-sub">『進撃の巨人』ハンジ・ゾエの公式グッズを、発売回・公式価格・出典つきで記録</p>
+    <form class="hero-search" action="/ja/merch/" role="search"><label class="sr-only" for="home-search">グッズを検索</label><svg class="hero-search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="home-search" name="q" type="search" placeholder="グッズを検索：商品名・シリーズ・メーカー" autocomplete="off" enterkeyhint="search"/><button aria-label="グッズ図録で検索"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></form>
+    <nav class="hero-links" aria-label="クイックリンク"><a href="/ja/merch/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/></svg>グッズ図録</a><a href="/ja/series/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3 2 8l10 5 10-5-10-5zM2 13l10 5 10-5M2 18l10 5 10-5"/></svg>シリーズ一覧</a><a href="/news/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 4h11v16H5zM16 8h3v10a2 2 0 0 1-2 2M8 8h5M8 12h5M8 16h3"/></svg>イベント・告知<small>中国語</small></a><a href="/wiki/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 21V5M8 7h7"/></svg>原作アーカイブ<small>中国語</small></a></nav>
+    <p class="hero-hints"><span>例：</span><a href="/ja/merch/?q=1123">ねんどろいど 1123</a><a href="/ja/merch/?q=%E3%83%8F%E3%83%B3%E3%82%B8">ハンジ</a><a href="/ja/merch/?q=MEGAHOUSE">MegaHouse</a></p>
+    <p class="hero-count">{products.length} 件のグッズ · {series.length} シリーズ · 公式価格のみを記録</p>
+  </div></section>
+
+  <MagCover items={newest.map((p) => productItemJa(p, series))} mark stamp={newest[0]?.createdAt} label="新着グッズ" more={{ href: '/ja/merch/', label: 'グッズ図録をすべて見る →' }} />
 
   <section>
     <div class="section-heading">
@@ -43,10 +48,10 @@ const latest = [...products].sort((a, b) => b.createdAt.localeCompare(a.createdA
 
   <section>
     <div class="section-heading">
-      <div><span class="eyebrow">NEW ARRIVALS</span><h2>最近更新したアーカイブ</h2></div>
-      <span>{latest.length} 件</span>
+      <div><span class="eyebrow">NEW ARRIVALS</span><h2>その他の新着</h2></div>
+      <a href="/ja/merch/">グッズ図録へ</a>
     </div>
-    <div class="product-grid">{latest.map((p) => <Card product={p} seriesList={series} />)}</div>
+    <div class="product-grid">{more.map((p) => <Card product={p} seriesList={series} />)}</div>
   </section>
 
   <section class="article">

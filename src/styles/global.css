@@ -1757,7 +1757,8 @@ html.menu-lock { overflow: hidden; }
   .hero-search { height: 54px; }
   .hero-search input { font-size: 1rem; padding-left: 48px; }
   .hero-search-icon { left: 16px; }
-  .hero-links { display: grid; grid-template-columns: repeat(2, max-content); justify-content: center; justify-items: start; gap: 12px 40px; }
+  .hero-links { gap: 12px 22px; }
+  .hero-links a { white-space: nowrap; }
 }
 
 /* ===== News channel page: Bustle-style channel opener + plain cover + hairline feed ===== */
@@ -1856,4 +1857,46 @@ html.menu-lock { overflow: hidden; }
   .feed-main h3 { font-size: 1.08rem; line-height: 1.45; margin-top: 6px; }
   .feed-aside p { display: none; }
   .feed-aside .byline { margin-top: 4px; font-size: .68rem; }
+}
+
+/* ===== Language switch (masthead + menu) and Japanese hero ===== */
+.mast-actions { display: flex; align-items: center; gap: clamp(12px, 2vw, 22px); }
+.lang-switch {
+  display: inline-flex;
+  border: 1px solid #7b3fa659;
+  border-radius: 999px;
+  overflow: hidden;
+  background: #ffffffb3;
+}
+.lang-switch a {
+  padding: 5px 12px;
+  font: 600 .78rem/1.2 var(--sans);
+  letter-spacing: .04em;
+  color: var(--hans);
+}
+.lang-switch a + a { border-left: 1px solid #7b3fa633; }
+.lang-switch a:hover { background: #7b3fa614; color: var(--hans-deep); }
+.lang-switch a[aria-current] { background: var(--hans); color: #fff; }
+.menu-foot { align-items: center; flex-wrap: wrap; }
+.site-menu nav a small {
+  margin-left: .6em;
+  font: 600 .78rem var(--sans);
+  letter-spacing: .04em;
+  color: var(--muted);
+  vertical-align: middle;
+}
+.hero-title-ja .nb { display: inline-block; }
+.hero-title-ja { font-size: clamp(1.9rem, 4.6vw, 3.5rem); letter-spacing: .06em; margin-right: -.06em; line-break: strict; }
+.hero-links small {
+  margin-left: 2px;
+  padding: 1px 6px;
+  border: 1px solid #7b3fa64d;
+  border-radius: 999px;
+  font: 600 .66rem/1.4 var(--sans);
+  color: var(--muted);
+}
+@media (max-width: 760px) {
+  .lang-switch a { padding: 4px 9px; font-size: .72rem; }
+  .menu-toggle { font-size: 1rem; padding-left: 4px; }
+  .hero-title-ja { letter-spacing: .03em; margin-right: -.03em; }
 }

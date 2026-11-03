@@ -2,7 +2,7 @@ import type { APIRoute } from "astro";
 import { canonNotes, products, series, includeDemo } from "../lib/data";
 import { getCollection } from "astro:content";
 export const GET: APIRoute = async ({ site }) => {
-  const fixed = ["/", "/merch/", "/series/", "/news/", "/wiki/", "/about/"];
+  const fixed = ["/zh/", "/merch/", "/series/", "/news/", "/wiki/", "/about/"];
   const jaFixed = ["/ja/", "/ja/merch/", "/ja/series/"];
   if (canonNotes.length) fixed.push("/wiki/creator-notes/");
   const news = await getCollection("news", (e) => !e.data.isDemo);

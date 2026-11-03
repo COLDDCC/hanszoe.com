@@ -1,0 +1,37 @@
+---
+// 全站顶栏（中文 / 日文共用）：左侧 Hans 小字标回首页；右侧语言切换 + MENU；MENU 打开全屏菜单。
+// 语言切换会记住选择（localStorage hz-lang），根路径 / 据此进入 /ja/ 或 /zh/。
+import HansMark from './HansMark.astro';
+type Link = { href: string; label: string; current?: boolean; note?: string };
+interface Props {
+  home?: boolean;
+  lang: 'zh' | 'ja';
+  homeHref: string;
+  zhHref: string;
+  jaHref: string;
+  nav: Link[];
+  search: { action: string; placeholder: string; label: string; button: string };
+  t: { logo: string; menuAria: string; navAria: string; close: string; foot: string };
+}
+const { home = false, lang, homeHref, zhHref, jaHref, nav, search, t } = Astro.props;
+---
+<header class:list={['masthead', { 'is-home': home }]}><div class="masthead-inner">
+<a class="mast-logo" href={homeHref}><HansMark/><span class="sr-only">{t.logo}</span></a>
+<div class="mast-actions">
+<nav class="lang-switch" aria-label="Language / 言語 / 语言"><a href={zhHref} lang="zh-Hans" hreflang="zh-Hans" data-set-lang="zh" aria-current={lang === 'zh' ? 'true' : undefined}>中文</a><a href={jaHref} lang="ja" hreflang="ja" data-set-lang="ja" aria-current={lang === 'ja' ? 'true' : undefined}>日本語</a></nav>
+<a class="menu-toggle" href="#site-menu" aria-controls="site-menu" aria-expanded="false">MENU</a>
+</div>
+</div></header>
+<div class="site-menu" id="site-menu" role="dialog" aria-modal="true" aria-label={t.menuAria}><div class="site-menu-inner">
+<div class="site-menu-top"><a class="mast-logo" href={homeHref}><HansMark/><span class="sr-only">{t.logo}</span></a><a class="menu-close" href="#" aria-label={t.close}>CLOSE</a></div>
+<nav aria-label={t.navAria}>{nav.map(l => <a href={l.href} aria-current={l.current ? 'page' : undefined}>{l.label}{l.note && <small>{l.note}</small>}</a>)}</nav>
+<form class="menu-search" action={search.action} role="search"><label class="sr-only" for="menu-q">{search.label}</label><input id="menu-q" name="q" placeholder={search.placeholder}/><button>{search.button}</button></form>
+<p class="menu-foot"><span class="lang-switch"><a href={zhHref} lang="zh-Hans" data-set-lang="zh" aria-current={lang === 'zh' ? 'true' : undefined}>中文</a><a href={jaHref} lang="ja" data-set-lang="ja" aria-current={lang === 'ja' ? 'true' : undefined}>日本語</a></span><span>{t.foot}</span></p>
+</div></div>
+<script is:inline>(()=>{document.documentElement.classList.add("js");const init=()=>{const d=document,h=d.querySelector(".masthead"),m=d.getElementById("site-menu"),t=d.querySelector(".menu-toggle");if(!h||!m||!t)return;d.documentElement.classList.add("js");
+d.querySelectorAll("[data-set-lang]").forEach(a=>a.addEventListener("click",()=>{try{localStorage.setItem("hz-lang",a.dataset.setLang)}catch(e){}}));
+const set=o=>{m.classList.toggle("open",o);d.documentElement.classList.toggle("menu-lock",o);t.setAttribute("aria-expanded",String(o));if(o)m.querySelector("nav a")?.focus();else t.focus();};
+t.addEventListener("click",e=>{e.preventDefault();set(true)});m.querySelector(".menu-close").addEventListener("click",e=>{e.preventDefault();set(false)});
+d.addEventListener("keydown",e=>{if(e.key==="Escape"&&m.classList.contains("open"))set(false)});
+if(h.classList.contains("is-home")){const mark=d.querySelector("[data-mast-anchor]");const f=()=>{h.classList.toggle("scrolled",scrollY>8);h.classList.toggle("show-logo",mark?mark.getBoundingClientRect().bottom<56:scrollY>40);};f();addEventListener("scroll",f,{passive:true});}
+else h.classList.add("scrolled","show-logo");};document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init):init();})();</script>
